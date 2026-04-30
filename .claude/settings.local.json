@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(dir \"D:\\\\DEV\\\\Építőanyag ár weboldal\\\\site\\\\peaceful-point\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/astro/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/@astrojs/sitemap/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('data/anyagok.json', encoding='utf-8'\\)\\); print\\(f'Anyagok száma: {len\\(d\\)}'\\)\")",
+      "Bash(python generate_data.py)"
+    ]
+  }
+}

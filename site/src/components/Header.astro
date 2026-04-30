@@ -1,0 +1,26 @@
+---
+const nav = [
+  { label: 'Főoldal', href: '/' },
+  { label: 'Alapanyagok', href: '/kategoria/alapanyag/' },
+  { label: 'Falazat', href: '/kategoria/falazat/' },
+  { label: 'Szigetelés', href: '/kategoria/szigeteles/' },
+  { label: 'Burkolat', href: '/kategoria/burkolat/' },
+];
+---
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between flex-wrap gap-2">
+    <a href="/" class="text-xl font-bold text-blue-700 hover:text-blue-800 transition-colors">
+      Építőanyag ár
+    </a>
+    <nav class="flex flex-wrap gap-1 text-sm">
+      {nav.map((item) => (
+        <a
+          href={item.href}
+          class="px-3 py-1.5 rounded-md text-gray-600 hover:text-blue-700 hover:bg-blue-50 transition-all"
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>

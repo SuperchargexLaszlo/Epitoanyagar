@@ -1,0 +1,93 @@
+---
+import fs from 'fs';
+import path from 'path';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const dataDir = path.resolve('..', 'data');
+const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+
+const kategoriak = [
+  { id: 'alapanyag', nev: 'Alapanyagok', ikon: '🧱', leiras: 'Cement, beton, sóder, kavics, homok' },
+  { id: 'falazat', nev: 'Falazat', ikon: '🏗️', leiras: 'Tégla, poroton, ytong, zsalukő' },
+  { id: 'teto', nev: 'Tető', ikon: '🏠', leiras: 'Tetőcserép, eternit, zsindely, fólia' },
+  { id: 'szigeteles', nev: 'Szigetelés', ikon: '🌡️', leiras: 'Kőzetgyapot, EPS, XPS, üveggyapot' },
+  { id: 'burkolat', nev: 'Burkolat', ikon: '🔲', leiras: 'Járólap, csempe, térkő, parkett' },
+  { id: 'fem', nev: 'Fém', ikon: '⚙️', leiras: 'Zártszelvény, betonacél, trapézlemez' },
+  { id: 'lap', nev: 'Lapok és fa', ikon: '📋', leiras: 'Gipszkarton, OSB, rétegelt lemez, deszka' },
+  { id: 'egyeb', nev: 'Egyéb', ikon: '🔧', leiras: 'Vakolat, habarcs, ragasztó, vízszigetelő' },
+];
+
+const topAnyagok = ['cement', 'tegla', 'beton', 'gipszkarton', 'terko', 'jarolap', 'kozetgyapot', 'osb-lap', 'soder', 'eps'];
+const top = anyagok.filter((a: any) => topAnyagok.includes(a.slug));
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Építőanyag ár",
+  "url": "https://epitoanyagar.hu",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://epitoanyagar.hu/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+<BaseLayout
+  title="Építőanyag árak 2026 – Aktuális árlista"
+  description="Aktuális építőanyag árak 2026-ban. Cement, tégla, beton, térkő és más anyagok árai 20 városban. Naprakész árlista vásárlási tippekkel."
+  canonicalURL="https://epitoanyagar.hu/"
+  schema={JSON.stringify(websiteSchema)}
+>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Építőanyag árak 2026 – Aktuális árlista</h1>
+
+    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+      Üdvözöljük az <strong>epitoanyagar.hu</strong> oldalán, ahol naprakész információt talál
+      a legfontosabb építőanyagok 2026-os árairól. Legyen szó cement, tégla, beton, térkő vagy
+      szigetelőanyag vásárlásáról – segítünk megtalálni a legjobb árat a közelben.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-8">
+      Adatbázisunkban <strong>69 építőanyag</strong> árát követjük nyomon <strong>20 magyarországi városban</strong>.
+      Az árak havonta frissülnek, hogy mindig aktuális tájékoztatást kapjon.
+      Miért változnak az építőanyag árak? Az alapanyag-költségek, az energia, a szállítás és
+      a szezonális kereslet mind befolyásolják az árakat – nálunk ezeket mind figyelembe vesszük.
+    </p>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-5">Kategóriák</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {kategoriak.map((k) => (
+        <a
+          href={`/kategoria/${k.id}/`}
+          class="bg-white border border-gray-200 rounded-xl p-4 hover:border-blue-400 hover:shadow-md transition-all text-center"
+        >
+          <div class="text-3xl mb-2">{k.ikon}</div>
+          <div class="font-semibold text-gray-800 text-sm mb-1">{k.nev}</div>
+          <div class="text-xs text-gray-500">{k.leiras}</div>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-5">Legnépszerűbb anyagok</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
+      {top.map((a: any) => (
+        <a
+          href={`/${a.slug}-ara/`}
+          class="flex items-center justify-between bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+        >
+          <span class="font-medium text-gray-800">{a.nev} ára 2026</span>
+          <span class="text-blue-600 text-sm">→</span>
+        </a>
+      ))}
+    </div>
+
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
+      <h2 class="text-xl font-semibold text-amber-800 mb-3">Miért változnak az építőanyag árak?</h2>
+      <ul class="space-y-2 text-amber-900 text-sm">
+        <li><strong>Energia- és alapanyagköltségek:</strong> A cement, acél és fa ára szorosan követi az energiaárakat.</li>
+        <li><strong>Szezonalitás:</strong> Tavasszal és nyáron az árak 10–20%-kal emelkedhetnek a nagyobb kereslet miatt.</li>
+        <li><strong>Szállítási díjak:</strong> A logisztikai költségek emelkedése közvetlenül beépül az anyagárakba.</li>
+        <li><strong>Import/export:</strong> Az euró/forint árfolyam befolyásolja az importált anyagok árát.</li>
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

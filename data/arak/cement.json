@@ -1,0 +1,71 @@
+{
+  "anyag_id": "cement",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 1200,
+    "max": 1800,
+    "atlag": 1450,
+    "egyseg": "Ft/zsák (25 kg)"
+  },
+  "variansok": [
+    {
+      "nev": "CEM I 42.5N",
+      "ar": 1600,
+      "egyseg": "Ft/zsák (25 kg)"
+    },
+    {
+      "nev": "CEM II/B-V 32.5R",
+      "ar": 1250,
+      "egyseg": "Ft/zsák (25 kg)"
+    },
+    {
+      "nev": "CEM III (salak)",
+      "ar": 1350,
+      "egyseg": "Ft/zsák (25 kg)"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül Cement 2026-ban?",
+      "valasz": "A(z) Cement ára 2026-ban 1 200 – 1 800 Ft/zsák (25 kg) között mozog, az átlagár 1 450 Ft/zsák (25 kg)."
+    },
+    {
+      "kerdes": "Hol lehet olcsón cementt venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi cement kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj cement vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

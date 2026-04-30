@@ -1,0 +1,60 @@
+---
+const kategoriak = [
+  { nev: 'Alapanyagok', href: '/kategoria/alapanyag/' },
+  { nev: 'Falazat', href: '/kategoria/falazat/' },
+  { nev: 'Tetőfedés', href: '/kategoria/teto/' },
+  { nev: 'Szigetelés', href: '/kategoria/szigeteles/' },
+  { nev: 'Burkolat', href: '/kategoria/burkolat/' },
+  { nev: 'Fém anyagok', href: '/kategoria/fem/' },
+  { nev: 'Lapok és fa', href: '/kategoria/lap/' },
+  { nev: 'Egyéb anyagok', href: '/kategoria/egyeb/' },
+];
+---
+<footer class="bg-gray-800 text-gray-300 mt-16 py-10">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-8">
+      <div class="col-span-2 sm:col-span-1">
+        <div class="text-white font-bold text-lg mb-3">Építőanyag ár</div>
+        <p class="text-sm text-gray-400 leading-relaxed">
+          Aktuális építőanyag árak 2026-ban. Segítünk a legjobb ár megtalálásában.
+        </p>
+      </div>
+      <div>
+        <div class="text-white font-semibold mb-3 text-sm">Kategóriák</div>
+        <ul class="space-y-1">
+          {kategoriak.slice(0, 4).map((k) => (
+            <li><a href={k.href} class="text-sm text-gray-400 hover:text-white transition-colors">{k.nev}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <div class="text-white font-semibold mb-3 text-sm">&nbsp;</div>
+        <ul class="space-y-1 mt-0">
+          {kategoriak.slice(4).map((k) => (
+            <li><a href={k.href} class="text-sm text-gray-400 hover:text-white transition-colors">{k.nev}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <div class="text-white font-semibold mb-3 text-sm">Legkeresettebb</div>
+        <ul class="space-y-1">
+          <li><a href="/cement-ara/" class="text-sm text-gray-400 hover:text-white transition-colors">Cement ára</a></li>
+          <li><a href="/tegla-ara/" class="text-sm text-gray-400 hover:text-white transition-colors">Tégla ára</a></li>
+          <li><a href="/gipszkarton-ara/" class="text-sm text-gray-400 hover:text-white transition-colors">Gipszkarton ára</a></li>
+          <li><a href="/terko-ara/" class="text-sm text-gray-400 hover:text-white transition-colors">Térkő ára</a></li>
+          <li><a href="/kozetgyapot-ara/" class="text-sm text-gray-400 hover:text-white transition-colors">Kőzetgyapot ára</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 pt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+      <div class="text-xs text-gray-500">
+        <p>Az árak tájékoztató jellegűek, 2026-os adatok alapján.</p>
+        <p class="mt-1">Utolsó frissítés: 2026-04-30</p>
+      </div>
+      <div class="text-xs text-gray-500">
+        © 2026 epitoanyagar.hu – Minden jog fenntartva.
+      </div>
+    </div>
+  </div>
+</footer>

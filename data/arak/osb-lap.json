@@ -1,0 +1,71 @@
+{
+  "anyag_id": "osb-lap",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 2500,
+    "max": 5500,
+    "atlag": 3800,
+    "egyseg": "Ft/lap"
+  },
+  "variansok": [
+    {
+      "nev": "OSB3 9 mm (2440×1220)",
+      "ar": 2700,
+      "egyseg": "Ft/lap"
+    },
+    {
+      "nev": "OSB3 15 mm (2440×1220)",
+      "ar": 3900,
+      "egyseg": "Ft/lap"
+    },
+    {
+      "nev": "OSB3 22 mm (2440×1220)",
+      "ar": 5200,
+      "egyseg": "Ft/lap"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül OSB lap 2026-ban?",
+      "valasz": "A(z) OSB lap ára 2026-ban 2 500 – 5 500 Ft/lap között mozog, az átlagár 3 800 Ft/lap."
+    },
+    {
+      "kerdes": "Hol lehet olcsón osb lapt venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi osb lap kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj osb lap vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

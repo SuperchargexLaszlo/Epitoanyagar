@@ -1,0 +1,60 @@
+---
+import fs from 'fs';
+import path from 'path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const kategoriak = [
+    { id: 'alapanyag', nev: 'Alapanyagok', leiras: 'Cement, beton, sóder, kavics, homok és egyéb alapvető építőanyagok.' },
+    { id: 'falazat', nev: 'Falazati anyagok', leiras: 'Tégla, poroton, ytong, zsalukő és más falazati termékek.' },
+    { id: 'teto', nev: 'Tetőfedő anyagok', leiras: 'Tetőcserép, eternit, bitumenes zsindely, tetőfólia.' },
+    { id: 'szigeteles', nev: 'Szigetelő anyagok', leiras: 'Kőzetgyapot, üveggyapot, EPS, XPS és más hőszigeteléek.' },
+    { id: 'burkolat', nev: 'Burkolatok', leiras: 'Járólap, csempe, térkő, parkett, laminált padló.' },
+    { id: 'fem', nev: 'Fém anyagok', leiras: 'Zártszelvény, szögvas, betonacél, horganyzott lemez.' },
+    { id: 'lap', nev: 'Lapok és fa', leiras: 'Gipszkarton, OSB lap, rétegelt lemez, fa gerenda, deszka.' },
+    { id: 'egyeb', nev: 'Egyéb anyagok', leiras: 'Vakolat, habarcs, ragasztó, vízszigetelő és egyéb kiegészítők.' },
+  ];
+
+  const dataDir = path.resolve('..', 'data');
+  const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+
+  return kategoriak.map((k) => ({
+    params: { kat: k.id },
+    props: { kategoria: k, anyagok: anyagok.filter((a: any) => a.kategoria === k.id) }
+  }));
+}
+
+const { kategoria, anyagok } = Astro.props;
+const canonicalURL = `https://epitoanyagar.hu/kategoria/${kategoria.id}/`;
+---
+<BaseLayout
+  title={`${kategoria.nev} árak 2026 – Aktuális árlista`}
+  description={`Aktuális ${kategoria.nev.toLowerCase()} árak 2026-ban. ${kategoria.leiras} Összehasonlítás és vásárlási tippek.`}
+  canonicalURL={canonicalURL}
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumb items={[
+      { label: "Főoldal", href: "/" },
+      { label: kategoria.nev, href: `/kategoria/${kategoria.id}/` }
+    ]} />
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">{kategoria.nev} árak 2026</h1>
+    <p class="text-gray-700 mb-8">{kategoria.leiras}</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {anyagok.map((a: any) => (
+        <a
+          href={`/${a.slug}-ara/`}
+          class="flex items-center justify-between bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+        >
+          <div>
+            <div class="font-medium text-gray-800">{a.nev} ára 2026</div>
+            <div class="text-xs text-gray-500">{a.egyseg}</div>
+          </div>
+          <span class="text-blue-600">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

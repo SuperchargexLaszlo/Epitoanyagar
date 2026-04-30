@@ -1,0 +1,71 @@
+{
+  "anyag_id": "b30-blokk",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 200,
+    "max": 400,
+    "atlag": 290,
+    "egyseg": "Ft/db"
+  },
+  "variansok": [
+    {
+      "nev": "B30 normál",
+      "ar": 220,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "B30 sarok",
+      "ar": 350,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "B30 félblokk",
+      "ar": 130,
+      "egyseg": "Ft/db"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül B30-as blokk 2026-ban?",
+      "valasz": "A(z) B30-as blokk ára 2026-ban 200 – 400 Ft/db között mozog, az átlagár 290 Ft/db."
+    },
+    {
+      "kerdes": "Hol lehet olcsón b30-as blokkt venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi b30-as blokk kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj b30-as blokk vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

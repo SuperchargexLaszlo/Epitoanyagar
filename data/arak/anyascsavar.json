@@ -1,0 +1,61 @@
+{
+  "anyag_id": "galvanizalt-anyascsavar",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 1000,
+    "max": 3000,
+    "atlag": 2000,
+    "egyseg": "Ft/egység"
+  },
+  "variansok": [
+    {
+      "nev": "Alap változat",
+      "ar": 2000,
+      "egyseg": "Ft/egység"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül Anyáscsavar 2026-ban?",
+      "valasz": "A(z) Anyáscsavar ára 2026-ban 1 000 – 3 000 Ft/egység között mozog, az átlagár 2 000 Ft/egység."
+    },
+    {
+      "kerdes": "Hol lehet olcsón anyáscsavart venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi anyáscsavar kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj anyáscsavar vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

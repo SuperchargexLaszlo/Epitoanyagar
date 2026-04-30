@@ -1,0 +1,36 @@
+---
+interface Varians {
+  nev: string;
+  ar: number;
+  egyseg: string;
+}
+interface Props {
+  variansok: Varians[];
+  egyseg: string;
+}
+const { variansok, egyseg } = Astro.props;
+
+function formatAr(ar: number) {
+  return ar.toLocaleString('hu-HU') + ' Ft';
+}
+---
+<div class="overflow-x-auto my-6">
+  <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow-sm">
+    <thead class="bg-gray-50">
+      <tr>
+        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Változat</th>
+        <th class="px-4 py-3 text-right text-sm font-semibold text-gray-700">Ár</th>
+        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Egység</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-gray-100">
+      {variansok.map((v) => (
+        <tr class="hover:bg-gray-50 transition-colors">
+          <td class="px-4 py-3 text-sm text-gray-800">{v.nev}</td>
+          <td class="px-4 py-3 text-sm text-right font-semibold text-green-700">{formatAr(v.ar)}</td>
+          <td class="px-4 py-3 text-sm text-gray-600">{v.egyseg}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

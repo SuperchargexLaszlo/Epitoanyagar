@@ -1,0 +1,135 @@
+---
+import fs from 'fs';
+import path from 'path';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PriceTable from '../components/PriceTable.astro';
+import FAQ from '../components/FAQ.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import PriceCard from '../components/PriceCard.astro';
+
+export async function getStaticPaths() {
+  const dataDir = path.resolve('..', 'data');
+  const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+  const varosok = JSON.parse(fs.readFileSync(path.join(dataDir, 'varosok.json'), 'utf-8'));
+
+  return anyagok.map((a: any) => ({
+    params: { anyag: `${a.slug}-ara` },
+    props: { anyag: a, varosok, anyagok }
+  }));
+}
+
+const { anyag, varosok, anyagok } = Astro.props;
+const dataDir = path.resolve('..', 'data');
+const arFajl = path.join(dataDir, 'arak', `${anyag.slug}.json`);
+const arData = JSON.parse(fs.readFileSync(arFajl, 'utf-8'));
+
+const canonicalURL = `https://epitoanyagar.hu/${anyag.slug}-ara/`;
+
+const headline = `${anyag.nev} ára 2026 – Aktuális árak és árlista`;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": headline.substring(0, 110),
+  "datePublished": "2026-01-15",
+  "dateModified": "2026-04-30",
+  "author": { "@type": "Organization", "name": "epitoanyagar.hu team" },
+  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": "https://epitoanyagar.hu" },
+  "url": canonicalURL,
+  "description": anyag.seo_desc
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": arData.faq.map((f: any) => ({
+    "@type": "Question",
+    "name": f.kerdes,
+    "acceptedAnswer": { "@type": "Answer", "text": f.valasz }
+  }))
+};
+
+const schema = JSON.stringify([articleSchema, faqSchema]);
+
+// Kapcsolódó anyagok – azonos kategóriából, max 5
+const kapcsolodo = anyagok
+  .filter((a: any) => a.kategoria === anyag.kategoria && a.slug !== anyag.slug)
+  .slice(0, 5);
+---
+<BaseLayout
+  title={anyag.seo_title}
+  description={anyag.seo_desc}
+  canonicalURL={canonicalURL}
+  schema={schema}
+>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumb items={[
+      { label: "Főoldal", href: "/" },
+      { label: `${anyag.nev} ára 2026`, href: `/${anyag.slug}-ara/` }
+    ]} />
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">{anyag.nev} ára 2026</h1>
+
+    <p class="text-gray-700 leading-relaxed mb-6">
+      A(z) <strong>{anyag.nev.toLowerCase()}</strong> ára 2026-ban {arData.alap_ar.min.toLocaleString('hu-HU')} – {arData.alap_ar.max.toLocaleString('hu-HU')} {arData.alap_ar.egyseg} között mozog.
+      Az átlagos piaci ár jelenleg <strong>{arData.alap_ar.atlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</strong>.
+      {anyag.leiras}
+      Az árak régiónként és minőségi kategóriánként eltérhetnek, ezért érdemes több ajánlatot kérni a vásárlás előtt.
+      Oldalunkon az aktuális piaci adatok alapján naprakész tájékoztatást talál a(z) {anyag.nev.toLowerCase()} árairól.
+    </p>
+
+    <PriceCard
+      min={arData.alap_ar.min}
+      max={arData.alap_ar.max}
+      atlag={arData.alap_ar.atlag}
+      egyseg={arData.alap_ar.egyseg}
+    />
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-3">Aktuális {anyag.nev.toLowerCase()} árlista</h2>
+    <PriceTable variansok={arData.variansok} egyseg={arData.alap_ar.egyseg} />
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Mire figyelj {anyag.nev.toLowerCase()} vásárlásakor?</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+      <li>Kérj írásos árajánlatot, és hasonlítsd össze legalább 3 kereskedő ajánlatát.</li>
+      <li>Nagyobb mennyiségnél mindig alkudj kedvezményre – 5–15% általában elérhető.</li>
+      <li>Ellenőrizd a minőségi tanúsítványokat és a CE jelölést.</li>
+      <li>A szállítási díj sokszor nincs benne az egységárban – ezt is számold hozzá.</li>
+      <li>Vásárolj 5–10%-kal többet a tervezett mennyiségnél a veszteségekre.</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">{anyag.nev} ára városonként</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8">
+      {varosok.map((v: any) => {
+        const szorzo = arData.varos_szorzok[v.slug] || 1;
+        const helyi_ar = Math.round(arData.alap_ar.atlag * szorzo);
+        return (
+          <a
+            href={`/${anyag.slug}-ara-${v.slug}/`}
+            class="block bg-white border border-gray-200 rounded-lg p-3 hover:border-blue-400 hover:shadow-sm transition-all"
+          >
+            <div class="font-medium text-gray-800 text-sm">{v.nev}</div>
+            <div class="text-green-700 font-semibold text-sm">{helyi_ar.toLocaleString('hu-HU')} Ft</div>
+          </a>
+        );
+      })}
+    </div>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Gyakori kérdések – {anyag.nev} ár 2026</h2>
+    <FAQ faq={arData.faq} />
+
+    {kapcsolodo.length > 0 && (
+      <div class="mt-10 pt-8 border-t border-gray-200">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">Kapcsolódó anyagok</h2>
+        <div class="flex flex-wrap gap-2">
+          {kapcsolodo.map((k: any) => (
+            <a href={`/${k.slug}-ara/`} class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:border-blue-400 hover:text-blue-700 transition-all">
+              {k.nev} ára →
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- ADSENSE_PLACEHOLDER -->
+  </div>
+</BaseLayout>

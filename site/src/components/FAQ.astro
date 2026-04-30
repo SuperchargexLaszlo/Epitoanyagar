@@ -1,0 +1,23 @@
+---
+interface FaqItem {
+  kerdes: string;
+  valasz: string;
+}
+interface Props {
+  faq: FaqItem[];
+}
+const { faq } = Astro.props;
+---
+<div class="my-8 space-y-3">
+  {faq.map((item) => (
+    <details class="bg-white border border-gray-200 rounded-lg shadow-sm group">
+      <summary class="px-5 py-4 cursor-pointer font-medium text-gray-800 hover:bg-gray-50 list-none flex justify-between items-center">
+        <span>{item.kerdes}</span>
+        <span class="ml-4 text-gray-400 group-open:rotate-180 transition-transform">▼</span>
+      </summary>
+      <div class="px-5 py-4 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
+        {item.valasz}
+      </div>
+    </details>
+  ))}
+</div>

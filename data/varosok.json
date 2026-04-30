@@ -1,0 +1,22 @@
+[
+  { "id": "budapest", "nev": "Budapest", "slug": "budapest", "megye": "Pest" },
+  { "id": "debrecen", "nev": "Debrecen", "slug": "debrecen", "megye": "Hajdú-Bihar" },
+  { "id": "miskolc", "nev": "Miskolc", "slug": "miskolc", "megye": "Borsod-Abaúj-Zemplén" },
+  { "id": "pecs", "nev": "Pécs", "slug": "pecs", "megye": "Baranya" },
+  { "id": "gyor", "nev": "Győr", "slug": "gyor", "megye": "Győr-Moson-Sopron" },
+  { "id": "nyiregyhaza", "nev": "Nyíregyháza", "slug": "nyiregyhaza", "megye": "Szabolcs-Szatmár-Bereg" },
+  { "id": "kecskemet", "nev": "Kecskemét", "slug": "kecskemet", "megye": "Bács-Kiskun" },
+  { "id": "szekesfehervar", "nev": "Székesfehérvár", "slug": "szekesfehervar", "megye": "Fejér" },
+  { "id": "szombathely", "nev": "Szombathely", "slug": "szombathely", "megye": "Vas" },
+  { "id": "szolnok", "nev": "Szolnok", "slug": "szolnok", "megye": "Jász-Nagykun-Szolnok" },
+  { "id": "erd", "nev": "Érd", "slug": "erd", "megye": "Pest" },
+  { "id": "tatabanya", "nev": "Tatabánya", "slug": "tatabanya", "megye": "Komárom-Esztergom" },
+  { "id": "kaposvar", "nev": "Kaposvár", "slug": "kaposvar", "megye": "Somogy" },
+  { "id": "sopron", "nev": "Sopron", "slug": "sopron", "megye": "Győr-Moson-Sopron" },
+  { "id": "eger", "nev": "Eger", "slug": "eger", "megye": "Heves" },
+  { "id": "veszprem", "nev": "Veszprém", "slug": "veszprem", "megye": "Veszprém" },
+  { "id": "zalaegerszeg", "nev": "Zalaegerszeg", "slug": "zalaegerszeg", "megye": "Zala" },
+  { "id": "dunaujvaros", "nev": "Dunaújváros", "slug": "dunaujvaros", "megye": "Fejér" },
+  { "id": "nagykanizsa", "nev": "Nagykanizsa", "slug": "nagykanizsa", "megye": "Zala" },
+  { "id": "hodmezovasarhely", "nev": "Hódmezővásárhely", "slug": "hodmezovasarhely", "megye": "Csongrád-Csanád" }
+]

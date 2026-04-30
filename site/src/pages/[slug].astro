@@ -1,0 +1,124 @@
+---
+import fs from 'fs';
+import path from 'path';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PriceTable from '../components/PriceTable.astro';
+import FAQ from '../components/FAQ.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const dataDir = path.resolve('..', 'data');
+  const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+  const varosok = JSON.parse(fs.readFileSync(path.join(dataDir, 'varosok.json'), 'utf-8'));
+
+  const paths = [];
+  for (const a of anyagok) {
+    for (const v of varosok) {
+      paths.push({
+        params: { slug: `${a.slug}-ara-${v.slug}` },
+        props: { anyag: a, varos: v }
+      });
+    }
+  }
+  return paths;
+}
+
+const { anyag, varos } = Astro.props;
+const dataDir = path.resolve('..', 'data');
+const arFajl = path.join(dataDir, 'arak', `${anyag.slug}.json`);
+const arData = JSON.parse(fs.readFileSync(arFajl, 'utf-8'));
+
+const szorzo = arData.varos_szorzok[varos.slug] || 1;
+const helyiAtlag = Math.round(arData.alap_ar.atlag * szorzo);
+const helyiMin = Math.round(arData.alap_ar.min * szorzo);
+const helyiMax = Math.round(arData.alap_ar.max * szorzo);
+
+const helyiVariansok = arData.variansok.map((v: any) => ({
+  ...v,
+  ar: Math.round(v.ar * szorzo)
+}));
+
+const canonicalURL = `https://epitoanyagar.hu/${anyag.slug}-ara-${varos.slug}/`;
+const title = `${anyag.nev} ára ${varos.nev}ben 2026 – Helyi árak és árlista`;
+const description = `Mennyi a ${anyag.nev.toLowerCase()} ára ${varos.nev}ben 2026-ban? Aktuális helyi ${anyag.nev.toLowerCase()} árlista, ${helyiAtlag.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg} átlagárral.`;
+
+const helyiFaq = [
+  {
+    kerdes: `Mennyi a ${anyag.nev.toLowerCase()} ára ${varos.nev}ben 2026-ban?`,
+    valasz: `${varos.nev}ben a ${anyag.nev.toLowerCase()} átlagos ára ${helyiAtlag.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg}. Az ártartomány ${helyiMin.toLocaleString('hu-HU')} – ${helyiMax.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg} között mozog.`
+  },
+  {
+    kerdes: `Hol lehet ${anyag.nev.toLowerCase()}t venni ${varos.nev}ben?`,
+    valasz: `${varos.nev}ben több nagy építőanyag-kereskedőnél is beszerezhetők: Bauhaus, OBI, Hornbach és helyi építőanyag-telepek. Érdemes előre árajánlatot kérni és összehasonlítani.`
+  },
+  {
+    kerdes: `Drágább a ${anyag.nev.toLowerCase()} ${varos.nev}ben, mint az országos átlag?`,
+    valasz: szorzo > 1
+      ? `Igen, ${varos.nev}ben az árak kb. ${Math.round((szorzo - 1) * 100)}%-kal magasabbak az országos átlagnál.`
+      : `${varos.nev}ben az árak kb. ${Math.round((1 - szorzo) * 100)}%-kal alacsonyabbak az országos átlagnál.`
+  }
+];
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title.substring(0, 110),
+  "datePublished": "2026-01-15",
+  "dateModified": "2026-04-30",
+  "author": { "@type": "Organization", "name": "epitoanyagar.hu team" },
+  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": "https://epitoanyagar.hu" },
+  "url": canonicalURL
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": helyiFaq.map((f) => ({
+    "@type": "Question",
+    "name": f.kerdes,
+    "acceptedAnswer": { "@type": "Answer", "text": f.valasz }
+  }))
+};
+
+const schema = JSON.stringify([articleSchema, faqSchema]);
+---
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} schema={schema}>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumb items={[
+      { label: "Főoldal", href: "/" },
+      { label: `${anyag.nev} ára 2026`, href: `/${anyag.slug}-ara/` },
+      { label: varos.nev, href: `/${anyag.slug}-ara-${varos.slug}/` }
+    ]} />
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">{anyag.nev} ára {varos.nev}ben 2026</h1>
+
+    <p class="text-gray-700 leading-relaxed mb-6">
+      {varos.nev}ben a <strong>{anyag.nev.toLowerCase()}</strong> átlagos ára 2026-ban <strong>{helyiAtlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</strong>.
+      Ez az országos átlaghoz képest {szorzo > 1 ? `${Math.round((szorzo - 1) * 100)}%-kal magasabb` : `${Math.round((1 - szorzo) * 100)}%-kal alacsonyabb`}.
+      Az ártartomány {helyiMin.toLocaleString('hu-HU')} – {helyiMax.toLocaleString('hu-HU')} {arData.alap_ar.egyseg} között mozog.
+      {anyag.leiras}
+    </p>
+
+    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+      <p class="text-blue-800 font-semibold text-lg">
+        Helyi átlagár ({varos.nev}): {helyiAtlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}
+      </p>
+      <p class="text-blue-600 text-sm">Ártartomány: {helyiMin.toLocaleString('hu-HU')} – {helyiMax.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</p>
+    </div>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-3">{anyag.nev} árlista – {varos.nev} 2026</h2>
+    <PriceTable variansok={helyiVariansok} egyseg={arData.alap_ar.egyseg} />
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Gyakori kérdések</h2>
+    <FAQ faq={helyiFaq} />
+
+    <div class="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
+      <p class="text-sm text-gray-600 mb-2">Vissza az összes árhoz:</p>
+      <a href={`/${anyag.slug}-ara/`} class="text-blue-600 hover:underline font-medium">
+        ← {anyag.nev} ára 2026 – Országos árlista
+      </a>
+    </div>
+
+    <!-- ADSENSE_PLACEHOLDER -->
+  </div>
+</BaseLayout>

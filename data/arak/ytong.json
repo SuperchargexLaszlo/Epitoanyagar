@@ -1,0 +1,71 @@
+{
+  "anyag_id": "ytong",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 350,
+    "max": 700,
+    "atlag": 500,
+    "egyseg": "Ft/db"
+  },
+  "variansok": [
+    {
+      "nev": "PP2/0.35 (20 cm)",
+      "ar": 380,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "PP4/0.6 (30 cm)",
+      "ar": 520,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "PP6/0.8 (40 cm)",
+      "ar": 680,
+      "egyseg": "Ft/db"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül Ytong 2026-ban?",
+      "valasz": "A(z) Ytong ára 2026-ban 350 – 700 Ft/db között mozog, az átlagár 500 Ft/db."
+    },
+    {
+      "kerdes": "Hol lehet olcsón ytongt venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi ytong kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj ytong vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

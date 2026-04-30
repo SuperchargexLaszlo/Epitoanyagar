@@ -1,0 +1,71 @@
+{
+  "anyag_id": "trapezlemez",
+  "frissitve": "2026-04-30",
+  "alap_ar": {
+    "min": 2000,
+    "max": 5000,
+    "atlag": 3200,
+    "egyseg": "Ft/m²"
+  },
+  "variansok": [
+    {
+      "nev": "T-18 (0.5 mm)",
+      "ar": 2100,
+      "egyseg": "Ft/m²"
+    },
+    {
+      "nev": "T-35 (0.7 mm)",
+      "ar": 3300,
+      "egyseg": "Ft/m²"
+    },
+    {
+      "nev": "T-50 (0.9 mm)",
+      "ar": 4800,
+      "egyseg": "Ft/m²"
+    }
+  ],
+  "varos_szorzok": {
+    "budapest": 1.08,
+    "debrecen": 0.97,
+    "miskolc": 0.95,
+    "pecs": 0.94,
+    "gyor": 1.02,
+    "nyiregyhaza": 0.96,
+    "kecskemet": 0.98,
+    "szekesfehervar": 1.01,
+    "szombathely": 0.99,
+    "szolnok": 0.96,
+    "erd": 1.05,
+    "tatabanya": 1.0,
+    "kaposvar": 0.93,
+    "sopron": 1.03,
+    "eger": 0.97,
+    "veszprem": 0.98,
+    "zalaegerszeg": 0.96,
+    "dunaujvaros": 0.99,
+    "nagykanizsa": 0.95,
+    "hodmezovasarhely": 0.94
+  },
+  "faq": [
+    {
+      "kerdes": "Mennyibe kerül Trapézlemez 2026-ban?",
+      "valasz": "A(z) Trapézlemez ára 2026-ban 2 000 – 5 000 Ft/m² között mozog, az átlagár 3 200 Ft/m²."
+    },
+    {
+      "kerdes": "Hol lehet olcsón trapézlemezt venni?",
+      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+    },
+    {
+      "kerdes": "Mennyi trapézlemez kell egy 100 m²-es házhoz?",
+      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+    },
+    {
+      "kerdes": "Változnak az árak városonként?",
+      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+    },
+    {
+      "kerdes": "Mire figyelj trapézlemez vásárlásakor?",
+      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+    }
+  ]
+}

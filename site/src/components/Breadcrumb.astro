@@ -1,0 +1,35 @@
+---
+interface BreadcrumbItem {
+  label: string;
+  href: string;
+}
+interface Props {
+  items: BreadcrumbItem[];
+}
+const { items } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": item.label,
+    "item": `https://epitoanyagar.hu${item.href}`
+  }))
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<nav aria-label="Kenyérmorzsás navigáció" class="text-sm text-gray-500 mb-6">
+  <ol class="flex flex-wrap items-center gap-1">
+    {items.map((item, i) => (
+      <li class="flex items-center gap-1">
+        {i > 0 && <span class="text-gray-300">/</span>}
+        {i < items.length - 1
+          ? <a href={item.href} class="hover:text-blue-600 transition-colors">{item.label}</a>
+          : <span class="text-gray-700 font-medium">{item.label}</span>
+        }
+      </li>
+    ))}
+  </ol>
+</nav>
