@@ -1,26 +1,41 @@
 {
   "anyag_id": "betonacél",
-  "frissitve": "2026-04-30",
+  "frissitve": "2026-08-12",
   "alap_ar": {
     "min": 280,
-    "max": 420,
-    "atlag": 340,
+    "max": 460,
+    "atlag": 350,
     "egyseg": "Ft/kg"
   },
   "variansok": [
     {
-      "nev": "B500B Ø8 mm",
-      "ar": 290,
+      "nev": "B500B Ø8 mm szálban",
+      "ar": 300,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "B500B Ø12 mm",
+      "nev": "B500B Ø10 mm szálban",
+      "ar": 320,
+      "egyseg": "Ft/kg"
+    },
+    {
+      "nev": "B500B Ø12 mm szálban",
       "ar": 340,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "B500B Ø20 mm",
+      "nev": "B500B Ø16 mm szálban",
+      "ar": 370,
+      "egyseg": "Ft/kg"
+    },
+    {
+      "nev": "B500B Ø20 mm szálban",
       "ar": 400,
+      "egyseg": "Ft/kg"
+    },
+    {
+      "nev": "Betonacélháló (150×150×6 mm)",
+      "ar": 460,
       "egyseg": "Ft/kg"
     }
   ],
@@ -48,24 +63,38 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Betonacél 2026-ban?",
-      "valasz": "A(z) Betonacél ára 2026-ban 280 – 420 Ft/kg között mozog, az átlagár 340 Ft/kg."
+      "kerdes": "Mennyi a betonacél ára kg-onként 2026-ban?",
+      "valasz": "A B500B betonacél ára 2026-ban átmérőtől függően 280–460 Ft/kg. A vékonyabb Ø8 kb. 300 Ft/kg, a vastagabb Ø20 kb. 400 Ft/kg, a betonacélháló 440–480 Ft/kg."
     },
     {
-      "kerdes": "Hol lehet olcsón betonacélt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Mennyibe kerül egy tábla betonacélháló?",
+      "valasz": "Egy 6 mm-es, 150×150 mm szemméretű, 2×3 m-es háló (kb. 21 kg) ára 2026-ban kb. 9 000–10 000 Ft."
     },
     {
-      "kerdes": "Mennyi betonacél kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Hány kg betonacél kell 1 m³ betonhoz?",
+      "valasz": "A szerkezettől függ: sáv- és lemezalaphoz kb. 60–90 kg/m³, födémhez 80–120 kg/m³, oszlophoz/gerendához akár 100–150 kg/m³ is kell."
     },
     {
-      "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "kerdes": "Változik a betonacél ára városonként?",
+      "valasz": "A kg-ár országosan hasonló, de a kiszállítás és a helyi kereslet miatt Budapesten valamivel drágább, vidéken kedvezőbb lehet."
     },
     {
       "kerdes": "Mire figyelj betonacél vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérd a minőségi tanúsítványt (B500B), egyeztesd a szabásjegyzéket a vasalási terv alapján, és kérj tonnás árat – nagyobb tételnél lényegesen olcsóbb a kg-ár."
+    }
+  ],
+  "reszletek": [
+    {
+      "cim": "Betonacél ár kg-onként átmérő szerint (2026)",
+      "szoveg": "<p>A betonacél (B500B bordás betonvas) ára <strong>kilogrammonként</strong> értendő, az átmérő (Ø) és az aktuális acélpiaci ár befolyásolja:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Átmérő</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø8 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~300 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø10 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~320 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø12 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~340 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø16 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~370 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø20 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~400 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Betonacélháló</td><td class=\"px-4 py-2 text-sm text-gray-800\">~440–480 Ft/kg</td></tr></tbody></table><p>Nagyobb mennyiségnél (tonnás tétel) a kg-ár érzékelhetően csökken; a szabásból adódó hulladékot és a szállítást is érdemes betervezni.</p>"
+    },
+    {
+      "cim": "Betonacélháló ára",
+      "szoveg": "<p>A hegesztett <strong>betonacélháló</strong> aljzatbetonhoz, lemezalaphoz gyakori. Egy 6 mm-es, 150×150 mm szemméretű háló (2×3 m tábla, ~12 m²) tömege kb. 21 kg, így egy tábla ára 2026-ban kb. <strong>9 000–10 000 Ft</strong> (~460 Ft/kg). Vékonyabb (5 mm) háló olcsóbb, sűrűbb szemméret drágább.</p>"
+    },
+    {
+      "cim": "Mennyi betonacél kell? (kg/m³ becslés)",
+      "szoveg": "<p>Tájékoztató acélszükséglet vasbeton szerkezetenként:</p><ul class=\"list-disc pl-6\"><li>Sávalap, lemezalap: <strong>60–90 kg/m³</strong></li><li>Födém, koszorú: <strong>80–120 kg/m³</strong></li><li>Oszlop, gerenda: <strong>100–150 kg/m³</strong></li></ul><p>A pontos vasmennyiséget mindig a statikai tervrajz (vasalási terv) határozza meg.</p>"
     }
   ]
 }

@@ -1,0 +1,41 @@
+name: Árak havi frissítése
+
+# Minden hónap 1-jén 04:10 UTC-kor lefut, és kézzel is indítható.
+on:
+  schedule:
+    - cron: "10 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python beállítása
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Függőségek telepítése
+        run: pip install -r scraper/requirements.txt
+
+      - name: Árak frissítése (dátum + opcionális scrape)
+        run: python scraper/scraper.py
+
+      - name: Változások commitolása
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/
+            git commit -m "chore: havi árfrissítés ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Árak frissítve és pusholva – a Netlify újraépíti az oldalt."
+          else
+            echo "Nincs változás az áradatokban."
+          fi

@@ -2,9 +2,20 @@
 import fs from 'fs';
 import path from 'path';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE, huf, honapEv, datumHosszu } from '../lib/format';
 
 const dataDir = path.resolve('..', 'data');
 const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+const varosok = JSON.parse(fs.readFileSync(path.join(dataDir, 'varosok.json'), 'utf-8'));
+
+// Legfrissebb áradat dátuma (freshness jelzés)
+let frissitve = '2026-01-15';
+for (const a of anyagok) {
+  try {
+    const d = JSON.parse(fs.readFileSync(path.join(dataDir, 'arak', `${a.slug}.json`), 'utf-8'));
+    if (d.frissitve && d.frissitve > frissitve) frissitve = d.frissitve;
+  } catch (e) { /* skip */ }
+}
 
 const kategoriak = [
   { id: 'alapanyag', nev: 'Alapanyagok', ikon: '🧱', leiras: 'Cement, beton, sóder, kavics, homok' },
@@ -17,29 +28,32 @@ const kategoriak = [
   { id: 'egyeb', nev: 'Egyéb', ikon: '🔧', leiras: 'Vakolat, habarcs, ragasztó, vízszigetelő' },
 ];
 
-const topAnyagok = ['cement', 'tegla', 'beton', 'gipszkarton', 'terko', 'jarolap', 'kozetgyapot', 'osb-lap', 'soder', 'eps'];
+const topAnyagok = ['cement', 'tegla', 'beton', 'gipszkarton', 'terko', 'jarolap', 'kozetgyapot', 'osb-lap', 'soder', 'eps', 'betonacél', 'zartszelveny'];
 const top = anyagok.filter((a: any) => topAnyagok.includes(a.slug));
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Építőanyag ár",
-  "url": "https://epitoanyagar.hu",
+  "url": SITE,
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://epitoanyagar.hu/?q={search_term_string}",
+    "target": `${SITE}/?q={search_term_string}`,
     "query-input": "required name=search_term_string"
   }
 };
 ---
 <BaseLayout
-  title="Építőanyag árak 2026 – Aktuális árlista"
-  description="Aktuális építőanyag árak 2026-ban. Cement, tégla, beton, térkő és más anyagok árai 20 városban. Naprakész árlista vásárlási tippekkel."
-  canonicalURL="https://epitoanyagar.hu/"
+  title={`Építőanyag árak 2026 – aktuális árlista (${anyagok.length} anyag, 20 város)`}
+  description={`Aktuális építőanyag árak 2026-ban: cement, tégla, OSB, betonacél, térkő és további anyagok ára ${anyagok.length} termékre, 20 magyar városban. Frissítve: ${honapEv(frissitve)}.`}
+  canonicalURL={`${SITE}/`}
   schema={JSON.stringify(websiteSchema)}
 >
   <div class="max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-4xl font-bold text-gray-900 mb-4">Építőanyag árak 2026 – Aktuális árlista</h1>
+    <h1 class="text-4xl font-bold text-gray-900 mb-2">Építőanyag árak 2026 – aktuális árlista</h1>
+    <p class="text-sm text-gray-500 mb-4">
+      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {anyagok.length} anyag · 20 város
+    </p>
 
     <p class="text-lg text-gray-700 leading-relaxed mb-4">
       Üdvözöljük az <strong>epitoanyagar.hu</strong> oldalán, ahol naprakész információt talál
@@ -47,7 +61,7 @@ const websiteSchema = {
       szigetelőanyag vásárlásáról – segítünk megtalálni a legjobb árat a közelben.
     </p>
     <p class="text-gray-700 leading-relaxed mb-8">
-      Adatbázisunkban <strong>69 építőanyag</strong> árát követjük nyomon <strong>20 magyarországi városban</strong>.
+      Adatbázisunkban <strong>{anyagok.length} építőanyag</strong> árát követjük nyomon <strong>20 magyarországi városban</strong>.
       Az árak havonta frissülnek, hogy mindig aktuális tájékoztatást kapjon.
       Miért változnak az építőanyag árak? Az alapanyag-költségek, az energia, a szállítás és
       a szezonális kereslet mind befolyásolják az árakat – nálunk ezeket mind figyelembe vesszük.
@@ -76,6 +90,18 @@ const websiteSchema = {
         >
           <span class="font-medium text-gray-800">{a.nev} ára 2026</span>
           <span class="text-blue-600 text-sm">→</span>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-5">Építőanyag árak városonként</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-10">
+      {varosok.map((v: any) => (
+        <a
+          href={`/varos/${v.slug}/`}
+          class="block bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-center text-gray-700 hover:border-blue-400 hover:text-blue-700 transition-all"
+        >
+          {v.nev}
         </a>
       ))}
     </div>

@@ -1,0 +1,104 @@
+---
+import fs from 'fs';
+import path from 'path';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { SITE, huf, rovidEgyseg, datumHosszu, honapEv } from '../../lib/format';
+
+const KATEGORIA_NEV: Record<string, string> = {
+  alapanyag: 'Alapanyagok',
+  falazat: 'Falazat',
+  teto: 'Tető',
+  szigeteles: 'Szigetelés',
+  burkolat: 'Burkolat',
+  fem: 'Fém',
+  lap: 'Lapok és fa',
+  egyeb: 'Egyéb',
+};
+
+export async function getStaticPaths() {
+  const dataDir = path.resolve('..', 'data');
+  const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
+  const varosok = JSON.parse(fs.readFileSync(path.join(dataDir, 'varosok.json'), 'utf-8'));
+
+  // Árdatok egyszeri beolvasása
+  const arMap: Record<string, any> = {};
+  let legfrissebb = '2026-01-15';
+  for (const a of anyagok) {
+    try {
+      const d = JSON.parse(fs.readFileSync(path.join(dataDir, 'arak', `${a.slug}.json`), 'utf-8'));
+      arMap[a.slug] = d;
+      if (d.frissitve && d.frissitve > legfrissebb) legfrissebb = d.frissitve;
+    } catch (e) { /* skip */ }
+  }
+
+  return varosok.map((v: any) => {
+    const tetelek = anyagok
+      .filter((a: any) => arMap[a.slug])
+      .map((a: any) => {
+        const d = arMap[a.slug];
+        const szorzo = (d.varos_szorzok && d.varos_szorzok[v.slug]) || 1;
+        return {
+          nev: a.nev,
+          slug: a.slug,
+          kategoria: a.kategoria,
+          egyseg: rovidEgyseg(d.alap_ar.egyseg),
+          helyiAtlag: Math.round(d.alap_ar.atlag * szorzo),
+        };
+      });
+    return { params: { varos: v.slug }, props: { varos: v, tetelek, frissitve: legfrissebb } };
+  });
+}
+
+const { varos, tetelek, frissitve } = Astro.props;
+const loc = varos.loc || `${varos.nev}ben`;
+const canonicalURL = `${SITE}/varos/${varos.slug}/`;
+const title = `Építőanyag árak ${loc} 2026 – ${varos.nev} árlista`;
+const description = `Aktuális építőanyag árak ${loc} 2026-ban: cement, tégla, OSB, betonacél, térkő és további ${tetelek.length} anyag helyi ára. Frissítve: ${honapEv(frissitve)}.`;
+
+// Kategóriánként csoportosítva
+const kategoriak = [...new Set(tetelek.map((t: any) => t.kategoria))];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  url: canonicalURL,
+  description,
+  dateModified: frissitve,
+};
+---
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} schema={JSON.stringify(schema)}>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumb items={[
+      { label: "Főoldal", href: "/" },
+      { label: `Építőanyag árak ${varos.nev}`, href: `/varos/${varos.slug}/` }
+    ]} />
+
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">Építőanyag árak {loc} 2026</h1>
+    <p class="text-sm text-gray-500 mb-4">
+      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {tetelek.length} anyag helyi ára
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-8">
+      {loc} és környékén az építőanyagok árai a {varos.megye} megyei piaci viszonyokat követik.
+      Az alábbi listában <strong>{tetelek.length} építőanyag</strong> helyi átlagárát találod 2026-ra – kattints bármelyikre a részletes, variánsonkénti árlistáért.
+    </p>
+
+    {kategoriak.map((kat: any) => (
+      <div class="mb-8">
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">{KATEGORIA_NEV[kat] || kat}</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {tetelek.filter((t: any) => t.kategoria === kat).map((t: any) => (
+            <a
+              href={`/${t.slug}-ara-${varos.slug}/`}
+              class="flex items-center justify-between bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
+            >
+              <span class="font-medium text-gray-800 text-sm">{t.nev}</span>
+              <span class="text-green-700 font-semibold text-sm whitespace-nowrap">{huf(t.helyiAtlag)} Ft<span class="text-gray-400 font-normal">/{t.egyseg.replace('Ft/', '')}</span></span>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

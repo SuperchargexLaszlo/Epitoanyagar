@@ -1,0 +1,12 @@
+{
+  "_comment": "Másold át sources.json néven, és tölts fel valós forrásokat anyagonként. A 'selector' a CSS szelektor, aminek a szövegéből az első árat olvassa ki a scraper. Ahol nincs forrás, ott a meglévő ár marad, csak a dátum frissül.",
+  "cement": {
+    "url": "https://pelda-aruhaz.hu/cement-cem-ii-25kg",
+    "selector": "span.product-price",
+    "egyseg": "Ft/zsák (25 kg)"
+  },
+  "osb-lap": {
+    "url": "https://pelda-aruhaz.hu/osb3-15mm",
+    "selector": ".price .amount"
+  }
+}

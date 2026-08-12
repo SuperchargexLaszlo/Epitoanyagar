@@ -1,10 +1,10 @@
 {
   "anyag_id": "osb-lap",
-  "frissitve": "2026-04-30",
+  "frissitve": "2026-08-12",
   "alap_ar": {
     "min": 2500,
-    "max": 5500,
-    "atlag": 3800,
+    "max": 6900,
+    "atlag": 3900,
     "egyseg": "Ft/lap"
   },
   "variansok": [
@@ -14,13 +14,28 @@
       "egyseg": "Ft/lap"
     },
     {
+      "nev": "OSB3 12 mm (2440×1220)",
+      "ar": 3200,
+      "egyseg": "Ft/lap"
+    },
+    {
       "nev": "OSB3 15 mm (2440×1220)",
       "ar": 3900,
       "egyseg": "Ft/lap"
     },
     {
+      "nev": "OSB3 18 mm (2440×1220)",
+      "ar": 4600,
+      "egyseg": "Ft/lap"
+    },
+    {
       "nev": "OSB3 22 mm (2440×1220)",
       "ar": 5200,
+      "egyseg": "Ft/lap"
+    },
+    {
+      "nev": "OSB4 18 mm (vízálló, teherbíró)",
+      "ar": 6900,
       "egyseg": "Ft/lap"
     }
   ],
@@ -48,24 +63,38 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül OSB lap 2026-ban?",
-      "valasz": "A(z) OSB lap ára 2026-ban 2 500 – 5 500 Ft/lap között mozog, az átlagár 3 800 Ft/lap."
+      "kerdes": "Mennyibe kerül egy OSB lap 2026-ban?",
+      "valasz": "Egy OSB3 lap (2440×1220) ára 2026-ban a vastagságtól függően 2 700–5 200 Ft, a vízálló OSB4 lap 6 500–7 500 Ft. Az átlagár kb. 3 900 Ft/lap."
     },
     {
-      "kerdes": "Hol lehet olcsón osb lapt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Mennyi az OSB lap ára m²-enként 2026-ban?",
+      "valasz": "Egy lap kb. 2,98 m², így a négyzetméterár 9 mm-nél ~900 Ft/m², 15 mm-nél ~1 300 Ft/m², 22 mm-nél ~1 750 Ft/m²."
     },
     {
-      "kerdes": "Mennyi osb lap kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Vízálló az OSB3 lap?",
+      "valasz": "Az OSB3 nedvességálló, de nem teljesen vízálló – tartós vízterhelést nem visel el. Fokozottan párás vagy teherhordó helyre az OSB4 lapot érdemes választani."
     },
     {
-      "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "kerdes": "Hány m² egy OSB lap?",
+      "valasz": "A standard 2440×1220 mm-es OSB lap kb. 2,98 m² felületet fed."
     },
     {
-      "kerdes": "Mire figyelj osb lap vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "kerdes": "Hol lehet olcsón OSB lapot venni?",
+      "valasz": "Érdemes összehasonlítani a Bauhaus, OBI, Hornbach és a helyi fatelepek/tüzépek árait. Raklapos (50+ lap) vásárlásnál általában kedvezmény jár; a szállítási díjat is számold hozzá."
+    }
+  ],
+  "reszletek": [
+    {
+      "cim": "OSB lap ára m²-enként 2026",
+      "szoveg": "<p>Egy standard OSB lap mérete <strong>2440×1220 mm</strong>, ami <strong>3 ≈ 2,98 m²</strong>. A laponkénti árból így számítható a négyzetméterár:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Vastagság</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár laponként</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár m²-enként</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 9 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">2 700 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~907 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 12 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">3 200 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 075 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 15 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">3 900 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 310 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 18 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">4 600 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 545 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 22 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">5 200 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 747 Ft/m²</td></tr></tbody></table><p>A négyzetméterár tájékoztató jellegű; nagyobb tételnél (raklap, 50+ lap) 5–15% kedvezmény is elérhető.</p>"
+    },
+    {
+      "cim": "Vízálló OSB lap: OSB3 vagy OSB4?",
+      "szoveg": "<p>Az <strong>OSB3</strong> nedvességálló, teherhordó lap – beltérben és fedett kültéri helyeken (tetőtér, padlás, aljzat) a leggyakoribb választás, de tartós vízterhelést nem visel el. A <strong>teljesen vízálló, fokozottan teherbíró OSB4</strong> lap párásabb, statikailag igényesebb helyekre való, ára jellemzően 25–40%-kal magasabb az OSB3-nál.</p><ul class=\"list-disc pl-6\"><li><strong>OSB3:</strong> tetőtér, padló aljzat, falburkolat, dobozolás.</li><li><strong>OSB4:</strong> teherhordó szerkezet, magas páratartalmú tér, faház-építés.</li></ul><p>Kültéri, közvetlenül időjárásnak kitett felületre egyik sem való védőréteg (pl. zsindely, lemezfedés, vízszigetelés) nélkül.</p>"
+    },
+    {
+      "cim": "Mennyi OSB lap kell? (m² → lap átszámítás)",
+      "szoveg": "<p>Egy 2440×1220 mm-es lap kb. <strong>2,98 m²</strong> felületet fed. A szükséges lapszám:</p><p class=\"font-semibold\">lapszám = befedendő terület (m²) ÷ 2,98 × 1,10 (10% hulladék)</p><p>Példa: 40 m² padlásfödémhez ≈ 40 ÷ 2,98 = 13,4 lap, +10% ráhagyással kb. <strong>15 lap</strong>. A pontos mennyiséget mindig a tervrajz és a fektetési irány alapján érdemes kiszámolni.</p>"
     }
   ]
 }

@@ -5,6 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PriceTable from '../components/PriceTable.astro';
 import FAQ from '../components/FAQ.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE, huf, rovidEgyseg, datumHosszu, honapEv, termekSchema } from '../lib/format';
 
 export async function getStaticPaths() {
   const dataDir = path.resolve('..', 'data');
@@ -16,14 +17,14 @@ export async function getStaticPaths() {
     for (const v of varosok) {
       paths.push({
         params: { slug: `${a.slug}-ara-${v.slug}` },
-        props: { anyag: a, varos: v }
+        props: { anyag: a, varos: v, anyagok }
       });
     }
   }
   return paths;
 }
 
-const { anyag, varos } = Astro.props;
+const { anyag, varos, anyagok } = Astro.props;
 const dataDir = path.resolve('..', 'data');
 const arFajl = path.join(dataDir, 'arak', `${anyag.slug}.json`);
 const arData = JSON.parse(fs.readFileSync(arFajl, 'utf-8'));
@@ -32,41 +33,57 @@ const szorzo = arData.varos_szorzok[varos.slug] || 1;
 const helyiAtlag = Math.round(arData.alap_ar.atlag * szorzo);
 const helyiMin = Math.round(arData.alap_ar.min * szorzo);
 const helyiMax = Math.round(arData.alap_ar.max * szorzo);
+const egyseg = arData.alap_ar.egyseg;
+const rEgyseg = rovidEgyseg(egyseg);
+const frissitve = arData.frissitve || '2026-01-15';
+const loc = varos.loc || `${varos.nev}ben`;
+const nevLower = anyag.nev.toLowerCase();
 
 const helyiVariansok = arData.variansok.map((v: any) => ({
   ...v,
   ar: Math.round(v.ar * szorzo)
 }));
 
-const canonicalURL = `https://epitoanyagar.hu/${anyag.slug}-ara-${varos.slug}/`;
-const title = `${anyag.nev} ára ${varos.nev}ben 2026 – Helyi árak és árlista`;
-const description = `Mennyi a ${anyag.nev.toLowerCase()} ára ${varos.nev}ben 2026-ban? Aktuális helyi ${anyag.nev.toLowerCase()} árlista, ${helyiAtlag.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg} átlagárral.`;
+const canonicalURL = `${SITE}/${anyag.slug}-ara-${varos.slug}/`;
+const title = `${anyag.nev} ára ${loc} 2026: ${huf(helyiMin)}–${huf(helyiMax)} ${rEgyseg}`;
+const description = `Mennyi a ${nevLower} ára ${loc} 2026-ban? Helyi árlista: átlagár ${huf(helyiAtlag)} ${rEgyseg}, ártartomány ${huf(helyiMin)}–${huf(helyiMax)} ${egyseg}. Frissítve: ${honapEv(frissitve)}.`;
 
 const helyiFaq = [
   {
-    kerdes: `Mennyi a ${anyag.nev.toLowerCase()} ára ${varos.nev}ben 2026-ban?`,
-    valasz: `${varos.nev}ben a ${anyag.nev.toLowerCase()} átlagos ára ${helyiAtlag.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg}. Az ártartomány ${helyiMin.toLocaleString('hu-HU')} – ${helyiMax.toLocaleString('hu-HU')} ${arData.alap_ar.egyseg} között mozog.`
+    kerdes: `Mennyi a ${nevLower} ára ${loc} 2026-ban?`,
+    valasz: `${loc} a ${nevLower} átlagos ára ${huf(helyiAtlag)} ${egyseg}. Az ártartomány ${huf(helyiMin)} – ${huf(helyiMax)} ${egyseg} között mozog.`
   },
   {
-    kerdes: `Hol lehet ${anyag.nev.toLowerCase()}t venni ${varos.nev}ben?`,
-    valasz: `${varos.nev}ben több nagy építőanyag-kereskedőnél is beszerezhetők: Bauhaus, OBI, Hornbach és helyi építőanyag-telepek. Érdemes előre árajánlatot kérni és összehasonlítani.`
+    kerdes: `Hol lehet ${nevLower}t venni ${loc}?`,
+    valasz: `${loc} több nagy építőanyag-kereskedőnél is beszerezhető: Bauhaus, OBI, Hornbach és helyi építőanyag-telepek. Érdemes előre árajánlatot kérni és összehasonlítani.`
   },
   {
-    kerdes: `Drágább a ${anyag.nev.toLowerCase()} ${varos.nev}ben, mint az országos átlag?`,
+    kerdes: `Drágább a ${nevLower} ${loc}, mint az országos átlag?`,
     valasz: szorzo > 1
-      ? `Igen, ${varos.nev}ben az árak kb. ${Math.round((szorzo - 1) * 100)}%-kal magasabbak az országos átlagnál.`
-      : `${varos.nev}ben az árak kb. ${Math.round((1 - szorzo) * 100)}%-kal alacsonyabbak az országos átlagnál.`
+      ? `Igen, ${loc} az árak kb. ${Math.round((szorzo - 1) * 100)}%-kal magasabbak az országos átlagnál.`
+      : szorzo < 1
+      ? `Nem, ${loc} az árak kb. ${Math.round((1 - szorzo) * 100)}%-kal alacsonyabbak az országos átlagnál.`
+      : `${loc} az árak nagyjából az országos átlaggal megegyeznek.`
   }
 ];
+
+const termek = termekSchema({
+  nev: `${anyag.nev} – ${varos.nev} (${honapEv(frissitve)})`,
+  leiras: description,
+  kategoria: anyag.kategoria,
+  url: canonicalURL,
+  min: helyiMin, max: helyiMax, egyseg,
+  ajanlatDb: helyiVariansok.length,
+});
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": title.substring(0, 110),
   "datePublished": "2026-01-15",
-  "dateModified": "2026-04-30",
-  "author": { "@type": "Organization", "name": "epitoanyagar.hu team" },
-  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": "https://epitoanyagar.hu" },
+  "dateModified": frissitve,
+  "author": { "@type": "Organization", "name": "epitoanyagar.hu" },
+  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": SITE },
   "url": canonicalURL
 };
 
@@ -80,7 +97,14 @@ const faqSchema = {
   }))
 };
 
-const schema = JSON.stringify([articleSchema, faqSchema]);
+const schema = JSON.stringify([termek, articleSchema, faqSchema]);
+
+// Kereszthivatkozás: más építőanyagok ugyanebben a városban (azonos kategória + néhány népszerű)
+const nepszeru = ['cement', 'osb-lap', 'betonacél', 'terko', 'zartszelveny', 'gipszkarton', 'tegla'];
+const masAnyagok = [
+  ...anyagok.filter((a: any) => a.kategoria === anyag.kategoria && a.slug !== anyag.slug),
+  ...anyagok.filter((a: any) => nepszeru.includes(a.slug) && a.slug !== anyag.slug && a.kategoria !== anyag.kategoria),
+].slice(0, 8);
 ---
 <BaseLayout title={title} description={description} canonicalURL={canonicalURL} schema={schema}>
   <div class="max-w-4xl mx-auto px-4 py-8">
@@ -90,27 +114,48 @@ const schema = JSON.stringify([articleSchema, faqSchema]);
       { label: varos.nev, href: `/${anyag.slug}-ara-${varos.slug}/` }
     ]} />
 
-    <h1 class="text-3xl font-bold text-gray-900 mb-4">{anyag.nev} ára {varos.nev}ben 2026</h1>
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">{anyag.nev} ára {loc} 2026</h1>
+    <p class="text-sm text-gray-500 mb-4">
+      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {varos.nev} és környéke
+    </p>
 
     <p class="text-gray-700 leading-relaxed mb-6">
-      {varos.nev}ben a <strong>{anyag.nev.toLowerCase()}</strong> átlagos ára 2026-ban <strong>{helyiAtlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</strong>.
-      Ez az országos átlaghoz képest {szorzo > 1 ? `${Math.round((szorzo - 1) * 100)}%-kal magasabb` : `${Math.round((1 - szorzo) * 100)}%-kal alacsonyabb`}.
-      Az ártartomány {helyiMin.toLocaleString('hu-HU')} – {helyiMax.toLocaleString('hu-HU')} {arData.alap_ar.egyseg} között mozog.
+      {loc} a <strong>{nevLower}</strong> átlagos ára 2026-ban <strong>{huf(helyiAtlag)} {egyseg}</strong>.
+      Ez az országos átlaghoz képest {szorzo > 1 ? `${Math.round((szorzo - 1) * 100)}%-kal magasabb` : szorzo < 1 ? `${Math.round((1 - szorzo) * 100)}%-kal alacsonyabb` : `nagyjából azonos`}.
+      Az ártartomány {huf(helyiMin)} – {huf(helyiMax)} {egyseg} között mozog.
       {anyag.leiras}
     </p>
 
     <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
       <p class="text-blue-800 font-semibold text-lg">
-        Helyi átlagár ({varos.nev}): {helyiAtlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}
+        Helyi átlagár ({varos.nev}): {huf(helyiAtlag)} {egyseg}
       </p>
-      <p class="text-blue-600 text-sm">Ártartomány: {helyiMin.toLocaleString('hu-HU')} – {helyiMax.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</p>
+      <p class="text-blue-600 text-sm">Ártartomány: {huf(helyiMin)} – {huf(helyiMax)} {egyseg}</p>
     </div>
 
     <h2 class="text-2xl font-semibold text-gray-800 mb-3">{anyag.nev} árlista – {varos.nev} 2026</h2>
-    <PriceTable variansok={helyiVariansok} egyseg={arData.alap_ar.egyseg} />
+    <PriceTable variansok={helyiVariansok} egyseg={egyseg} />
 
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Gyakori kérdések</h2>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Gyakori kérdések</h2>
     <FAQ faq={helyiFaq} />
+
+    {masAnyagok.length > 0 && (
+      <div class="mt-10 pt-8 border-t border-gray-200">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">Más építőanyagok árai {loc}</h2>
+        <div class="flex flex-wrap gap-2">
+          {masAnyagok.map((k: any) => (
+            <a href={`/${k.slug}-ara-${varos.slug}/`} class="bg-white border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-700 hover:border-blue-400 hover:text-blue-700 transition-all">
+              {k.nev} →
+            </a>
+          ))}
+        </div>
+        <p class="mt-4">
+          <a href={`/varos/${varos.slug}/`} class="text-blue-600 hover:underline font-medium">
+            Összes építőanyag ára {loc} →
+          </a>
+        </p>
+      </div>
+    )}
 
     <div class="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
       <p class="text-sm text-gray-600 mb-2">Vissza az összes árhoz:</p>

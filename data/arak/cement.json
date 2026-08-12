@@ -1,6 +1,6 @@
 {
   "anyag_id": "cement",
-  "frissitve": "2026-04-30",
+  "frissitve": "2026-08-12",
   "alap_ar": {
     "min": 1200,
     "max": 1800,
@@ -48,24 +48,34 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Cement 2026-ban?",
-      "valasz": "A(z) Cement ára 2026-ban 1 200 – 1 800 Ft/zsák (25 kg) között mozog, az átlagár 1 450 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül egy 25 kg-os zsák cement 2026-ban?",
+      "valasz": "Egy 25 kg-os zsák cement ára 2026-ban 1 200–1 800 Ft, minőségtől és kereskedőtől függően. Ez kilogrammonként kb. 48–72 Ft."
     },
     {
-      "kerdes": "Hol lehet olcsón cementt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Mennyi egy raklap cement ára?",
+      "valasz": "Egy raklap cement (54 db 25 kg-os zsák = 1350 kg) ára 2026-ban kb. 65 000–97 000 Ft. Raklapos vételnél gyakran kedvezőbb a kg-ár."
     },
     {
-      "kerdes": "Mennyi cement kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mennyi cement kell 1 m³ betonhoz?",
+      "valasz": "Átlagos C20/25 betonhoz kb. 300 kg cement (≈ 12 db 25 kg-os zsák) szükséges 1 m³-hez, a receptúrától függően."
     },
     {
-      "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "kerdes": "Változnak a cement árak városonként?",
+      "valasz": "Igen, Budapesten és az agglomerációban jellemzően 5-8%-kal drágább, vidéki városokban 3-7%-kal olcsóbb lehet az országos átlagnál."
     },
     {
-      "kerdes": "Mire figyelj cement vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "kerdes": "Hol lehet olcsón cementet venni?",
+      "valasz": "Érdemes összehasonlítani a Bauhaus, OBI, Hornbach és a helyi tüzépek árait. Nagyobb (raklapos) mennyiségnél alkudj kedvezményre, és számold hozzá a szállítást."
+    }
+  ],
+  "reszletek": [
+    {
+      "cim": "Cement ára 25 kg-os zsákonként, kg-onként és raklaponként",
+      "szoveg": "<p>A cementet jellemzően <strong>25 kg-os zsákban</strong> árulják. Az árak 2026-ban:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Kiszerelés</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">25 kg-os zsák</td><td class=\"px-4 py-2 text-sm text-gray-800\">1 200–1 800 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Kilogrammonként</td><td class=\"px-4 py-2 text-sm text-gray-800\">~48–72 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">1 mázsa (100 kg = 4 zsák)</td><td class=\"px-4 py-2 text-sm text-gray-800\">~4 800–7 200 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Raklap (54 zsák = 1350 kg)</td><td class=\"px-4 py-2 text-sm text-gray-800\">~64 800–97 200 Ft</td></tr></tbody></table><p>A tüzépek és építőanyag-telepek raklapos vásárlásnál általában kedvezőbb kg-árat adnak, de a raklap letét (visszaváltható) és a kiszállítás díja külön tétel lehet.</p>"
+    },
+    {
+      "cim": "Melyik cement mire való? (CEM I, II, III)",
+      "szoveg": "<ul class=\"list-disc pl-6\"><li><strong>CEM I 42,5 N</strong> – tiszta portlandcement, nagy szilárdság, gyors kötés. Vasbeton, teherhordó szerkezet.</li><li><strong>CEM II/B-V 32,5 R</strong> – univerzális, kedvező árú kötőanyag. Vakolat, aljzat, falazás.</li><li><strong>CEM III (kohósalak)</strong> – lassabb kötés, jó a szulfátállósága. Alapozás, tömegbeton.</li></ul><p>Általános házépítéshez a CEM II a leggyakoribb, statikailag terhelt vasbetonhoz a CEM I ajánlott.</p>"
     }
   ]
 }

@@ -8,10 +8,11 @@ interface Props {
   variansok: Varians[];
   egyseg: string;
 }
+import { huf } from '../lib/format';
 const { variansok, egyseg } = Astro.props;
 
 function formatAr(ar: number) {
-  return ar.toLocaleString('hu-HU') + ' Ft';
+  return huf(ar) + ' Ft';
 }
 ---
 <div class="overflow-x-auto my-6">

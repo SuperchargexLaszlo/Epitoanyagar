@@ -1,3 +1,7 @@
 site/node_modules/
 site/dist/
 site/.astro/
+
+# GSC exportok es ideiglenes csomagok
+*Performance-on-Search*.zip
+_cowork_*.zip

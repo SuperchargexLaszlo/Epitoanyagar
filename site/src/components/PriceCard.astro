@@ -1,4 +1,5 @@
 ---
+import { huf } from '../lib/format';
 interface Props {
   min: number;
   max: number;
@@ -20,12 +21,12 @@ const szin = aranyAtlag < 0.33
     <div>
       <div class="text-sm font-medium text-gray-600 mb-1">Átlagár 2026</div>
       <div class={`text-3xl font-bold ${szin.text}`}>
-        {atlag.toLocaleString('hu-HU')} Ft
+        {huf(atlag)} Ft
       </div>
       <div class="text-sm text-gray-500 mt-1">{egyseg}</div>
     </div>
     <div class={`text-xs font-semibold px-2 py-1 rounded-full ${szin.badge}`}>
-      {min.toLocaleString('hu-HU')} – {max.toLocaleString('hu-HU')} Ft
+      {huf(min)} – {huf(max)} Ft
     </div>
   </div>
 </div>

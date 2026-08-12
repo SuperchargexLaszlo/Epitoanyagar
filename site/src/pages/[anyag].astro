@@ -6,6 +6,7 @@ import PriceTable from '../components/PriceTable.astro';
 import FAQ from '../components/FAQ.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PriceCard from '../components/PriceCard.astro';
+import { SITE, huf, rovidEgyseg, datumHosszu, honapEv, termekSchema } from '../lib/format';
 
 export async function getStaticPaths() {
   const dataDir = path.resolve('..', 'data');
@@ -23,18 +24,36 @@ const dataDir = path.resolve('..', 'data');
 const arFajl = path.join(dataDir, 'arak', `${anyag.slug}.json`);
 const arData = JSON.parse(fs.readFileSync(arFajl, 'utf-8'));
 
-const canonicalURL = `https://epitoanyagar.hu/${anyag.slug}-ara/`;
+const canonicalURL = `${SITE}/${anyag.slug}-ara/`;
+const min = arData.alap_ar.min;
+const max = arData.alap_ar.max;
+const atlag = arData.alap_ar.atlag;
+const egyseg = arData.alap_ar.egyseg;
+const rEgyseg = rovidEgyseg(egyseg);
+const frissitve = arData.frissitve || '2026-01-15';
+const nevLower = anyag.nev.toLowerCase();
 
-const headline = `${anyag.nev} ára 2026 – Aktuális árak és árlista`;
+// Ár-alapú, kattintásra optimalizált cím és leírás
+const title = `${anyag.nev} ára 2026: ${huf(min)}–${huf(max)} ${rEgyseg} | Árlista`;
+const description = `${anyag.nev} ára 2026-ban: ${huf(min)}–${huf(max)} ${egyseg}, átlagár ${huf(atlag)} ${rEgyseg}. Friss (${honapEv(frissitve)}) árlista, variánsok és városonkénti árak 20 magyar városban.`;
+
+const termek = termekSchema({
+  nev: `${anyag.nev} – ${honapEv(frissitve)}`,
+  leiras: anyag.seo_desc,
+  kategoria: anyag.kategoria,
+  url: canonicalURL,
+  min, max, egyseg,
+  ajanlatDb: arData.variansok.length,
+});
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": headline.substring(0, 110),
+  "headline": title.substring(0, 110),
   "datePublished": "2026-01-15",
-  "dateModified": "2026-04-30",
-  "author": { "@type": "Organization", "name": "epitoanyagar.hu team" },
-  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": "https://epitoanyagar.hu" },
+  "dateModified": frissitve,
+  "author": { "@type": "Organization", "name": "epitoanyagar.hu" },
+  "publisher": { "@type": "Organization", "name": "Építőanyag ár", "url": SITE },
   "url": canonicalURL,
   "description": anyag.seo_desc
 };
@@ -49,16 +68,19 @@ const faqSchema = {
   }))
 };
 
-const schema = JSON.stringify([articleSchema, faqSchema]);
+const schema = JSON.stringify([termek, articleSchema, faqSchema]);
 
-// Kapcsolódó anyagok – azonos kategóriából, max 5
+// Kapcsolódó anyagok – azonos kategóriából, max 6
 const kapcsolodo = anyagok
   .filter((a: any) => a.kategoria === anyag.kategoria && a.slug !== anyag.slug)
-  .slice(0, 5);
+  .slice(0, 6);
+
+// Opcionális, anyag-specifikus mélytartalom
+const reszletek = Array.isArray(arData.reszletek) ? arData.reszletek : [];
 ---
 <BaseLayout
-  title={anyag.seo_title}
-  description={anyag.seo_desc}
+  title={title}
+  description={description}
   canonicalURL={canonicalURL}
   schema={schema}
 >
@@ -68,27 +90,41 @@ const kapcsolodo = anyagok
       { label: `${anyag.nev} ára 2026`, href: `/${anyag.slug}-ara/` }
     ]} />
 
-    <h1 class="text-3xl font-bold text-gray-900 mb-4">{anyag.nev} ára 2026</h1>
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">{anyag.nev} ára 2026</h1>
+    <p class="text-sm text-gray-500 mb-4">
+      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · Országos árlista + 20 város
+    </p>
 
     <p class="text-gray-700 leading-relaxed mb-6">
-      A(z) <strong>{anyag.nev.toLowerCase()}</strong> ára 2026-ban {arData.alap_ar.min.toLocaleString('hu-HU')} – {arData.alap_ar.max.toLocaleString('hu-HU')} {arData.alap_ar.egyseg} között mozog.
-      Az átlagos piaci ár jelenleg <strong>{arData.alap_ar.atlag.toLocaleString('hu-HU')} {arData.alap_ar.egyseg}</strong>.
+      A(z) <strong>{nevLower}</strong> ára 2026-ban {huf(min)} – {huf(max)} {egyseg} között mozog.
+      Az átlagos piaci ár jelenleg <strong>{huf(atlag)} {egyseg}</strong>.
       {anyag.leiras}
       Az árak régiónként és minőségi kategóriánként eltérhetnek, ezért érdemes több ajánlatot kérni a vásárlás előtt.
-      Oldalunkon az aktuális piaci adatok alapján naprakész tájékoztatást talál a(z) {anyag.nev.toLowerCase()} árairól.
+      Oldalunkon az aktuális piaci adatok alapján naprakész tájékoztatást talál a(z) {nevLower} árairól.
     </p>
 
     <PriceCard
-      min={arData.alap_ar.min}
-      max={arData.alap_ar.max}
-      atlag={arData.alap_ar.atlag}
-      egyseg={arData.alap_ar.egyseg}
+      min={min}
+      max={max}
+      atlag={atlag}
+      egyseg={egyseg}
     />
 
-    <h2 class="text-2xl font-semibold text-gray-800 mb-3">Aktuális {anyag.nev.toLowerCase()} árlista</h2>
-    <PriceTable variansok={arData.variansok} egyseg={arData.alap_ar.egyseg} />
+    <h2 class="text-2xl font-semibold text-gray-800 mb-3">Aktuális {nevLower} árlista</h2>
+    <PriceTable variansok={arData.variansok} egyseg={egyseg} />
 
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Mire figyelj {anyag.nev.toLowerCase()} vásárlásakor?</h2>
+    {reszletek.length > 0 && (
+      <div class="mt-8 space-y-6">
+        {reszletek.map((r: any) => (
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">{r.cim}</h2>
+            <div class="text-gray-700 leading-relaxed space-y-3" set:html={r.szoveg} />
+          </section>
+        ))}
+      </div>
+    )}
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Mire figyelj {nevLower} vásárlásakor?</h2>
     <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-8">
       <li>Kérj írásos árajánlatot, és hasonlítsd össze legalább 3 kereskedő ajánlatát.</li>
       <li>Nagyobb mennyiségnél mindig alkudj kedvezményre – 5–15% általában elérhető.</li>
@@ -101,14 +137,14 @@ const kapcsolodo = anyagok
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8">
       {varosok.map((v: any) => {
         const szorzo = arData.varos_szorzok[v.slug] || 1;
-        const helyi_ar = Math.round(arData.alap_ar.atlag * szorzo);
+        const helyi_ar = Math.round(atlag * szorzo);
         return (
           <a
             href={`/${anyag.slug}-ara-${v.slug}/`}
             class="block bg-white border border-gray-200 rounded-lg p-3 hover:border-blue-400 hover:shadow-sm transition-all"
           >
             <div class="font-medium text-gray-800 text-sm">{v.nev}</div>
-            <div class="text-green-700 font-semibold text-sm">{helyi_ar.toLocaleString('hu-HU')} Ft</div>
+            <div class="text-green-700 font-semibold text-sm">{huf(helyi_ar)} Ft</div>
           </a>
         );
       })}
