@@ -5,3 +5,6 @@ site/.astro/
 # GSC exportok es ideiglenes csomagok
 *Performance-on-Search*.zip
 _cowork_*.zip
+
+# Netlify CLI helyi allapot
+.netlify/
