@@ -1,0 +1,76 @@
+---
+/**
+ * Merkury termékrács. A termékadat a data/merkury.json-ból jön
+ * (scraper/merkury-feed.mjs generálja a Google Merchant feedből).
+ *
+ * A képeket az Astro build időben tölti le és méretezi WebP-re — nem
+ * hotlinkelünk. A halott URL-eket a feed-script szűri ki, hogy egy törölt
+ * kép ne buktassa el a buildet.
+ */
+import { getImage } from 'astro:assets';
+import { affUrl, AFF_REL } from '../lib/aff';
+import { huf } from '../lib/format';
+
+interface Termek {
+  id: string; nev: string; url: string; kep: string;
+  ar: number; marka?: string | null; merchant: string;
+}
+interface Props {
+  termekek: Termek[];
+  cim?: string;
+  bevezeto?: string;
+  template: string;
+  pagePath: string;
+  osszes?: number;
+}
+
+const { termekek, cim = 'Megvásárolható termékek', bevezeto, template, pagePath, osszes } = Astro.props;
+
+const KEP = 200;
+const kepek = new Map<string, string>();
+for (const t of termekek) {
+  if (!t.kep || kepek.has(t.kep)) continue;
+  const k = await getImage({ src: t.kep, width: KEP, height: KEP, fit: 'cover', format: 'webp' });
+  kepek.set(t.kep, k.src);
+}
+---
+{termekek.length > 0 && (
+  <section class="my-10">
+    <h2 class="text-2xl font-bold text-gray-900 mb-2">{cim}</h2>
+    {bevezeto && <p class="text-gray-600 mb-5">{bevezeto}</p>}
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {termekek.map((t) => (
+        <a
+          href={affUrl({ destUrl: t.url, merchant: t.merchant, template, pagePath, offerId: t.id })}
+          rel={AFF_REL}
+          target="_blank"
+          data-lead-score="5"
+          data-lead-type="partner"
+          data-offer={t.id}
+          class="group bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-blue-500 hover:shadow-md transition-all flex flex-col"
+        >
+          {kepek.get(t.kep) ? (
+            <img src={kepek.get(t.kep)} width={KEP} height={KEP} alt={t.nev} loading="lazy" decoding="async"
+              class="w-full aspect-square object-cover bg-gray-100" />
+          ) : (
+            <div class="w-full aspect-square bg-gray-100 flex items-center justify-center text-3xl text-gray-300">🧱</div>
+          )}
+          <div class="p-3 flex flex-col flex-1">
+            <span class="text-sm text-gray-800 leading-snug line-clamp-3 group-hover:text-blue-700">{t.nev}</span>
+            {t.marka && <span class="text-xs text-gray-500 mt-1">{t.marka}</span>}
+            <span class="mt-auto pt-2 text-base font-bold text-green-700">{huf(t.ar)} Ft</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p class="text-xs text-gray-500 mt-4">
+      {osszes && osszes > termekek.length
+        ? `A kínálatból ${termekek.length} tétel látható (összesen ${huf(osszes)} termék ebben a kategóriában). `
+        : ''}
+      Az árak a MerkuryMarket.hu termékfeedjéből származnak, a legutóbbi frissítés szerint —
+      a végleges árat és a készletet a boltban ellenőrizd. A termékekre mutató hivatkozások affiliate-linkek.
+    </p>
+  </section>
+)}
