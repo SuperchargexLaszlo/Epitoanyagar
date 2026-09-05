@@ -6,7 +6,6 @@ import PriceTable from '../components/PriceTable.astro';
 import FAQ from '../components/FAQ.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PriceCard from '../components/PriceCard.astro';
-import MerkuryProducts from '../components/MerkuryProducts.astro';
 import { SITE, huf, rovidEgyseg, datumHosszu, honapEv, termekSchema } from '../lib/format';
 
 export async function getStaticPaths() {
@@ -78,22 +77,6 @@ const kapcsolodo = anyagok
 
 // Opcionális, anyag-specifikus mélytartalom
 const reszletek = Array.isArray(arData.reszletek) ? arData.reszletek : [];
-
-/**
- * Megvásárolható termékek ehhez az anyaghoz (MerkuryMarket feed).
- * Csak néhány anyaghoz van valós termékkínálat — a többi anyag-oldal
- * változatlan marad, üres blokk nem jelenik meg.
- */
-let merkuryCsoport: any = null;
-try {
-  const mp = path.join(dataDir, 'merkury.json');
-  if (fs.existsSync(mp)) {
-    const csoportok = JSON.parse(fs.readFileSync(mp, 'utf-8'));
-    merkuryCsoport = csoportok.find((c: any) => c.anyag === anyag.slug && c.termekek.length > 0) ?? null;
-  }
-} catch {
-  merkuryCsoport = null;
-}
 ---
 <BaseLayout
   title={title}
@@ -129,17 +112,6 @@ try {
 
     <h2 class="text-2xl font-semibold text-gray-800 mb-3">Aktuális {nevLower} árlista</h2>
     <PriceTable variansok={arData.variansok} egyseg={egyseg} />
-
-    {merkuryCsoport && (
-      <MerkuryProducts
-        termekek={merkuryCsoport.termekek}
-        cim={`${anyag.nev} — megvásárolható termékek`}
-        bevezeto={`A fenti árlista piaci átlagot mutat. Itt konkrét, ma megrendelhető ${nevLower} termékek szerepelnek valós árral, a MerkuryMarket kínálatából.`}
-        template="calculator/tile-quantity"
-        pagePath={`/${anyag.slug}-ara/`}
-        osszes={merkuryCsoport.osszes}
-      />
-    )}
 
     {reszletek.length > 0 && (
       <div class="mt-8 space-y-6">

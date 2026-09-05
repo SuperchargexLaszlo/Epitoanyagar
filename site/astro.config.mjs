@@ -48,9 +48,4 @@ export default defineConfig({
   ],
   output: 'static',
   trailingSlash: 'always',
-  // A Merkury termékképek a kereskedő feedjéből jönnek. Engedélyezve az Astro
-  // build-idejű optimalizálásához: letölti, méretezi, és mi szolgáljuk ki —
-  // nem hotlinkelünk, és futásidőben nem függünk tőlük.
-  // A halott URL-eket a scraper/merkury-feed.mjs szűri ki.
-  image: { domains: ['www.merkurymarket.hu'] },
 });
