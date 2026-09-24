@@ -1,26 +1,26 @@
 {
   "anyag_id": "geotextilia",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 200,
-    "max": 700,
-    "atlag": 400,
+    "min": 338,
+    "max": 479,
+    "atlag": 420,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "100 g/m² nem szőtt",
-      "ar": 220,
+      "nev": "Geotextília 100 g/m² (2×25 m)",
+      "ar": 338,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "200 g/m² nem szőtt",
-      "ar": 400,
+      "nev": "Geotextília 200 g/m² (Protex, 4×100 m)",
+      "ar": 360,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "300 g/m² erősített",
-      "ar": 680,
+      "nev": "Geotextília 200 g/m² erősített, méterre vágva",
+      "ar": 431,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Geotextília 2026-ban?",
-      "valasz": "A(z) Geotextília ára 2026-ban 200 – 700 Ft/m² között mozog, az átlagár 400 Ft/m²."
+      "kerdes": "Mennyibe kerül a geotextília 2026-ban?",
+      "valasz": "Geotextília ára 2026 szeptemberében 338–479 Ft/m², a boltok átlagára 420 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Geotextília 100 g/m² (2×25 m) (338 Ft), a legdrágább: Geotextília 200 g/m² erősített, méterre vágva (431 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón geotextíliat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a geotextília árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Öntözés Webáruház, Koi-Farm, Baupro, ÁrGép), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi geotextília kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a geotextília ára?",
+      "valasz": "Nagy tekercsben 340–480 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj geotextília vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Öntözés Webáruház",
+      "termek": "Geotextília (tarka) 200 g/m² erősített, ár/m²",
+      "ar": 431,
+      "egyseg": "Ft/m²",
+      "url": "https://www.ontozeswebaruhaz.hu/geotextilia/11351-geotextilia-tarka-200-g-m2-erositett-az-ar-1-m-re-vonatkozik-.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 339 Ft"
+    },
+    {
+      "bolt": "Koi-Farm",
+      "termek": "BS16 Geotextília 200 g/m², 2 m × 100 m egész tekercs",
+      "ar": 479,
+      "egyseg": "Ft/m²",
+      "url": "https://www.koi-farm.hu/geotextil-200-g-nm-2x100m-ar-nm-szemelyes-atvetel-",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 95 800 Ft / 200 m²"
+    },
+    {
+      "bolt": "Baupro",
+      "termek": "Geotextília 100 g/m² Mini 2×25 m fehér",
+      "ar": 338,
+      "egyseg": "Ft/m²",
+      "url": "https://baupro.hu/geotextilia",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós (eredeti 395 Ft/m²), 16 900 Ft/tekercs"
+    },
+    {
+      "bolt": "ÁrGép (bolti ajánlat)",
+      "termek": "Protex geotextília 200 g/m² 4 × 100 m, ár/m²",
+      "ar": 360,
+      "egyseg": "Ft/m²",
+      "url": "https://www.argep.hu/trend/GEOT/Geotextilia-200-g-m2.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "+3990 Ft szállítás"
+    }
+  ],
+  "megjegyzes": "Nagy tekercsben 340–480 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

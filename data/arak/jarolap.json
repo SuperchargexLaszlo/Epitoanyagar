@@ -1,26 +1,26 @@
 {
   "anyag_id": "jarolap",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2000,
-    "max": 8000,
-    "atlag": 4000,
+    "min": 3500,
+    "max": 9000,
+    "atlag": 5600,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Gazdaságos (30×30)",
-      "ar": 2200,
+      "nev": "Gres padlólap 30×60 (belső, fa/kő hatású)",
+      "ar": 4750,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Közép (60×60)",
-      "ar": 4200,
+      "nev": "Gres padlólap 60×60 matt",
+      "ar": 6000,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium (80×80)",
-      "ar": 7500,
+      "nev": "Gres padlólap 60×60 antracit, bel-/kültéri",
+      "ar": 8999,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Járólap 2026-ban?",
-      "valasz": "A(z) Járólap ára 2026-ban 2 000 – 8 000 Ft/m² között mozog, az átlagár 4 000 Ft/m²."
+      "kerdes": "Mennyibe kerül a járólap 2026-ban?",
+      "valasz": "Járólap ára 2026 szeptemberében 3 500–9 000 Ft/m², a boltok átlagára 5 600 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Gres padlólap 30×60 (belső, fa/kő hatású) (4 750 Ft), a legdrágább: Gres padlólap 60×60 antracit, bel-/kültéri (8 999 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón járólapt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a járólap árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Praktiker, OBI, Palatinus Fürdőszoba), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi járólap kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a járólap ára?",
+      "valasz": "Barkácsáruházi alap gres padlólap 3 500–6 000 Ft/m², nagyformátumú rektifikált 7 000–9 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj járólap vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Zalakerámia Agex kültéri fagyálló barna 30×60 cm gres padlólap",
+      "ar": 4499,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/zalakeramia/cc/2544",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "'Ütős ár'"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Natural Grey gres járólap 30×60 cm",
+      "ar": 4999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/padlolapok-jarolapok/natural-grey-gres-jarolap-30-cm-x-60-cm/p/5140678",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "8 098 Ft/eladási egység"
+    },
+    {
+      "bolt": "Palatinus Fürdőszoba",
+      "termek": "Zalakerámia Woodshine Bianco padlólap 33,3×33,3 cm",
+      "ar": 5589,
+      "egyseg": "Ft/m²",
+      "url": "https://www.palatinusfurdoszoba.hu/zalakeramia-woodshine-bianco-33-3x33-3x0-8-1-33-nmdz-61-18-pal",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "7 434 Ft/doboz (1,33 m²)"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "60×60 cm fehér matt gres padlólap",
+      "ar": 5999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/idoszakos-ajanlatok/padlolapok/bfd",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "időszakos ajánlat"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Greslap antracit 60 cm × 60 cm",
+      "ar": 8999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/padlolapok-jarolapok/greslap-60-cm-x-60-cm/p/5553052",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "12 958 Ft/eladási egység; bel- és kültéri"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Statuario Classic fehér porcelán padlólap (Top ár)",
+      "ar": 3499,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/hidegburkolatok/padlolapok-jarolapok/c/1150",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós 'Top ár', a sáv alja"
+    }
+  ],
+  "megjegyzes": "Barkácsáruházi alap gres padlólap 3 500–6 000 Ft/m², nagyformátumú rektifikált 7 000–9 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

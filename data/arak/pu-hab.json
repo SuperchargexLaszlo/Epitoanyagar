@@ -1,17 +1,27 @@
 {
   "anyag_id": "keszlet-habosito",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1000,
-    "max": 3000,
-    "atlag": 2000,
-    "egyseg": "Ft/egység"
+    "min": 2790,
+    "max": 4690,
+    "atlag": 3300,
+    "egyseg": "Ft/db (750 ml)"
   },
   "variansok": [
     {
-      "nev": "Alap változat",
-      "ar": 2000,
-      "egyseg": "Ft/egység"
+      "nev": "Den Braven pisztolyos purhab 750 ml",
+      "ar": 2790,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "Den Braven RL enyhén dagadó pisztolyhab 750 ml",
+      "ar": 2907,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "Soudal Flexifoam Gun pisztolyhab 750 ml",
+      "ar": 4690,
+      "egyseg": "Ft/db"
     }
   ],
   "varos_szorzok": {
@@ -38,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül PU hab (habosító) 2026-ban?",
-      "valasz": "A(z) PU hab (habosító) ára 2026-ban 1 000 – 3 000 Ft/egység között mozog, az átlagár 2 000 Ft/egység."
+      "kerdes": "Mennyibe kerül a pu hab (habosító) 2026-ban?",
+      "valasz": "PU hab (habosító) ára 2026 szeptemberében 2 790–4 690 Ft/db (750 ml), a boltok átlagára 3 300 Ft/db (750 ml) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Den Braven pisztolyos purhab 750 ml (2 790 Ft), a legdrágább: Soudal Flexifoam Gun pisztolyhab 750 ml (4 690 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón pu hab (habosító)t venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a pu hab (habosító) árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Gazda Barkács, Aktív.hu, ST Shop, Gemino), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi pu hab (habosító) kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a pu hab (habosító) ára?",
+      "valasz": "Normál pisztolyhab 2 800–3 200 Ft; flexibilis vagy tűzgátló 4 500–5 600 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj pu hab (habosító) vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Gazda Barkács",
+      "termek": "Den Braven Pisztolyos Purhab 750 ml",
+      "ar": 2790,
+      "egyseg": "Ft/db (750 ml)",
+      "url": "https://www.gazda-barkacs.hu/festekek-380/ragasztok-tomitok-773/purhabok-1735",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt kézi purhab 750 ml 2990 Ft"
+    },
+    {
+      "bolt": "Aktív.hu",
+      "termek": "Den Braven Purhab 750 ml pisztolyos piros (40220RLHU)",
+      "ar": 3150,
+      "egyseg": "Ft/db (750 ml)",
+      "url": "https://www.aktiv.hu/muszaki-segedanyagok/purhabok",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "RRP 3290 Ft"
+    },
+    {
+      "bolt": "ST Shop",
+      "termek": "Soudal Flexifoam Gun pisztolyhab 750 ml",
+      "ar": 4690,
+      "egyseg": "Ft/db (750 ml)",
+      "url": "https://stshop.hu/pur-es-pisztolyhab",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "rugalmas prémium hab"
+    },
+    {
+      "bolt": "Gemino",
+      "termek": "Pisztolyhab 750 ml (Den Braven) purhab",
+      "ar": 3070,
+      "egyseg": "Ft/db (750 ml)",
+      "url": "https://katalogus.gemino.hu/index.php/termek/pisztolyhab-750-ml-den-braven-purhab",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ártartomány 2790–3070 Ft"
+    }
+  ],
+  "megjegyzes": "Normál pisztolyhab 2 800–3 200 Ft; flexibilis vagy tűzgátló 4 500–5 600 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

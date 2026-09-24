@@ -1,26 +1,26 @@
 {
   "anyag_id": "fa-gerenda",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1500,
-    "max": 5000,
-    "atlag": 2800,
+    "min": 1900,
+    "max": 4350,
+    "atlag": 2900,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "Fenyő 10×10 cm",
-      "ar": 1600,
+      "nev": "Fenyő gerenda 10×10 cm (4–6 m)",
+      "ar": 1900,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Fenyő 14×14 cm",
-      "ar": 2800,
+      "nev": "Fenyő gerenda 12×12 cm (4–6 m)",
+      "ar": 2740,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Fenyő 20×20 cm",
-      "ar": 4800,
+      "nev": "Fenyő gerenda 15×15 cm (4–6 m)",
+      "ar": 4280,
       "egyseg": "Ft/fm"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Fa gerenda 2026-ban?",
-      "valasz": "A(z) Fa gerenda ára 2026-ban 1 500 – 5 000 Ft/fm között mozog, az átlagár 2 800 Ft/fm."
+      "kerdes": "Mennyibe kerül a fa gerenda 2026-ban?",
+      "valasz": "Fa gerenda ára 2026 szeptemberében 1 900–4 350 Ft/fm, a boltok átlagára 2 900 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Fenyő gerenda 10×10 cm (4–6 m) (1 900 Ft), a legdrágább: Fenyő gerenda 15×15 cm (4–6 m) (4 280 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón fa gerendat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a fa gerenda árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (Fadepo Fatelep, Székely Fatelep, Farengeteg Fatelep), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi fa gerenda kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a fa gerenda ára?",
+      "valasz": "A fatelepek m³-ben áraznak (4–6 m-es hosszig 185 000–192 000 Ft/m³); a fm-ár ebből számolt. Gyalulás és impregnálás külön díj."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj fa gerenda vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Fadepo Fatelep",
+      "termek": "Fenyő fűrészáru 4–5–6 m (gerenda, szarufa, palló)",
+      "ar": 1899,
+      "egyseg": "Ft/fm",
+      "url": "https://fadepofatelep.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "189 900 Ft/m³ (7 m: 199 000; 8 m: 209 900). 10×10: 0,01 m³/fm × 189 900 = 1 899 Ft/fm; 12×12: 0,0144 × 189 900 = 2 735; 15×15: 0,0225 × 189 900 = 4 273 Ft/fm"
+    },
+    {
+      "bolt": "Székely Fatelep (Bp. XVI.)",
+      "termek": "Normál méretű hosszú áru 6 fm-ig",
+      "ar": 1920,
+      "egyseg": "Ft/fm",
+      "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "192 000 Ft/m³ bruttó; 10×10: 1 920, 15×15: 0,0225 × 192 000 = 4 320 Ft/fm; 8 m-ig 220 000 Ft/m³"
+    },
+    {
+      "bolt": "Farengeteg Fatelep",
+      "termek": "Lucfenyő gerenda 7,5×15, 10×10, 12×12, 15×15 (4–6 m)",
+      "ar": 1890,
+      "egyseg": "Ft/fm",
+      "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "189 000 Ft/m³; 10×10: 1 890; 7,5×15: 0,01125 × 189 000 = 2 126 Ft/fm; 7–8 m: 215 000 Ft/m³"
+    }
+  ],
+  "megjegyzes": "A fatelepek m³-ben áraznak (4–6 m-es hosszig 185 000–192 000 Ft/m³); a fm-ár ebből számolt. Gyalulás és impregnálás külön díj.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

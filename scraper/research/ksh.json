@@ -1,0 +1,471 @@
+{
+  "gyujtes_datuma": "2026-09-24",
+  "sorozatok": [
+    {
+      "id": "lakasepitesi_koltsegindex_eves_elozo_ev",
+      "nev": "Lakásépítési költségindex (építési költség, ebből munkaerő- és anyagköltség), éves",
+      "forras": "KSH STADAT",
+      "tabla_kod": "18.1.1.11 (lak0011)",
+      "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0011.html",
+      "bazis": "előző év = 100",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025 (frissítve: 2026-04-02)",
+      "megjegyzes": "A KSH-nál az 'építőipari ráfordítási árindex' jelenleg ebben a formában él: lakásépítési költségindex anyag- és munkaerőköltség bontásban. Csak lakásépítésre (épületek) van, egyéb építményekre nincs aktív ráfordítási index. A régi 1.8.1.1 'Építőipari költség alapú árindexek' tábla archív (2000–2007, utolsó frissítés 2021-04-06).",
+      "adatok": [
+        {"idoszak": "2019", "epitesi_koltseg": 109.9, "munkaero": 111.5, "anyag": 108.5},
+        {"idoszak": "2020", "epitesi_koltseg": 110.9, "munkaero": 109.9, "anyag": 111.1},
+        {"idoszak": "2021", "epitesi_koltseg": 115.8, "munkaero": 109.6, "anyag": 120.8},
+        {"idoszak": "2022", "epitesi_koltseg": 121.2, "munkaero": 116.4, "anyag": 124.3},
+        {"idoszak": "2023", "epitesi_koltseg": 113.7, "munkaero": 117.7, "anyag": 112.4},
+        {"idoszak": "2024", "epitesi_koltseg": 105.6, "munkaero": 114.7, "anyag": 100.9},
+        {"idoszak": "2025", "epitesi_koltseg": 107.9, "munkaero": 109.6, "anyag": 106.1}
+      ]
+    },
+    {
+      "id": "lakasepitesi_koltsegindex_eves_2015",
+      "nev": "Lakásépítési költségindex, éves szint",
+      "forras": "KSH STADAT",
+      "tabla_kod": "18.1.1.11 (lak0011)",
+      "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0011.html",
+      "bazis": "2015. év átlaga = 100",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025",
+      "megjegyzes": "Grafikonhoz ez a legjobb éves szintsor. 2019->2025: anyagköltség 118,0 -> 236,6 (kb. 2,0-szeres, +100,5%); teljes építési költség 125,7 -> 253,4 (+101,6%) – saját számítás a táblából.",
+      "adatok": [
+        {"idoszak": "2015", "epitesi_koltseg": 100.0, "munkaero": 100.0, "anyag": 100.0},
+        {"idoszak": "2016", "epitesi_koltseg": 101.5, "munkaero": 102.2, "anyag": 101.3},
+        {"idoszak": "2017", "epitesi_koltseg": 108.5, "munkaero": 115.6, "anyag": 103.4},
+        {"idoszak": "2018", "epitesi_koltseg": 114.4, "munkaero": 122.1, "anyag": 108.7},
+        {"idoszak": "2019", "epitesi_koltseg": 125.7, "munkaero": 136.2, "anyag": 118.0},
+        {"idoszak": "2020", "epitesi_koltseg": 139.3, "munkaero": 149.7, "anyag": 131.1},
+        {"idoszak": "2021", "epitesi_koltseg": 161.3, "munkaero": 164.0, "anyag": 158.4},
+        {"idoszak": "2022", "epitesi_koltseg": 195.6, "munkaero": 190.9, "anyag": 196.8},
+        {"idoszak": "2023", "epitesi_koltseg": 222.4, "munkaero": 224.7, "anyag": 221.2},
+        {"idoszak": "2024", "epitesi_koltseg": 234.7, "munkaero": 257.6, "anyag": 223.1},
+        {"idoszak": "2025", "epitesi_koltseg": 253.4, "munkaero": 282.3, "anyag": 236.6}
+      ]
+    },
+    {
+      "id": "lakasepitesi_koltsegindex_negyedeves_yoy",
+      "nev": "Lakásépítési költségindex negyedévenként (építési költség, munkaerő, anyag)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "18.2.1.7 (lak0035)",
+      "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0035.html",
+      "bazis": "előző év azonos időszaka = 100",
+      "gyakorisag": "negyedéves",
+      "utolso_adat": "2026. I. negyedév (frissítve 2026-06-29; következő frissítés 2026-09-29, akkor jön a II. negyedév)",
+      "adatok": [
+        {"idoszak": "2021 Q1", "epitesi_koltseg": 113.7, "munkaero": 109.8, "anyag": 119.5},
+        {"idoszak": "2021 Q2", "epitesi_koltseg": 117.1, "munkaero": 110.1, "anyag": 121.8},
+        {"idoszak": "2021 Q3", "epitesi_koltseg": 115.8, "munkaero": 108.3, "anyag": 120.9},
+        {"idoszak": "2021 Q4", "epitesi_koltseg": 116.4, "munkaero": 110.1, "anyag": 120.9},
+        {"idoszak": "2022 Q1", "epitesi_koltseg": 120.8, "munkaero": 115.9, "anyag": 123.5},
+        {"idoszak": "2022 Q2", "epitesi_koltseg": 119.7, "munkaero": 116.7, "anyag": 121.7},
+        {"idoszak": "2022 Q3", "epitesi_koltseg": 122.8, "munkaero": 116.6, "anyag": 126.6},
+        {"idoszak": "2022 Q4", "epitesi_koltseg": 121.6, "munkaero": 116.2, "anyag": 125.2},
+        {"idoszak": "2023 Q1", "epitesi_koltseg": 120.8, "munkaero": 118.2, "anyag": 123.3},
+        {"idoszak": "2023 Q2", "epitesi_koltseg": 116.0, "munkaero": 117.4, "anyag": 116.2},
+        {"idoszak": "2023 Q3", "epitesi_koltseg": 109.9, "munkaero": 116.5, "anyag": 107.1},
+        {"idoszak": "2023 Q4", "epitesi_koltseg": 109.1, "munkaero": 118.6, "anyag": 104.5},
+        {"idoszak": "2024 Q1", "epitesi_koltseg": 104.9, "munkaero": 115.8, "anyag": 98.8},
+        {"idoszak": "2024 Q2", "epitesi_koltseg": 105.3, "munkaero": 115.2, "anyag": 99.1},
+        {"idoszak": "2024 Q3", "epitesi_koltseg": 107.0, "munkaero": 115.1, "anyag": 102.1},
+        {"idoszak": "2024 Q4", "epitesi_koltseg": 105.1, "munkaero": 112.8, "anyag": 103.5},
+        {"idoszak": "2025 Q1", "epitesi_koltseg": 107.5, "munkaero": 110.6, "anyag": 105.4},
+        {"idoszak": "2025 Q2", "epitesi_koltseg": 107.3, "munkaero": 109.0, "anyag": 106.4},
+        {"idoszak": "2025 Q3", "epitesi_koltseg": 107.4, "munkaero": 109.0, "anyag": 106.4},
+        {"idoszak": "2025 Q4", "epitesi_koltseg": 109.5, "munkaero": 109.7, "anyag": 106.1},
+        {"idoszak": "2026 Q1", "epitesi_koltseg": 108.1, "munkaero": 110.3, "anyag": 107.0}
+      ]
+    },
+    {
+      "id": "lakasepitesi_koltsegindex_negyedeves_2025",
+      "nev": "Lakásépítési költségindex negyedévenként, szint",
+      "forras": "KSH STADAT",
+      "tabla_kod": "18.2.1.7 (lak0035)",
+      "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0035.html",
+      "bazis": "2025. év átlaga = 100",
+      "gyakorisag": "negyedéves",
+      "utolso_adat": "2026. I. negyedév",
+      "adatok": [
+        {"idoszak": "2021 Q1", "epitesi_koltseg": 59.0, "munkaero": 54.1, "anyag": 62.0},
+        {"idoszak": "2021 Q2", "epitesi_koltseg": 63.3, "munkaero": 57.2, "anyag": 66.9},
+        {"idoszak": "2021 Q3", "epitesi_koltseg": 64.3, "munkaero": 57.8, "anyag": 68.2},
+        {"idoszak": "2021 Q4", "epitesi_koltseg": 68.0, "munkaero": 63.3, "anyag": 70.6},
+        {"idoszak": "2022 Q1", "epitesi_koltseg": 71.3, "munkaero": 62.7, "anyag": 76.6},
+        {"idoszak": "2022 Q2", "epitesi_koltseg": 75.8, "munkaero": 66.8, "anyag": 81.4},
+        {"idoszak": "2022 Q3", "epitesi_koltseg": 78.9, "munkaero": 67.4, "anyag": 86.4},
+        {"idoszak": "2022 Q4", "epitesi_koltseg": 82.7, "munkaero": 73.5, "anyag": 88.4},
+        {"idoszak": "2023 Q1", "epitesi_koltseg": 86.1, "munkaero": 74.2, "anyag": 94.5},
+        {"idoszak": "2023 Q2", "epitesi_koltseg": 87.9, "munkaero": 78.4, "anyag": 94.6},
+        {"idoszak": "2023 Q3", "epitesi_koltseg": 86.8, "munkaero": 78.5, "anyag": 92.5},
+        {"idoszak": "2023 Q4", "epitesi_koltseg": 90.3, "munkaero": 87.2, "anyag": 92.4},
+        {"idoszak": "2024 Q1", "epitesi_koltseg": 90.3, "munkaero": 85.9, "anyag": 93.3},
+        {"idoszak": "2024 Q2", "epitesi_koltseg": 92.6, "munkaero": 90.4, "anyag": 93.7},
+        {"idoszak": "2024 Q3", "epitesi_koltseg": 92.9, "munkaero": 90.3, "anyag": 94.5},
+        {"idoszak": "2024 Q4", "epitesi_koltseg": 94.9, "munkaero": 98.4, "anyag": 95.7},
+        {"idoszak": "2025 Q1", "epitesi_koltseg": 97.0, "munkaero": 95.0, "anyag": 98.3},
+        {"idoszak": "2025 Q2", "epitesi_koltseg": 99.3, "munkaero": 98.6, "anyag": 99.7},
+        {"idoszak": "2025 Q3", "epitesi_koltseg": 99.7, "munkaero": 98.4, "anyag": 100.5},
+        {"idoszak": "2025 Q4", "epitesi_koltseg": 103.9, "munkaero": 108.0, "anyag": 101.5},
+        {"idoszak": "2026 Q1", "epitesi_koltseg": 104.9, "munkaero": 104.8, "anyag": 105.2}
+      ]
+    },
+    {
+      "id": "fajlagos_lakasepitesi_koltseg",
+      "nev": "Fajlagos lakásépítési költség, összesen (ezer Ft/m2)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "18.1.1.12 (lak0012)",
+      "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0012.html",
+      "bazis": "ezer Ft/m2 (nem index)",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025 (frissítve 2026-05-29)",
+      "megjegyzes": "2020-nál módszertani törés: a tábla két 2020-as oszlopot közöl (302 és '2020a' = 381). A 2021-től közölt értékek a 2020a-hoz hasonlíthatók. Új családi ház: 2019: 269, 2020a: 384, 2025: 720 ezer Ft/m2.",
+      "adatok": [
+        {"idoszak": "2019", "ertek": 271},
+        {"idoszak": "2020", "ertek": 302},
+        {"idoszak": "2020a (új módszertan)", "ertek": 381},
+        {"idoszak": "2021", "ertek": 430},
+        {"idoszak": "2022", "ertek": 531},
+        {"idoszak": "2023", "ertek": 596},
+        {"idoszak": "2024", "ertek": 617},
+        {"idoszak": "2025", "ertek": 694}
+      ]
+    },
+    {
+      "id": "epitoipar_termeloi_arindex_eves",
+      "nev": "Az építőipar termelőiár-indexei (F építőipar; 41 épületek; 42 egyéb építmények; 43 speciális szaképítés)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.1.1.31 (ara0031)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0031.html",
+      "bazis": "előző év = 100",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025 (frissítve 2026-02-13)",
+      "adatok": [
+        {"idoszak": "2019", "F": 109.7, "41_epuletek": 111.1, "42_egyeb_epitmenyek": 108.6, "43_szakepites": 109.5},
+        {"idoszak": "2020", "F": 107.4, "41_epuletek": 107.1, "42_egyeb_epitmenyek": 107.2, "43_szakepites": 107.6},
+        {"idoszak": "2021", "F": 111.4, "41_epuletek": 112.7, "42_egyeb_epitmenyek": 108.4, "43_szakepites": 112.7},
+        {"idoszak": "2022", "F": 124.5, "41_epuletek": 126.7, "42_egyeb_epitmenyek": 119.5, "43_szakepites": 126.3},
+        {"idoszak": "2023", "F": 115.9, "41_epuletek": 115.1, "42_egyeb_epitmenyek": 115.4, "43_szakepites": 116.7},
+        {"idoszak": "2024", "F": 105.9, "41_epuletek": 104.5, "42_egyeb_epitmenyek": 107.0, "43_szakepites": 106.2},
+        {"idoszak": "2025", "F": 105.4, "41_epuletek": 104.4, "42_egyeb_epitmenyek": 105.3, "43_szakepites": 106.1}
+      ]
+    },
+    {
+      "id": "epitoipar_termeloi_arindex_negyedeves",
+      "nev": "Az építőipar termelőiár-indexei, negyedévente",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.2.1.25 (ara0061)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0061.html",
+      "bazis": "előző év azonos időszaka = 100 (yoy); külön jelölve az előző negyedév = 100 (qoq)",
+      "gyakorisag": "negyedéves",
+      "utolso_adat": "2026. II. negyedév (frissítve 2026-08-13; következő 2026-11-13)",
+      "megjegyzes": "Oszlopok: F / 41 / 42 / 43. A 2026 Q2 yoy értékeket a KSH 2026-08-13-i gyorstájékoztatója is megerősíti (5,3 / 4,5 / 5,1 / 5,8%). Évkezdettől kumulált 2026 I–II. n.év: F 105,0; 41: 104,2; 42: 104,6; 43: 105,6.",
+      "adatok": [
+        {"idoszak": "2022 Q1", "bazis": "yoy", "F": 120.6, "41": 123.7, "42": 114.4, "43": 122.8},
+        {"idoszak": "2022 Q2", "bazis": "yoy", "F": 125.0, "41": 127.7, "42": 119.0, "43": 127.2},
+        {"idoszak": "2022 Q3", "bazis": "yoy", "F": 126.2, "41": 128.0, "42": 122.1, "43": 127.7},
+        {"idoszak": "2022 Q4", "bazis": "yoy", "F": 126.2, "41": 127.6, "42": 122.6, "43": 127.5},
+        {"idoszak": "2023 Q1", "bazis": "yoy", "F": 124.1, "41": 123.8, "42": 122.0, "43": 125.5},
+        {"idoszak": "2023 Q2", "bazis": "yoy", "F": 117.2, "41": 116.6, "42": 116.8, "43": 117.9},
+        {"idoszak": "2023 Q3", "bazis": "yoy", "F": 113.1, "41": 112.2, "42": 112.6, "43": 113.9},
+        {"idoszak": "2023 Q4", "bazis": "yoy", "F": 109.2, "41": 107.7, "42": 109.9, "43": 109.7},
+        {"idoszak": "2024 Q1", "bazis": "yoy", "F": 106.7, "41": 105.4, "42": 107.3, "43": 107.1},
+        {"idoszak": "2024 Q2", "bazis": "yoy", "F": 106.0, "41": 104.6, "42": 107.1, "43": 106.4},
+        {"idoszak": "2024 Q3", "bazis": "yoy", "F": 105.4, "41": 103.8, "42": 107.0, "43": 105.7},
+        {"idoszak": "2024 Q4", "bazis": "yoy", "F": 105.6, "41": 104.3, "42": 106.7, "43": 105.8},
+        {"idoszak": "2025 Q1", "bazis": "yoy", "F": 105.4, "41": 104.1, "42": 106.0, "43": 106.0},
+        {"idoszak": "2025 Q2", "bazis": "yoy", "F": 105.7, "41": 104.6, "42": 105.6, "43": 106.5},
+        {"idoszak": "2025 Q3", "bazis": "yoy", "F": 105.5, "41": 104.6, "42": 105.0, "43": 106.3},
+        {"idoszak": "2025 Q4", "bazis": "yoy", "F": 105.1, "41": 104.4, "42": 104.4, "43": 105.8},
+        {"idoszak": "2026 Q1", "bazis": "yoy", "F": 104.7, "41": 104.0, "42": 104.1, "43": 105.4},
+        {"idoszak": "2026 Q2", "bazis": "yoy", "F": 105.3, "41": 104.5, "42": 105.1, "43": 105.8},
+        {"idoszak": "2025 Q3", "bazis": "qoq", "F": 100.7, "41": 100.7, "42": 100.7, "43": 100.7},
+        {"idoszak": "2025 Q4", "bazis": "qoq", "F": 100.8, "41": 100.8, "42": 100.5, "43": 100.9},
+        {"idoszak": "2026 Q1", "bazis": "qoq", "F": 101.8, "41": 101.4, "42": 101.5, "43": 102.2},
+        {"idoszak": "2026 Q2", "bazis": "qoq", "F": 101.9, "41": 101.6, "42": 102.3, "43": 101.9}
+      ]
+    },
+    {
+      "id": "epitmenyfajtak_termeloi_arindex_eves",
+      "nev": "Építményfajták termelőiár-indexei egyes építményalcsoportokban (kiemelve: egylakásos épületek, utak)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.1.1.32 (ara0032)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0032.html",
+      "bazis": "előző év = 100",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025",
+      "adatok": [
+        {"idoszak": "2019", "egylakasos_epuletek": 109.8, "ket_es_tobb_lakasos": 109.7, "utak": 109.8},
+        {"idoszak": "2020", "egylakasos_epuletek": 107.2, "ket_es_tobb_lakasos": 107.1, "utak": 107.0},
+        {"idoszak": "2021", "egylakasos_epuletek": 112.3, "ket_es_tobb_lakasos": 112.1, "utak": 108.3},
+        {"idoszak": "2022", "egylakasos_epuletek": 124.3, "ket_es_tobb_lakasos": 123.9, "utak": 120.3},
+        {"idoszak": "2023", "egylakasos_epuletek": 115.8, "ket_es_tobb_lakasos": 115.5, "utak": 115.8},
+        {"idoszak": "2024", "egylakasos_epuletek": 105.3, "ket_es_tobb_lakasos": 105.2, "utak": 106.3},
+        {"idoszak": "2025", "egylakasos_epuletek": 105.7, "ket_es_tobb_lakasos": 105.7, "utak": 104.8}
+      ]
+    },
+    {
+      "id": "beruhazasi_arindex_epites",
+      "nev": "Beruházásiár-index anyagi-műszaki összetétel szerint – Építés",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.1.1.33 (ara0033)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0033.html",
+      "bazis": "előző év = 100 (a tábla 1990 = 100 szintet is közöl: 2019: 1162,9; 2025: 2236,8)",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025 (előzetes)",
+      "adatok": [
+        {"idoszak": "2019", "ertek": 109.4},
+        {"idoszak": "2020", "ertek": 107.1},
+        {"idoszak": "2021", "ertek": 113.1},
+        {"idoszak": "2022", "ertek": 124.2},
+        {"idoszak": "2023", "ertek": 114.5},
+        {"idoszak": "2024", "ertek": 105.7},
+        {"idoszak": "2025", "ertek": 105.8}
+      ]
+    },
+    {
+      "id": "feldolgozoipar_belfoldi_arindex_alagak_eves",
+      "nev": "A feldolgozóipar belföldi értékesítésének árindexei alágak szerint (C összesen; CC fafeldolgozás, papír, nyomda; CG gumi, műanyag, nemfém ásványi termék; CH fémalapanyag és fémfeldolgozási termék)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.1.1.29 (ara0028)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0028.html",
+      "bazis": "előző év = 100",
+      "gyakorisag": "éves",
+      "utolso_adat": "2025 (frissítve 2026-01-29)",
+      "megjegyzes": "Az alágak tágabbak, mint az építőanyag-szakágazatok (pl. CC-ben a papír is benne van). Szakágazati (23.3, 23.5, 23.6) éves adat a STADAT-ban nincs közvetlenül; lásd a havi láncolt sorozatokat alább.",
+      "adatok": [
+        {"idoszak": "2019", "C": 103.7, "CC": 104.0, "CG": 105.4, "CH": 103.0},
+        {"idoszak": "2020", "C": 102.0, "CC": 102.5, "CG": 105.0, "CH": 106.4},
+        {"idoszak": "2021", "C": 113.8, "CC": 111.1, "CG": 107.7, "CH": 118.0},
+        {"idoszak": "2022", "C": 133.2, "CC": 138.4, "CG": 125.8, "CH": 127.0},
+        {"idoszak": "2023", "C": 109.2, "CC": 108.0, "CG": 113.5, "CH": 103.3},
+        {"idoszak": "2024", "C": 101.1, "CC": 98.7, "CG": 103.2, "CH": 104.0},
+        {"idoszak": "2025", "C": 102.5, "CC": 99.2, "CG": 103.0, "CH": 103.7}
+      ]
+    },
+    {
+      "id": "ipar_belfoldi_alagak_havi_2021bazis",
+      "nev": "Az ipar belföldi értékesítésének árindexei alágak szerint, havonta (2021 = 100)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.2.1.20 (ara0056)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0056.html",
+      "bazis": "2021 = 100",
+      "gyakorisag": "havi",
+      "utolso_adat": "2026. július (frissítve 2026-08-31; következő 2026-09-30)",
+      "megjegyzes": "WebFetch-kivonat alapján (a számokat a modell olvasta ki a táblából; ellenőrzésre ajánlott). 2026 júl. vs 2025 júl. (saját számítás): CG +2,6%, CC -1,0%, CH +3,3%.",
+      "adatok": [
+        {"idoszak": "2025-01", "CC": 146.2, "CG": 150.5, "CH": 141.4, "ipar_osszesen": 190.8},
+        {"idoszak": "2025-07", "CC": 144.4, "CG": 152.1, "CH": 141.3, "ipar_osszesen": 187.1},
+        {"idoszak": "2026-01", "CC": 145.2, "CG": 150.7, "CH": 141.8, "ipar_osszesen": 185.5},
+        {"idoszak": "2026-02", "CC": 145.1, "CG": 151.3, "CH": 144.6, "ipar_osszesen": 185.0},
+        {"idoszak": "2026-03", "CC": 144.1, "CG": 150.4, "CH": 146.4, "ipar_osszesen": 191.1},
+        {"idoszak": "2026-04", "CC": 142.6, "CG": 151.4, "CH": 145.1, "ipar_osszesen": 191.2},
+        {"idoszak": "2026-05", "CC": 142.8, "CG": 152.9, "CH": 143.7, "ipar_osszesen": 188.8},
+        {"idoszak": "2026-06", "CC": 142.5, "CG": 155.2, "CH": 144.6, "ipar_osszesen": 189.7},
+        {"idoszak": "2026-07", "CC": 143.0, "CG": 156.0, "CH": 145.9, "ipar_osszesen": 191.8}
+      ]
+    },
+    {
+      "id": "ipar_belfoldi_szakagazat_havi_elozo_honap",
+      "nev": "Az ipar belföldi értékesítésének árindexei szakágazatonként, havonta – építőanyag-releváns sorok, előző hónap = 100",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.2.1.23 (ara0059)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0059.html",
+      "bazis": "előző hónap = 100",
+      "gyakorisag": "havi",
+      "utolso_adat": "2026. július (frissítve 2026-08-31; következő 2026-09-30)",
+      "megjegyzes": "A havi értékek sorrendje: 2022-01 ... 2026-07 (55 érték). Az oszlop-hozzárendelést ellenőriztem: a láncolt értékek egyeznek a táblában közölt 'előző év december = 100' blokkal (pl. 23: 2022 dec 133,0; 2026 júl 103,4; 23.6: 2026 júl 103,9). 24.1 Vas-, acél-alapanyag: 2023-tól 2025–2026-ban bizalmas ('…'), csak 2022 és 2024 közölt; 2024 dec/2023 dec = 104,1.",
+      "adatok": [
+        {"sor": "23 Nemfém ásványi termék gyártása", "ertekek_2022_01_tol": [102.3,101.9,104.5,102.4,103.4,102.6,102.5,101.6,102.4,102.4,101.7,101.2,102.1,102.2,101.0,100.8,100.2,99.4,100.1,101.5,99.3,99.4,99.6,100.9,100.3,101.1,99.0,102.0,100.6,100.6,99.9,99.6,99.7,100.1,100.2,100.6,100.4,100.2,100.7,100.0,100.7,99.8,100.5,99.4,100.3,99.9,99.2,99.7,100.8,101.0,97.8,101.1,101.7,100.4,100.7]},
+        {"sor": "23.3 Kerámia, agyag építőanyag gyártása (tégla, cserép, burkolólap)", "ertekek_2022_01_tol": [102.3,104.0,111.9,104.3,99.9,100.8,100.8,99.6,106.2,101.0,107.7,96.0,112.2,102.4,100.7,99.9,98.5,101.3,100.1,99.0,98.9,101.1,98.4,98.6,103.6,99.3,100.5,97.0,100.2,101.8,99.1,100.3,100.0,99.9,99.0,100.8,99.6,100.9,99.8,99.0,100.5,99.0,100.4,100.4,101.4,100.4,99.2,100.9,100.1,100.5,100.3,100.7,103.9,103.5,100.0]},
+        {"sor": "23.5 Cement-, mész-, gipszgyártás", "ertekek_2022_01_tol": [100.6,105.5,101.4,104.8,103.2,103.1,100.4,101.7,103.6,107.8,100.6,102.4,101.4,105.7,99.8,100.2,99.6,99.3,100.0,99.5,100.0,99.3,99.9,99.9,103.7,103.9,100.8,99.9,99.9,99.7,100.2,100.0,98.7,101.0,100.4,99.9,99.9,99.7,101.1,99.7,100.5,98.0,102.5,99.0,98.8,99.8,99.6,100.1,101.5,100.7,98.9,100.3,102.1,98.0,98.7]},
+        {"sor": "23.6 Beton-, gipsz-, cementtermék gyártása", "ertekek_2022_01_tol": [102.3,101.5,104.2,102.9,102.5,102.5,102.8,100.9,102.9,99.7,102.4,101.4,102.9,102.4,102.3,101.6,99.9,100.1,97.9,102.6,99.6,99.0,98.7,101.4,100.2,100.9,100.3,101.0,100.2,101.8,99.2,99.6,100.1,101.4,99.6,100.1,100.7,100.5,101.4,99.2,100.7,100.5,100.2,99.5,100.5,100.2,99.4,99.3,100.1,101.3,99.6,100.4,101.5,100.7,100.3]},
+        {"sor": "16 Fafeldolgozás (kivéve bútor)", "ertekek_2022_01_tol": [102.9,101.8,102.6,105.6,104.2,103.4,100.7,100.6,99.9,101.1,100.4,99.6,100.8,100.3,99.7,98.5,97.5,99.8,99.6,99.4,100.1,99.9,99.1,99.3,99.9,99.2,99.7,100.7,100.3,99.6,99.2,100.2,99.9,101.4,99.8,98.7,100.6,100.4,100.1,100.7,100.7,100.2,101.3,100.3,99.2,100.2,99.8,99.8,100.7,100.0,99.4,101.4,101.7,98.9,100.3]},
+        {"sor": "24.1 Vas-, acél-, vasötvözet-alapanyag gyártása – 2022", "ertekek_2022_01_tol": [99.4,99.9,108.0,116.3,101.7,103.8,92.9,98.0,96.4,99.5,96.4,99.3]},
+        {"sor": "24.1 Vas-, acél-, vasötvözet-alapanyag gyártása – 2024", "ertekek_2024_01_tol": [102.6,101.8,100.5,98.7,101.0,99.9,100.0,101.4,99.4,98.8,100.5,99.5]}
+      ]
+    },
+    {
+      "id": "epitoanyag_szakagazatok_szarmaztatott",
+      "nev": "Építőanyag-szakágazatok belföldi termelői árai – a havi láncindexekből SZÁMOLT éves / év/év változások",
+      "forras": "Saját számítás a KSH STADAT 1.2.1.23 (ara0059) havi előző hónap = 100 indexeiből (láncolás, kerekítési eltérés ±0,2 pont lehet)",
+      "tabla_kod": "1.2.1.23 (ara0059) – származtatott",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0059.html",
+      "bazis": "dec/dec: előző év december = 100; eves_atlag: előző év = 100 (havi szintek átlagából); 2026_jul_yoy: 2025. július = 100; 2026_jan_jul_yoy: 2025. jan–júl. átlag = 100",
+      "gyakorisag": "éves + 2026 legfrissebb hónap",
+      "utolso_adat": "2026. július",
+      "adatok": [
+        {"sor": "23 Nemfém ásványi termék", "dec_dec_2022": 133.0, "dec_dec_2023": 106.6, "dec_dec_2024": 103.7, "dec_dec_2025": 100.8, "eves_atlag_2023": 118.4, "eves_atlag_2024": 103.4, "eves_atlag_2025": 102.6, "2026_jan_jul_yoy": 101.0, "2026_jul_yoy": 102.0, "2026_jul_vs_2025_dec": 103.5},
+        {"sor": "23.3 Kerámia, agyag építőanyag (tégla, cserép)", "dec_dec_2022": 139.2, "dec_dec_2023": 110.9, "dec_dec_2024": 101.4, "dec_dec_2025": 101.5, "eves_atlag_2023": 126.6, "eves_atlag_2024": 99.0, "eves_atlag_2025": 99.7, "2026_jan_jul_yoy": 105.8, "2026_jul_yoy": 111.8, "2026_jul_vs_2025_dec": 109.3},
+        {"sor": "23.5 Cement, mész, gipsz", "dec_dec_2022": 141.0, "dec_dec_2023": 104.5, "dec_dec_2024": 108.3, "dec_dec_2025": 98.6, "eves_atlag_2023": 123.2, "eves_atlag_2024": 106.7, "eves_atlag_2025": 100.2, "2026_jan_jul_yoy": 100.0, "2026_jul_yoy": 97.4, "2026_jul_vs_2025_dec": 100.1},
+        {"sor": "23.6 Beton-, gipsz-, cementtermék", "dec_dec_2022": 129.2, "dec_dec_2023": 108.6, "dec_dec_2024": 104.5, "dec_dec_2025": 102.1, "eves_atlag_2023": 119.2, "eves_atlag_2024": 103.6, "eves_atlag_2025": 103.9, "2026_jan_jul_yoy": 102.0, "2026_jul_yoy": 102.8, "2026_jul_vs_2025_dec": 104.0},
+        {"sor": "16 Fafeldolgozás", "dec_dec_2022": 125.1, "dec_dec_2023": 94.1, "dec_dec_2024": 98.6, "dec_dec_2025": 103.3, "eves_atlag_2023": 103.2, "eves_atlag_2024": 96.0, "eves_atlag_2025": 102.0, "2026_jan_jul_yoy": 102.9, "2026_jul_yoy": 101.7, "2026_jul_vs_2025_dec": 102.4}
+      ]
+    },
+    {
+      "id": "fogyasztoi_arindex_04_3_1",
+      "nev": "Fogyasztóiár-index – 04.3.1 Biztonsági berendezések és lakáskarbantartáshoz és -javításhoz vásárolt anyagok (COICOP2018)",
+      "forras": "KSH STADAT",
+      "tabla_kod": "1.2.1.7 (ara0073)",
+      "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0073.html",
+      "bazis": "előző év azonos hónapja = 100",
+      "gyakorisag": "havi",
+      "utolso_adat": "2026. augusztus (frissítve 2026-09-08)",
+      "megjegyzes": "A tábla 2017-től közöl; a sorok éveit a súlyok sorrendjéből azonosítottam (0,405=2017 … 0,644=2026). A KSH éves COICOP2018 tábla (statinfo SF3A04) robots.txt miatt nem volt lekérhető, ezért éves átlag helyett a decemberi év/év és a havi értékek szerepelnek. 'dec' = az adott év decembere az előző év decemberéhez.",
+      "adatok": [
+        {"idoszak": "2019", "dec_yoy": 105.0, "havi_2019": [103.8,104.1,104.5,104.7,105.0,105.3,105.1,105.6,105.3,105.1,105.1,105.0], "suly": 0.477},
+        {"idoszak": "2020", "dec_yoy": 106.3, "havi_2020": [105.0,104.8,105.1,106.8,106.3,106.6,106.6,106.2,106.4,106.2,106.2,106.3], "suly": 0.553},
+        {"idoszak": "2021", "dec_yoy": 115.9, "havi_2021": [106.3,106.0,106.2,105.4,106.4,108.1,112.7,114.0,114.8,114.8,115.3,115.9], "suly": 0.721},
+        {"idoszak": "2022", "dec_yoy": 131.7, "havi_2022": [118.1,120.4,122.1,127.0,130.2,131.1,127.3,127.3,128.6,130.1,131.2,131.7], "suly": 0.875},
+        {"idoszak": "2023", "dec_yoy": 101.6, "havi_2023": [130.5,129.1,127.2,120.6,116.1,111.0,109.7,107.9,105.8,103.8,102.8,101.6], "suly": 0.912},
+        {"idoszak": "2024", "dec_yoy": 102.4, "havi_2024": [100.5,99.9,98.8,99.1,99.7,101.2,100.9,101.0,102.4,102.9,102.6,102.4], "suly": 0.767},
+        {"idoszak": "2025", "dec_yoy": 103.6, "havi_2025": [102.1,102.7,103.1,103.2,103.5,103.2,103.5,103.5,102.6,102.7,103.5,103.6], "suly": 0.588},
+        {"idoszak": "2026", "legfrissebb": "2026-08: 102,7", "havi_2026_jan_aug": [104.1,103.8,103.2,103.2,102.9,102.5,102.7,102.7], "suly": 0.644}
+      ]
+    },
+    {
+      "id": "eurostat_sts_copi_hu",
+      "nev": "Eurostat – Construction producer prices, new residential buildings (except residences for communities), Magyarország",
+      "forras": "Eurostat sts_copi_a / sts_copi_q (API)",
+      "tabla_kod": "sts_copi_a, sts_copi_q (indic_bt=PRC_PRR, nem kiigazított)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copi_q?geo=HU&unit=I21&format=JSON&lang=EN&sinceTimePeriod=2024-Q1",
+      "bazis": "2021 = 100",
+      "gyakorisag": "éves + negyedéves",
+      "utolso_adat": "2026 Q2",
+      "megjegyzes": "Magyarország az Eurostatnak építési KÖLTSÉGindexet (anyag komponens) 2021 után nem közöl (Trading Economics: utolsó HU cost index 2021 dec.); csak termelői árindex van. 2026 Q2 / 2025 Q2 = +5,9% (saját számítás).",
+      "adatok": [
+        {"idoszak": "2019", "ertek": 83.2},
+        {"idoszak": "2020", "ertek": 89.1},
+        {"idoszak": "2021", "ertek": 100.0},
+        {"idoszak": "2022", "ertek": 124.1},
+        {"idoszak": "2023", "ertek": 143.0},
+        {"idoszak": "2024", "ertek": 150.5},
+        {"idoszak": "2025", "ertek": 159.1},
+        {"idoszak": "2025 Q1", "ertek": 156.3},
+        {"idoszak": "2025 Q2", "ertek": 158.5},
+        {"idoszak": "2025 Q3", "ertek": 160.0},
+        {"idoszak": "2025 Q4", "ertek": 161.7},
+        {"idoszak": "2026 Q1", "ertek": 165.2},
+        {"idoszak": "2026 Q2", "ertek": 167.9}
+      ]
+    },
+    {
+      "id": "epitoipari_termeles_volumen_2026",
+      "nev": "Építőipari termelés volumene (KSH gyorstájékoztatók 2026)",
+      "forras": "KSH gyorstájékoztató",
+      "tabla_kod": "Építőipar, 2026. június / 2026. július",
+      "url": "https://www.ksh.hu/gyorstajekoztatok/epi/epi2607.html",
+      "bazis": "előző év azonos időszaka = 100 (százalékos változásként)",
+      "gyakorisag": "havi",
+      "utolso_adat": "2026. július (megjelent 2026-09-14; következő: 2026. augusztusi adat ~október közepén)",
+      "adatok": [
+        {"idoszak": "2026-05", "valtozas_szazalek_nyers": -10.7, "munkanap_kiigazitott": -6.7, "forras_url": "https://www.maeponline.hu/gazdasag/ksh-harmadik-honapja-csokkent-az-epitoipar-teljesitmenye"},
+        {"idoszak": "2026-06", "valtozas_szazalek_nyers": -1.2, "munkanap_kiigazitott": -5.0, "epuletek": -5.5, "egyeb_epitmenyek": 5.6, "forras_url": "https://www.ksh.hu/gyorstajekoztatok/epi/epi2606.html"},
+        {"idoszak": "2026-07", "valtozas_szazalek_nyers": -12.2, "munkanap_kiigazitott": -12.2, "epuletek": -10.7, "egyeb_epitmenyek": -14.0, "uj_szerzodesek": -24.8, "szerzodesallomany": 0.8, "elozo_honaphoz_szezonalisan_kiigazitva": -4.6, "forras_url": "https://www.ksh.hu/gyorstajekoztatok/epi/epi2607.html"},
+        {"idoszak": "2026 jan–jún", "valtozas_szazalek": -0.7},
+        {"idoszak": "2026 jan–júl", "valtozas_szazalek": -2.7}
+      ]
+    },
+    {
+      "id": "ipari_termeloi_arak_2026_julius",
+      "nev": "Ipari termelői árak, 2026. július (gyorstájékoztató)",
+      "forras": "KSH gyorstájékoztató",
+      "tabla_kod": "Ipari termelői árak, 2026. július",
+      "url": "https://www.ksh.hu/gyorstajekoztatok/tar/tar2607.html",
+      "bazis": "előző év azonos hónapja = 100 (százalékos változásként)",
+      "gyakorisag": "havi",
+      "utolso_adat": "2026. július (megjelent 2026-08-31)",
+      "adatok": [
+        {"idoszak": "2026-07", "ipari_termeloi_ar_osszesen_yoy": 1.0, "ipari_termeloi_ar_mom": 1.4, "belfoldi_ertekesites_yoy": 2.5, "belfoldi_mom": 1.1, "feldolgozoipar_belfoldi_yoy": 1.7, "energiaipar_belfoldi_yoy": 3.4}
+      ]
+    }
+  ],
+  "hirek": [
+    {
+      "datum": "2026-03-18",
+      "forras": "Economx",
+      "cim": "Elszabadulnak az építőanyagárak – már áprilistól fájni fog",
+      "url": "https://www.economx.hu/magyar-gazdasag/2026/03/18/epitoipar-dragulas-energiaarak-olaj-uzemanyag-825615",
+      "allitas": "Áprilistól akár 5–15%-kal drágulhatnak az építőanyagok az energia- és kőolajárak, valamint a szállítási költségek emelkedése miatt. (hír, nem KSH-adat)"
+    },
+    {
+      "datum": "2026-03 (Népszava-interjú alapján)",
+      "forras": "Forbes.hu / Népszava – Juhász Attila, ÉVOSZ Építőanyag-kereskedelmi Tagozat elnöke (Újház Zrt.)",
+      "cim": "Nagy pofont kaphat az építőipar: ezt tanácsolja a szakértő, ha felújítást tervezel",
+      "url": "https://www.forbes.hu/uzlet/epitoipar-aprilis-nyersanyag-arak-kiloves",
+      "allitas": "Áprilistól termékkörtől függően 5–15%-os azonnali drágulás várható; falazóanyagoknál és tégláknál a legnagyobb gyártók már bejelentették a kereskedőknek a 10–15% közötti áremelést; hasonlóra számít gipszkarton, betonacél és más acéltermékek esetén. Gyártót név szerint nem nevez meg. (hír)"
+    },
+    {
+      "datum": "2026-03",
+      "forras": "Népszava",
+      "cim": "Kilő az építőanyagok ára, áprilisban 5-15 százalékos ...",
+      "url": "https://nepszava.hu/3315627_epitoanyag-aremelkedes-2026-aprilis-foldgaz-koilaj",
+      "allitas": "Áprilistól termékkörtől függően 5–15%-os azonnali drágulás várható (földgáz-, kőolajár). (hír)"
+    },
+    {
+      "datum": "2026-03-25",
+      "forras": "Portfolio.hu",
+      "cim": "Itt a figyelmeztetés: súlyos árat fizethet az építőanyagokért, aki nem lép még márciusban",
+      "url": "https://www.portfolio.hu/ingatlan/20260325/itt-a-figyelmeztetes-sulyos-arat-fizethet-az-epitoanyagokert-aki-nem-lep-meg-marciusban-lassuk-a-nagymerteku-dragulas-reszleteit-826576",
+      "allitas": "A közel-keleti háború okozta energiaválság és 20–50%-os nyersanyag-drágulás miatt áprilistól 10–25%-os áremelkedés várható a hazai építőanyag-piacon (piaci szereplők, szakértők; előfizetős cikk). (hír)"
+    },
+    {
+      "datum": "2026-03-26",
+      "forras": "Index.hu (Mapei-adatok)",
+      "cim": "Figyelmeztetést kaptak a felújítók, építkezők: már drágulnak az építőanyagok, és ez még csak a kezdet",
+      "url": "https://index.hu/gazdasag/2026/03/26/epitoipar-epitoanyag-epitoanyagarak-szakember-szakemberhiany-kontarmunka-epitkezes-felujitas-felujitasi-program-mapei",
+      "allitas": "Az átlagos szakipari díj 2026 elején 9596 Ft/m2, ami mindössze 1%-os növekedés (Mapei). (hír)"
+    },
+    {
+      "datum": "2026-05-13",
+      "forras": "Index.hu – Juhász Attila (ÉVOSZ Építőanyag-kereskedelmi Tagozat)",
+      "cim": "Éledezik az építőipar, de már közeleg az újabb árrobbanás",
+      "url": "https://index.hu/gazdasag/2026/05/13/epitoipar-epitoipari-termeles-ksh-epitkezes-szerzodesallomany-uj-szerzodes-epulet/",
+      "allitas": "2026 márciusában az árak az összes építőanyagra nézve 2,7%-kal emelkedtek egy év alatt (kereskedelmi tagozati adat, nem KSH); az iráni háború miatti olaj- és gázár-emelkedés miatt az áprilisi áremelkedés már nem lesz ilyen mérsékelt. Koji László (ÉVOSZ elnök): 2025-ben 2,8%-kal nőtt az építőipari termelés, 2050 milliárd Ft. (hír)"
+    },
+    {
+      "datum": "2026-07 (a májusi KSH-adat megjelenése után)",
+      "forras": "Privátbankár.hu – Juhász Attila (ÉVOSZ Építőanyag-kereskedelmi Tagozat)",
+      "cim": "Komoly mélypontra került a magyar építőipar: több mint tízszázalékos a zuhanás májusban",
+      "url": "https://privatbankar.hu/cikkek/makro/komoly-melypontra-kerult-a-magyar-epitoipar-tobb-mint-tizszazalekos-a-zuhanas-majusban.html",
+      "allitas": "Az építőanyag-kiskereskedelem forgalma júniusban 14%-kal meghaladta az előző évi volument; a nagy energiaársokkot a forint erősödése kompenzálta, ezért 2026 első felében az (építőanyag-)árak csak 2,7%-kal emelkedtek 2025 első feléhez képest. (hír, kereskedelmi adat)"
+    },
+    {
+      "datum": "2026-08-13",
+      "forras": "Index.hu (KSH-adat alapján)",
+      "cim": "Vészjósló adatok jöttek a KSH-tól, visszaesés és folyamatos drágulás tapasztalható az építkezéseken",
+      "url": "https://index.hu/gazdasag/2026/08/13/ksh-epitoipar-teljesitmeny-csokkenes-elmaradas",
+      "allitas": "2026 II. negyedévében az építőipari termelői árak: speciális szaképítés +5,8%, egyéb építmények +5,1%, épületek +4,5% év/év; negyedév/negyedév +1,9%. (KSH-adat hírként)"
+    },
+    {
+      "datum": "2026-09-15",
+      "forras": "MAÉP Online (KSH-adat alapján)",
+      "cim": "KSH: harmadik hónapja csökkent az építőipar teljesítménye",
+      "url": "https://www.maeponline.hu/gazdasag/ksh-harmadik-honapja-csokkent-az-epitoipar-teljesitmenye",
+      "allitas": "Júliusban -12,2% termelés év/év; épületek építése ágazat -12,6%, egyéb építmények építése -35,8%, speciális szaképítés +0,5%; út-vasút -26,2%, közműépítés -52,2%. (KSH-adat hírként)"
+    },
+    {
+      "datum": "2026 (dátum nélküli blog)",
+      "forras": "Több Mint Tüzép blog (kereskedői előrejelzés, NEM hivatalos)",
+      "cim": "2026 építőanyag-árak előrejelzése Magyarországon: 6–15%-os drágulás várható",
+      "url": "https://tobbminttuzep.hu/blog/2026-epitoanyag-arak-elorejelzese-magyarorszagon-6-15-szazalekos-dragulas-varhato",
+      "allitas": "Előrejelzés 2026-ra: építőanyagok összesen +6–8%, acél/fém +12–15%, tégla/beton/cement +5–8%, szigetelőanyagok +6–10%, festékek +8–12%, munkaerő +8–10%. Forrás nélküli kereskedői becslés – csak óvatosan idézhető."
+    },
+    {
+      "datum": "2026-06",
+      "forras": "OECD Economic Outlook 2026/1 – Hungary",
+      "cim": "Hungary: OECD Economic Outlook, Volume 2026 Issue 1",
+      "url": "https://www.oecd.org/en/publications/2026/06/oecd-economic-outlook-volume-2026-issue-1_8be0dba6/full-report/hungary_9a57c410.html",
+      "allitas": "GDP +1,6% 2026-ban, +2,0% 2027-ben; az infláció 2026 végére 5% fölé gyorsulhat (energiaár-sokk), majd 2027 IV. negyedévére 1,7%-ra csökken. Építőanyag-specifikus előrejelzés nincs benne."
+    },
+    {
+      "datum": "2026",
+      "forras": "Argus Media",
+      "cim": "European cement prices expected to rise in 2026",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2787171-european-cement-prices-expected-to-rise-in-2026",
+      "allitas": "Egyes európai gyártók és kereskedők 10–15%-os cementár-emelést céloznak 2026-ra (CBAM, ETS költségek). Európai, nem magyar-specifikus."
+    }
+  ],
+  "megjegyzesek": "1) 'Építőipari ráfordítási árindex' néven a KSH jelenleg nem közöl aktív táblát az 'épületek / egyéb építmények' bontásban; a régi 1.8.1.1 'Építőipari költség alapú árindexek' archív (2000–2007). A ráfordítás (input) oldali, anyag + munkaerő bontású aktív KSH-mutató a LAKÁSÉPÍTÉSI KÖLTSÉGINDEX (18.1.1.11 éves, 18.2.1.7 negyedéves) – ez a legjobb forrás az 'építőanyag-költség' idősorhoz. Legfrissebb: 2026 I. negyedév; a II. negyedév 2026-09-29-én jelenik meg (érdemes akkor frissíteni). Egyéb építményekre ráfordítási index nincs. 2) Kimeneti (output) oldalon: építőipari termelői árindex (1.1.1.31 éves, 1.2.1.25 negyedéves) – legfrissebb 2026 II. negyedév. 3) Szakágazati ipari termelői árak (1.2.1.23): a havi előző hónap = 100 indexek hosszú sorként jöttek; a 'saját számítás' jelölésű éves és év/év értékek láncolással készültek, a táblában közölt 'előző év december = 100' értékekkel ellenőrizve (egyezés ±0,2). 24.1 vas-acél 2023-tól és 2025–2026-ban bizalmas. Gyártónkénti (Wienerberger, Leier, Duna-Dráva Cement, Xella, Rockwool, Bramac) konkrét, nyilvánosan dokumentált 2026-os áremelési %-ot nem találtam; csak az ÉVOSZ-tagozati elnök összesítő állítása van ('a legnagyobb gyártók 10–15%-os emelést jelentettek be falazóanyagoknál/tégláknál'). 4) MNB-nek nincs építőanyag-specifikus előrejelzése a talált anyagokban; OECD általános inflációs előrejelzés szerepel. 5) A 2026-os háttér: közel-keleti (iráni) háború okozta energia-ársokk 2026 márciusától; a forint erősödése részben ellensúlyozta. 6) Az ara0056 (2021=100) havi alági értékeket WebFetch-összefoglaló adta vissza – nem nyers táblából, ezért ellenőrzésre ajánlott. 7) Eurostat HU építési költségindex 2021 után nem elérhető; csak a termelői árindex (új lakóépületek) 2026 Q2-ig."
+}

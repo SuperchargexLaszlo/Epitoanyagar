@@ -1,26 +1,26 @@
 {
   "anyag_id": "zuzott-ko",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 4000,
-    "max": 7500,
-    "atlag": 5500,
+    "min": 4700,
+    "max": 13800,
+    "atlag": 6500,
     "egyseg": "Ft/tonna"
   },
   "variansok": [
     {
-      "nev": "0-16 mm",
-      "ar": 4500,
+      "nev": "Zúzottkő Z 0/22 (útalap, murva)",
+      "ar": 6050,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "16-32 mm",
-      "ar": 5500,
+      "nev": "Zúzottkő Z 0/32",
+      "ar": 7180,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "32-63 mm",
-      "ar": 6000,
+      "nev": "Nemes zúzalék NZ 22/32 (osztályozott)",
+      "ar": 11270,
       "egyseg": "Ft/tonna"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Zúzott kő 2026-ban?",
-      "valasz": "A(z) Zúzott kő ára 2026-ban 4 000 – 7 500 Ft/tonna között mozog, az átlagár 5 500 Ft/tonna."
+      "kerdes": "Mennyibe kerül a zúzott kő 2026-ban?",
+      "valasz": "Zúzott kő ára 2026 szeptemberében 4 700–13 800 Ft/tonna, a boltok átlagára 6 500 Ft/tonna (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Zúzottkő Z 0/22 (útalap, murva) (6 050 Ft), a legdrágább: Nemes zúzalék NZ 22/32 (osztályozott) (11 270 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón zúzott kőt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a zúzott kő árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Colas Északkő – Tállya, Colas Északkő – Szob, Mészkő / Csúcsos-hegyi gránitbánya, Kő és Homok Kft.), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi zúzott kő kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a zúzott kő ára?",
+      "valasz": "Az útalapnak használt Z 0/22–0/32 zúzottkő 4 700–9 200 Ft/t, az osztályozott nemes zúzalék 9 000–14 000 Ft/t. 1 m³ ≈ 1,5–1,7 tonna."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj zúzott kő vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Colas Északkő – Tállya (andezit)",
+      "termek": "Z 0/22 – Z 0/32 (NZ 22/32: 10 900 nettó = 13 843 bruttó)",
+      "ar": 5461,
+      "egyseg": "Ft/tonna",
+      "url": "https://colas.hu/wp-content/uploads/2026/05/Colas-Eszakko-Arjegyzek-2026.05.11.pdf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 4300 Ft/t, bruttósítva; ÁFA és rakodás nélküli árjegyzék, érvényes 2026.05.11-től"
+    },
+    {
+      "bolt": "Colas Északkő – Szob (andezit)",
+      "termek": "Z 0/22 (NZ 22/32: 8500 nettó = 10 795 bruttó)",
+      "ar": 4699,
+      "egyseg": "Ft/tonna",
+      "url": "https://colas.hu/wp-content/uploads/2026/05/Colas-Eszakko-Arjegyzek-2026.05.11.pdf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 3700 Ft/t, bruttósítva; rakodás nélkül"
+    },
+    {
+      "bolt": "Mészkő / Csúcsos-hegyi gránitbánya (Székesfehérvár)",
+      "termek": "Z 0/22",
+      "ar": 4826,
+      "egyseg": "Ft/tonna",
+      "url": "http://www.meszko.com/arlista.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 3800); az árlista dátuma nem ismert"
+    },
+    {
+      "bolt": "Kő és Homok Kft.",
+      "termek": "Zúzottkő 0/32 (16/32: 12 670)",
+      "ar": 7480,
+      "egyseg": "Ft/tonna",
+      "url": "http://www.koeshomokkft.hu/hu/termekeink.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 5890)"
+    },
+    {
+      "bolt": "Puhi-Tárnok",
+      "termek": "0/22 dolomit útépítési kő (22/32 zúzalék: 9157)",
+      "ar": 9233,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.puhitarn.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 7270), tüzépi telephelyi ár, 2025.02.01-től"
+    },
+    {
+      "bolt": "Hufbau (tuzepweb.hu)",
+      "termek": "Zúzottkő Z 0/22-32",
+      "ar": 17336,
+      "egyseg": "Ft/tonna",
+      "url": "https://tuzepweb.hu/epitoanyagok-uzletag/omlesztett-aruk/19985207-zuzottko-z-022-32",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (kedvezményes nettó 12 740); barkácsáruházi kiskereskedelmi ár, kiugró érték, a sávba nem számoltam bele"
+    }
+  ],
+  "megjegyzes": "Az útalapnak használt Z 0/22–0/32 zúzottkő 4 700–9 200 Ft/t, az osztályozott nemes zúzalék 9 000–14 000 Ft/t. 1 m³ ≈ 1,5–1,7 tonna.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

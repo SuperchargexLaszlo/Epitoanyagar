@@ -1,25 +1,25 @@
 {
   "anyag_id": "lec",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 200,
+    "min": 270,
     "max": 600,
-    "atlag": 380,
+    "atlag": 400,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "Tetőléc 50×30 mm",
-      "ar": 210,
+      "nev": "Tetőléc 2,5×5 cm",
+      "ar": 270,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Állványléc 50×50 mm",
-      "ar": 380,
+      "nev": "Bramac léc 3×5 cm",
+      "ar": 310,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Gipszkarton léc 60×27 mm",
+      "nev": "Stafni 5×5 cm",
       "ar": 550,
       "egyseg": "Ft/fm"
     }
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Léc 2026-ban?",
-      "valasz": "A(z) Léc ára 2026-ban 200 – 600 Ft/fm között mozog, az átlagár 380 Ft/fm."
+      "kerdes": "Mennyibe kerül a léc 2026-ban?",
+      "valasz": "Léc ára 2026 szeptemberében 270–600 Ft/fm, a boltok átlagára 400 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Tetőléc 2,5×5 cm (270 Ft), a legdrágább: Stafni 5×5 cm (550 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón léct venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a léc árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Fadepo Fatelep, Farengeteg Fatelep, Szirmafa Tüzép, Székely Fatelep), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi léc kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a léc ára?",
+      "valasz": "Tetőléc 270–330 Ft/fm, 5×5 cm-es léc (stafni) 500–600 Ft/fm."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj léc vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Fadepo Fatelep",
+      "termek": "Bramac léc 30×50; tetőléc 25×50; stafni 50×50; egalizált stafni 48×48",
+      "ar": 299,
+      "egyseg": "Ft/fm",
+      "url": "https://fadepofatelep.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Bramac 299; tetőléc 25×50: 270; stafni 50×50: 499; egalizált stafni: 580; méretpontos léc 28×48: 400 (akció 350) Ft/fm"
+    },
+    {
+      "bolt": "Farengeteg Fatelep",
+      "termek": "Bramac tetőléc 3×5 (4–6 m); stafni 5×5",
+      "ar": 330,
+      "egyseg": "Ft/fm",
+      "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "stafni 5×5: 600 Ft/fm"
+    },
+    {
+      "bolt": "Szirmafa Tüzép (Miskolc)",
+      "termek": "Bramac léc 3×5×4 m; normál léc 2,5×5×4 m",
+      "ar": 300,
+      "egyseg": "Ft/fm",
+      "url": "https://www.miskolcfatelep.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "2,5×5: 290 Ft/fm"
+    },
+    {
+      "bolt": "Székely Fatelep",
+      "termek": "Bramac léc / normál léc / stafni",
+      "ar": 330,
+      "egyseg": "Ft/fm",
+      "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "220 000 Ft/m³ → 3×5: 0,0015 × 220 000 = 330; 5×5: 0,0025 × 220 000 = 550 Ft/fm"
+    }
+  ],
+  "megjegyzes": "Tetőléc 270–330 Ft/fm, 5×5 cm-es léc (stafni) 500–600 Ft/fm.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

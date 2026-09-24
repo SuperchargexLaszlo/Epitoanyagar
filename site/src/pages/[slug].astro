@@ -51,21 +51,23 @@ const description = `Mennyi a ${nevLower} ára ${loc} 2026-ban? Helyi árlista: 
 const helyiFaq = [
   {
     kerdes: `Mennyi a ${nevLower} ára ${loc} 2026-ban?`,
-    valasz: `${loc} a ${nevLower} átlagos ára ${huf(helyiAtlag)} ${egyseg}. Az ártartomány ${huf(helyiMin)} – ${huf(helyiMax)} ${egyseg} között mozog.`
+    valasz: `${loc} a ${nevLower} becsült átlagára ${huf(helyiAtlag)} ${egyseg}, a sáv ${huf(helyiMin)}–${huf(helyiMax)} ${egyseg}. Az országos bolti átlag ${huf(arData.alap_ar.atlag)} ${egyseg} (bruttó, szállítás nélkül).`
   },
   {
-    kerdes: `Hol lehet ${nevLower}t venni ${loc}?`,
-    valasz: `${loc} több nagy építőanyag-kereskedőnél is beszerezhető: Bauhaus, OBI, Hornbach és helyi építőanyag-telepek. Érdemes előre árajánlatot kérni és összehasonlítani.`
+    kerdes: `Hol lehet ${nevLower} ${loc} vásárolni?`,
+    valasz: `Helyi tüzépeken, építőanyag-telepeken és barkácsáruházakban. Nagyobb tételnél a helyi telep a szállítási díj miatt gyakran olcsóbb, mint a távolabbi áruház. Érdemes 2–3 helyről írásos ajánlatot kérni.`
   },
   {
     kerdes: `Drágább a ${nevLower} ${loc}, mint az országos átlag?`,
-    valasz: szorzo > 1
-      ? `Igen, ${loc} az árak kb. ${Math.round((szorzo - 1) * 100)}%-kal magasabbak az országos átlagnál.`
+    valasz: (szorzo > 1
+      ? `A becslésünk szerint kb. ${Math.round((szorzo - 1) * 100)}%-kal magasabb az országos átlagnál.`
       : szorzo < 1
-      ? `Nem, ${loc} az árak kb. ${Math.round((1 - szorzo) * 100)}%-kal alacsonyabbak az országos átlagnál.`
-      : `${loc} az árak nagyjából az országos átlaggal megegyeznek.`
+      ? `A becslésünk szerint kb. ${Math.round((1 - szorzo) * 100)}%-kal alacsonyabb az országos átlagnál.`
+      : `A becslésünk szerint nagyjából az országos átlag.`)
+      + ` A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítás és a helyi telepek árazása adja.`
   }
 ];
+const forrasDb = Array.isArray(arData.forrasok) ? arData.forrasok.length : 0;
 
 const termek = termekSchema({
   nev: `${anyag.nev} – ${varos.nev} (${honapEv(frissitve)})`,
@@ -120,15 +122,18 @@ const masAnyagok = [
     </p>
 
     <p class="text-gray-700 leading-relaxed mb-6">
-      {loc} a <strong>{nevLower}</strong> átlagos ára 2026-ban <strong>{huf(helyiAtlag)} {egyseg}</strong>.
-      Ez az országos átlaghoz képest {szorzo > 1 ? `${Math.round((szorzo - 1) * 100)}%-kal magasabb` : szorzo < 1 ? `${Math.round((1 - szorzo) * 100)}%-kal alacsonyabb` : `nagyjából azonos`}.
-      Az ártartomány {huf(helyiMin)} – {huf(helyiMax)} {egyseg} között mozog.
+      {loc} a <strong>{nevLower}</strong> becsült átlagára 2026-ban <strong>{huf(helyiAtlag)} {egyseg}</strong>,
+      a sáv {huf(helyiMin)}–{huf(helyiMax)} {egyseg}.
+      Az országos bolti átlag {huf(arData.alap_ar.atlag)} {egyseg}{forrasDb > 0 ? `, ${forrasDb} kereskedő ${datumHosszu(frissitve).replace(/\.$/, '')}-i bruttó ára alapján` : ''}; a helyi értéket ebből, a regionális árszinttel ({szorzo > 1 ? `+${Math.round((szorzo - 1) * 100)}%` : szorzo < 1 ? `−${Math.round((1 - szorzo) * 100)}%` : '±0%'}) becsüljük.
       {anyag.leiras}
     </p>
+    {arData.megjegyzes && (
+      <p class="text-sm text-gray-700 leading-relaxed mb-6 bg-white border-l-4 border-blue-300 pl-4 py-2">{arData.megjegyzes}</p>
+    )}
 
     <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
       <p class="text-blue-800 font-semibold text-lg">
-        Helyi átlagár ({varos.nev}): {huf(helyiAtlag)} {egyseg}
+        Becsült helyi átlagár ({varos.nev}): {huf(helyiAtlag)} {egyseg}
       </p>
       <p class="text-blue-600 text-sm">Ártartomány: {huf(helyiMin)} – {huf(helyiMax)} {egyseg}</p>
     </div>

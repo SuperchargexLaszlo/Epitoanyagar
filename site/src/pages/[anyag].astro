@@ -34,8 +34,11 @@ const frissitve = arData.frissitve || '2026-01-15';
 const nevLower = anyag.nev.toLowerCase();
 
 // Ár-alapú, kattintásra optimalizált cím és leírás
+const forrasok = Array.isArray(arData.forrasok) ? arData.forrasok : [];
+const megjegyzes = arData.megjegyzes || '';
+const nevelo = /^[aáeéiíoóöőuúüű]/i.test(nevLower) ? 'az' : 'a';
 const title = `${anyag.nev} ára 2026: ${huf(min)}–${huf(max)} ${rEgyseg} | Árlista`;
-const description = `${anyag.nev} ára 2026-ban: ${huf(min)}–${huf(max)} ${egyseg}, átlagár ${huf(atlag)} ${rEgyseg}. Friss (${honapEv(frissitve)}) árlista, variánsok és városonkénti árak 20 magyar városban.`;
+const description = `${anyag.nev} ára ${honapEv(frissitve)}: ${huf(min)}–${huf(max)} ${egyseg}, átlag ${huf(atlag)} ${rEgyseg}. Bruttó bolti árak ${forrasok.length} kereskedőtől, forrásokkal, 20 város.`;
 
 const termek = termekSchema({
   nev: `${anyag.nev} – ${honapEv(frissitve)}`,
@@ -43,7 +46,7 @@ const termek = termekSchema({
   kategoria: anyag.kategoria,
   url: canonicalURL,
   min, max, egyseg,
-  ajanlatDb: arData.variansok.length,
+  ajanlatDb: forrasok.length || arData.variansok.length,
 });
 
 const articleSchema = {
@@ -92,16 +95,17 @@ const reszletek = Array.isArray(arData.reszletek) ? arData.reszletek : [];
 
     <h1 class="text-3xl font-bold text-gray-900 mb-2">{anyag.nev} ára 2026</h1>
     <p class="text-sm text-gray-500 mb-4">
-      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · Országos árlista + 20 város
+      Árak ellenőrizve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {forrasok.length > 0 ? `${forrasok.length} kereskedő bruttó ára` : 'Országos árlista'} · 20 város
     </p>
 
-    <p class="text-gray-700 leading-relaxed mb-6">
-      A(z) <strong>{nevLower}</strong> ára 2026-ban {huf(min)} – {huf(max)} {egyseg} között mozog.
-      Az átlagos piaci ár jelenleg <strong>{huf(atlag)} {egyseg}</strong>.
+    <p class="text-gray-700 leading-relaxed mb-4">
+      {anyag.nev} ára jelenleg {huf(min)}–{huf(max)} {egyseg}, az átlag <strong>{huf(atlag)} {egyseg}</strong>.
       {anyag.leiras}
-      Az árak régiónként és minőségi kategóriánként eltérhetnek, ezért érdemes több ajánlatot kérni a vásárlás előtt.
-      Oldalunkon az aktuális piaci adatok alapján naprakész tájékoztatást talál a(z) {nevLower} árairól.
+      Az árak bruttók, szállítás nélkül, tüzépek, telepek és barkácsáruházak nyilvános áraiból.
     </p>
+    {megjegyzes && (
+      <p class="text-gray-700 leading-relaxed mb-6 bg-white border-l-4 border-blue-300 pl-4 py-2">{megjegyzes}</p>
+    )}
 
     <PriceCard
       min={min}
@@ -126,12 +130,15 @@ const reszletek = Array.isArray(arData.reszletek) ? arData.reszletek : [];
 
     <h2 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">Mire figyelj {nevLower} vásárlásakor?</h2>
     <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-8">
-      <li>Kérj írásos árajánlatot, és hasonlítsd össze legalább 3 kereskedő ajánlatát.</li>
-      <li>Nagyobb mennyiségnél mindig alkudj kedvezményre – 5–15% általában elérhető.</li>
-      <li>Ellenőrizd a minőségi tanúsítványokat és a CE jelölést.</li>
-      <li>A szállítási díj sokszor nincs benne az egységárban – ezt is számold hozzá.</li>
-      <li>Vásárolj 5–10%-kal többet a tervezett mennyiségnél a veszteségekre.</li>
+      <li>Kérdezd meg, hogy az ár bruttó vagy nettó. A tüzépek és betonüzemek egy része nettó árat ír ki.</li>
+      <li>A szállítási díj és a raklapdíj általában nincs benne az egységárban.</li>
+      <li>Kérj írásos ajánlatot legalább 3 helyről; nagyobb tételnél a telepek gyakran adnak kedvezményt.</li>
+      <li>Számolj 5–10% ráhagyással a vágási és törési veszteség miatt.</li>
     </ul>
+
+    <p class="text-sm text-gray-600 mb-8">
+      Hogyan változtak az építőanyag-árak az elmúlt években? <a href="/epitoanyag-arak-alakulasa/" class="text-blue-600 hover:underline font-medium">Építőanyag árak alakulása 2026 – KSH-adatok →</a>
+    </p>
 
     <h2 class="text-2xl font-semibold text-gray-800 mb-4">{anyag.nev} ára városonként</h2>
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8">
@@ -150,8 +157,43 @@ const reszletek = Array.isArray(arData.reszletek) ? arData.reszletek : [];
       })}
     </div>
 
+    <p class="text-xs text-gray-500 -mt-4 mb-8">
+      A városi árak az országos bolti átlagból, a regionális árszinttel becsült értékek. A helyi telepek árai ettől eltérhetnek, főleg a szállítási díj miatt.
+    </p>
+
     <h2 class="text-2xl font-semibold text-gray-800 mb-4">Gyakori kérdések – {anyag.nev} ár 2026</h2>
     <FAQ faq={arData.faq} />
+
+    {forrasok.length > 0 && (
+      <section class="mt-10">
+        <h2 class="text-xl font-semibold text-gray-800 mb-3">Források ({forrasok.length} kereskedő)</h2>
+        <p class="text-sm text-gray-600 mb-3">
+          Az ártartomány és az átlag az alábbi nyilvános árakból készült ({datumHosszu(frissitve)}). A kiugró és akciós árakat nem vettük bele a sávba.
+        </p>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white border border-gray-200 rounded-lg text-sm">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-3 py-2 text-left font-semibold text-gray-700">Kereskedő</th>
+                <th class="px-3 py-2 text-left font-semibold text-gray-700">Termék</th>
+                <th class="px-3 py-2 text-right font-semibold text-gray-700">Ár</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              {forrasok.map((f: any) => (
+                <tr>
+                  <td class="px-3 py-2 text-gray-800 align-top">
+                    <a href={f.url} class="text-blue-600 hover:underline" rel="nofollow noopener" target="_blank">{f.bolt}</a>
+                  </td>
+                  <td class="px-3 py-2 text-gray-700 align-top">{f.termek}</td>
+                  <td class="px-3 py-2 text-right text-gray-900 align-top whitespace-nowrap">{f.ar ? `${huf(f.ar)} ${f.egyseg.replace(/^Ft/, 'Ft')}` : '–'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
 
     {kapcsolodo.length > 0 && (
       <div class="mt-10 pt-8 border-t border-gray-200">

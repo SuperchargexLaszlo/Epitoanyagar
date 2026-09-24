@@ -1,26 +1,26 @@
 {
   "anyag_id": "terko",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3500,
+    "min": 4600,
     "max": 8000,
-    "atlag": 5000,
+    "atlag": 6200,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Sima 6 cm",
-      "ar": 3700,
+      "nev": "Leier Piazza 10×20×6 cm szürke",
+      "ar": 4660,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Rácsos 6 cm",
-      "ar": 4800,
+      "nev": "Semmelrock Citytop kombi 6 cm szürke",
+      "ar": 6209,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium 8 cm",
-      "ar": 7500,
+      "nev": "Leier Mercato 6 cm (antik felület)",
+      "ar": 7351,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Térkő 2026-ban?",
-      "valasz": "A(z) Térkő ára 2026-ban 3 500 – 8 000 Ft/m² között mozog, az átlagár 5 000 Ft/m²."
+      "kerdes": "Mennyibe kerül a térkő 2026-ban?",
+      "valasz": "Térkő ára 2026 szeptemberében 4 600–8 000 Ft/m², a boltok átlagára 6 200 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Leier Piazza 10×20×6 cm szürke (4 660 Ft), a legdrágább: Leier Mercato 6 cm (antik felület) (7 351 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón térkőt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a térkő árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (H-Barkácsáruház, epitoanyag.hu, Wienerberger shop, Marteam Tüzép), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi térkő kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a térkő ára?",
+      "valasz": "6 cm-es szürke alaptérkő 4 600–6 200, színes vagy mosott felületű 6 500–8 000 Ft/m². A 8 cm-es kivitel 15–25%-kal drágább. Szállítás és raklapdíj külön."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj térkő vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "H-Barkácsáruház",
+      "termek": "LEIER Piazza térkő 10×20×6 cm szürke",
+      "ar": 4660,
+      "egyseg": "Ft/m²",
+      "url": "https://hbarkacsaruhaz.hu/epitoanyag/terko-szegelyko-fedlap/terko/le-hutjh6600-leier-piazza-terko-10-cm-x-20-cm-x-6-cm-szurke-108-m2-hutjh6600",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 3 669 / bruttó 4 660 Ft/m²"
+    },
+    {
+      "bolt": "epitoanyag.hu (Újház)",
+      "termek": "Leier Piazza térkő szürke 20×30×6 cm",
+      "ar": 6170,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/leier-piazza-terko-szurke-20x30x6-cm-pVUgtMTk4ODEz",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "gyártói készleten"
+    },
+    {
+      "bolt": "Wienerberger shop (Semmelrock)",
+      "termek": "Citytop kombi 6 cm szürke / Castello antico kombi 6 cm",
+      "ar": 6209,
+      "egyseg": "Ft/m²",
+      "url": "https://shop.wienerberger.hu/semmelrock/terburkolatok",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ajánlott bruttó fogyasztói ár; Castello antico homoksárga 16 219 Ft/m² (prémium, sávon kívül)"
+    },
+    {
+      "bolt": "epitoanyag.hu (Újház)",
+      "termek": "Semmelrock Citytop kombi térkő szürke 6 cm",
+      "ar": 6210,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/semmelrock-citytop-kombi-terko-szurke-6-cm-pVUgtMTAyMDcy",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "Semmelrock Citytop Plus kombi szürke-fehér 6 cm",
+      "ar": 5453,
+      "egyseg": "Ft/m²",
+      "url": "https://marteamtuzep.hu/termek/semmelrock-citytop-plus-kombi-szurke-feher",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós ár"
+    },
+    {
+      "bolt": "GRaS Kft.",
+      "termek": "Leier Mercato térkő 6 cm",
+      "ar": 7351,
+      "egyseg": "Ft/m²",
+      "url": "https://gras.hu/termek/5345/leier-mercato-terko-6-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "-tól ár, gyártói telephelyi átadás"
+    },
+    {
+      "bolt": "Elágazás webáruház",
+      "termek": "Semmelrock Citytop kombi 6 cm őszilomb (színes)",
+      "ar": 7880,
+      "egyseg": "Ft/m²",
+      "url": "https://elagazas.hu/webaruhaz/semmelrock-citytop-kombi-terko-6-cm-oszilomb",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós, eredeti 9 850 Ft/m²"
+    }
+  ],
+  "megjegyzes": "6 cm-es szürke alaptérkő 4 600–6 200, színes vagy mosott felületű 6 500–8 000 Ft/m². A 8 cm-es kivitel 15–25%-kal drágább. Szállítás és raklapdíj külön.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

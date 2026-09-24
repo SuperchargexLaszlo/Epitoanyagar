@@ -1,26 +1,26 @@
 {
   "anyag_id": "tegla",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 80,
-    "max": 150,
-    "atlag": 110,
+    "min": 259,
+    "max": 485,
+    "atlag": 320,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "NF tégla (250×120×65)",
-      "ar": 90,
+      "nev": "Kisméretű tömör tégla 25x12x6,5 (ÉM / Bakonytherm, tüzép)",
+      "ar": 259,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "DF tégla (240×115×52)",
-      "ar": 80,
+      "nev": "Kisméretű tömör tégla (Pápateszéri / Bakonytherm, normál ár)",
+      "ar": 286,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "Mélyhornyos tégla",
-      "ar": 130,
+      "nev": "Porotherm kisméretű tömör tégla 25x12x6,5 (Wienerberger)",
+      "ar": 305,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Tégla 2026-ban?",
-      "valasz": "A(z) Tégla ára 2026-ban 80 – 150 Ft/db között mozog, az átlagár 110 Ft/db."
+      "kerdes": "Mennyibe kerül a tégla 2026-ban?",
+      "valasz": "Tégla ára 2026 szeptemberében 259–485 Ft/db, a boltok átlagára 320 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Kisméretű tömör tégla 25x12x6,5 (ÉM / Bakonytherm, tüzép) (259 Ft), a legdrágább: Porotherm kisméretű tömör tégla 25x12x6,5 (Wienerberger) (305 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón téglat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a tégla árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Zsiráf Webáruház, Újház Bodrogi, Tímár Vaskereskedelmi Kft., Winkler Tüzép), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi tégla kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a tégla ára?",
+      "valasz": "Kisméretű tömör tégla (25×12×6,5 cm). Egész téglás falhoz kb. 104 db/m², féltéglás falhoz 52 db/m² kell."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj tégla vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Zsiráf Webáruház",
+      "termek": "Bakonytherm kisméretű tömör tégla 25x12x6,5 cm",
+      "ar": 279,
+      "egyseg": "Ft/db",
+      "url": "https://webshop.zsirafep.hu/falazoanyagok/tegla/1000600998-bakonytherm-kismeretu-tomor-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Normál ár 279, akciós 259 Ft/db (2026.07.31-től, készlet erejéig)"
+    },
+    {
+      "bolt": "Újház Bodrogi",
+      "termek": "ÉM kisméretű tömör tégla (448 db/raklap)",
+      "ar": 259,
+      "egyseg": "Ft/db",
+      "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/teglak/bb-0341549-em-kismeretu-tomor-tegla-448dbrl",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "nettó 204 Ft"
+    },
+    {
+      "bolt": "Tímár Vaskereskedelmi Kft.",
+      "termek": "Kisméretű tömör tégla, Pápateszéri Téglagyár, 396 db/raklap",
+      "ar": 286,
+      "egyseg": "Ft/db",
+      "url": "https://timarvasker.hu/kismeretu-tomor-tegla/t",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Winkler Tüzép",
+      "termek": "Porotherm kisméretű tömör tégla 25x12x6,5 cm (400 db/rkl)",
+      "ar": 305,
+      "egyseg": "Ft/db",
+      "url": "https://www.winklertuzep.hu/shop/porotherm-kismeretu-tomor-tegla-25x12x6-5-cm-400db-rkl_p82",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Listaár 320, online ár 305 Ft/db"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Porotherm kisméretű tömör tégla 25x12x6,5 cm",
+      "ar": 485,
+      "egyseg": "Ft/db",
+      "url": "https://epitoanyag.hu/epitoanyag/tegla/kismeretu-tegla-c9517",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Felső szélső érték"
+    }
+  ],
+  "megjegyzes": "Kisméretű tömör tégla (25×12×6,5 cm). Egész téglás falhoz kb. 104 db/m², féltéglás falhoz 52 db/m² kell.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

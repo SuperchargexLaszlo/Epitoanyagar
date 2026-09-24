@@ -1,26 +1,36 @@
 {
   "anyag_id": "kozetgyapot",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 800,
-    "max": 1800,
-    "atlag": 1200,
+    "min": 2490,
+    "max": 9750,
+    "atlag": 5850,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "5 cm (50 mm)",
-      "ar": 800,
+      "nev": "Födém-/tetőtéri kőzetgyapot 10 cm (nem terhelhető)",
+      "ar": 2490,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "10 cm (100 mm)",
-      "ar": 1300,
+      "nev": "Homlokzati kőzetgyapot 5 cm (Knauf FKD N Thermal)",
+      "ar": 3645,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "15 cm (150 mm)",
-      "ar": 1800,
+      "nev": "Födém-/tetőtéri kőzetgyapot 15 cm (nem terhelhető)",
+      "ar": 3735,
+      "egyseg": "Ft/m²"
+    },
+    {
+      "nev": "Homlokzati kőzetgyapot 10 cm (Rockwool Frontrock Super)",
+      "ar": 6500,
+      "egyseg": "Ft/m²"
+    },
+    {
+      "nev": "Homlokzati kőzetgyapot 15 cm (Knauf FKD N Thermal)",
+      "ar": 8380,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +58,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Kőzetgyapot 2026-ban?",
-      "valasz": "A(z) Kőzetgyapot ára 2026-ban 800 – 1 800 Ft/m² között mozog, az átlagár 1 200 Ft/m²."
+      "kerdes": "Mennyibe kerül a kőzetgyapot 2026-ban?",
+      "valasz": "Kőzetgyapot ára 2026 szeptemberében 2 490–9 750 Ft/m², a boltok átlagára 5 850 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Födém-/tetőtéri kőzetgyapot 10 cm (nem terhelhető) (2 490 Ft), a legdrágább: Homlokzati kőzetgyapot 15 cm (Knauf FKD N Thermal) (8 380 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón kőzetgyapott venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a kőzetgyapot árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Dr.Tüzép, Straubinger Építési Kft., Kőzetgyapot-árak.hu, Újház Veszprém), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi kőzetgyapot kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a kőzetgyapot ára?",
+      "valasz": "Homlokzati, vakolható tábla: 5 cm ~3 600, 10 cm 5 200–6 600, 15 cm 8 400–9 750 Ft/m². Födémre, tetőtérbe való, nem terhelhető kőzetgyapot olcsóbb: 10 cm ~2 500, 15 cm ~3 700 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj kőzetgyapot vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Dr.Tüzép",
+      "termek": "Knauf Insulation FKD N Thermal homlokzati kőzetgyapot 5 / 10 / 15 cm",
+      "ar": 5590,
+      "egyseg": "Ft/m²",
+      "url": "https://www.drtuzep.hu/homlokzati-hoszigeteles-kozetgyapot-knauf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "5 cm (4,8 m²/bála) 3 645; 10 cm (2,4 m²/bála) 5 590; 15 cm (1,2 m²/bála) 8 380 Ft/m²"
+    },
+    {
+      "bolt": "Straubinger Építési Kft.",
+      "termek": "Rockwool Frontrock Super 8/10/12/15 cm",
+      "ar": 6500,
+      "egyseg": "Ft/m²",
+      "url": "https://www.straubingerkft.hu/epitoanyag/akcio-kategoria/rockwool-kozetgyapot-szigeteles-akciok/rockwool-frontrock-super-homlokzati-kozetgyapot-szigeteles-akcio",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Akciós: 8 cm 5 200; 10 cm 6 500; 12 cm 7 800; 15 cm 9 750 Ft/m²"
+    },
+    {
+      "bolt": "Kőzetgyapot-árak.hu",
+      "termek": "Rockwool Frontrock Super 1000x600x100 mm, 1,8 m²/csomag",
+      "ar": 6575,
+      "egyseg": "Ft/m²",
+      "url": "https://kozetgyapot-arak.hu/termek/96/rockwool-frontrock-super-1000-x-600-x-100-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "11 835 Ft/csomag ÷ 1,8 m² = 6 575 Ft/m² (árak módosítva 2026-08-28)"
+    },
+    {
+      "bolt": "Újház Veszprém (Lang)",
+      "termek": "Rockwool Frontrock Super vakolható kőzetgyapot 100x60x10 cm",
+      "ar": 5190,
+      "egyseg": "Ft/m²",
+      "url": "https://www.ujhazveszprem.hu/termek/rockwool-frontrock-super-vakolhato-kozetgyapot-hoszigetelo-lemez-100x60x10-cm-uh-540564",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Rockwool Hungary (gyártói árlista 2026)",
+      "termek": "Frontrock Super 100 mm / Airrock 50 mm",
+      "ar": 8167,
+      "egyseg": "Ft/m²",
+      "url": "https://www.rockwool.com/siteassets/rw-hu/mszaki-informacio/arlista/ROCKWOOL-arlista.pdf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Listaár, a boltok 20–35%-kal olcsóbban adják. Frontrock Super 150 mm 12 252; Airrock 50 mm 3 683 Ft/m²"
+    },
+    {
+      "bolt": "Homlokzatihoszigeteles.hu",
+      "termek": "Paroc Ultra kőzetgyapot födémszigetelés 10 cm / 15 cm",
+      "ar": 2490,
+      "egyseg": "Ft/m²",
+      "url": "https://www.homlokzatihoszigeteles.hu/szigetelo-lemezek/knauf-mpn-kozetgyapot-15-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Nem homlokzati, padlásfödém-szigetelés: 10 cm 2 490, 15 cm 3 735 Ft/m²"
+    }
+  ],
+  "megjegyzes": "Homlokzati, vakolható tábla: 5 cm ~3 600, 10 cm 5 200–6 600, 15 cm 8 400–9 750 Ft/m². Födémre, tetőtérbe való, nem terhelhető kőzetgyapot olcsóbb: 10 cm ~2 500, 15 cm ~3 700 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

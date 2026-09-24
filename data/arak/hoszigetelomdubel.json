@@ -1,17 +1,27 @@
 {
   "anyag_id": "furatlefedo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1000,
-    "max": 3000,
-    "atlag": 2000,
-    "egyseg": "Ft/egység"
+    "min": 35,
+    "max": 103,
+    "atlag": 55,
+    "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "Alap változat",
-      "ar": 2000,
-      "egyseg": "Ft/egység"
+      "nev": "Koelner műanyag beütőszeges dűbel 10×140",
+      "ar": 35,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "Masterplast Thermomaster D dübel 10×140",
+      "ar": 48,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "EJOT IDK-N dűbel (Masterplast)",
+      "ar": 60,
+      "egyseg": "Ft/db"
     }
   ],
   "varos_szorzok": {
@@ -38,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Hőszigetelő dübel 2026-ban?",
-      "valasz": "A(z) Hőszigetelő dübel ára 2026-ban 1 000 – 3 000 Ft/egység között mozog, az átlagár 2 000 Ft/egység."
+      "kerdes": "Mennyibe kerül a hőszigetelő dübel 2026-ban?",
+      "valasz": "Hőszigetelő dübel ára 2026 szeptemberében 35–103 Ft/db, a boltok átlagára 55 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Koelner műanyag beütőszeges dűbel 10×140 (35 Ft), a legdrágább: EJOT IDK-N dűbel (Masterplast) (60 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón hőszigetelő dübelt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a hőszigetelő dübel árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Hőszigetelőrendszer.com, Marteam Tüzép, Homlokzatihőszigetelés.hu, Mastercenter), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi hőszigetelő dübel kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a hőszigetelő dübel ára?",
+      "valasz": "250 db-os dobozban 35–60 Ft/db, darabáron 100 Ft körül. Acélszeges dübel drágább."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj hőszigetelő dübel vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Hőszigetelőrendszer.com",
+      "termek": "Műanyag beütőszeges dűbel 10×140 mm – Koelner",
+      "ar": 35,
+      "egyseg": "Ft/db",
+      "url": "https://hoszigetelorendszer.com/dubelek/muanyag-beutoszeges-dubel/muanyag-beutoszeges-dubel-10x140mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "EPS/XPS-hez"
+    },
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "MASTERPLAST Thermomaster D dübel 10×140 mm",
+      "ar": 48,
+      "egyseg": "Ft/db",
+      "url": "https://marteamtuzep.hu/termek/masterplast-thermomaster-d-dubel-10x140-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Homlokzatihőszigetelés.hu",
+      "termek": "Koelner KI műanyagszeges dűbel 10×140",
+      "ar": 40,
+      "egyseg": "Ft/db",
+      "url": "https://www.homlokzatihoszigeteles.hu/hoszigetelo-rendszer-kiegeszitok/koelner-muanyagszeges-dubel",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Mastercenter",
+      "termek": "Masterplast EJOT IDK-N dűbel",
+      "ar": 60,
+      "egyseg": "Ft/db",
+      "url": "https://mastercenter.hu/kategoria/8/homlokzati-hoszigetelo-rendszerek-es-elemei/dubel",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "'-tól' ár"
+    },
+    {
+      "bolt": "Jószerszám",
+      "termek": "Koelner beütős dűbel 10×140",
+      "ar": 103,
+      "egyseg": "Ft/db",
+      "url": "https://joszerszam.com/dubelek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "darabos kiskereskedelmi ár"
+    }
+  ],
+  "megjegyzes": "250 db-os dobozban 35–60 Ft/db, darabáron 100 Ft körül. Acélszeges dübel drágább.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

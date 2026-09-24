@@ -1,26 +1,26 @@
 {
   "anyag_id": "falazohalo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 300,
-    "max": 900,
-    "atlag": 550,
+    "min": 253,
+    "max": 369,
+    "atlag": 295,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "145 g/m² standard",
-      "ar": 320,
+      "nev": "Masterplast Masternet Classic 145 (1 × 50 m)",
+      "ar": 265,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "160 g/m² megerősített",
-      "ar": 580,
+      "nev": "Masterplast Masternet Classic 160",
+      "ar": 292,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "200 g/m² prémium",
-      "ar": 880,
+      "nev": "Baumit StarTex 145 g feliratos, 50 m²",
+      "ar": 369,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Falazóháló 2026-ban?",
-      "valasz": "A(z) Falazóháló ára 2026-ban 300 – 900 Ft/m² között mozog, az átlagár 550 Ft/m²."
+      "kerdes": "Mennyibe kerül a falazóháló 2026-ban?",
+      "valasz": "Falazóháló ára 2026 szeptemberében 253–369 Ft/m², a boltok átlagára 295 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Masterplast Masternet Classic 145 (1 × 50 m) (265 Ft), a legdrágább: Baumit StarTex 145 g feliratos, 50 m² (369 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón falazóhálót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a falazóháló árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Építőanyagmester, Nett.hu, Csöme Szigetelés, Mixvill), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi falazóháló kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a falazóháló ára?",
+      "valasz": "Homlokzati üvegszövet háló, 50 m²-es tekercsben."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj falazóháló vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Építőanyagmester",
+      "termek": "Masternet Classic 145 üvegszövet háló 1 m × 50 m",
+      "ar": 265,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyagmester.hu/Homlokzati-hoszigeteles-Uvegszovet-halo",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt Classic 160: 292 Ft/m², Solid white 50 m²: 253 Ft/m²"
+    },
+    {
+      "bolt": "Nett.hu",
+      "termek": "Masterplast Üvegszövet háló dryvit 145 g narancssárga 50 m²/tekercs",
+      "ar": 340,
+      "egyseg": "Ft/m²",
+      "url": "https://nett.hu/hoszigeteles/hoszigeteles-kiegeszitok/00163-masterplast-uvegszovet-halo-dryvit-145-g-narancssarga-50-m2-tekercs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 16 990 Ft / 50 m²"
+    },
+    {
+      "bolt": "Csöme Szigetelés",
+      "termek": "Üvegszövet háló feliratos – Baumit StarTex – 145 g, tekercs",
+      "ar": 369,
+      "egyseg": "Ft/m²",
+      "url": "https://www.csomeszigeteles.hu/uvegszovet-halo",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 18 470 Ft / 50 m²"
+    },
+    {
+      "bolt": "Mixvill",
+      "termek": "Masterplast Masternet Solid White üvegszövet háló 145 g/m² 50 m²",
+      "ar": 289,
+      "egyseg": "Ft/m²",
+      "url": "https://www.mixvill.hu/masterplast-masternet-solid-white-uvegszovet-halo-145-g_m2-50m2-e118l-0102-945wh100",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 14 449 Ft / 50 m², online ár"
+    },
+    {
+      "bolt": "Grás Tüzép",
+      "termek": "Üvegszövet EURONET145 homlokzathoz - 145 g/m²",
+      "ar": 273,
+      "egyseg": "Ft/m²",
+      "url": "https://gras.hu/kategoria/249/webshop/szigetelesek/homlokzati-hoszigeteles-es-tartozekai/homlokzati-uvegszovet",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "'-tól' ár"
+    }
+  ],
+  "megjegyzes": "Homlokzati üvegszövet háló, 50 m²-es tekercsben.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

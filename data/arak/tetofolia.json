@@ -1,26 +1,26 @@
 {
   "anyag_id": "tetofolia",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 400,
-    "max": 1200,
-    "atlag": 700,
+    "min": 292,
+    "max": 720,
+    "atlag": 485,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Alap párazáró (75 g/m²)",
-      "ar": 420,
+      "nev": "Balo Bau páraáteresztő tetőfólia 75 m²",
+      "ar": 292,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Lélegző fólia (115 g/m²)",
-      "ar": 700,
+      "nev": "Masterplast Linopore RX 5000, 75 m²",
+      "ar": 475,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium diffúz (200 g/m²)",
-      "ar": 1100,
+      "nev": "Masterplast Linopore 7000, 75 m²",
+      "ar": 720,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Tetőfólia 2026-ban?",
-      "valasz": "A(z) Tetőfólia ára 2026-ban 400 – 1 200 Ft/m² között mozog, az átlagár 700 Ft/m²."
+      "kerdes": "Mennyibe kerül a tetőfólia 2026-ban?",
+      "valasz": "Tetőfólia ára 2026 szeptemberében 292–720 Ft/m², a boltok átlagára 485 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Balo Bau páraáteresztő tetőfólia 75 m² (292 Ft), a legdrágább: Masterplast Linopore 7000, 75 m² (720 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón tetőfóliat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a tetőfólia árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Tetőcentrum Pécs, KeriBadogDirect, Építőanyag.hu, Kóházy), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi tetőfólia kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a tetőfólia ára?",
+      "valasz": "Jellemzően 75 m²-es tekercsben; a m²-ár átszámolt érték."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj tetőfólia vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tetőcentrum Pécs",
+      "termek": "Corotop Blue páraáteresztő tetőfólia 140 g/m², 75 m²",
+      "ar": 480,
+      "egyseg": "Ft/m²",
+      "url": "https://tetocentrumpecs.hu/products/corotop-blue-paraatereszto-tetofolia-140g-m2-75m2-tekercs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "36 000 Ft/tekercs"
+    },
+    {
+      "bolt": "KeriBadogDirect",
+      "termek": "Eurovent Fortis páraáteresztő tetőfólia 190 g/m², 75 m²",
+      "ar": 453,
+      "egyseg": "Ft/m²",
+      "url": "https://keribadogdirect.hu/tetokiegeszito/paraatereszto-zaro-tetofoliak-es-kiegeszitoik/tetofoliak-346",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Masterplast Linopore RX 5000 páraáteresztő tetőfólia 75 m²",
+      "ar": 475,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/epitoanyag/tetofedes/tetofolia-c9532",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Kóházy",
+      "termek": "Balo Bau tetőfólia páraáteresztő 75 m² (1,5x50 m)",
+      "ar": 292,
+      "egyseg": "Ft/m²",
+      "url": "https://www.kohazy.hu/viz-ho-es-hangszigeteles/-vizszigetelo-tetoszigitelo-b/tetofolia-paraatereszto-75-m2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "21 880 Ft/tekercs ÷ 75 m² = 292 Ft/m²"
+    },
+    {
+      "bolt": "Hőszigetelés-árak.hu",
+      "termek": "MP Linopore 7000 páraáteresztő tetőfólia 75 m²",
+      "ar": 720,
+      "egyseg": "Ft/m²",
+      "url": "https://www.hoszigeteles-arak.hu/epitesi-es-tetofoliak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "54 000 Ft/tekercs ÷ 75 = 720 (akciósan 51 000 → 680) Ft/m²"
+    }
+  ],
+  "megjegyzes": "Jellemzően 75 m²-es tekercsben; a m²-ár átszámolt érték.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

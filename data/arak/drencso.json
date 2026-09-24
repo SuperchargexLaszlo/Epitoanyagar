@@ -1,26 +1,26 @@
 {
   "anyag_id": "drencso",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1500,
-    "atlag": 900,
+    "min": 700,
+    "max": 4191,
+    "atlag": 1900,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "Ø100 mm perforált",
-      "ar": 550,
+      "nev": "Dréncső Ø100 perforált, csupasz (50 m tekercs)",
+      "ar": 1149,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Ø160 mm perforált",
-      "ar": 950,
+      "nev": "Dréncső Ø100 geotextíliás (50 m tekercs)",
+      "ar": 1784,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Ø200 mm korrugált",
-      "ar": 1400,
+      "nev": "Dréncső Ø160 geotextíliás (25 m tekercs)",
+      "ar": 2810,
       "egyseg": "Ft/fm"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Dréncsö 2026-ban?",
-      "valasz": "A(z) Dréncsö ára 2026-ban 500 – 1 500 Ft/fm között mozog, az átlagár 900 Ft/fm."
+      "kerdes": "Mennyibe kerül a dréncsö 2026-ban?",
+      "valasz": "Dréncsö ára 2026 szeptemberében 700–4 191 Ft/fm, a boltok átlagára 1 900 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Dréncső Ø100 perforált, csupasz (50 m tekercs) (1 149 Ft), a legdrágább: Dréncső Ø160 geotextíliás (25 m tekercs) (2 810 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón dréncsöt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a dréncsö árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Lambda Webáruház, Marteam Tüzép, Merkapt Online, Szatmári), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi dréncsö kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a dréncsö ára?",
+      "valasz": "Ø100 geotextíliás 1 630–2 090 Ft/fm, csupasz Ø100 700–1 525 Ft/fm, Ø160 2 810–4 190 Ft/fm."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj dréncsö vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Lambda Webáruház",
+      "termek": "Dréncső geotextíliás DN100 50 m/tekercs",
+      "ar": 2089,
+      "egyseg": "Ft/fm",
+      "url": "https://lambdawebaruhaz.hu/drencso-geotextilias-dn100-50-mtekercs-24888",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "2088,50 Ft/fm"
+    },
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "Dréncső 100 geotextíliával bevont 50 fm",
+      "ar": 1933,
+      "egyseg": "Ft/fm",
+      "url": "https://marteamtuzep.hu/termek/drencso-100-perforalt-50-fm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Merkapt Online",
+      "termek": "Dréncső 100 perforált geotextiles 50 m/tekercs",
+      "ar": 1634,
+      "egyseg": "Ft/fm",
+      "url": "https://merkaptonline.hu/viz-gaz-futes/csorendszerek-es-idomok/lefolyocsovek-es-idomok/d100t-drencso-100-perforalt-geotextiles-50mtekercs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Szatmári",
+      "termek": "Dréncső 100 perforált 50 fm",
+      "ar": 1149,
+      "egyseg": "Ft/fm",
+      "url": "https://szatmari.hu/termekek/product/21358-drencso-100-perforalt-50fm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "geotextília nélkül"
+    },
+    {
+      "bolt": "Terra Metal",
+      "termek": "160 mm geotextíliával bebugyolált PVC perforált dréncső (25 m tekercs)",
+      "ar": 2810,
+      "egyseg": "Ft/fm",
+      "url": "https://terrametal.hu/index.php/termekek/drencso-szivargocso-szivarogtato-cso/item/157:160-geotextiliaval-bebugyolalt-pvc-perforalt-talajviz-gyujto-drencso",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "csak egész tekercs, 70 250 Ft/tekercs; ugyanez a cég Ø100 csupasz: 700 Ft/fm"
+    },
+    {
+      "bolt": "Tetra-Pipe (drencsovek.hu)",
+      "termek": "DN160 PE duplafalú geotextíliás drén (50 m)",
+      "ar": 4191,
+      "egyseg": "Ft/fm",
+      "url": "https://drencsovek.hu/duplafalu_pe_drencso",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 3300 Ft + 27% ÁFA; gyártói/nagyker ár"
+    }
+  ],
+  "megjegyzes": "Ø100 geotextíliás 1 630–2 090 Ft/fm, csupasz Ø100 700–1 525 Ft/fm, Ø160 2 810–4 190 Ft/fm.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -7,12 +7,17 @@ import { SITE, huf, honapEv, datumHosszu } from '../lib/format';
 const dataDir = path.resolve('..', 'data');
 const anyagok = JSON.parse(fs.readFileSync(path.join(dataDir, 'anyagok.json'), 'utf-8'));
 const varosok = JSON.parse(fs.readFileSync(path.join(dataDir, 'varosok.json'), 'utf-8'));
+const st = JSON.parse(fs.readFileSync(path.join(dataDir, 'statisztika.json'), 'utf-8'));
 
-// Legfrissebb áradat dátuma (freshness jelzés)
+// Áradatok + legfrissebb dátum + források száma
+const arMap: Record<string, any> = {};
 let frissitve = '2026-01-15';
+let forrasOssz = 0;
 for (const a of anyagok) {
   try {
     const d = JSON.parse(fs.readFileSync(path.join(dataDir, 'arak', `${a.slug}.json`), 'utf-8'));
+    arMap[a.slug] = d;
+    forrasOssz += (d.forrasok || []).length;
     if (d.frissitve && d.frissitve > frissitve) frissitve = d.frissitve;
   } catch (e) { /* skip */ }
 }
@@ -20,7 +25,7 @@ for (const a of anyagok) {
 const kategoriak = [
   { id: 'alapanyag', nev: 'Alapanyagok', ikon: '🧱', leiras: 'Cement, beton, sóder, kavics, homok' },
   { id: 'falazat', nev: 'Falazat', ikon: '🏗️', leiras: 'Tégla, poroton, ytong, zsalukő' },
-  { id: 'teto', nev: 'Tető', ikon: '🏠', leiras: 'Tetőcserép, eternit, zsindely, fólia' },
+  { id: 'teto', nev: 'Tető', ikon: '🏠', leiras: 'Tetőcserép, hullámpala, zsindely, fólia' },
   { id: 'szigeteles', nev: 'Szigetelés', ikon: '🌡️', leiras: 'Kőzetgyapot, EPS, XPS, üveggyapot' },
   { id: 'burkolat', nev: 'Burkolat', ikon: '🔲', leiras: 'Járólap, csempe, térkő, parkett' },
   { id: 'fem', nev: 'Fém', ikon: '⚙️', leiras: 'Zártszelvény, betonacél, trapézlemez' },
@@ -28,44 +33,83 @@ const kategoriak = [
   { id: 'egyeb', nev: 'Egyéb', ikon: '🔧', leiras: 'Vakolat, habarcs, ragasztó, vízszigetelő' },
 ];
 
-const topAnyagok = ['cement', 'tegla', 'beton', 'gipszkarton', 'terko', 'jarolap', 'kozetgyapot', 'osb-lap', 'soder', 'eps', 'betonacél', 'zartszelveny'];
-const top = anyagok.filter((a: any) => topAnyagok.includes(a.slug));
+// Főoldali ártábla: a legtöbbet keresett anyagok
+const kiemelt = ['cement', 'beton', 'soder', 'zuzott-ko', 'homok', 'betonacél', 'zartszelveny', 'tegla', 'poroton', 'ytong', 'zsaluko', 'osb-lap', 'gipszkarton', 'kozetgyapot', 'eps', 'terko', 'trapezlemez', 'polikarbonat'];
+const arTabla = kiemelt
+  .map((slug) => {
+    const a = anyagok.find((x: any) => x.slug === slug);
+    const d = arMap[slug];
+    if (!a || !d) return null;
+    return { slug, nev: a.nev, min: d.alap_ar.min, max: d.alap_ar.max, atlag: d.alap_ar.atlag, egyseg: d.alap_ar.egyseg };
+  })
+  .filter(Boolean) as any[];
+
+const negyed = st.negyedeves_anyag.adatok;
+const utolsoNegyed = negyed[negyed.length - 1];
+const tegla = st.szakagazatok.adatok[0];
+const cementSz = st.szakagazatok.adatok[3];
+const pct = (n: number) => `${n > 0 ? '+' : ''}${n.toFixed(1).replace('.', ',')}%`;
+const cement = arMap['cement'];
+const betonacel = arMap['betonacél'];
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Építőanyag ár",
   "url": SITE,
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": `${SITE}/?q={search_term_string}`,
-    "query-input": "required name=search_term_string"
-  }
 };
 ---
 <BaseLayout
-  title={`Építőanyag árak 2026 – aktuális árlista (${anyagok.length} anyag, 20 város)`}
-  description={`Aktuális építőanyag árak 2026-ban: cement, tégla, OSB, betonacél, térkő és további anyagok ára ${anyagok.length} termékre, 20 magyar városban. Frissítve: ${honapEv(frissitve)}.`}
+  title={`Építőanyag árak 2026 – ${anyagok.length} anyag bolti ára forrásokkal`}
+  description={`Építőanyag árak ${honapEv(frissitve)}: cement ${huf(cement.alap_ar.min)}–${huf(cement.alap_ar.max)} Ft/zsák, betonacél ${huf(betonacel.alap_ar.min)}–${huf(betonacel.alap_ar.max)} Ft/kg és további ${anyagok.length - 2} anyag bruttó ára, KSH-adatok az árak alakulásáról.`}
   canonicalURL={`${SITE}/`}
   schema={JSON.stringify(websiteSchema)}
 >
   <div class="max-w-5xl mx-auto px-4 py-8">
-    <h1 class="text-4xl font-bold text-gray-900 mb-2">Építőanyag árak 2026 – aktuális árlista</h1>
+    <h1 class="text-4xl font-bold text-gray-900 mb-2">Építőanyag árak 2026</h1>
     <p class="text-sm text-gray-500 mb-4">
-      Árak frissítve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {anyagok.length} anyag · 20 város
+      Árak ellenőrizve: <time datetime={frissitve}>{datumHosszu(frissitve)}</time> · {anyagok.length} anyag · {forrasOssz} bolti ár forrással
     </p>
 
     <p class="text-lg text-gray-700 leading-relaxed mb-4">
-      Üdvözöljük az <strong>epitoanyagar.hu</strong> oldalán, ahol naprakész információt talál
-      a legfontosabb építőanyagok 2026-os árairól. Legyen szó cement, tégla, beton, térkő vagy
-      szigetelőanyag vásárlásáról – segítünk megtalálni a legjobb árat a közelben.
+      {anyagok.length} építőanyag bruttó ára tüzépek, fatelepek, betonüzemek és barkácsáruházak nyilvános árai alapján.
+      Minden anyagoldal alján ott vannak a források, linkkel.
+      Az árak szállítás nélkül értendők.
     </p>
-    <p class="text-gray-700 leading-relaxed mb-8">
-      Adatbázisunkban <strong>{anyagok.length} építőanyag</strong> árát követjük nyomon <strong>20 magyarországi városban</strong>.
-      Az árak havonta frissülnek, hogy mindig aktuális tájékoztatást kapjon.
-      Miért változnak az építőanyag árak? Az alapanyag-költségek, az energia, a szállítás és
-      a szezonális kereslet mind befolyásolják az árakat – nálunk ezeket mind figyelembe vesszük.
-    </p>
+
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
+      <h2 class="text-lg font-semibold text-blue-900 mb-2">Hogyan alakulnak az építőanyag árak 2026-ban?</h2>
+      <ul class="text-sm text-blue-900 space-y-1 mb-3">
+        <li>Lakásépítés anyagköltsége 2026 I. negyedévében: <strong>{pct(utolsoNegyed.anyag)}</strong> egy év alatt (KSH)</li>
+        <li>Tégla, cserép gyártói ára 2026 júliusában: <strong>{pct(tegla.jul2026)}</strong>, cementé: <strong>{pct(cementSz.jul2026)}</strong></li>
+        <li>Az anyagköltség 2025-ben a 2019-es szint kb. kétszerese volt</li>
+      </ul>
+      <a href="/epitoanyag-arak-alakulasa/" class="text-blue-700 font-medium hover:underline">Részletek, grafikonok, KSH-adatok →</a>
+    </div>
+
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Legkeresettebb építőanyagok ára</h2>
+    <div class="overflow-x-auto mb-10">
+      <table class="min-w-full bg-white border border-gray-200 rounded-lg text-sm">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="px-3 py-2 text-left font-semibold text-gray-700">Anyag</th>
+            <th class="px-3 py-2 text-right font-semibold text-gray-700">Átlagár</th>
+            <th class="px-3 py-2 text-right font-semibold text-gray-700">Ártartomány</th>
+            <th class="px-3 py-2 text-left font-semibold text-gray-700">Egység</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          {arTabla.map((r) => (
+            <tr class="hover:bg-gray-50">
+              <td class="px-3 py-2"><a class="text-blue-700 hover:underline font-medium" href={`/${r.slug}-ara/`}>{r.nev} ára</a></td>
+              <td class="px-3 py-2 text-right font-semibold text-gray-900 whitespace-nowrap">{huf(r.atlag)} Ft</td>
+              <td class="px-3 py-2 text-right text-gray-700 whitespace-nowrap">{huf(r.min)}–{huf(r.max)} Ft</td>
+              <td class="px-3 py-2 text-gray-600">{r.egyseg.replace('Ft/', '')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
 
     <h2 class="text-2xl font-semibold text-gray-800 mb-5">Kategóriák</h2>
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
@@ -77,19 +121,6 @@ const websiteSchema = {
           <div class="text-3xl mb-2">{k.ikon}</div>
           <div class="font-semibold text-gray-800 text-sm mb-1">{k.nev}</div>
           <div class="text-xs text-gray-500">{k.leiras}</div>
-        </a>
-      ))}
-    </div>
-
-    <h2 class="text-2xl font-semibold text-gray-800 mb-5">Legnépszerűbb anyagok</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
-      {top.map((a: any) => (
-        <a
-          href={`/${a.slug}-ara/`}
-          class="flex items-center justify-between bg-white border border-gray-200 rounded-lg px-4 py-3 hover:border-blue-400 hover:shadow-sm transition-all"
-        >
-          <span class="font-medium text-gray-800">{a.nev} ára 2026</span>
-          <span class="text-blue-600 text-sm">→</span>
         </a>
       ))}
     </div>
@@ -106,13 +137,13 @@ const websiteSchema = {
       ))}
     </div>
 
-    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
-      <h2 class="text-xl font-semibold text-amber-800 mb-3">Miért változnak az építőanyag árak?</h2>
-      <ul class="space-y-2 text-amber-900 text-sm">
-        <li><strong>Energia- és alapanyagköltségek:</strong> A cement, acél és fa ára szorosan követi az energiaárakat.</li>
-        <li><strong>Szezonalitás:</strong> Tavasszal és nyáron az árak 10–20%-kal emelkedhetnek a nagyobb kereslet miatt.</li>
-        <li><strong>Szállítási díjak:</strong> A logisztikai költségek emelkedése közvetlenül beépül az anyagárakba.</li>
-        <li><strong>Import/export:</strong> Az euró/forint árfolyam befolyásolja az importált anyagok árát.</li>
+    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+      <h2 class="text-xl font-semibold text-gray-800 mb-3">Honnan vannak az árak?</h2>
+      <ul class="space-y-2 text-gray-700 text-sm list-disc pl-5">
+        <li>Anyagonként legalább 3 kereskedő nyilvános, bruttó ára (tüzépek, fatelepek, betonüzemek, bányák, barkácsáruházak).</li>
+        <li>A sávból kihagyjuk a kiugró és az akciós árakat. A nettó árlistákat (pl. betonüzemek) 27% ÁFA-val bruttósítjuk.</li>
+        <li>A városi árak az országos átlagból, regionális árszinttel becsült értékek.</li>
+        <li>Az árak alakulásához a KSH építőipari ár- és költségstatisztikáit használjuk.</li>
       </ul>
     </div>
   </div>

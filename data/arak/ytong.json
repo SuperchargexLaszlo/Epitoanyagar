@@ -1,26 +1,31 @@
 {
   "anyag_id": "ytong",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 350,
-    "max": 700,
-    "atlag": 500,
+    "min": 599,
+    "max": 3259,
+    "atlag": 1480,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "PP2/0.35 (20 cm)",
-      "ar": 380,
+      "nev": "Ytong Pve 10 cm válaszfalelem 600x200x100",
+      "ar": 749,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "PP4/0.6 (30 cm)",
-      "ar": 520,
+      "nev": "Ytong Classic GT 20 cm 600x200x200",
+      "ar": 1590,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "PP6/0.8 (40 cm)",
-      "ar": 680,
+      "nev": "Ytong Classic/Lambda GT 30 cm 600x200x300",
+      "ar": 2354,
+      "egyseg": "Ft/db"
+    },
+    {
+      "nev": "Ytong Classic 37,5 cm (600×200×375)",
+      "ar": 2900,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +53,128 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Ytong 2026-ban?",
-      "valasz": "A(z) Ytong ára 2026-ban 350 – 700 Ft/db között mozog, az átlagár 500 Ft/db."
+      "kerdes": "Mennyibe kerül a ytong 2026-ban?",
+      "valasz": "Ytong ára 2026 szeptemberében 599–3 259 Ft/db, a boltok átlagára 1 480 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Ytong Pve 10 cm válaszfalelem 600x200x100 (749 Ft), a legdrágább: Ytong Classic 37,5 cm (600×200×375) (2 900 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón ytongt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a ytong árai?",
+      "valasz": "10 magyar kereskedő nyilvános, bruttó árából (Metalloglobus, Hufbau, Újház Veszprém, Újház Bodrogi), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi ytong kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a ytong ára?",
+      "valasz": "Vastagság szerint: 10 cm 600–840, 20 cm 1 550–1 650, 30 cm ~2 350, 37,5 cm 2 630–3 260 Ft/db. 8,33 db/m², így a 30 cm-es fal anyaga ~19 500 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj ytong vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Metalloglobus",
+      "termek": "Ytong válaszfalelem Pve 10 cm, 120 db/raklap",
+      "ar": 837,
+      "egyseg": "Ft/db",
+      "url": "https://www.metalloglobus.com/ytong-valaszfalelem-pve-10-cm-120-db-raklap",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Hufbau (hbarkacsaruhaz.hu)",
+      "termek": "YTONG válaszfalelem 10-es Pve 600x200x100",
+      "ar": 705,
+      "egyseg": "Ft/db",
+      "url": "https://hbarkacsaruhaz.hu/epitoanyag/falazoelem/ytong-elem/yt-10015028-ytong-valaszfalelem-10-es-pve-600x200x100-120db-7-9kgdb-10015028",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "nettó 555"
+    },
+    {
+      "bolt": "Újház Veszprém (Lang)",
+      "termek": "Xella Ytong Pve válaszfalelem 600x200x100 (120 db/rkl)",
+      "ar": 599,
+      "egyseg": "Ft/db",
+      "url": "https://www.ujhazveszprem.hu/termek/xella-ytong-pve-valaszfalelem-600x200x100-mm-120-db-rkl-uh-001982",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Legalacsonyabb talált ár"
+    },
+    {
+      "bolt": "Újház Bodrogi",
+      "termek": "Xella Ytong Pve válaszfalelem 600x200x100",
+      "ar": 749,
+      "egyseg": "Ft/db",
+      "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/ytong/uh-001982-xella-ytong-pve-valaszfalelem-600x200x100-mm-120-dbrkl",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építőáruház (epitoaruhaz.hu)",
+      "termek": "Xella Ytong Classic GT falazóelem 600x200x200",
+      "ar": 1590,
+      "egyseg": "Ft/db",
+      "url": "https://www.epitoaruhaz.hu/Ytong-falazoelemek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Bau-Styl",
+      "termek": "Xella Ytong Classic GT falazóelem 600x200x200 (56 db/rkl)",
+      "ar": 1644,
+      "egyseg": "Ft/db",
+      "url": "https://www.bau-styl.hu/epitoanyag/termek/xella-ytong-classic-gt-falazoelem-600x200x200-mm-56-db-rkl",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Újház Bodrogi",
+      "termek": "Xella Ytong Classic GT falazóelem 600x200x200",
+      "ar": 1549,
+      "egyseg": "Ft/db",
+      "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/ytong/uh-002097-xella-ytong-classic-gt-falazoelem-600x200x200-mm-56-dbrkl",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építők Háza Kft.",
+      "termek": "Ytong Classic GT falazóelem 200x600x300",
+      "ar": 2378,
+      "egyseg": "Ft/db",
+      "url": "https://epitokhazakft.hu/Ytong-30-falazoelem",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Mennyiségi kedvezménnyel 2 180 / 1 981 Ft/db"
+    },
+    {
+      "bolt": "Grás (gras.hu)",
+      "termek": "Ytong Lambda GT falazóelem 600x200x300",
+      "ar": 2354,
+      "egyseg": "Ft/db",
+      "url": "https://gras.hu/termek/6971/ytong-lambda-gt-falazoelem----600-x-200-x-300-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Árak módosítva 2026-09-21"
+    },
+    {
+      "bolt": "Metalloglobus",
+      "termek": "Ytong Lambda NF+GT 375x200x600, 32 db/raklap",
+      "ar": 3259,
+      "egyseg": "Ft/db",
+      "url": "https://www.metalloglobus.com/ytong-lambda-nf-gt-375x200x600-mm-32-db-raklap",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "104 282 Ft/raklap ÷ 32 db = 3 259 Ft/db"
+    }
+  ],
+  "megjegyzes": "Vastagság szerint: 10 cm 600–840, 20 cm 1 550–1 650, 30 cm ~2 350, 37,5 cm 2 630–3 260 Ft/db. 8,33 db/m², így a 30 cm-es fal anyaga ~19 500 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

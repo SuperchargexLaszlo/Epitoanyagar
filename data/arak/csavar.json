@@ -1,27 +1,27 @@
 {
   "anyag_id": "csavar",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 800,
-    "max": 2500,
-    "atlag": 1400,
+    "min": 403,
+    "max": 2899,
+    "atlag": 1100,
     "egyseg": "Ft/csomag (200 db)"
   },
   "variansok": [
     {
-      "nev": "GK csavar 3.5×35",
-      "ar": 850,
-      "egyseg": "Ft/csomag (200 db)"
+      "nev": "Gipszkarton csavar 3,5×25 ömlesztett (1000 db dobozból, 200 db-ra vetítve)",
+      "ar": 490,
+      "egyseg": "Ft/200 db"
     },
     {
-      "nev": "Fémcsavar 4.2×38",
-      "ar": 1400,
-      "egyseg": "Ft/csomag (200 db)"
+      "nev": "Facsavar 3,5×25 bliszter 200 db",
+      "ar": 835,
+      "egyseg": "Ft/200 db"
     },
     {
-      "nev": "Facsavar 5×80 TX",
-      "ar": 2400,
-      "egyseg": "Ft/csomag (200 db)"
+      "nev": "SB önfúró gipszkarton csavar 3,5×25 200 db (barkácsáruház)",
+      "ar": 2899,
+      "egyseg": "Ft/200 db"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Csavar 2026-ban?",
-      "valasz": "A(z) Csavar ára 2026-ban 800 – 2 500 Ft/csomag (200 db) között mozog, az átlagár 1 400 Ft/csomag (200 db)."
+      "kerdes": "Mennyibe kerül a csavar 2026-ban?",
+      "valasz": "Csavar ára 2026 szeptemberében 403–2 899 Ft/csomag (200 db), a boltok átlagára 1 100 Ft/csomag (200 db) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Gipszkarton csavar 3,5×25 ömlesztett (1000 db dobozból, 200 db-ra vetítve) (490 Ft), a legdrágább: SB önfúró gipszkarton csavar 3,5×25 200 db (barkácsáruház) (2 899 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón csavart venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a csavar árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, Kőházy, Netrock, Allegro), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi csavar kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a csavar ára?",
+      "valasz": "200 db-os kiskereskedelmi csomag 800–2 900 Ft; ömlesztett 1000 db-os dobozban darabonként 2–4,5 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj csavar vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "SB gipszkartoncsavar önfúró süllyesztett fejű PH 3,5×25 foszfátozott 200 db/csomag",
+      "ar": 2899,
+      "egyseg": "Ft/csomag (200 db)",
+      "url": "https://www.praktiker.hu/epites-felujitas/csavar-zar-vasalat/csavar/sb-gipszkartoncsavar-onfuro-sullyesztett-feju-ph-3-5x25-foszfatozott-200db/csm/p/426529",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "önfúró (fémhez)"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Gipszkarton csavar fémhez 3,5 × 25 mm 1000 db",
+      "ar": 898,
+      "egyseg": "Ft/200 db",
+      "url": "https://www.kohazy.hu/glett-gipsz-csemperagaszto-portermek/-fugazoanyag/gipszkarton-csavar-femhez-35-x-25-mm-1000-db",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 4489 Ft / 1000 db × 200"
+    },
+    {
+      "bolt": "Netrock",
+      "termek": "Gipszkarton csavar fémmenetes, foszfátozott 3,5×25 1000 db/doboz",
+      "ar": 490,
+      "egyseg": "Ft/200 db",
+      "url": "https://netrock.hu/gipszkarton-csavar-femmenetes-foszfatozott-35x25-1000dbdoboz-1200",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 2,45 Ft/db × 200"
+    },
+    {
+      "bolt": "Allegro (piactér)",
+      "termek": "Facsavar 3,5×25 gipszkartonhoz 200 db",
+      "ar": 835,
+      "egyseg": "Ft/csomag (200 db)",
+      "url": "https://allegro.hu/termek/fa-csavar-csavarok-3-5x25-gipszkartonhoz-200-db-3d19bc5e-c706-4428-96c1-2c5718c0d1dd",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "piactéri ár"
+    },
+    {
+      "bolt": "eMAG",
+      "termek": "Fahasáb-gipszkarton csavar gyorsmenettel 3,5×25, 1000 db",
+      "ar": 403,
+      "egyseg": "Ft/200 db",
+      "url": "https://www.emag.hu/facsavarok-3-5x25-1000-db-5906365344207/pd/DMHTCDYBM",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 2014 Ft / 1000 × 200"
+    }
+  ],
+  "megjegyzes": "200 db-os kiskereskedelmi csomag 800–2 900 Ft; ömlesztett 1000 db-os dobozban darabonként 2–4,5 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

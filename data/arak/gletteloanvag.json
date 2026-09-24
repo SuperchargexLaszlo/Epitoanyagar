@@ -1,26 +1,26 @@
 {
   "anyag_id": "gletteloanvag",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1200,
-    "atlag": 750,
+    "min": 6470,
+    "max": 9695,
+    "atlag": 7700,
     "egyseg": "Ft/zsák (20 kg)"
   },
   "variansok": [
     {
-      "nev": "Bázis glett",
-      "ar": 520,
+      "nev": "Széria glett 0–10 mm 20 kg (OBI saját márka)",
+      "ar": 6800,
       "egyseg": "Ft/zsák (20 kg)"
     },
     {
-      "nev": "Finomglett",
-      "ar": 800,
+      "nev": "Baumit FinoBello kézi glett 20 kg",
+      "ar": 7999,
       "egyseg": "Ft/zsák (20 kg)"
     },
     {
-      "nev": "Készglett diszperziós",
-      "ar": 1150,
+      "nev": "Baumit beltéri meszes klíma glett 20 kg",
+      "ar": 9695,
       "egyseg": "Ft/zsák (20 kg)"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Glettelőanyag 2026-ban?",
-      "valasz": "A(z) Glettelőanyag ára 2026-ban 500 – 1 200 Ft/zsák (20 kg) között mozog, az átlagár 750 Ft/zsák (20 kg)."
+      "kerdes": "Mennyibe kerül a glettelőanyag 2026-ban?",
+      "valasz": "Glettelőanyag ára 2026 szeptemberében 6 470–9 695 Ft/zsák (20 kg), a boltok átlagára 7 700 Ft/zsák (20 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Széria glett 0–10 mm 20 kg (OBI saját márka) (6 800 Ft), a legdrágább: Baumit beltéri meszes klíma glett 20 kg (9 695 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón glettelőanyagt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a glettelőanyag árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, OBI, epitoanyag.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi glettelőanyag kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a glettelőanyag ára?",
+      "valasz": "Porglett 20 kg-os zsákban (320–485 Ft/kg)."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj glettelőanyag vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Baumit Finobello kézi glettanyag 20 kg, beltéri gipszes (0–10 mm)",
+      "ar": 7999,
+      "egyseg": "Ft/zsák (20 kg)",
+      "url": "https://www.praktiker.hu/gipszek-glettek/cc/4355",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "400 Ft/kg; ugyanitt Baumit Finish Superior 20 kg 8999 Ft"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Széria glett 0–10 mm 20 kg",
+      "ar": 6800,
+      "egyseg": "Ft/zsák (20 kg)",
+      "url": "https://www.obi.hu/search/glett",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: listában 340 Ft/kg × 20 kg"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Baumit FinoGrande beltéri gipszes glett 20 kg",
+      "ar": 7335,
+      "egyseg": "Ft/zsák (20 kg)",
+      "url": "https://epitoanyag.hu/baumit-finogrande-belteri-gipszes-glett-20-kg-pVUgtMDMwNzMw",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "367 Ft/kg"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Rigips Rimano Plus A 0-10 glett 20 kg",
+      "ar": 6470,
+      "egyseg": "Ft/zsák (20 kg)",
+      "url": "https://epitoanyag.hu/baumit-finish-expert-premium-belteri-glett-20-kg-pVUgtNjc1NTQ0",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "324 Ft/kg, 'hasonló termékek' listából"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Baumit beltéri meszes klíma glett 20 kg",
+      "ar": 9695,
+      "egyseg": "Ft/zsák (20 kg)",
+      "url": "https://epitoanyag.hu/baumit-belteri-meszes-klima-glett-20-kg-pVUgtMDE1MzE4",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "485 Ft/kg, prémium meszes"
+    }
+  ],
+  "megjegyzes": "Porglett 20 kg-os zsákban (320–485 Ft/kg).",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

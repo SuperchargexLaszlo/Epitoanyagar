@@ -1,26 +1,26 @@
 {
   "anyag_id": "deszka",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 600,
-    "max": 2000,
-    "atlag": 1100,
+    "min": 475,
+    "max": 1350,
+    "atlag": 780,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "Fenyő 25×100 mm",
-      "ar": 650,
+      "nev": "Fenyő deszka 2,5×10 cm gyalulatlan",
+      "ar": 475,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Fenyő 25×150 mm",
-      "ar": 980,
+      "nev": "Fenyő deszka 2,5×15 cm gyalulatlan",
+      "ar": 715,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "Fenyő 38×200 mm",
-      "ar": 1900,
+      "nev": "Lucfenyő gyalult deszka 19×146 mm AB",
+      "ar": 990,
       "egyseg": "Ft/fm"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Deszka 2026-ban?",
-      "valasz": "A(z) Deszka ára 2026-ban 600 – 2 000 Ft/fm között mozog, az átlagár 1 100 Ft/fm."
+      "kerdes": "Mennyibe kerül a deszka 2026-ban?",
+      "valasz": "Deszka ára 2026 szeptemberében 475–1 350 Ft/fm, a boltok átlagára 780 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Fenyő deszka 2,5×10 cm gyalulatlan (475 Ft), a legdrágább: Lucfenyő gyalult deszka 19×146 mm AB (990 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón deszkat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a deszka árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (Fadepo Fatelep, Székely Fatelep, Farengeteg Fatelep), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi deszka kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a deszka ára?",
+      "valasz": "Gyalulatlan 2,5 cm-es fenyődeszka 470–1 050 Ft/fm szélességtől függően; gyalult 19 mm-es lucfenyő 680–1 350 Ft/fm."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj deszka vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Fadepo Fatelep",
+      "termek": "Légszáraz fenyő deszka; lucfenyő gyalult deszka 19×96/116/146/170 mm AB",
+      "ar": 990,
+      "egyseg": "Ft/fm",
+      "url": "https://fadepofatelep.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "légszáraz deszka 189 900 Ft/m³ → 2,5×15: 0,00375 × 189 900 = 712 Ft/fm; gyalult 19×96: 680, 19×116: 800, 19×146: 990 (B: 750), 19×170: 1 350 Ft/fm"
+    },
+    {
+      "bolt": "Székely Fatelep",
+      "termek": "Normál méretű hosszú áru 6 fm-ig (deszka)",
+      "ar": 720,
+      "egyseg": "Ft/fm",
+      "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "192 000 Ft/m³ → 2,5×15: 720 Ft/fm; 2,5×10: 480 Ft/fm; zsaludeszka 135 000 Ft/m³ → 2,5×15: 506 Ft/fm"
+    },
+    {
+      "bolt": "Farengeteg Fatelep",
+      "termek": "Deszka 2,5×10/12/15 (189 000 Ft/m³), 2,5×20 (210 000 Ft/m³)",
+      "ar": 1050,
+      "egyseg": "Ft/fm",
+      "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "2,5×20: 0,005 × 210 000 = 1 050 Ft/fm; 2,5×10: 0,0025 × 189 000 = 473 Ft/fm"
+    }
+  ],
+  "megjegyzes": "Gyalulatlan 2,5 cm-es fenyődeszka 470–1 050 Ft/fm szélességtől függően; gyalult 19 mm-es lucfenyő 680–1 350 Ft/fm.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

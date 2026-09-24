@@ -1,26 +1,26 @@
 {
   "anyag_id": "kültéri-festék",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1200,
-    "max": 5000,
-    "atlag": 2800,
+    "min": 1428,
+    "max": 3986,
+    "atlag": 2400,
     "egyseg": "Ft/liter"
   },
   "variansok": [
     {
-      "nev": "Alap homlokzatfesték",
-      "ar": 1300,
+      "nev": "Poli-Farbe diszperziós homlokzatfesték fehér 14 l",
+      "ar": 1428,
       "egyseg": "Ft/liter"
     },
     {
-      "nev": "Szilikon homlokzatfesték",
-      "ar": 2900,
+      "nev": "Düfa Trendfassade HD80 homlokzatfesték fehér 15 l",
+      "ar": 1466,
       "egyseg": "Ft/liter"
     },
     {
-      "nev": "Prémium sziloxán",
-      "ar": 4800,
+      "nev": "Héra Modakril (Kolor) homlokzatfesték fehér 15 l",
+      "ar": 3043,
       "egyseg": "Ft/liter"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Kültéri festék 2026-ban?",
-      "valasz": "A(z) Kültéri festék ára 2026-ban 1 200 – 5 000 Ft/liter között mozog, az átlagár 2 800 Ft/liter."
+      "kerdes": "Mennyibe kerül a kültéri festék 2026-ban?",
+      "valasz": "Kültéri festék ára 2026 szeptemberében 1 428–3 986 Ft/liter, a boltok átlagára 2 400 Ft/liter (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Poli-Farbe diszperziós homlokzatfesték fehér 14 l (1 428 Ft), a legdrágább: Héra Modakril (Kolor) homlokzatfesték fehér 15 l (3 043 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón kültéri festékt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a kültéri festék árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Építs Otthont, ANDA Festékáruház, Festékcenter.hu, Színvilág), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi kültéri festék kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a kültéri festék ára?",
+      "valasz": "Diszperziós homlokzatfesték 1 400–1 700 Ft/l, prémium akril/szilikon 3 000–4 000 Ft/l, szilikát 4 700 Ft/l körül."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj kültéri festék vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Építs Otthont",
+      "termek": "Poli-Farbe Diszperziós Homlokzatfesték Fehér 14 l",
+      "ar": 1428,
+      "egyseg": "Ft/l",
+      "url": "https://epitsotthont.hu/poli-farbe-diszperzios-homlokzatfestek-feher-14l-833",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 19 990 Ft / 14 l"
+    },
+    {
+      "bolt": "ANDA Festékáruház",
+      "termek": "Poli-farbe diszperziós homlokzatfesték 14 L",
+      "ar": 1714,
+      "egyseg": "Ft/l",
+      "url": "https://www.anda.hu/Kulteri-diszperzios-falfestekek/Poli-farbe-diszp-homlokzatfestek-14-L-27397-p11211.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 23 990 Ft / 14 l"
+    },
+    {
+      "bolt": "Festékcenter.hu",
+      "termek": "Düfa Trendfassade HD80 homlokzatfesték fehér 15 l",
+      "ar": 1466,
+      "egyseg": "Ft/l",
+      "url": "https://www.festekcenter.hu/trilak-hera-modakril-kolor-homlokzatfestek-feher-1-l",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 21 990 Ft / 15 l; ugyanitt Héra Acryl homlokzat 14 l 30 490 Ft (2178 Ft/l), Modakril Kolor 15 l 59 790 Ft (3986 Ft/l)"
+    },
+    {
+      "bolt": "Színvilág",
+      "termek": "Héra Modakril homlokzatfesték fehér 15 l",
+      "ar": 3043,
+      "egyseg": "Ft/l",
+      "url": "https://szinvilag.hu/termek/modakril-homlokzat-festek-feher-15-l-c334ba918423",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "45 650 Ft / 15 l"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Modakril Kolor homlokzatfesték L bázis 15 l",
+      "ar": 3348,
+      "egyseg": "Ft/l",
+      "url": "https://www.kohazy.hu/melyalapozo-vakolatalapozo-feluletkezeles/-tapadohid-betonkontakt/modakril-kolor-homlokzatfestek-l-bazis-15-l",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 50 220 Ft / 15 l"
+    }
+  ],
+  "megjegyzes": "Diszperziós homlokzatfesték 1 400–1 700 Ft/l, prémium akril/szilikon 3 000–4 000 Ft/l, szilikát 4 700 Ft/l körül.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

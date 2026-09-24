@@ -1,26 +1,26 @@
 {
   "anyag_id": "habarcs",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1200,
-    "atlag": 750,
+    "min": 1431,
+    "max": 4323,
+    "atlag": 2900,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "M5 falazóhabarcs",
-      "ar": 520,
-      "egyseg": "Ft/zsák (25 kg)"
+      "nev": "Baumit MM30 (MauerMörtel 30) falazóhabarcs 40 kg",
+      "ar": 2290,
+      "egyseg": "Ft/zsák (40 kg)"
     },
     {
-      "nev": "M10 falazóhabarcs",
-      "ar": 750,
-      "egyseg": "Ft/zsák (25 kg)"
+      "nev": "Sakret ZM falazóhabarcs M10 30 kg",
+      "ar": 2970,
+      "egyseg": "Ft/zsák (30 kg)"
     },
     {
-      "nev": "Hőtechnikai habarcs",
-      "ar": 1150,
+      "nev": "Viablokk M10 falazóhabarcs 25 kg",
+      "ar": 3969,
       "egyseg": "Ft/zsák (25 kg)"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Habarcs 2026-ban?",
-      "valasz": "A(z) Habarcs ára 2026-ban 500 – 1 200 Ft/zsák (25 kg) között mozog, az átlagár 750 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül a habarcs 2026-ban?",
+      "valasz": "Habarcs ára 2026 szeptemberében 1 431–4 323 Ft/zsák (25 kg), a boltok átlagára 2 900 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Baumit MM30 (MauerMörtel 30) falazóhabarcs 40 kg (2 290 Ft), a legdrágább: Viablokk M10 falazóhabarcs 25 kg (3 969 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón habarcst venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a habarcs árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Grás Tüzép, Veledépítünk, Sakret Vakolatom, Újház Farmker), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi habarcs kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a habarcs ára?",
+      "valasz": "A falazóhabarcs jellemzően 30–40 kg-os zsákban kapható; a sáv 25 kg-ra vetített ár."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj habarcs vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Grás Tüzép",
+      "termek": "VIABLOKK falazóhabarcs M10 - 25 kg",
+      "ar": 3969,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://gras.hu/termek/7072/viablokk-falazohabarcs-m10-25-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "árak módosítva 2026-09-14"
+    },
+    {
+      "bolt": "Veledépítünk",
+      "termek": "VIABLOKK M10 falazóhabarcs 25 kg",
+      "ar": 4323,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://veledepitunk.hu/viablokk-m10-falazohabarcs-25-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Sakret Vakolatom",
+      "termek": "Sakret ZM falazóhabarcs M10 30 kg",
+      "ar": 2970,
+      "egyseg": "Ft/zsák (30 kg)",
+      "url": "https://sakretvakolatom.hu/termek/170/sakret-zm-falazohabarcs-m10-30-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "25 kg-ra vetítve ≈2475 Ft"
+    },
+    {
+      "bolt": "Újház Farmker",
+      "termek": "Baumit Falazóhabarcs 30 (MauerMörtel) 40 kg",
+      "ar": 2290,
+      "egyseg": "Ft/zsák (40 kg)",
+      "url": "https://ujhazfarmker.hu/habarcsok-adalekszerek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nincs készleten; 25 kg-ra vetítve ≈1431 Ft"
+    },
+    {
+      "bolt": "HőszigetelőShop",
+      "termek": "Falazóhabarcs M10 – 30 kg",
+      "ar": 3290,
+      "egyseg": "Ft/zsák (30 kg)",
+      "url": "https://hoszigeteloshop.hu/falazohabarcs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "25 kg-ra vetítve ≈2742 Ft"
+    }
+  ],
+  "megjegyzes": "A falazóhabarcs jellemzően 30–40 kg-os zsákban kapható; a sáv 25 kg-ra vetített ár.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

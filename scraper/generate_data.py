@@ -167,6 +167,13 @@ def get_anyag_ar(slug):
     return ANYAG_ARAK.get(slug) or ANYAG_ARAK.get(clean)
 
 def generate():
+    # 2026-09-24 óta a data/arak/*.json fájlok valós, forrással ellátott bolti árakat tartalmaznak
+    # (lásd scraper/merge_prices.py és scraper/research/). Ez a régi, becsült seed-generátor
+    # felülírná őket, ezért csak --force kapcsolóval fut.
+    import sys
+    if os.path.isdir(ARAK_DIR) and os.listdir(ARAK_DIR) and '--force' not in sys.argv:
+        print("A data/arak/ már forrásolt árakat tartalmaz. Felülíráshoz: python generate_data.py --force")
+        return
     os.makedirs(ARAK_DIR, exist_ok=True)
     anyagok = json.load(open(os.path.join(DATA_DIR, 'anyagok.json'), encoding='utf-8'))
     generated = 0

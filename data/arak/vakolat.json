@@ -1,27 +1,27 @@
 {
   "anyag_id": "vakolat",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 700,
-    "max": 1800,
-    "atlag": 1100,
+    "min": 2150,
+    "max": 3865,
+    "atlag": 3020,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "Gépi vakolat (30 kg)",
-      "ar": 900,
+      "nev": "Sakret PM-01 Uniputz kézi alapvakolat 25 kg",
+      "ar": 2150,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Kézi vakolat (25 kg)",
-      "ar": 1200,
+      "nev": "Baumit Manu 1 kézi alapvakolat 25 kg",
+      "ar": 3199,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Diszperziós vakolat",
-      "ar": 1700,
-      "egyseg": "Ft/zsák (25 kg)"
+      "nev": "Baumit MPI 25 gépi mész-cement alapvakolat 40 kg",
+      "ar": 3580,
+      "egyseg": "Ft/zsák (40 kg)"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,108 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Vakolat 2026-ban?",
-      "valasz": "A(z) Vakolat ára 2026-ban 700 – 1 800 Ft/zsák (25 kg) között mozog, az átlagár 1 100 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül a vakolat 2026-ban?",
+      "valasz": "Vakolat ára 2026 szeptemberében 2 150–3 865 Ft/zsák (25 kg), a boltok átlagára 3 020 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Sakret PM-01 Uniputz kézi alapvakolat 25 kg (2 150 Ft), a legdrágább: Baumit MPI 25 gépi mész-cement alapvakolat 40 kg (3 580 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón vakolatt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a vakolat árai?",
+      "valasz": "8 magyar kereskedő nyilvános, bruttó árából (Praktiker, Webépker, Kocsis Tüzép, epitoanyag.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi vakolat kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a vakolat ára?",
+      "valasz": "Kézi alapvakolat 25 kg-os zsákban. Gépi vakolat 40 kg-os zsákban 3 000–4 200 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj vakolat vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Baumit Manu 1 kézi vakolóhabarcs 25 kg",
+      "ar": 3199,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/vakolat-habarcs/c/1046",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "128 Ft/kg, 23 áruházban készleten"
+    },
+    {
+      "bolt": "Webépker (bolt.webepker.hu)",
+      "termek": "Baumit Manu 1 kézi alapvakolat 25 kg",
+      "ar": 2655,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://bolt.webepker.hu/termek/habarcsok/vakolatok/baumit-manu-1-kezi-alapvakolat-25-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "raktári ár"
+    },
+    {
+      "bolt": "Kocsis Tüzép (tuzepwebshop.hu)",
+      "termek": "SAKRET PM-01 Uniputz kézi alapvakolat szürke 25 kg",
+      "ar": 2150,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://tuzepwebshop.hu/falazohabarcs-vakolat-mesz",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós (eredeti 2300 Ft)"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Baumit UniPutz kézi vakolat szürke 25 kg",
+      "ar": 3215,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://epitoanyag.hu/baumit-uniputz-kezi-vakolat-szurke-25-kg-pVUgtNTI4MDQ4",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "rendelésre"
+    },
+    {
+      "bolt": "Kemiker webshop",
+      "termek": "Baumit UnoRed 25 kg",
+      "ar": 3865,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://webshop.kemiker.hu/termekkategoria/vakolatok-habarcsok/alapvakolatok/951711-baumit-unored-25kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "prémium, egyrétegű kézi vakolat"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Baumit MPI 25 (GV 25 belső gépi vakolat) 40 kg",
+      "ar": 3580,
+      "egyseg": "Ft/zsák (40 kg)",
+      "url": "https://epitoanyag.hu/baumit-mpi-25-gv-25-belso-gepi-vakolat-40-kg-pVUgtMDA2OTIx",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "90 Ft/kg; 25 kg-ra vetítve ≈2238 Ft"
+    },
+    {
+      "bolt": "Buildox (Újház Nyíregyháza)",
+      "termek": "Baumit MPI 25 gépi alapvakolat 40 kg",
+      "ar": 2995,
+      "egyseg": "Ft/zsák (40 kg)",
+      "url": "https://www.buildox.hu/Baumit-mpi-25-gepi-alapvakolat-40kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós (eredeti 3150 Ft), 75 Ft/kg"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Baumit GV 25 (MPI 25) beltéri gépi vakolat 40 kg",
+      "ar": 4190,
+      "egyseg": "Ft/zsák (40 kg)",
+      "url": "https://www.kohazy.hu/favedoszer-es-lazur-egyben/-vekonylazur-fapac/baumit-gv-25-mpi-25-belteri-gepi-vakolat-40-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "Kézi alapvakolat 25 kg-os zsákban. Gépi vakolat 40 kg-os zsákban 3 000–4 200 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,26 +1,26 @@
 {
   "anyag_id": "horganyzott-lemez",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2500,
-    "max": 5500,
-    "atlag": 3800,
+    "min": 2400,
+    "max": 6050,
+    "atlag": 3050,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "0.5 mm horganyzott",
-      "ar": 2600,
+      "nev": "Horganyzott síklemez 0,5 mm (1000x2000)",
+      "ar": 3030,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "0.8 mm horganyzott",
-      "ar": 3800,
+      "nev": "Horganyzott síklemez 0,8 mm (1000x2000)",
+      "ar": 4555,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "1.2 mm horganyzott",
-      "ar": 5200,
+      "nev": "Horganyzott síklemez 1,0 mm (1000x2000)",
+      "ar": 5820,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Horganyzott lemez 2026-ban?",
-      "valasz": "A(z) Horganyzott lemez ára 2026-ban 2 500 – 5 500 Ft/m² között mozog, az átlagár 3 800 Ft/m²."
+      "kerdes": "Mennyibe kerül a horganyzott lemez 2026-ban?",
+      "valasz": "Horganyzott lemez ára 2026 szeptemberében 2 400–6 050 Ft/m², a boltok átlagára 3 050 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Horganyzott síklemez 0,5 mm (1000x2000) (3 030 Ft), a legdrágább: Horganyzott síklemez 1,0 mm (1000x2000) (5 820 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón horganyzott lemezt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a horganyzott lemez árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Tolnay Vasker, Tímár Vasker, Uniholz, Metalloglobus), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi horganyzott lemez kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a horganyzott lemez ára?",
+      "valasz": "1000×2000 mm-es tábla (2 m²); az ár a vastagsággal nagyjából arányos."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj horganyzott lemez vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tolnay Vasker",
+      "termek": "Horganyzott lemez 1000x2000x0,5 mm (bruttó 6790 Ft/tábla); 0,8 mm: 9110; 1,0 mm: 12 030 Ft/tábla",
+      "ar": 3395,
+      "egyseg": "Ft/m²",
+      "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/lemezek/horganyzott-lemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó táblaár ÷ 2 m²; frissítve 2026.04.29"
+    },
+    {
+      "bolt": "Tímár Vasker",
+      "termek": "Horganyzott lemez 0,5x1000x2000 (1,0 mm: 12 080 Ft)",
+      "ar": 3120,
+      "egyseg": "Ft/m²",
+      "url": "https://timarvasker.hu/horganyzott-lemez/k",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "6240 Ft/tábla ÷ 2; 780 Ft/kg"
+    },
+    {
+      "bolt": "Uniholz",
+      "termek": "Horganyzott lemez 0,5 x 1000 x 2000 DX51D+Z (1 mm: 11 585)",
+      "ar": 3048,
+      "egyseg": "Ft/m²",
+      "url": "https://uniholz.hu/hu/horganyzott-lemezek/termekek/48",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 6095 Ft/tábla ÷ 2"
+    },
+    {
+      "bolt": "Metalloglobus",
+      "termek": "Horganyzott 0,5*1000*2000 mm (1 mm: 10 878)",
+      "ar": 2829,
+      "egyseg": "Ft/m²",
+      "url": "https://www.metalloglobus.com/horganyzott-0-5-1000-2000-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 5657 Ft/tábla ÷ 2"
+    },
+    {
+      "bolt": "Acélkereskedés.hu (Nagykáta)",
+      "termek": "Lv0,5x1000x2000 Horganyzott Lemez",
+      "ar": 2390,
+      "egyseg": "Ft/m²",
+      "url": "https://www.acelkereskedes.hu/Lv05x1000x2000-Horganyzott-Lemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 4780 Ft/tábla ÷ 2, a legolcsóbb"
+    },
+    {
+      "bolt": "Vasáruház",
+      "termek": "Horganyzott lemez DX51D+Z275 0,5*1000*2000",
+      "ar": 3410,
+      "egyseg": "Ft/m²",
+      "url": "https://vasaruhaz.hu/horganyzott_lemez_zartszelveny/horganyzott-lemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 6820 Ft/tábla ÷ 2"
+    }
+  ],
+  "megjegyzes": "1000×2000 mm-es tábla (2 m²); az ár a vastagsággal nagyjából arányos.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

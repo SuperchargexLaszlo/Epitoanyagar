@@ -1,26 +1,26 @@
 {
   "anyag_id": "soder",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 4000,
-    "max": 7000,
-    "atlag": 5500,
+    "min": 3300,
+    "max": 8900,
+    "atlag": 5300,
     "egyseg": "Ft/tonna"
   },
   "variansok": [
     {
-      "nev": "0-16 mm mosott",
-      "ar": 4500,
+      "nev": "Homokos kavics 0/16",
+      "ar": 4720,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "16-32 mm mosott",
-      "ar": 5500,
+      "nev": "Homokos kavics 0/24 (bányai / osztályozott)",
+      "ar": 4930,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "0-32 mm vegyes",
-      "ar": 4000,
+      "nev": "Homokos kavics 0/8 (mosott)",
+      "ar": 5740,
       "egyseg": "Ft/tonna"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Sóder 2026-ban?",
-      "valasz": "A(z) Sóder ára 2026-ban 4 000 – 7 000 Ft/tonna között mozog, az átlagár 5 500 Ft/tonna."
+      "kerdes": "Mennyibe kerül a sóder 2026-ban?",
+      "valasz": "Sóder ára 2026 szeptemberében 3 300–8 900 Ft/tonna, a boltok átlagára 5 300 Ft/tonna (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Homokos kavics 0/16 (4 720 Ft), a legdrágább: Homokos kavics 0/8 (mosott) (5 740 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón sódert venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a sóder árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Kő és Homok Kft., Basaltker – Darnózseli kavicsbánya, Transzkavics Kft., Puhi-Tárnok), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi sóder kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a sóder ára?",
+      "valasz": "Bányai ár, rakodással, szállítás nélkül. Házhoz szállítva, m³-re számolva jellemzően 10 000–13 000 Ft/m³. Átváltás: 1 m³ homokos kavics ≈ 1,8–1,9 tonna."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj sóder vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Kő és Homok Kft. (bánya)",
+      "termek": "Homokos kavics EHK 0/24 PTT (0/16: 3455)",
+      "ar": 3345,
+      "egyseg": "Ft/tonna",
+      "url": "http://www.koeshomokkft.hu/hu/termekeink.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 2635), bányában, szállítás nélkül; az oldalon nincs dátum"
+    },
+    {
+      "bolt": "Basaltker – Darnózseli kavicsbánya",
+      "termek": "0/16 homokos kavics (0/8: 3595 nettó)",
+      "ar": 4197,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.basalt.hu/termekek/darnozseli",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 3305 Ft/t, bruttósítva; rakodással, 2026.02.01-től érvényes"
+    },
+    {
+      "bolt": "Transzkavics Kft. (Püspökmolnári)",
+      "termek": "Mosott, osztályozott homokos kavics 0/24 és 0/16 (0/8: 6922)",
+      "ar": 6515,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.transzkavics.hu/Termekek.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 5130), bányában"
+    },
+    {
+      "bolt": "Puhi-Tárnok (tüzép/betonüzem)",
+      "termek": "0/24 osztályozott kavics (THK 0/24 Q T)",
+      "ar": 8877,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.puhitarn.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 6990), telephelyi ár, 2025.02.01-től; szállítás 2400–5700 Ft/t pluszban"
+    },
+    {
+      "bolt": "Sóderexpress (Budapest)",
+      "termek": "0-24 sóder",
+      "ar": 9449,
+      "egyseg": "Ft/m³ nettó",
+      "url": "https://soderexpress.hu/soder-arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "nettó m³-ár (bruttó ~12 000 Ft/m³), 1,8 t/m³-rel ~6670 Ft/t bruttó; kiszállítást külön kalkulálják"
+    }
+  ],
+  "megjegyzes": "Bányai ár, rakodással, szállítás nélkül. Házhoz szállítva, m³-re számolva jellemzően 10 000–13 000 Ft/m³. Átváltás: 1 m³ homokos kavics ≈ 1,8–1,9 tonna.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

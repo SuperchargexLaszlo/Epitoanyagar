@@ -1,41 +1,36 @@
 {
   "anyag_id": "osb-lap",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2500,
-    "max": 6900,
-    "atlag": 3900,
+    "min": 6400,
+    "max": 13500,
+    "atlag": 9000,
     "egyseg": "Ft/lap"
   },
   "variansok": [
     {
-      "nev": "OSB3 9 mm (2440×1220)",
-      "ar": 2700,
+      "nev": "OSB-3 10 mm 2500×1250",
+      "ar": 6390,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "OSB3 12 mm (2440×1220)",
-      "ar": 3200,
+      "nev": "OSB-3 12 mm 2500×1250",
+      "ar": 7300,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "OSB3 15 mm (2440×1220)",
-      "ar": 3900,
+      "nev": "OSB-3 15 mm 2500×1250",
+      "ar": 8990,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "OSB3 18 mm (2440×1220)",
-      "ar": 4600,
+      "nev": "OSB-3 18 mm 2500×1250",
+      "ar": 10800,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "OSB3 22 mm (2440×1220)",
-      "ar": 5200,
-      "egyseg": "Ft/lap"
-    },
-    {
-      "nev": "OSB4 18 mm (vízálló, teherbíró)",
-      "ar": 6900,
+      "nev": "OSB-3 22 mm 2500×1250",
+      "ar": 13000,
       "egyseg": "Ft/lap"
     }
   ],
@@ -64,37 +59,111 @@
   "faq": [
     {
       "kerdes": "Mennyibe kerül egy OSB lap 2026-ban?",
-      "valasz": "Egy OSB3 lap (2440×1220) ára 2026-ban a vastagságtól függően 2 700–5 200 Ft, a vízálló OSB4 lap 6 500–7 500 Ft. Az átlagár kb. 3 900 Ft/lap."
+      "valasz": "Egy 2500×1250 mm-es OSB-3 tábla 2026 szeptemberében 6 400–13 500 Ft: a 12 mm-es 6 700–7 800 Ft, a 18 mm-es 9 500–11 700 Ft, a 22 mm-es 12 600–13 500 Ft."
     },
     {
-      "kerdes": "Mennyi az OSB lap ára m²-enként 2026-ban?",
-      "valasz": "Egy lap kb. 2,98 m², így a négyzetméterár 9 mm-nél ~900 Ft/m², 15 mm-nél ~1 300 Ft/m², 22 mm-nél ~1 750 Ft/m²."
+      "kerdes": "Mennyi az OSB lap ára m²-enként?",
+      "valasz": "Egy tábla 3,125 m², így a 12 mm-es lap kb. 2 340 Ft/m², a 18 mm-es kb. 3 450 Ft/m², a 22 mm-es kb. 4 160 Ft/m²."
     },
     {
-      "kerdes": "Vízálló az OSB3 lap?",
-      "valasz": "Az OSB3 nedvességálló, de nem teljesen vízálló – tartós vízterhelést nem visel el. Fokozottan párás vagy teherhordó helyre az OSB4 lapot érdemes választani."
+      "kerdes": "Vízálló az OSB-3 lap?",
+      "valasz": "Az OSB-3 nedvességálló, de tartós vízterhelést nem bír. Fokozottan párás vagy teherhordó helyre az OSB-4 való."
     },
     {
       "kerdes": "Hány m² egy OSB lap?",
-      "valasz": "A standard 2440×1220 mm-es OSB lap kb. 2,98 m² felületet fed."
+      "valasz": "A ma jellemző 2500×1250 mm-es tábla 3,125 m². A régebbi 2440×1220 mm-es méret 2,98 m²."
     },
     {
-      "kerdes": "Hol lehet olcsón OSB lapot venni?",
-      "valasz": "Érdemes összehasonlítani a Bauhaus, OBI, Hornbach és a helyi fatelepek/tüzépek árait. Raklapos (50+ lap) vásárlásnál általában kedvezmény jár; a szállítási díjat is számold hozzá."
+      "kerdes": "Honnan származnak az OSB-árak?",
+      "valasz": "Fatelepek és építőanyag-kereskedők (pl. Fadepo, Mar-Team, Kőházy, Mixvill, Káplár, Woodland) nyilvános bruttó áraiból, 2026. szeptember 24-i állapot szerint."
     }
   ],
   "reszletek": [
     {
       "cim": "OSB lap ára m²-enként 2026",
-      "szoveg": "<p>Egy standard OSB lap mérete <strong>2440×1220 mm</strong>, ami <strong>3 ≈ 2,98 m²</strong>. A laponkénti árból így számítható a négyzetméterár:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Vastagság</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár laponként</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár m²-enként</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 9 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">2 700 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~907 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 12 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">3 200 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 075 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 15 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">3 900 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 310 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 18 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">4 600 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 545 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB3 22 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">5 200 Ft/lap</td><td class=\"px-4 py-2 text-sm text-gray-800\">~1 747 Ft/m²</td></tr></tbody></table><p>A négyzetméterár tájékoztató jellegű; nagyobb tételnél (raklap, 50+ lap) 5–15% kedvezmény is elérhető.</p>"
+      "szoveg": "<p>A ma kapható OSB táblák többsége <strong>2500×1250 mm</strong>, azaz <strong>3,125 m²</strong>. A táblaárból így jön ki a négyzetméterár:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Vastagság</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár táblánként</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár m²-enként</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB-3 10 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">6 390 Ft</td><td class=\"px-4 py-2 text-sm text-gray-800\">~2 045 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB-3 12 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">7 300 Ft</td><td class=\"px-4 py-2 text-sm text-gray-800\">~2 336 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB-3 15 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">8 990 Ft</td><td class=\"px-4 py-2 text-sm text-gray-800\">~2 877 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB-3 18 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">10 800 Ft</td><td class=\"px-4 py-2 text-sm text-gray-800\">~3 456 Ft/m²</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">OSB-3 22 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">13 000 Ft</td><td class=\"px-4 py-2 text-sm text-gray-800\">~4 160 Ft/m²</td></tr></tbody></table><p>A táblaárak a Fadepo Fatelep szeptemberi árlistájából és további kereskedők áraiból valók. Nútféderes (675×2500 mm) lapok táblánként olcsóbbak, de kisebbek.</p>"
     },
     {
-      "cim": "Vízálló OSB lap: OSB3 vagy OSB4?",
-      "szoveg": "<p>Az <strong>OSB3</strong> nedvességálló, teherhordó lap – beltérben és fedett kültéri helyeken (tetőtér, padlás, aljzat) a leggyakoribb választás, de tartós vízterhelést nem visel el. A <strong>teljesen vízálló, fokozottan teherbíró OSB4</strong> lap párásabb, statikailag igényesebb helyekre való, ára jellemzően 25–40%-kal magasabb az OSB3-nál.</p><ul class=\"list-disc pl-6\"><li><strong>OSB3:</strong> tetőtér, padló aljzat, falburkolat, dobozolás.</li><li><strong>OSB4:</strong> teherhordó szerkezet, magas páratartalmú tér, faház-építés.</li></ul><p>Kültéri, közvetlenül időjárásnak kitett felületre egyik sem való védőréteg (pl. zsindely, lemezfedés, vízszigetelés) nélkül.</p>"
+      "cim": "Vízálló OSB lap: OSB-3 vagy OSB-4?",
+      "szoveg": "<p>Az <strong>OSB-3</strong> nedvességálló, teherhordó lap: tetőtér, födém, padlóaljzat, falburkolat. Tartós vízterhelést nem visel el. Az <strong>OSB-4</strong> teherbíróbb és nedvességállóbb, ára jellemzően 25–40%-kal magasabb.</p><p>Kültéren, időjárásnak kitett felületen egyik sem használható védőréteg (zsindely, lemezfedés, vízszigetelés) nélkül.</p>"
     },
     {
-      "cim": "Mennyi OSB lap kell? (m² → lap átszámítás)",
-      "szoveg": "<p>Egy 2440×1220 mm-es lap kb. <strong>2,98 m²</strong> felületet fed. A szükséges lapszám:</p><p class=\"font-semibold\">lapszám = befedendő terület (m²) ÷ 2,98 × 1,10 (10% hulladék)</p><p>Példa: 40 m² padlásfödémhez ≈ 40 ÷ 2,98 = 13,4 lap, +10% ráhagyással kb. <strong>15 lap</strong>. A pontos mennyiséget mindig a tervrajz és a fektetési irány alapján érdemes kiszámolni.</p>"
+      "cim": "Mennyi OSB lap kell?",
+      "szoveg": "<p>Egy 2500×1250 mm-es tábla <strong>3,125 m²</strong>. A szükséges lapszám:</p><p class=\"font-semibold\">lapszám = terület (m²) ÷ 3,125 × 1,10 (10% vágási veszteség)</p><p>Példa: 40 m² födémhez 40 ÷ 3,125 = 12,8 tábla, ráhagyással <strong>14 tábla</strong>. 18 mm-es lappal ez kb. 151 000 Ft.</p>"
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Fadepo Fatelep (Bp. XVIII.)",
+      "termek": "OSB lap 10/12/15/18/22 mm (2500×1250)",
+      "ar": 7190,
+      "egyseg": "Ft/lap",
+      "url": "https://fadepofatelep.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "teljes oldal kiolvasva: 10 mm 6 390, 12 mm 7 190 (akció 6 890), 15 mm 8 990, 18 mm 10 590, 22 mm 12 790 Ft/tábla"
+    },
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "OSB-3 12×1250×2500 mm",
+      "ar": 6792,
+      "egyseg": "Ft/lap",
+      "url": "https://marteamtuzep.hu/termek/osb-3-12mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó ár"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "OSB-3 lap 12 mm 1,25×2,5 m",
+      "ar": 7760,
+      "egyseg": "Ft/lap",
+      "url": "https://www.kohazy.hu/gipszkarton-profil-almennyezet-osb/-osb-lapok/osb-3-lap-12-mm-es-125-x-25-m-3125-m2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "7 760 Ft (6 110 + ÁFA); 18 mm: 11 689 Ft"
+    },
+    {
+      "bolt": "Mixvill",
+      "termek": "OSB-3 12 mm 12×2500×1250 mm",
+      "ar": 7681,
+      "egyseg": "Ft/lap",
+      "url": "https://www.mixvill.hu/epitoipari-osb-lap-osb-3-12mm-12x2500x1250mm-3-125-m2_tabla-84-db_rak-18023-18002",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "online ár"
+    },
+    {
+      "bolt": "Káplár Fatelep",
+      "termek": "OSB-3 lap 18 mm",
+      "ar": 10690,
+      "egyseg": "Ft/lap",
+      "url": "https://kaplarfatelep.hu/osb-lapok/osb-lap/osb-lap-18mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "3 421 Ft/m²"
+    },
+    {
+      "bolt": "Woodland",
+      "termek": "OSB lap 18 mm / 22 mm 1250×2500",
+      "ar": 11070,
+      "egyseg": "Ft/lap",
+      "url": "https://www.woodland.hu/osb-tabla.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "18 mm 11 070; 22 mm 13 500 Ft/tábla"
+    },
+    {
+      "bolt": "Timbershop",
+      "termek": "OSB tábla 22 mm 2500×1250",
+      "ar": 12995,
+      "egyseg": "Ft/lap",
+      "url": "https://www.timbershop.hu/Normal-tabla-2500x1250-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "2500×1250 mm-es tábla (3,125 m²): 12 mm 6 700–7 800, 18 mm 9 500–11 700, 22 mm 12 600–13 500 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

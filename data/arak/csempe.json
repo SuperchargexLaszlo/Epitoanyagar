@@ -1,26 +1,26 @@
 {
   "anyag_id": "csempe",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2500,
-    "max": 12000,
-    "atlag": 5500,
+    "min": 4000,
+    "max": 9600,
+    "atlag": 6300,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Alap (25×40)",
-      "ar": 2700,
+      "nev": "Fehér/márványos fali csempe 30×60 (akciós, barkácsáruház)",
+      "ar": 4499,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Design (30×60)",
-      "ar": 5500,
+      "nev": "Cersanit Bianca fehér fényes 30×60",
+      "ar": 6699,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium (60×120)",
-      "ar": 11000,
+      "nev": "Szaküzleti I. osztályú fali csempe 30×60 / 25×x",
+      "ar": 8800,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Csempe 2026-ban?",
-      "valasz": "A(z) Csempe ára 2026-ban 2 500 – 12 000 Ft/m² között mozog, az átlagár 5 500 Ft/m²."
+      "kerdes": "Mennyibe kerül a csempe 2026-ban?",
+      "valasz": "Csempe ára 2026 szeptemberében 4 000–9 600 Ft/m², a boltok átlagára 6 300 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Fehér/márványos fali csempe 30×60 (akciós, barkácsáruház) (4 499 Ft), a legdrágább: Szaküzleti I. osztályú fali csempe 30×60 / 25×x (8 800 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón csempet venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a csempe árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, OBI, Csempevásár, Csempebolt), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi csempe kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a csempe ára?",
+      "valasz": "Barkácsáruházi fehér/márványos fali csempe 4 000–7 000 Ft/m², szaküzleti I. osztály 8 000–9 600 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj csempe vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Talento 30×60 cm fehér márványos fali csempe",
+      "ar": 4499,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/hidegburkolat-es-tartozek/falicsempe/c/287",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "a kategóriaoldalon 3 999 Ft/m²-es akciós tétel is volt"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "20×60 cm márványos fehér fényes fali csempe",
+      "ar": 5999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/ajanlatok-v2?category=hidegburkolas&subcategory=csempe",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós, eredeti 7 498 Ft/m²"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Cersanit Bianca falicsempe fényes fehér 30×60 cm",
+      "ar": 6699,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/hidegburkolatok/fali-csempek/c/786",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "8 843 Ft/eladási egység, 'Top ár'"
+    },
+    {
+      "bolt": "Csempevásár",
+      "termek": "Zalakerámia egyszínű fényes csempe",
+      "ar": 4930,
+      "egyseg": "Ft/m²",
+      "url": "https://www.csempevasar.hu/burkolat-138/termekcsaladok-3017/zalakeramia-535",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Csempebolt",
+      "termek": "Fali csempe 30×60 I.o. / 25 cm széles",
+      "ar": 7990,
+      "egyseg": "Ft/m²",
+      "url": "https://csempebolt.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "30×60 I.o.: 7 990; másik 25 cm-es tétel: 9 590 Ft/m²"
+    }
+  ],
+  "megjegyzes": "Barkácsáruházi fehér/márványos fali csempe 4 000–7 000 Ft/m², szaküzleti I. osztály 8 000–9 600 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

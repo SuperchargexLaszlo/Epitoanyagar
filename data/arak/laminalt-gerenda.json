@@ -1,26 +1,26 @@
 {
   "anyag_id": "laminalt-gerenda",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3500,
-    "max": 9000,
-    "atlag": 5500,
+    "min": 2800,
+    "max": 8400,
+    "atlag": 5200,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "BSH 80×160 mm",
-      "ar": 3700,
+      "nev": "BSH GL24h 10×10 cm",
+      "ar": 3975,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "BSH 120×200 mm",
-      "ar": 5800,
+      "nev": "BSH GL24h 12×12 cm",
+      "ar": 5650,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "BSH 160×240 mm",
-      "ar": 8500,
+      "nev": "BSH GL24h 10×20 cm",
+      "ar": 8400,
       "egyseg": "Ft/fm"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Ragasztott rétegelt tartó 2026-ban?",
-      "valasz": "A(z) Ragasztott rétegelt tartó ára 2026-ban 3 500 – 9 000 Ft/fm között mozog, az átlagár 5 500 Ft/fm."
+      "kerdes": "Mennyibe kerül a ragasztott rétegelt tartó 2026-ban?",
+      "valasz": "Ragasztott rétegelt tartó ára 2026 szeptemberében 2 800–8 400 Ft/fm, a boltok átlagára 5 200 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: BSH GL24h 10×10 cm (3 975 Ft), a legdrágább: BSH GL24h 10×20 cm (8 400 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón ragasztott rétegelt tartót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a ragasztott rétegelt tartó árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Székely Fatelep, Káplár Fatelep, Central Fatelep, Elvira Tüzép), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi ragasztott rétegelt tartó kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a ragasztott rétegelt tartó ára?",
+      "valasz": "BSH (ragasztott rétegelt) gerenda, 359 000–400 000 Ft/m³. KVH jellemzően 10–25%-kal olcsóbb."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj ragasztott rétegelt tartó vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Székely Fatelep",
+      "termek": "BSH GL24h 6×12, 8×16, 10×10, 10×16, 10×20, 12×12, 12×20 (13,5 m/szál)",
+      "ar": 5610,
+      "egyseg": "Ft/fm",
+      "url": "https://szekelyfatelep.hu/fatelep/bsh-ragasztott-gerenda",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "6×12: 2 810; 8×16: 4 490; 10×10: 3 975; 10×16: 6 240; 10×20: 8 400; 12×12: 5 610; 12×20: 9 144 Ft/fm"
+    },
+    {
+      "bolt": "Káplár Fatelep",
+      "termek": "Ragasztott BSH gerenda 12×12×449 cm (Pabst)",
+      "ar": 6098,
+      "egyseg": "Ft/fm",
+      "url": "https://kaplarfatelep.hu/Ragasztott-gerenda-12x12x450cm-retegragasztott-BSH",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "27 440 Ft/db ÷ 4,5 m = 6 098 Ft/fm (rövid szál, drágább fm-ár)"
+    },
+    {
+      "bolt": "Central Fatelep",
+      "termek": "12×12 BSH rétegragasztott gerenda GL24h",
+      "ar": 5169,
+      "egyseg": "Ft/fm",
+      "url": "https://centralfatelep.hu/12x12-bsh-retegragasztott-gerenda-gl24h-1133",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "69 780 Ft/szál; 358 950 Ft/m³ × 0,0144 = 5 169 Ft/fm (13,5 m-es szál feltételezve)"
+    },
+    {
+      "bolt": "Elvira Tüzép",
+      "termek": "BSH ragasztott gerenda 12×12 cm, 13,5 m, GL24h",
+      "ar": 5760,
+      "egyseg": "Ft/fm",
+      "url": "https://elviratuzep.hu/termekek/bsh-ragasztott-gerenda/bsh-ragasztott-gerenda-12x12",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "77 758 Ft/db ÷ 13,5 m = 5 760 Ft/fm"
+    },
+    {
+      "bolt": "VEMI-2003 / Asztalos Fatelep Tapolca (árjegyzék 2026.05.05)",
+      "termek": "BSH lucfenyő ragasztott gerenda 6×10 cm, 13,5 m",
+      "ar": 2990,
+      "egyseg": "Ft/fm",
+      "url": "https://asztalosfatelep.hu/upload/dokumentumok/arjegyzek_ragasztottgerenda.pdf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "PDF árjegyzék; 6×14: 4 220; 16×16: 10 890 Ft/fm"
+    }
+  ],
+  "megjegyzes": "BSH (ragasztott rétegelt) gerenda, 359 000–400 000 Ft/m³. KVH jellemzően 10–25%-kal olcsóbb.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

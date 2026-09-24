@@ -1,26 +1,26 @@
 {
   "anyag_id": "szigetelofolia",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 150,
-    "max": 500,
-    "atlag": 280,
+    "min": 154,
+    "max": 532,
+    "atlag": 320,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "PE fólia 0.2 mm",
-      "ar": 160,
+      "nev": "Építési PE fólia 0,2 mm, újrahasznosított (100 m²)",
+      "ar": 154,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Párazáró fólia",
-      "ar": 280,
+      "nev": "Masterplast építési reg. PE fólia 0,2 mm 4x25 m",
+      "ar": 277,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Diffúziónyitott fólia",
-      "ar": 480,
+      "nev": "Alumínium bevonatú párazáró fólia (Krontherm 110, 75 m²)",
+      "ar": 532,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Szigetelőfólia 2026-ban?",
-      "valasz": "A(z) Szigetelőfólia ára 2026-ban 150 – 500 Ft/m² között mozog, az átlagár 280 Ft/m²."
+      "kerdes": "Mennyibe kerül a szigetelőfólia 2026-ban?",
+      "valasz": "Szigetelőfólia ára 2026 szeptemberében 154–532 Ft/m², a boltok átlagára 320 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Építési PE fólia 0,2 mm, újrahasznosított (100 m²) (154 Ft), a legdrágább: Alumínium bevonatú párazáró fólia (Krontherm 110, 75 m²) (532 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón szigetelőfóliat venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a szigetelőfólia árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Építőáruház, Gipszkarton-hőszigetelés.hu, Praktiker, Árukereső), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi szigetelőfólia kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a szigetelőfólia ára?",
+      "valasz": "Egyszerű 0,2 mm-es PE fólia 150–280 Ft/m²; alumíniumos párazáró 270–530 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj szigetelőfólia vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Építőáruház (epitoaruhaz.hu)",
+      "termek": "Masterplast építési reg. PE fólia 0,2 mm 4x25 m; Hemala Picafol Reflex PZ párazáró 60 m²; Újház Krontherm 110 alu párazáró 75 m²",
+      "ar": 277,
+      "egyseg": "Ft/m²",
+      "url": "https://www.epitoaruhaz.hu/Epitesi-foliak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "PE 0,2 mm: 27 732 Ft/100 m² = 277; Picafol Reflex: 19 429/72 m² = 270; Krontherm: 39 863/75 m² = 532 Ft/m²"
+    },
+    {
+      "bolt": "Gipszkarton-hőszigetelés.hu",
+      "termek": "Építési fólia (újrahasznosított PE) 0,2 mm, 100 m²/tekercs",
+      "ar": 154,
+      "egyseg": "Ft/m²",
+      "url": "https://gipszkarton-hoszigeteles.hu/Kulso-hoszigetelo-anyagok-es-kiegeszitoi/Foliak/Ep",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "15 395 Ft/tekercs ÷ 100 m²"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Profi Floor Hydro párazáró fólia 0,2 mm 8x2 m (16 m²/csomag)",
+      "ar": 456,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/padloalatet/profi-floor-hydro-parazaro-folia-0-2mm-8mx2m-16nm/csomag/p/301277",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Kis kiszerelés, drágább m²-ár"
+    },
+    {
+      "bolt": "Árukereső (Bachl)",
+      "termek": "Bachl PE építési fólia 0,2 mm",
+      "ar": 225,
+      "egyseg": "Ft/m²",
+      "url": "https://tetofolia.arukereso.hu/bachl/pe-epitesi-folia-0-2mm-m2-p961063233",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Árösszehasonlítón keresztül"
+    }
+  ],
+  "megjegyzes": "Egyszerű 0,2 mm-es PE fólia 150–280 Ft/m²; alumíniumos párazáró 270–530 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

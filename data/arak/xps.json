@@ -1,26 +1,26 @@
 {
   "anyag_id": "xps",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 900,
-    "max": 2800,
-    "atlag": 1700,
+    "min": 3215,
+    "max": 10630,
+    "atlag": 6310,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "5 cm XPS",
-      "ar": 950,
+      "nev": "XPS lábazati 5 cm",
+      "ar": 3362,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "10 cm XPS",
-      "ar": 1750,
+      "nev": "Austrotherm XPS TOP P GK 10 cm",
+      "ar": 6096,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "15 cm XPS",
-      "ar": 2600,
+      "nev": "Austrotherm XPS TOP 15 cm",
+      "ar": 10440,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül XPS (extrudált polisztirol) 2026-ban?",
-      "valasz": "A(z) XPS (extrudált polisztirol) ára 2026-ban 900 – 2 800 Ft/m² között mozog, az átlagár 1 700 Ft/m²."
+      "kerdes": "Mennyibe kerül a xps (extrudált polisztirol) 2026-ban?",
+      "valasz": "XPS (extrudált polisztirol) ára 2026 szeptemberében 3 215–10 630 Ft/m², a boltok átlagára 6 310 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: XPS lábazati 5 cm (3 362 Ft), a legdrágább: Austrotherm XPS TOP 15 cm (10 440 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón xps (extrudált polisztirol)t venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a xps (extrudált polisztirol) árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Hőszigetelés Pláza, Hőszigetelőrendszer.com, Szigetelésvásárlás.hu, Éptex Kft.), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi xps (extrudált polisztirol) kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a xps (extrudált polisztirol) ára?",
+      "valasz": "Vastagság szerint: 5 cm 3 200–3 600, 10 cm 6 000–7 000, 15 cm 10 400–10 600 Ft/m² (kb. 640–700 Ft/m² centiméterenként)."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj xps (extrudált polisztirol) vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Hőszigetelés Pláza",
+      "termek": "Energosystem XPS lábazati 5 cm (6 m²/csomag) és 15 cm (1,5 m²/csomag)",
+      "ar": 3362,
+      "egyseg": "Ft/m²",
+      "url": "https://www.hoszigetelesplaza.hu/xps-labazati-hoszigetelo-lemez-5-cm-vastag",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "5 cm nettó 2 647 → bruttó 3 362; 15 cm nettó 8 370 → bruttó 10 630 Ft/m²"
+    },
+    {
+      "bolt": "Hőszigetelőrendszer.com (Magyar Festék Kft.)",
+      "termek": "XPS lábazati hőszigetelés 5 cm",
+      "ar": 3215,
+      "egyseg": "Ft/m²",
+      "url": "https://hoszigetelorendszer.com/xps-labazati-hoszigeteles-5-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Az oldal szerint 3 215–3 620 Ft/m²; 15 cm-re 10 200–10 860 Ft/m²"
+    },
+    {
+      "bolt": "Szigetelésvásárlás.hu",
+      "termek": "Austrotherm XPS TOP P GK lábazati 10 cm (3 m²/csomag)",
+      "ar": 6096,
+      "egyseg": "Ft/m²",
+      "url": "https://www.szigetelesvasarlas.hu/Austrotherm-XPS-TOP-P-GK-labazati-szigeteles-10-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "4 800 + ÁFA; érvényes 2026.09.25-ig"
+    },
+    {
+      "bolt": "Éptex Kft. (újház)",
+      "termek": "Ravatherm XPS 300 WB 10 cm (3 m²/cs)",
+      "ar": 5969,
+      "egyseg": "Ft/m²",
+      "url": "https://eptex.hu/termek/austrotherm-grafit-80-homlokzati-hoszigetelo-lemez-10-cm-25-m2-cs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Kapcsolódó termékként listázva; 3 cm 1 795, 4 cm 2 340 Ft/m²"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Austrotherm XPS TOP P GK 10 cm",
+      "ar": 6495,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/austrotherm-xps-top-p-gk-10-cm-hoszigetelo-lemez-pVUgtMDAwNDc2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Homlokzatihoszigeteles.hu",
+      "termek": "Austrotherm XPS TOP 10 cm / 15 cm",
+      "ar": 6960,
+      "egyseg": "Ft/m²",
+      "url": "https://www.homlokzatihoszigeteles.hu/szigetelo-lemezek/10-cm-austrotherm-xps-top",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "10 cm 6 960; 15 cm 10 440 Ft/m²"
+    }
+  ],
+  "megjegyzes": "Vastagság szerint: 5 cm 3 200–3 600, 10 cm 6 000–7 000, 15 cm 10 400–10 600 Ft/m² (kb. 640–700 Ft/m² centiméterenként).",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

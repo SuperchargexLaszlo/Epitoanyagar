@@ -1,41 +1,31 @@
 {
   "anyag_id": "betonacél",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 280,
-    "max": 460,
-    "atlag": 350,
+    "min": 300,
+    "max": 450,
+    "atlag": 430,
     "egyseg": "Ft/kg"
   },
   "variansok": [
     {
-      "nev": "B500B Ø8 mm szálban",
-      "ar": 300,
+      "nev": "B500B Ø16 (6 fm, 9,47 kg/szál)",
+      "ar": 423,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "B500B Ø10 mm szálban",
-      "ar": 320,
+      "nev": "B500B Ø10 (6 fm, 3,70 kg/szál)",
+      "ar": 430,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "B500B Ø12 mm szálban",
-      "ar": 340,
+      "nev": "B500B Ø8 (6 fm, 2,37 kg/szál)",
+      "ar": 436,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "B500B Ø16 mm szálban",
-      "ar": 370,
-      "egyseg": "Ft/kg"
-    },
-    {
-      "nev": "B500B Ø20 mm szálban",
-      "ar": 400,
-      "egyseg": "Ft/kg"
-    },
-    {
-      "nev": "Betonacélháló (150×150×6 mm)",
-      "ar": 460,
+      "nev": "B500B Ø12 (6 fm, 5,33 kg/szál)",
+      "ar": 441,
       "egyseg": "Ft/kg"
     }
   ],
@@ -64,37 +54,87 @@
   "faq": [
     {
       "kerdes": "Mennyi a betonacél ára kg-onként 2026-ban?",
-      "valasz": "A B500B betonacél ára 2026-ban átmérőtől függően 280–460 Ft/kg. A vékonyabb Ø8 kb. 300 Ft/kg, a vastagabb Ø20 kb. 400 Ft/kg, a betonacélháló 440–480 Ft/kg."
+      "valasz": "A B500B bordás betonacél kiskereskedelmi ára 2026 szeptemberében 415–455 Ft/kg (6 m-es szálban, bruttó). Tonnás, kötegelt tételnél bruttó 300 Ft/kg körül is elérhető."
     },
     {
-      "kerdes": "Mennyibe kerül egy tábla betonacélháló?",
-      "valasz": "Egy 6 mm-es, 150×150 mm szemméretű, 2×3 m-es háló (kb. 21 kg) ára 2026-ban kb. 9 000–10 000 Ft."
+      "kerdes": "Mennyibe kerül egy szál betonvas?",
+      "valasz": "6 m-es szálban: Ø8 kb. 1 030 Ft (2,37 kg), Ø10 kb. 1 590 Ft (3,70 kg), Ø12 kb. 2 350 Ft (5,33 kg), Ø16 kb. 4 000 Ft (9,47 kg)."
     },
     {
       "kerdes": "Hány kg betonacél kell 1 m³ betonhoz?",
-      "valasz": "A szerkezettől függ: sáv- és lemezalaphoz kb. 60–90 kg/m³, födémhez 80–120 kg/m³, oszlophoz/gerendához akár 100–150 kg/m³ is kell."
+      "valasz": "Sáv- és lemezalaphoz kb. 60–90 kg/m³, födémhez 80–120 kg/m³, oszlophoz és gerendához 100–150 kg/m³. A pontos mennyiséget a vasalási terv adja meg."
     },
     {
-      "kerdes": "Változik a betonacél ára városonként?",
-      "valasz": "A kg-ár országosan hasonló, de a kiszállítás és a helyi kereslet miatt Budapesten valamivel drágább, vidéken kedvezőbb lehet."
+      "kerdes": "Miért más a nagyker és a tüzép ára?",
+      "valasz": "A nagykereskedők kötegben (2–5 tonna) adják, ott a kg-ár bruttó 300 Ft körül van. Tüzépen szálanként, kis tételben 415–455 Ft/kg."
     },
     {
-      "kerdes": "Mire figyelj betonacél vásárlásakor?",
-      "valasz": "Kérd a minőségi tanúsítványt (B500B), egyeztesd a szabásjegyzéket a vasalási terv alapján, és kérj tonnás árat – nagyobb tételnél lényegesen olcsóbb a kg-ár."
+      "kerdes": "Honnan származnak a betonacélárak?",
+      "valasz": "Tüzépek és vaskereskedők (pl. Winkler Tüzép, Baustar 98, Újház Bodrogi, Újház Farmker, Vas Centrum) nyilvános árából, 2026. szeptember 24-i állapot szerint."
     }
   ],
   "reszletek": [
     {
-      "cim": "Betonacél ár kg-onként átmérő szerint (2026)",
-      "szoveg": "<p>A betonacél (B500B bordás betonvas) ára <strong>kilogrammonként</strong> értendő, az átmérő (Ø) és az aktuális acélpiaci ár befolyásolja:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Átmérő</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø8 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~300 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø10 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~320 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø12 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~340 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø16 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~370 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø20 mm</td><td class=\"px-4 py-2 text-sm text-gray-800\">~400 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Betonacélháló</td><td class=\"px-4 py-2 text-sm text-gray-800\">~440–480 Ft/kg</td></tr></tbody></table><p>Nagyobb mennyiségnél (tonnás tétel) a kg-ár érzékelhetően csökken; a szabásból adódó hulladékot és a szállítást is érdemes betervezni.</p>"
-    },
-    {
-      "cim": "Betonacélháló ára",
-      "szoveg": "<p>A hegesztett <strong>betonacélháló</strong> aljzatbetonhoz, lemezalaphoz gyakori. Egy 6 mm-es, 150×150 mm szemméretű háló (2×3 m tábla, ~12 m²) tömege kb. 21 kg, így egy tábla ára 2026-ban kb. <strong>9 000–10 000 Ft</strong> (~460 Ft/kg). Vékonyabb (5 mm) háló olcsóbb, sűrűbb szemméret drágább.</p>"
+      "cim": "Betonacél ár átmérő szerint (2026)",
+      "szoveg": "<p>B500B bordás betonacél, 6 m-es szálban, bruttó tüzépi ár:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Átmérő</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ft/kg</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">kg/fm</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ft/fm</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ft/szál (6 m)</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø8</td><td class=\"px-4 py-2 text-sm text-gray-800\">436</td><td class=\"px-4 py-2 text-sm text-gray-800\">0,395</td><td class=\"px-4 py-2 text-sm text-gray-800\">172</td><td class=\"px-4 py-2 text-sm text-gray-800\">1 033</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø10</td><td class=\"px-4 py-2 text-sm text-gray-800\">430</td><td class=\"px-4 py-2 text-sm text-gray-800\">0,617</td><td class=\"px-4 py-2 text-sm text-gray-800\">265</td><td class=\"px-4 py-2 text-sm text-gray-800\">1 592</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø12</td><td class=\"px-4 py-2 text-sm text-gray-800\">441</td><td class=\"px-4 py-2 text-sm text-gray-800\">0,888</td><td class=\"px-4 py-2 text-sm text-gray-800\">392</td><td class=\"px-4 py-2 text-sm text-gray-800\">2 350</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Ø16</td><td class=\"px-4 py-2 text-sm text-gray-800\">423</td><td class=\"px-4 py-2 text-sm text-gray-800\">1,58</td><td class=\"px-4 py-2 text-sm text-gray-800\">668</td><td class=\"px-4 py-2 text-sm text-gray-800\">4 010</td></tr></tbody></table><p>A kg-ár átmérőtől alig függ. Tonnás tételnél és kötegben érezhetően olcsóbb.</p>"
     },
     {
       "cim": "Mennyi betonacél kell? (kg/m³ becslés)",
-      "szoveg": "<p>Tájékoztató acélszükséglet vasbeton szerkezetenként:</p><ul class=\"list-disc pl-6\"><li>Sávalap, lemezalap: <strong>60–90 kg/m³</strong></li><li>Födém, koszorú: <strong>80–120 kg/m³</strong></li><li>Oszlop, gerenda: <strong>100–150 kg/m³</strong></li></ul><p>A pontos vasmennyiséget mindig a statikai tervrajz (vasalási terv) határozza meg.</p>"
+      "szoveg": "<ul class=\"list-disc pl-6\"><li>Sávalap, lemezalap: <strong>60–90 kg/m³</strong></li><li>Födém, koszorú: <strong>80–120 kg/m³</strong></li><li>Oszlop, gerenda: <strong>100–150 kg/m³</strong></li></ul><p>Példa: 10 m³ lemezalap 75 kg/m³-rel = 750 kg, tüzépi áron kb. 325 000 Ft. A pontos mennyiséget a statikai terv határozza meg.</p>"
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Winkler Tüzép",
+      "termek": "Betonacél 8-as 6fm 1037 Ft/szál; 10-es 1590; 12-es 2287; 16-os 4065 Ft/szál",
+      "ar": 430,
+      "egyseg": "Ft/kg",
+      "url": "https://www.winklertuzep.hu/arlista-web/vasak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó szálár, az árlista súlyával osztva: Ø8 438, Ø10 430, Ø12 429, Ø16 429 Ft/kg"
+    },
+    {
+      "bolt": "Baustar 98 Kft.",
+      "termek": "Betonacél B500B 8 mm x 12 m",
+      "ar": 435,
+      "egyseg": "Ft/kg",
+      "url": "https://www.baustar98kft.hu/termek/betonacel-b500b-8-mm-x-12-m-uh-113220-2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó"
+    },
+    {
+      "bolt": "Újház Bodrogi",
+      "termek": "Betonacél B500B 12 mm x 6 m (5,328 kg/db)",
+      "ar": 452,
+      "egyseg": "Ft/kg",
+      "url": "https://ujhazbodrogi.hu/epitoanyag/vasanyagok/uh-113239-betonacel-b500b-12-mm-x-6-m-5328kgdb",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 2409 Ft/szál ÷ 5,328 kg"
+    },
+    {
+      "bolt": "Újház Farmker",
+      "termek": "Betonacél B500B 16 mm x 6 m",
+      "ar": 416,
+      "egyseg": "Ft/kg",
+      "url": "https://ujhazfarmker.hu/betonacel-b500b-10mm-6m",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 3945 Ft/szál ÷ 9,48 kg"
+    },
+    {
+      "bolt": "Vas Centrum (Euronorm Group Builder)",
+      "termek": "Betonacél szálban, kötegben Ø10–Ø25 (Ø8: 244)",
+      "ar": 302,
+      "egyseg": "Ft/kg",
+      "url": "https://vas-centrum.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "238 Ft/kg-ot írnak ki, valószínűleg nettó, gyártói/nagyker kötegár; bruttósítva ~302 Ft/kg. A nettó/bruttó jelölés nem egyértelmű"
+    }
+  ],
+  "megjegyzes": "Kiskereskedelmi szálár (6 m-es szál). Tonnás, kötegelt tételnél bruttó 300 Ft/kg körül is elérhető. Súly: Ø8 0,395 kg/fm, Ø10 0,617, Ø12 0,888, Ø16 1,58 kg/fm.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

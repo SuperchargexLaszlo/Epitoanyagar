@@ -1,26 +1,31 @@
 {
   "anyag_id": "beton",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 18000,
-    "max": 26000,
-    "atlag": 22000,
+    "min": 31000,
+    "max": 47500,
+    "atlag": 38000,
     "egyseg": "Ft/m³"
   },
   "variansok": [
     {
-      "nev": "C12/15",
-      "ar": 18500,
+      "nev": "C12/15 (X0b, Dmax 24, F1–F2)",
+      "ar": 34500,
       "egyseg": "Ft/m³"
     },
     {
-      "nev": "C20/25",
-      "ar": 22000,
+      "nev": "C16/20 (X0v, Dmax 24, F1–F2)",
+      "ar": 36900,
       "egyseg": "Ft/m³"
     },
     {
-      "nev": "C25/30",
-      "ar": 25000,
+      "nev": "C20/25 (XC1, Dmax 24, F1–F2)",
+      "ar": 37900,
+      "egyseg": "Ft/m³"
+    },
+    {
+      "nev": "C25/30 (XC2, Dmax 24, F1–F2)",
+      "ar": 39400,
       "egyseg": "Ft/m³"
     }
   ],
@@ -48,24 +53,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Beton 2026-ban?",
-      "valasz": "A(z) Beton ára 2026-ban 18 000 – 26 000 Ft/m³ között mozog, az átlagár 22 000 Ft/m³."
+      "kerdes": "Mennyibe kerül a beton 2026-ban?",
+      "valasz": "Beton ára 2026 szeptemberében 31 000–47 500 Ft/m³, a boltok átlagára 38 000 Ft/m³ (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: C12/15 (X0b, Dmax 24, F1–F2) (34 500 Ft), a legdrágább: C25/30 (XC2, Dmax 24, F1–F2) (39 400 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón betont venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a beton árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (betonar.hu, Baksza Beton, Bravo Beton, Mixerbeton.com), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi beton kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a beton ára?",
+      "valasz": "Betonüzemi ár, bruttó, kiszállítás nélkül. A mixeres szállítás jellemzően nettó 4 000–6 500 Ft/m³, legalább 7 m³ fuvarra számolva; a betonpumpa külön díj."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj beton vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "betonar.hu",
+      "termek": "C16-24/FN (C16/20 földnedves); C20-24/FN 41 529; C12-24/FN 36 449; C25-24/K 47 498",
+      "ar": 38354,
+      "egyseg": "Ft/m³",
+      "url": "https://www.betonar.hu/beton-arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 30 200), szállítás nélkül"
+    },
+    {
+      "bolt": "Baksza Beton (Őrbottyán)",
+      "termek": "C16/20XOVH 24F1; C12/15 24F1 35 814; C20/25XC1 24F1 38 989; C25/30 24F1 40 513",
+      "ar": 37719,
+      "egyseg": "Ft/m³",
+      "url": "https://bakszabeton.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 29 700); árlista érvényes 2025.03.01-től; képlékeny F3 változatok 41–47 ezer"
+    },
+    {
+      "bolt": "Bravo Beton",
+      "termek": "C16/20-X0v(H)-24/F1 földnedves; C12/15 30 988; C20/25 33 591; C25/30 34 734",
+      "ar": 31877,
+      "egyseg": "Ft/m³",
+      "url": "https://bravobeton.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 25 100), a sáv alsó széle; mixer F2 C16/20: 35 306"
+    },
+    {
+      "bolt": "Mixerbeton.com",
+      "termek": "C16/20-24-F2 (nettó 28 500); C12/15 27 500; C20/25 29 500; C25/30 30 500 nettó",
+      "ar": 36195,
+      "egyseg": "Ft/m³",
+      "url": "https://mixerbeton.com/betonarak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "nettó listaár, bruttósítva 27%-kal; kiszállítás 4000–6500 Ft+ÁFA/m³ (0–30 km), min. 7 m³ fuvar"
+    },
+    {
+      "bolt": "Gamma Beton",
+      "termek": "C16/20-X0v(H)-24/F1 földnedves",
+      "ar": 40259,
+      "egyseg": "Ft/m³",
+      "url": "https://www.gammabeton.hu/beton-arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 31 700)"
+    }
+  ],
+  "megjegyzes": "Betonüzemi ár, bruttó, kiszállítás nélkül. A mixeres szállítás jellemzően nettó 4 000–6 500 Ft/m³, legalább 7 m³ fuvarra számolva; a betonpumpa külön díj.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,26 +1,26 @@
 {
   "anyag_id": "eps",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1600,
-    "atlag": 950,
+    "min": 2260,
+    "max": 5112,
+    "atlag": 3730,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "EPS 70 (5 cm)",
-      "ar": 520,
+      "nev": "EPS 80 homlokzati 10 cm",
+      "ar": 3120,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "EPS 100 (10 cm)",
-      "ar": 950,
+      "nev": "EPS 100 lépésálló 10 cm",
+      "ar": 3360,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "EPS 150 (15 cm)",
-      "ar": 1400,
+      "nev": "EPS 150 lépésálló 10 cm",
+      "ar": 4572,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül EPS (habosított polisztirol) 2026-ban?",
-      "valasz": "A(z) EPS (habosított polisztirol) ára 2026-ban 500 – 1 600 Ft/m² között mozog, az átlagár 950 Ft/m²."
+      "kerdes": "Mennyibe kerül az eps (habosított polisztirol) 2026-ban?",
+      "valasz": "EPS (habosított polisztirol) ára 2026 szeptemberében 2 260–5 112 Ft/m², a boltok átlagára 3 730 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: EPS 80 homlokzati 10 cm (3 120 Ft), a legdrágább: EPS 150 lépésálló 10 cm (4 572 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón eps (habosított polisztirol)t venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az eps (habosított polisztirol) árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (Újház Farmker, Építőanyag.hu, Hőszigetelés Pláza, Grafitoshoszigeteles.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi eps (habosított polisztirol) kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az eps (habosított polisztirol) ára?",
+      "valasz": "A sáv 10 cm vastag lapokra vonatkozik. Ökölszabály: EPS 80 kb. 230–510, EPS 100 340–420, EPS 150 ~460 Ft/m² centiméterenként."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj eps (habosított polisztirol) vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Újház Farmker (Nyíregyháza)",
+      "termek": "EPS 80 homlokzati 10 cm (több gyártó)",
+      "ar": 2460,
+      "egyseg": "Ft/m²",
+      "url": "https://ujhazfarmker.hu/eps80-homlokzati-10cm-2-5-m2cs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "2 260–3 120 Ft/m²"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "újHÁZ EPS 100, 10 cm terhelhető hőszigetelő lemez (2,5 m²/cs)",
+      "ar": 3360,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/ujhaz-eps-100-10-cm-terhelheto-hoszigetelo-lemez-pVUgtMDk1NzM2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "8 400 Ft/csomag ÷ 2,5 m²"
+    },
+    {
+      "bolt": "Hőszigetelés Pláza",
+      "termek": "Energosystem EPS 100 lépésálló 10 cm",
+      "ar": 4220,
+      "egyseg": "Ft/m²",
+      "url": "https://www.hoszigetelesplaza.hu/eps-100-lepesallo-hoszigetelo-lemez-10-cm-vastag",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "'Szokásos ár'; az oldal akciót jelez"
+    },
+    {
+      "bolt": "Grafitoshoszigeteles.hu",
+      "termek": "Isomaster EPS 150 extra lépésálló 10 cm",
+      "ar": 4572,
+      "egyseg": "Ft/m²",
+      "url": "https://grafitoshoszigeteles.hu/ISOMASTER-EPS-150-extra-lepesallo-hungarocell-10-c",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "3 600 Ft + ÁFA = 4 572 Ft/m²"
+    },
+    {
+      "bolt": "Homlokzatihoszigeteles.com",
+      "termek": "EPS 150 lépésálló hőszigetelő lemez 10 cm",
+      "ar": 4580,
+      "egyseg": "Ft/m²",
+      "url": "https://homlokzatihoszigeteles.com/eps-150-terhelheto-lepesallo-hoszigetelo-lemez-10-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Hőszigetelés Pláza",
+      "termek": "Energosystem EPS 150 lépésálló 5 cm",
+      "ar": 2450,
+      "egyseg": "Ft/m²",
+      "url": "https://www.hoszigetelesplaza.hu/eps-150-lepesallo-hoszigetelo-lemez-5-cm-vastag",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "nettó 1 929"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Austrotherm AT-H80 10 cm",
+      "ar": 5112,
+      "egyseg": "Ft/m²",
+      "url": "https://marteamtuzep.hu/termek/austrotherm-at-h80-10cm-50x100",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "felső érték"
+    }
+  ],
+  "megjegyzes": "A sáv 10 cm vastag lapokra vonatkozik. Ökölszabály: EPS 80 kb. 230–510, EPS 100 340–420, EPS 150 ~460 Ft/m² centiméterenként.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

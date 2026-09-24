@@ -1,26 +1,26 @@
 {
   "anyag_id": "parkett",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 8000,
-    "max": 30000,
-    "atlag": 15000,
+    "min": 14700,
+    "max": 29000,
+    "atlag": 22000,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Többrétegű tölgy",
-      "ar": 9000,
+      "nev": "Tömör tölgy csaphornyos parketta 22 mm (standard/rusztikus)",
+      "ar": 17500,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Tömör tölgy",
-      "ar": 18000,
+      "nev": "Háromrétegű tölgy szalagparketta 14 mm (Barlinek, alap)",
+      "ar": 22000,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium egzotikus",
-      "ar": 28000,
+      "nev": "Háromrétegű tölgy 1 sávos (Barlinek Pure Line / Kährs)",
+      "ar": 27000,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Parkett 2026-ban?",
-      "valasz": "A(z) Parkett ára 2026-ban 8 000 – 30 000 Ft/m² között mozog, az átlagár 15 000 Ft/m²."
+      "kerdes": "Mennyibe kerül a parkett 2026-ban?",
+      "valasz": "Parkett ára 2026 szeptemberében 14 700–29 000 Ft/m², a boltok átlagára 22 000 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Tömör tölgy csaphornyos parketta 22 mm (standard/rusztikus) (17 500 Ft), a legdrágább: Háromrétegű tölgy 1 sávos (Barlinek Pure Line / Kährs) (27 000 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón parkettt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a parkett árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (Woodland, Bigfoot, Parkett-Zóna, SBS Parketta), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi parkett kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a parkett ára?",
+      "valasz": "Anyagár, lerakás nélkül. Tömör tölgy csaphornyos 14 700–23 400, háromrétegű tölgy 22 000–29 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj parkett vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Woodland",
+      "termek": "Csaphornyos parketta 20–22 mm",
+      "ar": 14700,
+      "egyseg": "Ft/m²",
+      "url": "https://www.woodland.hu/csaphornyos-parketta.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "-tól ár"
+    },
+    {
+      "bolt": "Bigfoot",
+      "termek": "Hagyományos csaphornyos parketta tölgy standard 350×45×22 mm",
+      "ar": 18355,
+      "egyseg": "Ft/m²",
+      "url": "https://bigfoot.hu/termekek/hagyom%C3%A1nyos-parketta/product-506-detail",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "300×65×22: 18 848 Ft/m²"
+    },
+    {
+      "bolt": "Parkett-Zóna",
+      "termek": "Csaphornyos parketta tölgy natúr 350×50×22 mm",
+      "ar": 23390,
+      "egyseg": "Ft/m²",
+      "url": "https://parkett-zona.hu/csaphornyos-parketta-tolgy-natur-350x50x22mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "20 466 Ft/doboz (0,875 m²)"
+    },
+    {
+      "bolt": "SBS Parketta",
+      "termek": "Barlinek Wood Pure Line Country tölgy matt lakkozott Brown Sugar Piccolo 2200×130×14 mm",
+      "ar": 21990,
+      "egyseg": "Ft/m²",
+      "url": "https://sbsparketta.hu/fedezze-fel-a-barlinek-wood-szalagparketta-kollekciot-termeszetes-szepseg-es-premium-minoseg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "háromrétegű"
+    },
+    {
+      "bolt": "Parkettstore",
+      "termek": "Kährs Grand Selection Origin/Authentic (Aquastop) 14 mm",
+      "ar": 24990,
+      "egyseg": "Ft/m²",
+      "url": "https://parkettstore.hu/4675-kahrs-akcio",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akció 2025.08.01-től visszavonásig"
+    },
+    {
+      "bolt": "Hubert Parketta",
+      "termek": "Barlinek Pure Line Azure Window tölgy 1 sávos szalagparketta",
+      "ar": 28790,
+      "egyseg": "Ft/m²",
+      "url": "https://hubertparketta.hu/termekkategoria/szalagparketta",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "79 748 Ft/doboz"
+    },
+    {
+      "bolt": "Padlófutár",
+      "termek": "Barlinek szalagparketta Szahara tölgy grande",
+      "ar": 28740,
+      "egyseg": "Ft/m²",
+      "url": "https://padlofutar.hu/szalagparketta-2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "háromrétegű"
+    }
+  ],
+  "megjegyzes": "Anyagár, lerakás nélkül. Tömör tölgy csaphornyos 14 700–23 400, háromrétegű tölgy 22 000–29 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

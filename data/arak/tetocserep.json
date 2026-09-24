@@ -1,26 +1,26 @@
 {
   "anyag_id": "tetocserep",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 350,
-    "max": 900,
-    "atlag": 580,
+    "min": 375,
+    "max": 850,
+    "atlag": 545,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "Hódfarkú cserép",
-      "ar": 380,
+      "nev": "Beton alapcserép, Terrán Danubia Colorsystem",
+      "ar": 409,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "Hullámos cserép",
-      "ar": 520,
+      "nev": "Beton alapcserép, Bramac Római Novo / Classic Novo",
+      "ar": 479,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "Hornyolt cserép",
-      "ar": 750,
+      "nev": "Kerámia alapcserép, Tondach Contiton 9 (Bolero) FusionColor",
+      "ar": 585,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Tetőcserép 2026-ban?",
-      "valasz": "A(z) Tetőcserép ára 2026-ban 350 – 900 Ft/db között mozog, az átlagár 580 Ft/db."
+      "kerdes": "Mennyibe kerül a tetőcserép 2026-ban?",
+      "valasz": "Tetőcserép ára 2026 szeptemberében 375–850 Ft/db, a boltok átlagára 545 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Beton alapcserép, Terrán Danubia Colorsystem (409 Ft), a legdrágább: Kerámia alapcserép, Tondach Contiton 9 (Bolero) FusionColor (585 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón tetőcserépt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a tetőcserép árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (Winkler Tüzép, Újház Veszprém, Már-Team Tüzép, Wienerberger Shop), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi tetőcserép kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a tetőcserép ára?",
+      "valasz": "Alapcserép darabára. Típustól függően 9,8–12 db/m² kell (hódfarkú kerámiából 30 felett), m²-re számolva 4 100–9 100 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj tetőcserép vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Winkler Tüzép (tetőkalkulátor)",
+      "termek": "Bramac Római NOVO antracit (akció) / Terrán Danubia natúr / Tondach Kékes Plus / Bramac Reviva NOVO",
+      "ar": 409,
+      "egyseg": "Ft/db",
+      "url": "https://www.winklertuzep.hu/tetokalkulator/cserepvalasztas.php",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Bramac Római Novo 409 (lista 680) = 4 090 Ft/m²; Terrán Danubia 409 = 4 090 Ft/m²; Tondach Kékes Plus 472 = 8 354 Ft/m²; Bramac Duna Thermo 850 = 8 500 Ft/m²; Bramac Reviva Novo 760 = 9 120 Ft/m²"
+    },
+    {
+      "bolt": "Újház Veszprém (Lang)",
+      "termek": "Bramac Római Novo alapcserép (rubinvörös/antracit/barna)",
+      "ar": 491,
+      "egyseg": "Ft/db",
+      "url": "https://www.ujhazveszprem.hu/termekek/tetofedo-anyagok/beton-alapcserepek/bramac/all",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Bramac Classic Novo alapcserép antracit",
+      "ar": 479,
+      "egyseg": "Ft/db",
+      "url": "https://marteamtuzep.hu/termek/bramac-classic-novo-alapcserep-teglavoros-masolat",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Wienerberger Shop (Tondach)",
+      "termek": "Tondach Contiton 9 (Bolero) alapcserép FusionColor terrabarna",
+      "ar": 585,
+      "egyseg": "Ft/db",
+      "url": "https://shop.wienerberger.hu/tondach/univerzalis_tetocserepek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "5 382 Ft/m²-től; FusionProtect változat 644 Ft/db"
+    },
+    {
+      "bolt": "Lambda Webáruház",
+      "termek": "Terrán Danubia (Renova Plus) Colorsystem alapcserép",
+      "ar": 375,
+      "egyseg": "Ft/db",
+      "url": "https://lambdawebaruhaz.hu/terran-danubia-renova-plus-colorsystem-alapcserep-antracit-23205",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "9,8 db/m²"
+    },
+    {
+      "bolt": "eKomplex",
+      "termek": "Bramac Reviva Protector alapcserép 1/1 téglavörös",
+      "ar": 670,
+      "egyseg": "Ft/db",
+      "url": "https://www.ekomplex.hu/teto-205/tetocserepek-211/alapcserepek-212",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Raklap-, szállítási, csomagolási díj külön"
+    },
+    {
+      "bolt": "Tondach Shop (tondach-shop.hu)",
+      "termek": "Tondach Planoton 9 (Inspira) FusionProtect",
+      "ar": 1118,
+      "egyseg": "Ft/db",
+      "url": "https://www.tondach-shop.hu/tondach/tondach-keramia-tetocserepek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "10 286 Ft/m²-től – prémium, sávon kívül"
+    }
+  ],
+  "megjegyzes": "Alapcserép darabára. Típustól függően 9,8–12 db/m² kell (hódfarkú kerámiából 30 felett), m²-re számolva 4 100–9 100 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

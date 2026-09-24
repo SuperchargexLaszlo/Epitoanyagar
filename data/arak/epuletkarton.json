@@ -1,26 +1,26 @@
 {
   "anyag_id": "epuletkarton",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 300,
-    "max": 800,
-    "atlag": 500,
+    "min": 495,
+    "max": 1334,
+    "atlag": 1060,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "400 g/m² bitumenes",
-      "ar": 320,
+      "nev": "Charvát CharBIT A330 H papírbetétes 'kátránypapír' 20 m²",
+      "ar": 495,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "500 g/m² bitumenes",
-      "ar": 510,
+      "nev": "Izobud Izobit GV35 oxidált bitumenes lemez 10 m²",
+      "ar": 1086,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "700 g/m² erősített",
-      "ar": 780,
+      "nev": "Villas GV 45 oxidált bitumenes lemez 10 m²",
+      "ar": 1326,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Építési karton 2026-ban?",
-      "valasz": "A(z) Építési karton ára 2026-ban 300 – 800 Ft/m² között mozog, az átlagár 500 Ft/m²."
+      "kerdes": "Mennyibe kerül az építési karton 2026-ban?",
+      "valasz": "Építési karton ára 2026 szeptemberében 495–1 334 Ft/m², a boltok átlagára 1 060 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Charvát CharBIT A330 H papírbetétes 'kátránypapír' 20 m² (495 Ft), a legdrágább: Villas GV 45 oxidált bitumenes lemez 10 m² (1 326 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón építési kartont venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az építési karton árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (GL Color festékbolt, epitoanyag.hu, Festékcsodák, Lang Építőanyag), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi építési karton kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az építési karton ára?",
+      "valasz": "Csupaszlemez (kátránypapír) ~500 Ft/m², oxidált bitumenes lemez (GV35–GV45) 1 090–1 330 Ft/m², SBS modifikált 3 000–3 700 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj építési karton vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "GL Color festékbolt",
+      "termek": "Charvát CharBIT A330 H papírbetétes bitumenes lemez, 1 tekercs 20 m²",
+      "ar": 495,
+      "egyseg": "Ft/m²",
+      "url": "https://www.glfestek.hu/termek/charvat-charbit-a-330-h-papirbetetes-bitumenes-lemez-1-tekercs-20-m2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 9900 Ft / 20 m²"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Izobud Izobit GV35 oxidált bitumenes vízszigetelő lemez 10 m²",
+      "ar": 1086,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/epitoanyag/szigeteles/vizszigeteles/bitumenes-lemez-c9592",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 10 860 Ft/tekercs; ugyanitt Villas GV45 13 260 Ft/tekercs, Guttabit GV45 1334 Ft/m²"
+    },
+    {
+      "bolt": "Festékcsodák",
+      "termek": "Villas bitumenes lemez GV-35 10 m²/tekercs Hydrobit",
+      "ar": 1094,
+      "egyseg": "Ft/m²",
+      "url": "https://www.festekcsodak.com/villas-bitumenes-lemez-gv-35-10m2-tekercs-hydrobit-28tek-raklap-n2047",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "10 940 Ft/tekercs"
+    },
+    {
+      "bolt": "Lang Építőanyag (Újház Veszprém)",
+      "termek": "Izobud IZOBIT GV35 oxidált bitumenes lemez 10 m²",
+      "ar": 1297,
+      "egyseg": "Ft/m²",
+      "url": "https://www.ujhazveszprem.hu/termekek/vizszigeteles-vizelvezetes/bitumenes-lemezek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt SBS Villas E-G 45: 3045 Ft/m², E-PV 4: 3735 Ft/m²"
+    }
+  ],
+  "megjegyzes": "Csupaszlemez (kátránypapír) ~500 Ft/m², oxidált bitumenes lemez (GV35–GV45) 1 090–1 330 Ft/m², SBS modifikált 3 000–3 700 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

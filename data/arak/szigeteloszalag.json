@@ -1,27 +1,27 @@
 {
   "anyag_id": "szigeteloszalag",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1500,
-    "max": 4000,
-    "atlag": 2500,
-    "egyseg": "Ft/tekercs (50 m)"
+    "min": 1687,
+    "max": 20675,
+    "atlag": 10000,
+    "egyseg": "Ft/tekercs"
   },
   "variansok": [
     {
-      "nev": "PE légzáró szalag",
-      "ar": 1600,
-      "egyseg": "Ft/tekercs (50 m)"
+      "nev": "Masterplast Masterfol Tape-2 kétoldalas 20 mm × 25 m",
+      "ar": 1834,
+      "egyseg": "Ft/tekercs"
     },
     {
-      "nev": "Butyl tömítőszalag",
-      "ar": 2600,
-      "egyseg": "Ft/tekercs (50 m)"
+      "nev": "Masterplast Mastermax TAPE egyoldalas diffúziós szalag",
+      "ar": 8143,
+      "egyseg": "Ft/tekercs"
     },
     {
-      "nev": "Prémium párazáró szalag",
-      "ar": 3800,
-      "egyseg": "Ft/tekercs (50 m)"
+      "nev": "Isover Vario KB1 egyoldalas légzáró szalag 60 mm × 40 m",
+      "ar": 18095,
+      "egyseg": "Ft/tekercs"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Szigetelőszalag 2026-ban?",
-      "valasz": "A(z) Szigetelőszalag ára 2026-ban 1 500 – 4 000 Ft/tekercs (50 m) között mozog, az átlagár 2 500 Ft/tekercs (50 m)."
+      "kerdes": "Mennyibe kerül a szigetelőszalag 2026-ban?",
+      "valasz": "Szigetelőszalag ára 2026 szeptemberében 1 687–20 675 Ft/tekercs, a boltok átlagára 10 000 Ft/tekercs (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Masterplast Masterfol Tape-2 kétoldalas 20 mm × 25 m (1 834 Ft), a legdrágább: Isover Vario KB1 egyoldalas légzáró szalag 60 mm × 40 m (18 095 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón szigetelőszalagt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a szigetelőszalag árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Marteam Tüzép, Euroof, Duralbau, Nett.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi szigetelőszalag kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a szigetelőszalag ára?",
+      "valasz": "Két eltérő termék: kétoldalas rögzítőszalag 1 700–2 100 Ft / 25 m, egyoldalas légzáró szalag 18 000–20 700 Ft / 40 m (450–520 Ft/fm)."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj szigetelőszalag vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "MASTERPLAST MASTERFOL TAPE-2 kétoldalas ragasztószalag 20 mm × 25 m",
+      "ar": 1834,
+      "egyseg": "Ft/tekercs",
+      "url": "https://marteamtuzep.hu/termek/masterplast-masterfol-tape-2-ketoldalas-ragasztoszalag",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanez epitoanyagmester.hu 1687 Ft, nett.hu 2096 Ft"
+    },
+    {
+      "bolt": "Euroof",
+      "termek": "Masterplast Mastermax TAPE diffúziós ragasztószalag",
+      "ar": 8143,
+      "egyseg": "Ft/tekercs",
+      "url": "https://www.euroof.hu/termdetail.cfm?id=584",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "webshop ár, lista ár 9048 Ft; legolcsóbb változat"
+    },
+    {
+      "bolt": "Duralbau",
+      "termek": "Isover Vario KB1 egyoldalas öntapadó ragasztószalag 40 m × 60 mm",
+      "ar": 18095,
+      "egyseg": "Ft/tekercs",
+      "url": "https://duralbau.hu/isover-vario-kb1-egyolgalas-ontapado-regasztoszalag-40-m-x-60-mm-6247",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Nett.hu",
+      "termek": "ISOVER Vario KB1 egyoldalas öntapadó ragasztószalag 6 cm × 40 m",
+      "ar": 20675,
+      "egyseg": "Ft/tekercs",
+      "url": "https://nett.hu/epitoanyag-szarazepiteszet-elvedok/tetofoliak-tetofedes-kiegeszitok/5200441267-isover-vario-kb1-egyoldalas-ontapado-ragasztoszalag-6-cm--40-m--5200441267",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "Két eltérő termék: kétoldalas rögzítőszalag 1 700–2 100 Ft / 25 m, egyoldalas légzáró szalag 18 000–20 700 Ft / 40 m (450–520 Ft/fm).",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,26 +1,26 @@
 {
   "anyag_id": "b30-blokk",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 200,
-    "max": 400,
-    "atlag": 290,
+    "min": 360,
+    "max": 439,
+    "atlag": 405,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "B30 normál",
-      "ar": 220,
+      "nev": "B30 tégla (Egri), 30x17,5x14",
+      "ar": 360,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "B30 sarok",
-      "ar": 350,
+      "nev": "ÉM B30 kézi falazó tégla",
+      "ar": 419,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "B30 félblokk",
-      "ar": 130,
+      "nev": "Bakonytherm B-30 falazóblokk",
+      "ar": 439,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül B30-as blokk 2026-ban?",
-      "valasz": "A(z) B30-as blokk ára 2026-ban 200 – 400 Ft/db között mozog, az átlagár 290 Ft/db."
+      "kerdes": "Mennyibe kerül a b30-as blokk 2026-ban?",
+      "valasz": "B30-as blokk ára 2026 szeptemberében 360–439 Ft/db, a boltok átlagára 405 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: B30 tégla (Egri), 30x17,5x14 (360 Ft), a legdrágább: Bakonytherm B-30 falazóblokk (439 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón b30-as blokkt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a b30-as blokk árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (Már-Team Tüzép, Újház Bodrogi, Építőanyag.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi b30-as blokk kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a b30-as blokk ára?",
+      "valasz": "35 db/m², ez 14 000–15 400 Ft/m² falfelület."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj b30-as blokk vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "BAKONYTHERM B-30 falazóblokk tégla 30x17,5x14",
+      "ar": 439,
+      "egyseg": "Ft/db",
+      "url": "https://marteamtuzep.hu/termek/bakonytherm-b-30-falazoblokk-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "35 db/m², 196 db/raklap"
+    },
+    {
+      "bolt": "Újház Bodrogi",
+      "termek": "ÉM B30 kézi falazó tégla 184 db/raklap",
+      "ar": 419,
+      "egyseg": "Ft/db",
+      "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/teglak/bb-0380209-em-b30-kezi-falazo-tegla-184-dbraklap",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építőanyag.hu (Árukereső listázás)",
+      "termek": "B30 tégla (TÉGLAB30EGRI184)",
+      "ar": 360,
+      "egyseg": "Ft/db",
+      "url": "https://tegla-falazoelem.arukereso.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Árösszehasonlítón keresztül, a bolti oldalt nem nyitottuk meg"
+    }
+  ],
+  "megjegyzes": "35 db/m², ez 14 000–15 400 Ft/m² falfelület.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

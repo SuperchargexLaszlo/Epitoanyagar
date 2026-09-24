@@ -1,26 +1,26 @@
 {
   "anyag_id": "laminalt-padlo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2500,
-    "max": 7000,
-    "atlag": 4000,
+    "min": 2700,
+    "max": 8000,
+    "atlag": 4600,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Alap AC3 (8 mm)",
-      "ar": 2700,
+      "nev": "Egger 7–8 mm AC4 (K32) alap",
+      "ar": 3300,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Standard AC4 (10 mm)",
-      "ar": 4200,
+      "nev": "Egger 8 mm AC4 Nature Sense (OBI)",
+      "ar": 4699,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium AC5 (12 mm)",
-      "ar": 6500,
+      "nev": "Vízálló laminált 8 mm (Aqua)",
+      "ar": 6300,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Laminált padló 2026-ban?",
-      "valasz": "A(z) Laminált padló ára 2026-ban 2 500 – 7 000 Ft/m² között mozog, az átlagár 4 000 Ft/m²."
+      "kerdes": "Mennyibe kerül a laminált padló 2026-ban?",
+      "valasz": "Laminált padló ára 2026 szeptemberében 2 700–8 000 Ft/m², a boltok átlagára 4 600 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Egger 7–8 mm AC4 (K32) alap (3 300 Ft), a legdrágább: Vízálló laminált 8 mm (Aqua) (6 300 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón laminált padlót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a laminált padló árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, OBI, Parkettanagyker), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi laminált padló kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a laminált padló ára?",
+      "valasz": "7–8 mm AC4 alaptermék 2 700–4 000, vízálló vagy AC5 6 000–8 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj laminált padló vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Egger MFM Skee tölgy 8 mm laminált padló 1291×135×8 mm K32",
+      "ar": 2699,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/egger-mfm-skee-tolgy-8mm-laminalt-padlo-1291x135x8mm-1-39nm/cs-k32/p/316262",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "3 752 Ft/csomag (1,39 m²)"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Egger Natursense Északi natúr tölgy 7 mm / Bardolino szürke tölgy 8 mm",
+      "ar": 2999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/c/303",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "7 mm 2 999; 8 mm Bardolino 3 699; Easystep Aqua vízálló 8 mm 4 999–6 299; Egger Perganti dió vízálló 7 999 Ft/m²"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Egger basic laminált padló rusztikus fehér 8 mm AC4 (32)",
+      "ar": 3999,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/egger-basic-laminalt-padlo-rusztfeher8mm-1291x193x8mm-1-99nm/cs-k32/p/333417",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós, eredeti 4 499 Ft/m²"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Egger Laminált padló Nature Sense Barna Loja Tölgy 1292×193×8 mm",
+      "ar": 4699,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/laminalt-padlok-vinylpadlok-parkettak/laminalt-padlok/c/514",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Parkettanagyker",
+      "termek": "Laminált padló (kategória)",
+      "ar": 4899,
+      "egyseg": "Ft/m²",
+      "url": "https://parkettanagyker.hu/parketta/laminalt-padlo-1/by,category_name/results,409-432",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "fogyasztói ár, konkrét termék a kivonatból nem azonosítható – csak tájékoztató"
+    }
+  ],
+  "megjegyzes": "7–8 mm AC4 alaptermék 2 700–4 000, vízálló vagy AC5 6 000–8 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

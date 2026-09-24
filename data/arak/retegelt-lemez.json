@@ -1,26 +1,26 @@
 {
   "anyag_id": "retegelt-lemez",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 4000,
-    "max": 12000,
-    "atlag": 7000,
+    "min": 13000,
+    "max": 44000,
+    "atlag": 23000,
     "egyseg": "Ft/lap"
   },
   "variansok": [
     {
-      "nev": "Nyírfa 9 mm (2440×1220)",
-      "ar": 4200,
+      "nev": "Nyír BB/CP 9 mm 1525×1525",
+      "ar": 13220,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "Nyírfa 18 mm (2440×1220)",
-      "ar": 7200,
+      "nev": "Nyír BB/CP 12 mm 1525×1525",
+      "ar": 19000,
       "egyseg": "Ft/lap"
     },
     {
-      "nev": "Nyírfa 24 mm (2440×1220)",
-      "ar": 11500,
+      "nev": "Nyír BB/CP 18 mm 1525×1525",
+      "ar": 28500,
       "egyseg": "Ft/lap"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Rétegelt lemez 2026-ban?",
-      "valasz": "A(z) Rétegelt lemez ára 2026-ban 4 000 – 12 000 Ft/lap között mozog, az átlagár 7 000 Ft/lap."
+      "kerdes": "Mennyibe kerül a rétegelt lemez 2026-ban?",
+      "valasz": "Rétegelt lemez ára 2026 szeptemberében 13 000–44 000 Ft/lap, a boltok átlagára 23 000 Ft/lap (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Nyír BB/CP 9 mm 1525×1525 (13 220 Ft), a legdrágább: Nyír BB/CP 18 mm 1525×1525 (28 500 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón rétegelt lemezt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a rétegelt lemez árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (Tandem Plussz, Skandináv Fatelep, Fadepo Fatelep), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi rétegelt lemez kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a rétegelt lemez ára?",
+      "valasz": "Nyír rétegelt lemez, 1525×1525 mm: 9 mm ~13 000, 12 mm 17 000–21 000, 18 mm 25 500–31 500 Ft. Nagytábla (1250×2500) 18 mm ~43 800 Ft. Borovi fenyő rétegelt lemez olcsóbb."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj rétegelt lemez vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tandem Plussz (árlista 2026.02.20-tól)",
+      "termek": "Nyír rétegelt lemez kocka 1525×1525 BB/CP 9/12/18 mm; nagytábla 1250×2500 BB/CP",
+      "ar": 25590,
+      "egyseg": "Ft/lap",
+      "url": "https://tandemplussz.hu/alkatresz-ertekesites/retegelt-lemez-elerheto-meretekben-friss-arakkal-hexa-giga-nyir-nyar-retegelt-lemezek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "teljes oldal kiolvasva: kocka 9 mm 13 220, 12 mm 17 060, 18 mm 25 590; 1250×2500 BB/CP 9 mm 25 730, 18 mm 43 790 Ft/tábla; nem klasszikus fatelep, de bruttó kiskereskedelmi árlista"
+    },
+    {
+      "bolt": "Skandináv Fatelep",
+      "termek": "Nyír rétegelt lemez 12 mm 1525×1525 BB/CP; nyír vízálló 9×1250×2500",
+      "ar": 20690,
+      "egyseg": "Ft/lap",
+      "url": "https://www.skandinavfatelep.hu/termek/nyir-vizallo-retegelt-lemez-9x1250x2500mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "12 mm kocka 20 690 (8 897 Ft/m²); 21 mm kocka 33 590; 9 mm vízálló 1250×2500: 28 600 Ft"
+    },
+    {
+      "bolt": "Fadepo Fatelep",
+      "termek": "Nyír rétegelt lemez IF20 BB/CP 12 / 18 mm",
+      "ar": 31389,
+      "egyseg": "Ft/lap",
+      "url": "https://fadepofatelep.hu/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "m²-ár: 12 mm 9 026, 18 mm 13 497 Ft/m²; átszámítva 1525×1525 (2,3256 m²) táblára: 12 mm ≈ 20 990, 18 mm ≈ 31 390 Ft"
+    }
+  ],
+  "megjegyzes": "Nyír rétegelt lemez, 1525×1525 mm: 9 mm ~13 000, 12 mm 17 000–21 000, 18 mm 25 500–31 500 Ft. Nagytábla (1250×2500) 18 mm ~43 800 Ft. Borovi fenyő rétegelt lemez olcsóbb.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

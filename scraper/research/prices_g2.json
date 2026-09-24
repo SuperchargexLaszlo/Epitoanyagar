@@ -1,0 +1,295 @@
+{
+  "_meta": {
+    "datum": "2026-09-24",
+    "modszer": "Tavily keresés + oldal-kiolvasás (tavily_extract). 'ellenorizve' mező: '2026-09-24 (oldal kiolvasva)' = a termékoldalt/listát ténylegesen kiolvastuk; '2026-09-24 (keresési kivonat)' = az ár a keresőmotor által aktuálisan indexelt oldaltartalomból származik, az oldalt külön nem nyitottuk meg. Minden ár bruttó (27% ÁFA-val), szállítás/raklapdíj nélkül.",
+    "figyelem": "Az epitoanyagar.hu saját oldalait szándékosan NEM használtuk forrásként."
+  },
+  "tegla": {
+    "egyseg": "Ft/db",
+    "min": 259, "max": 485, "atlag": 320,
+    "variansok": [
+      {"nev": "Kisméretű tömör tégla 25x12x6,5 (ÉM / Bakonytherm, tüzép)", "ar": 259, "egyseg": "Ft/db"},
+      {"nev": "Kisméretű tömör tégla (Pápateszéri / Bakonytherm, normál ár)", "ar": 286, "egyseg": "Ft/db"},
+      {"nev": "Porotherm kisméretű tömör tégla 25x12x6,5 (Wienerberger)", "ar": 305, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Zsiráf Webáruház", "termek": "Bakonytherm kisméretű tömör tégla 25x12x6,5 cm", "ar": 279, "egyseg": "Ft/db", "url": "https://webshop.zsirafep.hu/falazoanyagok/tegla/1000600998-bakonytherm-kismeretu-tomor-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Normál ár 279, akciós 259 Ft/db (2026.07.31-től, készlet erejéig)"},
+      {"bolt": "Újház Bodrogi", "termek": "ÉM kisméretű tömör tégla (448 db/raklap)", "ar": 259, "egyseg": "Ft/db", "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/teglak/bb-0341549-em-kismeretu-tomor-tegla-448dbrl", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "nettó 204 Ft"},
+      {"bolt": "Tímár Vaskereskedelmi Kft.", "termek": "Kisméretű tömör tégla, Pápateszéri Téglagyár, 396 db/raklap", "ar": 286, "egyseg": "Ft/db", "url": "https://timarvasker.hu/kismeretu-tomor-tegla/t", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Winkler Tüzép", "termek": "Porotherm kisméretű tömör tégla 25x12x6,5 cm (400 db/rkl)", "ar": 305, "egyseg": "Ft/db", "url": "https://www.winklertuzep.hu/shop/porotherm-kismeretu-tomor-tegla-25x12x6-5-cm-400db-rkl_p82", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Listaár 320, online ár 305 Ft/db"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Porotherm kisméretű tömör tégla 25x12x6,5 cm", "ar": 485, "egyseg": "Ft/db", "url": "https://epitoanyag.hu/epitoanyag/tegla/kismeretu-tegla-c9517", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Felső szélső érték"}
+    ],
+    "megjegyzes": "Kisméretű tömör tégla (52 db/m² fél tégla falban, 104 db/m² egész tégla falban). A 'nagyméretű' falazótéglák valójában a Porotherm/Leiertherm/B30 kategóriába esnek, lásd poroton és b30-blokk. Az oldal jelenlegi 80–150 Ft/db becslése kb. a felére-harmadára alulbecsül."
+  },
+  "poroton": {
+    "egyseg": "Ft/db",
+    "min": 591, "max": 1500, "atlag": 1060,
+    "variansok": [
+      {"nev": "Porotherm 30 N+F neo (16 db/m²)", "ar": 758, "egyseg": "Ft/db"},
+      {"nev": "Porotherm 38 N+F (16 db/m²)", "ar": 1221, "egyseg": "Ft/db"},
+      {"nev": "Porotherm 44 X-therm (16 db/m²)", "ar": 1497, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Wienerberger Shop (gyártói ajánlott fogy. ár)", "termek": "Porotherm 30 N+F neo tégla", "ar": 894, "egyseg": "Ft/db", "url": "https://shop.wienerberger.hu/porotherm/1932/porotherm-30-nf-neo-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Ajánlott bruttó 14 304 Ft/m²; kereskedőnél változhat"},
+      {"bolt": "Már-Team Tüzép", "termek": "Porotherm 30 N+F neo tégla", "ar": 758, "egyseg": "Ft/db", "url": "https://marteamtuzep.hu/termek/porotherm-30-nf", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építőáruház (epitoaruhaz.hu)", "termek": "Porotherm 30 N+F Neo tégla 80 db/rkl", "ar": 616, "egyseg": "Ft/db", "url": "https://www.epitoaruhaz.hu/porotherm-30-n-f-neo-tegla-80-dbrkl", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Metalloglobus", "termek": "Porotherm 30 NF NEO tégla, 80 db/raklap", "ar": 591, "egyseg": "Ft/db", "url": "https://www.metalloglobus.com/porotherm-30-nf-neo-tegla-80-db-raklap", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "47 244 Ft/raklap ÷ 80 db = 591 Ft/db; csak egész raklap, telepi átvétel"},
+      {"bolt": "Wienerberger Shop", "termek": "Porotherm 38 N+F tégla", "ar": 1221, "egyseg": "Ft/db", "url": "https://shop.wienerberger.hu/porotherm/78/porotherm-38-nf-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "19 536 Ft/m²"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Wienerberger Porotherm 38 Klíma tégla", "ar": 1205, "egyseg": "Ft/db", "url": "https://epitoanyag.hu/wienerberger-porotherm-38-klima-tegla-pVUgtMTAwMjEw", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Wienerberger Shop", "termek": "Porotherm 44 X-therm tégla", "ar": 1497, "egyseg": "Ft/db", "url": "https://shop.wienerberger.hu/porotherm/1588/porotherm-44-x-therm-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "23 952 Ft/m²"},
+      {"bolt": "Hofstädter Tüzép", "termek": "Porotherm 44 X-therm tégla", "ar": 1323, "egyseg": "Ft/db", "url": "https://tuzep.hofstadter.hu/kat/porotherm-teglak", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Wienerberger Porotherm 44 Klíma tégla", "ar": 1430, "egyseg": "Ft/db", "url": "https://epitoanyag.hu/wienerberger-porotherm-44-klima-tegla-pVUgtMTAwMjE3", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Wienerberger Shop", "termek": "Porotherm 44 Thermo Rapid Dryfix (kőzetgyapot töltésű)", "ar": 3436, "egyseg": "Ft/db", "url": "https://shop.wienerberger.hu/porotherm/60/porotherm-44-thermo-rapid-dryfix-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Prémium töltött tégla, kívül esik a min/max sávon"}
+    ],
+    "megjegyzes": "Mind 16 db/m². A '38 K' és '44 HS' régi típusnevek; ma a 38 N+F / 38 Klíma / 44 Klíma / 44 X-therm a megfelelőjük. Hőszigeteléssel töltött Thermo téglák 2 865–3 437 Ft/db (nem számoltuk a sávba). Az oldal 280–550 Ft/db becslése kb. 2x alulbecsül."
+  },
+  "zsaluko": {
+    "egyseg": "Ft/db",
+    "min": 555, "max": 878, "atlag": 700,
+    "variansok": [
+      {"nev": "Zsalukő 15 cm (50x15x23-25)", "ar": 580, "egyseg": "Ft/db"},
+      {"nev": "Zsalukő 20 cm (Leier ZS 20)", "ar": 646, "egyseg": "Ft/db"},
+      {"nev": "Zsalukő 30 cm (50x30x25)", "ar": 845, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Metalloglobus", "termek": "Leier zsalukő 20-as (20x50x23)", "ar": 646, "egyseg": "Ft/db", "url": "https://www.metalloglobus.com/leier-zsaluko-20-as", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Listaár 759; ugyanitt Leier 15-ös akciósan 580 (lista 682) Ft/db"},
+      {"bolt": "Építőanyagok Most (Pannon Group)", "termek": "LEIER zsalukő 20-as", "ar": 555, "egyseg": "Ft/db", "url": "https://epitoanyagokmost.hu/termek/leier-zsaluko-20-as", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Szatmári Építőanyag", "termek": "Leier zsalukő 20 50x20x23 cm", "ar": 870, "egyseg": "Ft/db", "url": "https://szatmari.hu/epitoanyag/product/41092-leier-zsaluko-20-50x20x23-cm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Anyagdepó", "termek": "Leier zsalukő 20 cm", "ar": 800, "egyseg": "Ft/db", "url": "https://anyagdepo.hu/termek/leier-zsaluko-20cm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Tüzépshop (tuzepshop.hu)", "termek": "Beton EPAG zsalukő 15x50x25 / 20x50x25 / 25x50x25 / 30x50x25", "ar": 595, "egyseg": "Ft/db", "url": "https://www.tuzepshop.hu/zsaluko", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "15 cm 566, 20 cm 595, 25 cm 680, 30 cm 709 Ft/db"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "BetonLM zsalukő 30 cm", "ar": 845, "egyseg": "Ft/db", "url": "https://epitoanyag.hu/betonlm-zsaluko-30-cm-pQkVUVi1aUzMw", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Tímár Vaskereskedelmi Kft.", "termek": "Zsalukő 30x50x25", "ar": 878, "egyseg": "Ft/db", "url": "https://timarvasker.hu/zsaluko-30x50x25/t", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "8 db/m², 40 db/raklap"},
+      {"bolt": "Kocsis Tüzép (tuzepwebshop.hu)", "termek": "BLM zsalukő 50x25x15", "ar": 700, "egyseg": "Ft/db", "url": "https://tuzepwebshop.hu/zsaluko", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""}
+    ],
+    "megjegyzes": "Kb. 8–8,7 db/m² falfelület. Raklapdíj (Leier: kb. 6 500–8 255 Ft/raklap) külön. Az oldal 120–250 Ft/db becslése 3–4x alulbecsül."
+  },
+  "ytong": {
+    "egyseg": "Ft/db",
+    "min": 599, "max": 3259, "atlag": 1480,
+    "variansok": [
+      {"nev": "Ytong Pve 10 cm válaszfalelem 600x200x100", "ar": 749, "egyseg": "Ft/db"},
+      {"nev": "Ytong Classic GT 20 cm 600x200x200", "ar": 1590, "egyseg": "Ft/db"},
+      {"nev": "Ytong Classic/Lambda GT 30 cm 600x200x300", "ar": 2354, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Metalloglobus", "termek": "Ytong válaszfalelem Pve 10 cm, 120 db/raklap", "ar": 837, "egyseg": "Ft/db", "url": "https://www.metalloglobus.com/ytong-valaszfalelem-pve-10-cm-120-db-raklap", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Hufbau (hbarkacsaruhaz.hu)", "termek": "YTONG válaszfalelem 10-es Pve 600x200x100", "ar": 705, "egyseg": "Ft/db", "url": "https://hbarkacsaruhaz.hu/epitoanyag/falazoelem/ytong-elem/yt-10015028-ytong-valaszfalelem-10-es-pve-600x200x100-120db-7-9kgdb-10015028", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "nettó 555"},
+      {"bolt": "Újház Veszprém (Lang)", "termek": "Xella Ytong Pve válaszfalelem 600x200x100 (120 db/rkl)", "ar": 599, "egyseg": "Ft/db", "url": "https://www.ujhazveszprem.hu/termek/xella-ytong-pve-valaszfalelem-600x200x100-mm-120-db-rkl-uh-001982", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Legalacsonyabb talált ár"},
+      {"bolt": "Újház Bodrogi", "termek": "Xella Ytong Pve válaszfalelem 600x200x100", "ar": 749, "egyseg": "Ft/db", "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/ytong/uh-001982-xella-ytong-pve-valaszfalelem-600x200x100-mm-120-dbrkl", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építőáruház (epitoaruhaz.hu)", "termek": "Xella Ytong Classic GT falazóelem 600x200x200", "ar": 1590, "egyseg": "Ft/db", "url": "https://www.epitoaruhaz.hu/Ytong-falazoelemek", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Bau-Styl", "termek": "Xella Ytong Classic GT falazóelem 600x200x200 (56 db/rkl)", "ar": 1644, "egyseg": "Ft/db", "url": "https://www.bau-styl.hu/epitoanyag/termek/xella-ytong-classic-gt-falazoelem-600x200x200-mm-56-db-rkl", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Újház Bodrogi", "termek": "Xella Ytong Classic GT falazóelem 600x200x200", "ar": 1549, "egyseg": "Ft/db", "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/ytong/uh-002097-xella-ytong-classic-gt-falazoelem-600x200x200-mm-56-dbrkl", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építők Háza Kft.", "termek": "Ytong Classic GT falazóelem 200x600x300", "ar": 2378, "egyseg": "Ft/db", "url": "https://epitokhazakft.hu/Ytong-30-falazoelem", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Mennyiségi kedvezménnyel 2 180 / 1 981 Ft/db"},
+      {"bolt": "Grás (gras.hu)", "termek": "Ytong Lambda GT falazóelem 600x200x300", "ar": 2354, "egyseg": "Ft/db", "url": "https://gras.hu/termek/6971/ytong-lambda-gt-falazoelem----600-x-200-x-300-mm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Árak módosítva 2026-09-21"},
+      {"bolt": "Metalloglobus", "termek": "Ytong Lambda NF+GT 375x200x600, 32 db/raklap", "ar": 3259, "egyseg": "Ft/db", "url": "https://www.metalloglobus.com/ytong-lambda-nf-gt-375x200x600-mm-32-db-raklap", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "104 282 Ft/raklap ÷ 32 db = 3 259 Ft/db"}
+    ],
+    "megjegyzes": "8,23 db/m². Méretenként: 10 cm 600–840, 20 cm 1 550–1 650, 30 cm 2 350–2 380, 37,5 cm 2 630–3 260 Ft/db. Az 'átlag' vegyes méretekből képzett, félrevezető: az oldalon érdemes vastagság szerint bontani vagy Ft/m²-t is megadni (pl. 30 cm ≈ 19 500 Ft/m²). Az oldal 350–700 Ft/db becslése csak a 10 cm-es válaszfalelemre stimmel nagyjából."
+  },
+  "b30-blokk": {
+    "egyseg": "Ft/db",
+    "min": 360, "max": 439, "atlag": 405,
+    "variansok": [
+      {"nev": "B30 tégla (Egri), 30x17,5x14", "ar": 360, "egyseg": "Ft/db"},
+      {"nev": "ÉM B30 kézi falazó tégla", "ar": 419, "egyseg": "Ft/db"},
+      {"nev": "Bakonytherm B-30 falazóblokk", "ar": 439, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Már-Team Tüzép", "termek": "BAKONYTHERM B-30 falazóblokk tégla 30x17,5x14", "ar": 439, "egyseg": "Ft/db", "url": "https://marteamtuzep.hu/termek/bakonytherm-b-30-falazoblokk-tegla", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "35 db/m², 196 db/raklap"},
+      {"bolt": "Újház Bodrogi", "termek": "ÉM B30 kézi falazó tégla 184 db/raklap", "ar": 419, "egyseg": "Ft/db", "url": "https://ujhazbodrogi.hu/epitoanyag/szerkezetepites/teglak/bb-0380209-em-b30-kezi-falazo-tegla-184-dbraklap", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építőanyag.hu (Árukereső listázás)", "termek": "B30 tégla (TÉGLAB30EGRI184)", "ar": 360, "egyseg": "Ft/db", "url": "https://tegla-falazoelem.arukereso.hu", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Árösszehasonlítón keresztül, a bolti oldalt nem nyitottuk meg"}
+    ],
+    "megjegyzes": "35 db/m² (≈ 14 000–15 400 Ft/m² falfelület). Az oldal 200–400 Ft/db becslése kissé alacsony, felső határa közel van a valósághoz."
+  },
+  "tetocserep": {
+    "egyseg": "Ft/db",
+    "min": 375, "max": 850, "atlag": 545,
+    "variansok": [
+      {"nev": "Beton alapcserép, Bramac Római Novo / Classic Novo", "ar": 479, "egyseg": "Ft/db"},
+      {"nev": "Beton alapcserép, Terrán Danubia Colorsystem", "ar": 409, "egyseg": "Ft/db"},
+      {"nev": "Kerámia alapcserép, Tondach Contiton 9 (Bolero) FusionColor", "ar": 585, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Winkler Tüzép (tetőkalkulátor)", "termek": "Bramac Római NOVO antracit (akció) / Terrán Danubia natúr / Tondach Kékes Plus / Bramac Reviva NOVO", "ar": 409, "egyseg": "Ft/db", "url": "https://www.winklertuzep.hu/tetokalkulator/cserepvalasztas.php", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Bramac Római Novo 409 (lista 680) = 4 090 Ft/m²; Terrán Danubia 409 = 4 090 Ft/m²; Tondach Kékes Plus 472 = 8 354 Ft/m²; Bramac Duna Thermo 850 = 8 500 Ft/m²; Bramac Reviva Novo 760 = 9 120 Ft/m²"},
+      {"bolt": "Újház Veszprém (Lang)", "termek": "Bramac Római Novo alapcserép (rubinvörös/antracit/barna)", "ar": 491, "egyseg": "Ft/db", "url": "https://www.ujhazveszprem.hu/termekek/tetofedo-anyagok/beton-alapcserepek/bramac/all", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Már-Team Tüzép", "termek": "Bramac Classic Novo alapcserép antracit", "ar": 479, "egyseg": "Ft/db", "url": "https://marteamtuzep.hu/termek/bramac-classic-novo-alapcserep-teglavoros-masolat", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Wienerberger Shop (Tondach)", "termek": "Tondach Contiton 9 (Bolero) alapcserép FusionColor terrabarna", "ar": 585, "egyseg": "Ft/db", "url": "https://shop.wienerberger.hu/tondach/univerzalis_tetocserepek", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "5 382 Ft/m²-től; FusionProtect változat 644 Ft/db"},
+      {"bolt": "Lambda Webáruház", "termek": "Terrán Danubia (Renova Plus) Colorsystem alapcserép", "ar": 375, "egyseg": "Ft/db", "url": "https://lambdawebaruhaz.hu/terran-danubia-renova-plus-colorsystem-alapcserep-antracit-23205", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "9,8 db/m²"},
+      {"bolt": "eKomplex", "termek": "Bramac Reviva Protector alapcserép 1/1 téglavörös", "ar": 670, "egyseg": "Ft/db", "url": "https://www.ekomplex.hu/teto-205/tetocserepek-211/alapcserepek-212", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Raklap-, szállítási, csomagolási díj külön"},
+      {"bolt": "Tondach Shop (tondach-shop.hu)", "termek": "Tondach Planoton 9 (Inspira) FusionProtect", "ar": 1118, "egyseg": "Ft/db", "url": "https://www.tondach-shop.hu/tondach/tondach-keramia-tetocserepek", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "10 286 Ft/m²-től – prémium, sávon kívül"}
+    ],
+    "megjegyzes": "Alapcserép Ft/db. Anyagszükséglet típustól függően 9,8–12 db/m² (hódfarkú kerámia 30+ db/m²!). Ft/m²-ben a reális sáv kb. 4 100–9 100 Ft/m², átlag ~6 500 Ft/m². Mivel db-igény típusonként erősen eltér, a Ft/m² az összehasonlíthatóbb egység – javasolt mindkettőt kiírni. Az oldal 350–900 Ft/db becslése reális."
+  },
+  "eternit": {
+    "egyseg": "Ft/m²",
+    "min": 3380, "max": 5500, "atlag": 4040,
+    "variansok": [
+      {"nev": "Azbesztmentes hullámpala 175x113 cm (tábla)", "ar": 7069, "egyseg": "Ft/db"},
+      {"nev": "Azbesztmentes hullámpala 175x113 cm, táblafelületre vetítve (1,98 m²)", "ar": 3575, "egyseg": "Ft/m²"},
+      {"nev": "Cembrit 6 hullámos szálcement hullámpala 1600x1097 mm (listaár)", "ar": 9652, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Hullampala.hu", "termek": "Hullámpala azbesztmentes 175x113 cm, 22,5 kg/db", "ar": 7290, "egyseg": "Ft/db", "url": "https://hullampala.hu", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "7 290 ÷ 1,9775 m² = 3 686 Ft/m² táblafelület"},
+      {"bolt": "Újház Bodrogi", "termek": "Hullámpala azbesztmentes szürke 1750 x 1130", "ar": 7069, "egyseg": "Ft/db", "url": "https://ujhazbodrogi.hu/epitoanyag/tetofedes/bb-025605-hullampala-azbesztmentes-szurke-1750-x-1130", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "7 069 ÷ 1,9775 = 3 575 Ft/m²"},
+      {"bolt": "Kincsem Áruház", "termek": "Hullámpala azbesztmentes 175x113", "ar": 6690, "egyseg": "Ft/db", "url": "https://www.kincsemaruhaz.hu/spd/A1082/Hullampala-azbesztmentes-175x113", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "6 690 ÷ 1,9775 = 3 383 Ft/m²; csak üzletben"},
+      {"bolt": "Tetőcentrum", "termek": "Cembrit 6 hullámos szabvány hullámpala 1600 mm natúrszürke", "ar": 9652, "egyseg": "Ft/db", "url": "https://www.tetocentrum.hu/hu/termekek/cembrit-6-hullamos-szabvany-hullampala-1600-mm-naturszurke-46935", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Listaár. Tábla 1,755 m² → 5 500 Ft/m²; gyártói anyagszükséglet 1,42–1,52 m² fedett felület/db → ~6 500 Ft/fedett m²"}
+    ],
+    "megjegyzes": "A boltok darabra (táblára) árulnak. Ft/m² itt a táblafelületre vetítve; az átfedések miatt a ténylegesen fedett m²-re vetített ár kb. 20–30%-kal magasabb (175x113-as táblánál ~1,6 m² hasznos → ~4 200–4 600 Ft/fedett m²). Az 'eternit' márkanév elavult, a keresett kifejezés inkább 'hullámpala'. Az oldal 1 800–3 500 Ft/m² becslése alacsony."
+  },
+  "bitumenes-zsindely": {
+    "egyseg": "Ft/m²",
+    "min": 3299, "max": 4805, "atlag": 4120,
+    "variansok": [
+      {"nev": "Gutta G-Tec hexagonál zsindely (2,9 m²/csomag)", "ar": 3299, "egyseg": "Ft/m²"},
+      {"nev": "IKO Number One 3Tab téglány (3 m²/csomag)", "ar": 4040, "egyseg": "Ft/m²"},
+      {"nev": "Tegola hódfarkú Ecoroof (2,32 m²/csomag)", "ar": 4805, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Gutta G-Tec zsindely hexagonál 1000x320x2,7 mm vörös, 2,9 m²/csomag", "ar": 3299, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/teto/zsindely/c/223", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "9 567 Ft/csomag ÷ 2,9 m²"},
+      {"bolt": "Baupro", "termek": "Bitumenes zsindely hódfarkú barna G-Tec", "ar": 3799, "egyseg": "Ft/m²", "url": "https://baupro.hu/bitumenes-zsindely-hodfarku-barna-g-tec", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "11 017 Ft/csomag (2,9 m²)"},
+      {"bolt": "Székely Fatelep", "termek": "IKO Number One 3Tab téglány / Biber hódfarkú / Superglass (3 m²/csomag)", "ar": 4040, "egyseg": "Ft/m²", "url": "https://szekelyfatelep.hu/fatelep/bitumenes-zsindely", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Number One 3Tab 4 040, Biber 4 130, Superglass 4 600 Ft (bruttó, m²-re értelmezve)"},
+      {"bolt": "Baustar 98 Kft.", "termek": "Gutta Bardoline Classic 3T bitumenes zsindely téglány, 3 m²/csomag", "ar": 4090, "egyseg": "Ft/m²", "url": "https://www.baustar98kft.hu/epitoanyag/tetofedo-anyagok?kategoria2%5B%5D=752", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "fekete 4 090, vörös 4 190 Ft/m²"},
+      {"bolt": "eKomplex (e-komplex.hu)", "termek": "Tegola hódfarkú zsindely Ecoroof 013 vörös mix 2,32 m²/csomag", "ar": 4805, "egyseg": "Ft/m²", "url": "https://e-komplex.hu/komplex/12-teto/zsindely", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "nettó 3 783"},
+      {"bolt": "TetőSipos", "termek": "Tegola Premium Gothik zsindely 3,45 m²", "ar": 6999, "egyseg": "Ft/m²", "url": "https://webshop.tetosipos.hu/collections/bitumenes-zsindely", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "24 145 Ft/csomag ÷ 3,45 m² – prémium, sávon kívül"}
+    ],
+    "megjegyzes": "Alátétlemez, OSB és szegek nélkül. Az oldal 2 500–5 000 Ft/m² becslése nagyjából jó, az alsó határ alacsony."
+  },
+  "tetofolia": {
+    "egyseg": "Ft/m²",
+    "min": 292, "max": 720, "atlag": 485,
+    "variansok": [
+      {"nev": "Balo Bau páraáteresztő tetőfólia 75 m²", "ar": 292, "egyseg": "Ft/m²"},
+      {"nev": "Masterplast Linopore RX 5000, 75 m²", "ar": 475, "egyseg": "Ft/m²"},
+      {"nev": "Masterplast Linopore 7000, 75 m²", "ar": 720, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Tetőcentrum Pécs", "termek": "Corotop Blue páraáteresztő tetőfólia 140 g/m², 75 m²", "ar": 480, "egyseg": "Ft/m²", "url": "https://tetocentrumpecs.hu/products/corotop-blue-paraatereszto-tetofolia-140g-m2-75m2-tekercs", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "36 000 Ft/tekercs"},
+      {"bolt": "KeriBadogDirect", "termek": "Eurovent Fortis páraáteresztő tetőfólia 190 g/m², 75 m²", "ar": 453, "egyseg": "Ft/m²", "url": "https://keribadogdirect.hu/tetokiegeszito/paraatereszto-zaro-tetofoliak-es-kiegeszitoik/tetofoliak-346", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Masterplast Linopore RX 5000 páraáteresztő tetőfólia 75 m²", "ar": 475, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/epitoanyag/tetofedes/tetofolia-c9532", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Kóházy", "termek": "Balo Bau tetőfólia páraáteresztő 75 m² (1,5x50 m)", "ar": 292, "egyseg": "Ft/m²", "url": "https://www.kohazy.hu/viz-ho-es-hangszigeteles/-vizszigetelo-tetoszigitelo-b/tetofolia-paraatereszto-75-m2", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "21 880 Ft/tekercs ÷ 75 m² = 292 Ft/m²"},
+      {"bolt": "Hőszigetelés-árak.hu", "termek": "MP Linopore 7000 páraáteresztő tetőfólia 75 m²", "ar": 720, "egyseg": "Ft/m²", "url": "https://www.hoszigeteles-arak.hu/epitesi-es-tetofoliak", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "54 000 Ft/tekercs ÷ 75 = 720 (akciósan 51 000 → 680) Ft/m²"}
+    ],
+    "megjegyzes": "Szinte kizárólag 75 m²-es tekercsben kapható; a Ft/m² átszámolt érték. Az oldal 400–1 200 Ft/m² becslése kissé magas a felső végén, az alja megfelel."
+  },
+  "kozetgyapot": {
+    "egyseg": "Ft/m²",
+    "min": 2490, "max": 9750, "atlag": 5850,
+    "variansok": [
+      {"nev": "Homlokzati kőzetgyapot 5 cm (Knauf FKD N Thermal)", "ar": 3645, "egyseg": "Ft/m²"},
+      {"nev": "Homlokzati kőzetgyapot 10 cm (Rockwool Frontrock Super)", "ar": 6500, "egyseg": "Ft/m²"},
+      {"nev": "Homlokzati kőzetgyapot 15 cm (Knauf FKD N Thermal)", "ar": 8380, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Dr.Tüzép", "termek": "Knauf Insulation FKD N Thermal homlokzati kőzetgyapot 5 / 10 / 15 cm", "ar": 5590, "egyseg": "Ft/m²", "url": "https://www.drtuzep.hu/homlokzati-hoszigeteles-kozetgyapot-knauf", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "5 cm (4,8 m²/bála) 3 645; 10 cm (2,4 m²/bála) 5 590; 15 cm (1,2 m²/bála) 8 380 Ft/m²"},
+      {"bolt": "Straubinger Építési Kft.", "termek": "Rockwool Frontrock Super 8/10/12/15 cm", "ar": 6500, "egyseg": "Ft/m²", "url": "https://www.straubingerkft.hu/epitoanyag/akcio-kategoria/rockwool-kozetgyapot-szigeteles-akciok/rockwool-frontrock-super-homlokzati-kozetgyapot-szigeteles-akcio", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Akciós: 8 cm 5 200; 10 cm 6 500; 12 cm 7 800; 15 cm 9 750 Ft/m²"},
+      {"bolt": "Kőzetgyapot-árak.hu", "termek": "Rockwool Frontrock Super 1000x600x100 mm, 1,8 m²/csomag", "ar": 6575, "egyseg": "Ft/m²", "url": "https://kozetgyapot-arak.hu/termek/96/rockwool-frontrock-super-1000-x-600-x-100-mm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "11 835 Ft/csomag ÷ 1,8 m² = 6 575 Ft/m² (árak módosítva 2026-08-28)"},
+      {"bolt": "Újház Veszprém (Lang)", "termek": "Rockwool Frontrock Super vakolható kőzetgyapot 100x60x10 cm", "ar": 5190, "egyseg": "Ft/m²", "url": "https://www.ujhazveszprem.hu/termek/rockwool-frontrock-super-vakolhato-kozetgyapot-hoszigetelo-lemez-100x60x10-cm-uh-540564", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Rockwool Hungary (gyártói árlista 2026)", "termek": "Frontrock Super 100 mm / Airrock 50 mm", "ar": 8167, "egyseg": "Ft/m²", "url": "https://www.rockwool.com/siteassets/rw-hu/mszaki-informacio/arlista/ROCKWOOL-arlista.pdf", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Listaár, a boltok 20–35%-kal olcsóbban adják. Frontrock Super 150 mm 12 252; Airrock 50 mm 3 683 Ft/m²"},
+      {"bolt": "Homlokzatihoszigeteles.hu", "termek": "Paroc Ultra kőzetgyapot födémszigetelés 10 cm / 15 cm", "ar": 2490, "egyseg": "Ft/m²", "url": "https://www.homlokzatihoszigeteles.hu/szigetelo-lemezek/knauf-mpn-kozetgyapot-15-cm", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Nem homlokzati, padlásfödém-szigetelés: 10 cm 2 490, 15 cm 3 735 Ft/m²"}
+    ],
+    "megjegyzes": "Kétféle termékcsoport: (1) homlokzati, vakolható tábla: 5 cm ~3 600, 10 cm ~5 200–6 600, 15 cm ~8 400–9 750 Ft/m²; (2) födém/tetőtéri (nem terhelhető) tekercs/lap: 10 cm ~2 500, 15 cm ~3 700 Ft/m². A boltok bálát/csomagot adnak (pl. 10 cm Frontrock 1,8 m²/csomag), az ár Ft/m²-re átszámolva. Az oldal 800–1 800 Ft/m² becslése 3–5x alulbecsül."
+  },
+  "uveggyapot": {
+    "egyseg": "Ft/m²",
+    "min": 666, "max": 3983, "atlag": 2100,
+    "variansok": [
+      {"nev": "Knauf NatuRoll Pro 10 cm (9,24 m²/tekercs)", "ar": 1699, "egyseg": "Ft/m²"},
+      {"nev": "Isover Domo 15 cm (6 m²/tekercs)", "ar": 1998, "egyseg": "Ft/m²"},
+      {"nev": "Isover Domo Plus 20 cm (5,04 m²/tekercs)", "ar": 3983, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Knauf Insulation NatuRoll Pro M 039 üveggyapot 5 / 10 / 15 cm", "ar": 1699, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/szigeteles/uveggyapot/c/218", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "5 cm 849 Ft/m² (15 690 Ft / 18,48 m²); 10 cm 1 699 (15 699 / 9,24 m²); 15 cm 3 299 (20 190 / 6,12 m²)"},
+      {"bolt": "Werner Építker", "termek": "Isover Domo 15 cm 5000x1200 mm (6 m²/tekercs)", "ar": 1998, "egyseg": "Ft/m²", "url": "https://wernerepker.hu/uveggyapot-isover-domo-15-cm-5000-x-1200-mm-6m2tek-5997", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "11 990 Ft/tekercs ÷ 6 m²"},
+      {"bolt": "Anyagdepó", "termek": "Knauf NatuRoll Pro üveggyapot 15 cm (6,12 m²)", "ar": 2043, "egyseg": "Ft/m²", "url": "https://anyagdepo.hu/termek/knauf-naturoll-pro-uveggyapot-15cm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Buildox (Újház Nyíregyháza)", "termek": "Isover Domo Twin 10/5 üveggyapot filc (18 m²/csomag)", "ar": 666, "egyseg": "Ft/m²", "url": "https://www.buildox.hu/Uveggyapot-szigeteles", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "11 990 Ft/tekercs ÷ 18 m² (5 cm-es rétegként); 10 cm-es vastagságra számolva 1 332 Ft/m²"},
+      {"bolt": "Újház Veszprém (Lang)", "termek": "Isover Domo Plus 20 üveggyapot filc 20x120x420 cm (5,04 m²/cs)", "ar": 3983, "egyseg": "Ft/m²", "url": "https://www.ujhazveszprem.hu/termek/isover-domo-plus-20-uveggyapot-filc-20x120x420-cm-5-04-m2-cs-uh-463123", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""}
+    ],
+    "megjegyzes": "Tekercsben árulják; Ft/m² = tekercsár ÷ m²/tekercs. Vastagság szerint: 5 cm ~670–850, 10 cm ~1 330–1 700, 15 cm ~2 000–3 300, 20 cm ~4 000 Ft/m². Az 'átlag' vegyes vastagságokból számolt. Az oldal 600–1 500 Ft/m² becslése csak az 5–10 cm-re igaz, 15–20 cm-re jóval alacsony."
+  },
+  "hungarocell": {
+    "egyseg": "Ft/m²",
+    "min": 1415, "max": 7300, "atlag": 3980,
+    "variansok": [
+      {"nev": "EPS 80 homlokzati 5 cm (Austrotherm Grafit 80)", "ar": 1415, "egyseg": "Ft/m²"},
+      {"nev": "EPS 80 homlokzati 10 cm (fehér, tüzép)", "ar": 3120, "egyseg": "Ft/m²"},
+      {"nev": "EPS 80 G grafitos homlokzati 15 cm (Masterplast Isomaster)", "ar": 5980, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Újház Farmker (Nyíregyháza)", "termek": "EPS 80 homlokzati 10 cm: ThermoDAM / MP Hungarocell / Bachl Nikecell / Austrotherm AT-H", "ar": 3120, "egyseg": "Ft/m²", "url": "https://ujhazfarmker.hu/eps80-homlokzati-10cm-2-5-m2cs", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Bachl Nikecell 2 260; ThermoDAM 2 460; MP Hungarocell 2 460; Austrotherm AT-H 3 120 Ft/m² (2,5 m²/csomag)"},
+      {"bolt": "Már-Team Tüzép", "termek": "Austrotherm AT-H80 10 cm (50x100), 2,5 m²/bála", "ar": 5112, "egyseg": "Ft/m²", "url": "https://marteamtuzep.hu/termek/austrotherm-at-h80-10cm-50x100", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "12 779 Ft/bála ÷ 2,5 m² = 5 112 Ft/m²"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Austrotherm AT-H80 10 cm homlokzati hőszigetelő lemez", "ar": 3900, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/austrotherm-at-h80-10-cm-homlokzati-hoszigetelo-lemez-pVUgtMDAwMDI1", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Éptex Kft. (újház)", "termek": "Austrotherm Grafit 80 homlokzati 5 cm (5 m²/cs) és 10 cm (2,5 m²/cs)", "ar": 3627, "egyseg": "Ft/m²", "url": "https://eptex.hu/termek/austrotherm-grafit-80-homlokzati-hoszigetelo-lemez-10-cm-25-m2-cs", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "10 cm 3 627; 5 cm 1 415 Ft/m²"},
+      {"bolt": "OBI", "termek": "Homlokzati hőszigetelő lemez (EPS) Austrotherm H80/120 mm; EPS AT-H80 40 mm", "ar": 6998, "egyseg": "Ft/m²", "url": "https://www.obi.hu/epitoanyagok/szigeteloanyagok/c/233", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "12 cm: 3 499 Ft/tábla (0,5 m²) = 6 998 Ft/m²; 4 cm: 999 Ft/tábla = 1 998 Ft/m² – barkácsáruházi ár, magasabb a tüzépnél"},
+      {"bolt": "Praktiker", "termek": "Extrapor EPS 80 grafitos homlokzati 1000x500x50 / x100 mm", "ar": 6798, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epitkezes/hoszigeteles-1/bfd", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "10 cm: 3 399 Ft/tábla (0,5 m²) = 6 798 Ft/m²; 5 cm: 1 899 Ft/tábla = 3 798 Ft/m²"},
+      {"bolt": "Már-Team Tüzép", "termek": "Masterplast Isomaster EPS H80 G 15 cm (1,5 m²/bála)", "ar": 5980, "egyseg": "Ft/m²", "url": "https://marteamtuzep.hu/termek/masterplast-isomaster-epsh80g-15cm-50x100", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Építőanyag.hu-n ugyanez 7 300 Ft/m²"}
+    ],
+    "megjegyzes": "Hungarocell = EPS 80 homlokzati lemez (0,5 m²-es táblák, 2,5 m²/csomag 10 cm-nél). 10 cm-re a tüzépi sáv 2 260–5 100 Ft/m², barkácsáruházakban (OBI, Praktiker, grafitos) 6 800–7 000 Ft/m² is. Az oldal 500–1 600 Ft/m² becslése csak ~2–4 cm-es lapokra igaz; 10 cm-re 2–3x alulbecsül."
+  },
+  "eps": {
+    "egyseg": "Ft/m²",
+    "min": 2260, "max": 5112, "atlag": 3730,
+    "variansok": [
+      {"nev": "EPS 80 homlokzati 10 cm", "ar": 3120, "egyseg": "Ft/m²"},
+      {"nev": "EPS 100 lépésálló 10 cm", "ar": 3360, "egyseg": "Ft/m²"},
+      {"nev": "EPS 150 lépésálló 10 cm", "ar": 4572, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Újház Farmker (Nyíregyháza)", "termek": "EPS 80 homlokzati 10 cm (több gyártó)", "ar": 2460, "egyseg": "Ft/m²", "url": "https://ujhazfarmker.hu/eps80-homlokzati-10cm-2-5-m2cs", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "2 260–3 120 Ft/m²"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "újHÁZ EPS 100, 10 cm terhelhető hőszigetelő lemez (2,5 m²/cs)", "ar": 3360, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/ujhaz-eps-100-10-cm-terhelheto-hoszigetelo-lemez-pVUgtMDk1NzM2", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "8 400 Ft/csomag ÷ 2,5 m²"},
+      {"bolt": "Hőszigetelés Pláza", "termek": "Energosystem EPS 100 lépésálló 10 cm", "ar": 4220, "egyseg": "Ft/m²", "url": "https://www.hoszigetelesplaza.hu/eps-100-lepesallo-hoszigetelo-lemez-10-cm-vastag", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "'Szokásos ár'; az oldal akciót jelez"},
+      {"bolt": "Grafitoshoszigeteles.hu", "termek": "Isomaster EPS 150 extra lépésálló 10 cm", "ar": 4572, "egyseg": "Ft/m²", "url": "https://grafitoshoszigeteles.hu/ISOMASTER-EPS-150-extra-lepesallo-hungarocell-10-c", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "3 600 Ft + ÁFA = 4 572 Ft/m²"},
+      {"bolt": "Homlokzatihoszigeteles.com", "termek": "EPS 150 lépésálló hőszigetelő lemez 10 cm", "ar": 4580, "egyseg": "Ft/m²", "url": "https://homlokzatihoszigeteles.com/eps-150-terhelheto-lepesallo-hoszigetelo-lemez-10-cm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Hőszigetelés Pláza", "termek": "Energosystem EPS 150 lépésálló 5 cm", "ar": 2450, "egyseg": "Ft/m²", "url": "https://www.hoszigetelesplaza.hu/eps-150-lepesallo-hoszigetelo-lemez-5-cm-vastag", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "nettó 1 929"},
+      {"bolt": "Már-Team Tüzép", "termek": "Austrotherm AT-H80 10 cm", "ar": 5112, "egyseg": "Ft/m²", "url": "https://marteamtuzep.hu/termek/austrotherm-at-h80-10cm-50x100", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "felső érték"}
+    ],
+    "megjegyzes": "A min/max/átlag 10 cm-es lapokra vonatkozik (EPS 80/100/150 vegyesen). Ökölszabály: EPS 80 ≈ 230–510, EPS 100 ≈ 340–420, EPS 150 ≈ 460 Ft/m²/cm. Az oldal 500–1 600 Ft/m² becslése 10 cm-re 2–3x alulbecsül (csak 2–4 cm-re igaz)."
+  },
+  "xps": {
+    "egyseg": "Ft/m²",
+    "min": 3215, "max": 10630, "atlag": 6310,
+    "variansok": [
+      {"nev": "XPS lábazati 5 cm", "ar": 3362, "egyseg": "Ft/m²"},
+      {"nev": "Austrotherm XPS TOP P GK 10 cm", "ar": 6096, "egyseg": "Ft/m²"},
+      {"nev": "Austrotherm XPS TOP 15 cm", "ar": 10440, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Hőszigetelés Pláza", "termek": "Energosystem XPS lábazati 5 cm (6 m²/csomag) és 15 cm (1,5 m²/csomag)", "ar": 3362, "egyseg": "Ft/m²", "url": "https://www.hoszigetelesplaza.hu/xps-labazati-hoszigetelo-lemez-5-cm-vastag", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "5 cm nettó 2 647 → bruttó 3 362; 15 cm nettó 8 370 → bruttó 10 630 Ft/m²"},
+      {"bolt": "Hőszigetelőrendszer.com (Magyar Festék Kft.)", "termek": "XPS lábazati hőszigetelés 5 cm", "ar": 3215, "egyseg": "Ft/m²", "url": "https://hoszigetelorendszer.com/xps-labazati-hoszigeteles-5-cm", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Az oldal szerint 3 215–3 620 Ft/m²; 15 cm-re 10 200–10 860 Ft/m²"},
+      {"bolt": "Szigetelésvásárlás.hu", "termek": "Austrotherm XPS TOP P GK lábazati 10 cm (3 m²/csomag)", "ar": 6096, "egyseg": "Ft/m²", "url": "https://www.szigetelesvasarlas.hu/Austrotherm-XPS-TOP-P-GK-labazati-szigeteles-10-cm", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "4 800 + ÁFA; érvényes 2026.09.25-ig"},
+      {"bolt": "Éptex Kft. (újház)", "termek": "Ravatherm XPS 300 WB 10 cm (3 m²/cs)", "ar": 5969, "egyseg": "Ft/m²", "url": "https://eptex.hu/termek/austrotherm-grafit-80-homlokzati-hoszigetelo-lemez-10-cm-25-m2-cs", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "Kapcsolódó termékként listázva; 3 cm 1 795, 4 cm 2 340 Ft/m²"},
+      {"bolt": "Építőanyag.hu (újHÁZ)", "termek": "Austrotherm XPS TOP P GK 10 cm", "ar": 6495, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/austrotherm-xps-top-p-gk-10-cm-hoszigetelo-lemez-pVUgtMDAwNDc2", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Homlokzatihoszigeteles.hu", "termek": "Austrotherm XPS TOP 10 cm / 15 cm", "ar": 6960, "egyseg": "Ft/m²", "url": "https://www.homlokzatihoszigeteles.hu/szigetelo-lemezek/10-cm-austrotherm-xps-top", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "10 cm 6 960; 15 cm 10 440 Ft/m²"}
+    ],
+    "megjegyzes": "Vastagság szerint: 5 cm ~3 200–3 600, 10 cm ~6 000–7 000, 15 cm ~10 400–10 600 Ft/m² (kb. 640–700 Ft/m²/cm). Az 'átlag' vegyes vastagságokból számolt. Az oldal 900–2 800 Ft/m² becslése 2–4x alulbecsül (csak 2–4 cm-es lapokra igaz)."
+  },
+  "penotekercs": {
+    "egyseg": "Ft/m²",
+    "min": 169, "max": 540, "atlag": 335,
+    "variansok": [
+      {"nev": "PE hab (Polifoam) alátét 2 mm, tekercs", "ar": 169, "egyseg": "Ft/m²"},
+      {"nev": "PE hab (Polifoam) alátét 3 mm, tekercs", "ar": 239, "egyseg": "Ft/m²"},
+      {"nev": "XPS laminált alátét 3 mm (5 m²/csomag)", "ar": 425, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Laminált Padló Outlet", "termek": "2 mm / 3 mm Polifoam laminált padló alátét, 1 m széles tekercs", "ar": 169, "egyseg": "Ft/m²", "url": "https://www.laminaltpadlooutlet.hu/Laminalt-padlo-alatet", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "2 mm 169; 3 mm 239 Ft/m²; XPS 2 mm Thermo 394, XPS 3 mm 425, XPS 5 mm 540 Ft/m²"},
+      {"bolt": "Ablakland", "termek": "Laminált alátét habfólia 3 mm, 50 m² tekercs", "ar": 240, "egyseg": "Ft/m²", "url": "https://ablakland.hu/laminalt-alatet-habfolia-3-mm-es-tekercs-50nm-p-70307.html", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": ""},
+      {"bolt": "Vízálló-laminált-padló.hu", "termek": "2 mm-es hőtükrös laminált alátét habfólia tekercs", "ar": 1190, "egyseg": "Ft/m²", "url": "https://www.vizallo-laminalt-padlo.hu/product/2-mm-es-hotukros-laminalt-alatet-habfolia-tekercs", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Prémium/hőtükrös – a sávon kívül"}
+    ],
+    "megjegyzes": "A 'peno' köznyelvi név a PE habfólia alátétre. Egyszerű 2–3 mm PE hab: 170–240 Ft/m²; XPS és hőtükrös alátétek 400–1 200 Ft/m². Nagy barkácsáruházi (OBI/Bauhaus) PE hab árat nem találtunk megbízhatóan. Az oldal 200–600 Ft/m² becslése reális."
+  },
+  "szigetelofolia": {
+    "egyseg": "Ft/m²",
+    "min": 154, "max": 532, "atlag": 320,
+    "variansok": [
+      {"nev": "Építési PE fólia 0,2 mm, újrahasznosított (100 m²)", "ar": 154, "egyseg": "Ft/m²"},
+      {"nev": "Masterplast építési reg. PE fólia 0,2 mm 4x25 m", "ar": 277, "egyseg": "Ft/m²"},
+      {"nev": "Alumínium bevonatú párazáró fólia (Krontherm 110, 75 m²)", "ar": 532, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Építőáruház (epitoaruhaz.hu)", "termek": "Masterplast építési reg. PE fólia 0,2 mm 4x25 m; Hemala Picafol Reflex PZ párazáró 60 m²; Újház Krontherm 110 alu párazáró 75 m²", "ar": 277, "egyseg": "Ft/m²", "url": "https://www.epitoaruhaz.hu/Epitesi-foliak", "ellenorizve": "2026-09-24 (oldal kiolvasva)", "megjegyzes": "PE 0,2 mm: 27 732 Ft/100 m² = 277; Picafol Reflex: 19 429/72 m² = 270; Krontherm: 39 863/75 m² = 532 Ft/m²"},
+      {"bolt": "Gipszkarton-hőszigetelés.hu", "termek": "Építési fólia (újrahasznosított PE) 0,2 mm, 100 m²/tekercs", "ar": 154, "egyseg": "Ft/m²", "url": "https://gipszkarton-hoszigeteles.hu/Kulso-hoszigetelo-anyagok-es-kiegeszitoi/Foliak/Ep", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "15 395 Ft/tekercs ÷ 100 m²"},
+      {"bolt": "Praktiker", "termek": "Profi Floor Hydro párazáró fólia 0,2 mm 8x2 m (16 m²/csomag)", "ar": 456, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/padloalatet/profi-floor-hydro-parazaro-folia-0-2mm-8mx2m-16nm/csomag/p/301277", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Kis kiszerelés, drágább m²-ár"},
+      {"bolt": "Árukereső (Bachl)", "termek": "Bachl PE építési fólia 0,2 mm", "ar": 225, "egyseg": "Ft/m²", "url": "https://tetofolia.arukereso.hu/bachl/pe-epitesi-folia-0-2mm-m2-p961063233", "ellenorizve": "2026-09-24 (keresési kivonat)", "megjegyzes": "Árösszehasonlítón keresztül"}
+    ],
+    "megjegyzes": "Egyszerű PE 0,2 mm: 150–280 Ft/m²; kis csomagos / reflexiós / alumíniumos párazáró: 270–530 Ft/m²; prémium légzáró (pl. Dörken Delta Reflex 1 234 Ft/m²) ennél drágább. Az oldal 150–500 Ft/m² becslése reális."
+  }
+}

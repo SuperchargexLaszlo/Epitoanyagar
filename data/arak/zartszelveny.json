@@ -1,26 +1,31 @@
 {
   "anyag_id": "zartszelveny",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1200,
-    "max": 4000,
-    "atlag": 2200,
+    "min": 560,
+    "max": 2900,
+    "atlag": 1300,
     "egyseg": "Ft/fm"
   },
   "variansok": [
     {
-      "nev": "40×40×2 mm",
-      "ar": 1300,
+      "nev": "Zártszelvény 20x20x2",
+      "ar": 630,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "60×60×3 mm",
-      "ar": 2200,
+      "nev": "Zártszelvény 40x40x2",
+      "ar": 1280,
       "egyseg": "Ft/fm"
     },
     {
-      "nev": "80×80×4 mm",
-      "ar": 3800,
+      "nev": "Zártszelvény 60x40x2",
+      "ar": 1675,
+      "egyseg": "Ft/fm"
+    },
+    {
+      "nev": "Zártszelvény 60x60x3",
+      "ar": 2880,
       "egyseg": "Ft/fm"
     }
   ],
@@ -48,24 +53,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Zártszelvény 2026-ban?",
-      "valasz": "A(z) Zártszelvény ára 2026-ban 1 200 – 4 000 Ft/fm között mozog, az átlagár 2 200 Ft/fm."
+      "kerdes": "Mennyibe kerül a zártszelvény 2026-ban?",
+      "valasz": "Zártszelvény ára 2026 szeptemberében 560–2 900 Ft/fm, a boltok átlagára 1 300 Ft/fm (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Zártszelvény 20x20x2 (630 Ft), a legdrágább: Zártszelvény 60x60x3 (2 880 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón zártszelvényt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a zártszelvény árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Tolnay Vasker, Uniholz, Komprador, Tímár Vasker), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi zártszelvény kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a zártszelvény ára?",
+      "valasz": "Fekete (nem horganyzott) S235 acél, 6 m-es szálban; a fm-ár a szálár hatoda. Méret szerint nagy a szórás: 20×20×2 ~630 Ft/fm, 60×60×3 ~2 900 Ft/fm."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj zártszelvény vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tolnay Vasker (Páty)",
+      "termek": "Zártszelvény 40x40x2,0 mm / 6 fm (bruttó 7675 Ft/szál); 20x20x2: 3460; 60x40x2: 9765; 60x60x3: 17 290 Ft/szál",
+      "ar": 1279,
+      "egyseg": "Ft/fm",
+      "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/zartszelvenyek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó szálár ÷ 6; frissítve 2026.04.29"
+    },
+    {
+      "bolt": "Uniholz",
+      "termek": "Zártszelvény 40 x 40 x 2 (6 fm) S235JRG2",
+      "ar": 1253,
+      "egyseg": "Ft/fm",
+      "url": "https://uniholz.hu/hu/acel-zartszelvenyek/termekek/18",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 7520 Ft/szál ÷ 6"
+    },
+    {
+      "bolt": "Komprador",
+      "termek": "Zártszelvény 40x40x2 (6 fm) (20x20x2: 3840 Ft/szál)",
+      "ar": 1304,
+      "egyseg": "Ft/fm",
+      "url": "https://www.komprador.hu/zartszelvenyek-cvaszzs.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 7826 Ft/szál ÷ 6"
+    },
+    {
+      "bolt": "Tímár Vasker",
+      "termek": "Zártszelvény 20x20x2,0 6 fm (60x40x2: 10 680 Ft/szál)",
+      "ar": 665,
+      "egyseg": "Ft/fm",
+      "url": "https://timarvasker.hu/zartszelvenyek/k",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "3991 Ft/szál ÷ 6; bruttónak tűnik"
+    },
+    {
+      "bolt": "Vasáruház (vasaruhaz.hu)",
+      "termek": "Acél zártszelvény S235 20x20x2 (szál, 6 m)",
+      "ar": 711,
+      "egyseg": "Ft/fm",
+      "url": "https://vasaruhaz.hu/acel-101/vas-zartszelveny-107",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 4267 Ft/szál (nettó 3360) ÷ 6"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Zártszelvény 60x40x2 mm, 6 fm",
+      "ar": 1617,
+      "egyseg": "Ft/fm",
+      "url": "https://marteamtuzep.hu/termek/zartszelveny-60x40x2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó 9702 Ft/db ÷ 6"
+    }
+  ],
+  "megjegyzes": "Fekete (nem horganyzott) S235 acél, 6 m-es szálban; a fm-ár a szálár hatoda. Méret szerint nagy a szórás: 20×20×2 ~630 Ft/fm, 60×60×3 ~2 900 Ft/fm.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

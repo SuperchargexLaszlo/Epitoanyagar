@@ -1,26 +1,26 @@
 {
   "anyag_id": "hungarocell",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1600,
-    "atlag": 950,
+    "min": 1415,
+    "max": 7300,
+    "atlag": 3980,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "5 cm EPS 70",
-      "ar": 520,
+      "nev": "EPS 80 homlokzati 5 cm (Austrotherm Grafit 80)",
+      "ar": 1415,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "10 cm EPS 100",
-      "ar": 950,
+      "nev": "EPS 80 homlokzati 10 cm (fehér, tüzép)",
+      "ar": 3120,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "15 cm EPS 100",
-      "ar": 1400,
+      "nev": "EPS 80 G grafitos homlokzati 15 cm (Masterplast Isomaster)",
+      "ar": 5980,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Hungarocell 2026-ban?",
-      "valasz": "A(z) Hungarocell ára 2026-ban 500 – 1 600 Ft/m² között mozog, az átlagár 950 Ft/m²."
+      "kerdes": "Mennyibe kerül a hungarocell 2026-ban?",
+      "valasz": "Hungarocell ára 2026 szeptemberében 1 415–7 300 Ft/m², a boltok átlagára 3 980 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: EPS 80 homlokzati 5 cm (Austrotherm Grafit 80) (1 415 Ft), a legdrágább: EPS 80 G grafitos homlokzati 15 cm (Masterplast Isomaster) (5 980 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón hungarocellt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a hungarocell árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (Újház Farmker, Már-Team Tüzép, Építőanyag.hu, Éptex Kft.), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi hungarocell kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a hungarocell ára?",
+      "valasz": "EPS 80 homlokzati lap. 10 cm tüzépen 2 260–5 100 Ft/m², barkácsáruházban (grafitos) 6 800–7 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj hungarocell vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Újház Farmker (Nyíregyháza)",
+      "termek": "EPS 80 homlokzati 10 cm: ThermoDAM / MP Hungarocell / Bachl Nikecell / Austrotherm AT-H",
+      "ar": 3120,
+      "egyseg": "Ft/m²",
+      "url": "https://ujhazfarmker.hu/eps80-homlokzati-10cm-2-5-m2cs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Bachl Nikecell 2 260; ThermoDAM 2 460; MP Hungarocell 2 460; Austrotherm AT-H 3 120 Ft/m² (2,5 m²/csomag)"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Austrotherm AT-H80 10 cm (50x100), 2,5 m²/bála",
+      "ar": 5112,
+      "egyseg": "Ft/m²",
+      "url": "https://marteamtuzep.hu/termek/austrotherm-at-h80-10cm-50x100",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "12 779 Ft/bála ÷ 2,5 m² = 5 112 Ft/m²"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Austrotherm AT-H80 10 cm homlokzati hőszigetelő lemez",
+      "ar": 3900,
+      "egyseg": "Ft/m²",
+      "url": "https://epitoanyag.hu/austrotherm-at-h80-10-cm-homlokzati-hoszigetelo-lemez-pVUgtMDAwMDI1",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Éptex Kft. (újház)",
+      "termek": "Austrotherm Grafit 80 homlokzati 5 cm (5 m²/cs) és 10 cm (2,5 m²/cs)",
+      "ar": 3627,
+      "egyseg": "Ft/m²",
+      "url": "https://eptex.hu/termek/austrotherm-grafit-80-homlokzati-hoszigetelo-lemez-10-cm-25-m2-cs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "10 cm 3 627; 5 cm 1 415 Ft/m²"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Homlokzati hőszigetelő lemez (EPS) Austrotherm H80/120 mm; EPS AT-H80 40 mm",
+      "ar": 6998,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/epitoanyagok/szigeteloanyagok/c/233",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "12 cm: 3 499 Ft/tábla (0,5 m²) = 6 998 Ft/m²; 4 cm: 999 Ft/tábla = 1 998 Ft/m² – barkácsáruházi ár, magasabb a tüzépnél"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Extrapor EPS 80 grafitos homlokzati 1000x500x50 / x100 mm",
+      "ar": 6798,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epitkezes/hoszigeteles-1/bfd",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "10 cm: 3 399 Ft/tábla (0,5 m²) = 6 798 Ft/m²; 5 cm: 1 899 Ft/tábla = 3 798 Ft/m²"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Masterplast Isomaster EPS H80 G 15 cm (1,5 m²/bála)",
+      "ar": 5980,
+      "egyseg": "Ft/m²",
+      "url": "https://marteamtuzep.hu/termek/masterplast-isomaster-epsh80g-15cm-50x100",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Építőanyag.hu-n ugyanez 7 300 Ft/m²"
+    }
+  ],
+  "megjegyzes": "EPS 80 homlokzati lap. 10 cm tüzépen 2 260–5 100 Ft/m², barkácsáruházban (grafitos) 6 800–7 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

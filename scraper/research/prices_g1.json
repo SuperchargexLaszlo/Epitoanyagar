@@ -1,0 +1,238 @@
+{
+  "cement": {
+    "egyseg": "Ft/zsák (25 kg)",
+    "min": 2000, "max": 2750, "atlag": 2300,
+    "variansok": [
+      {"nev": "CEM II/B-M 32,5 R (általános, pl. Váci/DDC, Danucem Házépítő, Cemmac OptimCEM)", "ar": 2200, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "CEM II 42,5 N/R (pl. DDC 42,5 N, Holcim Super, Danucem Extracem)", "ar": 2300, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "CEM I 42,5 R (Supracem, tiszta portlandcement)", "ar": 2450, "egyseg": "Ft/zsák (25 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Winkler Tüzép", "termek": "Cement 25kg/zs 32,5 Cemmac OptimCEM (kék)", "ar": 2259, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó, árlista dátuma 2026-09-24 (akciós ár 2079 Ft); ugyanitt Cemmac ClassicCEM 42,5: 2309 Ft, Danucem 32,5: 2360 Ft"},
+      {"bolt": "Kézér Tüzép (Zagyvarékas)", "termek": "Cement (magyar) ABA CEM II/B-LL 32,5N 25 kg; Duna-Dráva Cement 42,5N 25 kg", "ar": 2000, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.kezertuzep.hu/webaruhaz/58/zsakos-kiszerelesu-anyagok-adalekok/cement", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó, szállítás nélkül; 42,5N változat 2200 Ft/zsák"},
+      {"bolt": "Tüzép Shop (tuzepshop.hu)", "termek": "CEMENT Váci 32,5 R 25kg/zsák", "ar": 2088, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.tuzepshop.hu/cement-vaci-32-5-r-25kg-zsak", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (nettó 1644 Ft)"},
+      {"bolt": "epitoanyag.hu (Újház)", "termek": "újHáz CEM II/B-M (S-LL) 32.5 R RN cement 25 kg", "ar": 2190, "egyseg": "Ft/zsák (25 kg)", "url": "https://epitoanyag.hu/ujhaz-cem-iib-m-s-ll-325-r-rn-cement-25-kg-pVUgtODMxNDc5", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, webshop ár"},
+      {"bolt": "Bauplaza", "termek": "CEMENT HOLCIM SUPER CEM II/B-M 42,5 N 25 kg piros", "ar": 2315, "egyseg": "Ft/zsák (25 kg)", "url": "https://bauplaza.hu/epites/epitesi_anyag/cement_mesz/cement_holcim_super_cem_ii_b-m_425_n_25_kg_piros_64_zsak__", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, online ár"},
+      {"bolt": "Otthonker", "termek": "Cement CEM II-B-M (V-LL) 32,5 R 25kg/zsák", "ar": 2475, "egyseg": "Ft/zsák (25 kg)", "url": "http://otthonker.hu/epito/cement.html", "ellenorizve": "keresési találat", "megjegyzes": "9900 Ft/q = 2475 Ft/zsák, bruttónak tűnik, dátum nem ismert"},
+      {"bolt": "Tímár Vasker", "termek": "Cement Duna-Dráva CEM II/B-M (V-LL) 32,5 R 25 kg/zsák", "ar": 2724, "egyseg": "Ft/zsák (25 kg)", "url": "https://timarvasker.hu/cement-vaci-iib-m-325-n-25-kgzsa/t", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, a sáv felső széle"},
+      {"bolt": "Már-Team Tüzép", "termek": "DANUCEM cement Extracem 42,5R 25 kg", "ar": 2755, "egyseg": "Ft/zsák (25 kg)", "url": "https://marteamtuzep.hu/termek/danucem-cement-extracem-425r", "ellenorizve": "keresési találat", "megjegyzes": "bruttó"},
+      {"bolt": "Kelépker / Újház (ujhaz-epitoanyag.hu)", "termek": "Cement CEM I 42,5 N/R Supracem 25 kg", "ar": 2450, "egyseg": "Ft/zsák (25 kg)", "url": "https://ujhaz-epitoanyag.hu/habarcsok-adalekszerek/cement-mesz/bet21425-cement-cem-425-n-25-kg-supracem", "ellenorizve": "keresési találat", "megjegyzes": "9800 Ft/q bruttó (nettó 7717 Ft/q) = 2450 Ft/zsák"}
+    ],
+    "megjegyzes": "Sok tüzép mázsaáron (Ft/q = 4 zsák) ad árat, ezt 4-gyel osztottam. Barkácsáruházak (OBI) termékoldalain az ár nem olvasható ki. A 2026-os kiskereskedelmi bruttó ár 2000–2750 Ft/zsák, az oldal becslése (1200–1800) mára alacsony."
+  },
+  "beton": {
+    "egyseg": "Ft/m³",
+    "min": 31000, "max": 47500, "atlag": 38000,
+    "variansok": [
+      {"nev": "C12/15 (X0b, Dmax 24, F1–F2)", "ar": 34500, "egyseg": "Ft/m³ bruttó, szállítás nélkül"},
+      {"nev": "C16/20 (X0v, Dmax 24, F1–F2)", "ar": 36900, "egyseg": "Ft/m³ bruttó, szállítás nélkül"},
+      {"nev": "C20/25 (XC1, Dmax 24, F1–F2)", "ar": 37900, "egyseg": "Ft/m³ bruttó, szállítás nélkül"},
+      {"nev": "C25/30 (XC2, Dmax 24, F1–F2)", "ar": 39400, "egyseg": "Ft/m³ bruttó, szállítás nélkül"}
+    ],
+    "forrasok": [
+      {"bolt": "betonar.hu", "termek": "C16-24/FN (C16/20 földnedves); C20-24/FN 41 529; C12-24/FN 36 449; C25-24/K 47 498", "ar": 38354, "egyseg": "Ft/m³", "url": "https://www.betonar.hu/beton-arlista", "ellenorizve": "keresési találat (árlista)", "megjegyzes": "bruttó (nettó 30 200), szállítás nélkül"},
+      {"bolt": "Baksza Beton (Őrbottyán)", "termek": "C16/20XOVH 24F1; C12/15 24F1 35 814; C20/25XC1 24F1 38 989; C25/30 24F1 40 513", "ar": 37719, "egyseg": "Ft/m³", "url": "https://bakszabeton.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 29 700); árlista érvényes 2025.03.01-től; képlékeny F3 változatok 41–47 ezer"},
+      {"bolt": "Bravo Beton", "termek": "C16/20-X0v(H)-24/F1 földnedves; C12/15 30 988; C20/25 33 591; C25/30 34 734", "ar": 31877, "egyseg": "Ft/m³", "url": "https://bravobeton.hu/arak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 25 100), a sáv alsó széle; mixer F2 C16/20: 35 306"},
+      {"bolt": "Mixerbeton.com", "termek": "C16/20-24-F2 (nettó 28 500); C12/15 27 500; C20/25 29 500; C25/30 30 500 nettó", "ar": 36195, "egyseg": "Ft/m³", "url": "https://mixerbeton.com/betonarak", "ellenorizve": "keresési találat (árlista)", "megjegyzes": "nettó listaár, bruttósítva 27%-kal; kiszállítás 4000–6500 Ft+ÁFA/m³ (0–30 km), min. 7 m³ fuvar"},
+      {"bolt": "Gamma Beton", "termek": "C16/20-X0v(H)-24/F1 földnedves", "ar": 40259, "egyseg": "Ft/m³", "url": "https://www.gammabeton.hu/beton-arak", "ellenorizve": "keresési találat (árlista)", "megjegyzes": "bruttó (nettó 31 700)"}
+    ],
+    "megjegyzes": "A betonüzemek nettó listát adnak, itt minden szám bruttó (×1,27). Az ár nem tartalmazza a kiszállítást: mixerrel jellemzően 4000–6500 Ft+ÁFA/m³, legalább 7 m³ fuvarra számolva. Szivattyú (pumix) kb. 76 000 Ft+ÁFA alapdíj. A betonüzemi árak 2025–2026-ban bruttó 31–47 ezer Ft/m³ körül vannak, az oldal becslése (18–26 ezer) kb. nettó 2022-es szint, erősen alacsony."
+  },
+  "soder": {
+    "egyseg": "Ft/tonna",
+    "min": 3300, "max": 8900, "atlag": 5300,
+    "variansok": [
+      {"nev": "Homokos kavics 0/24 (bányai / osztályozott)", "ar": 4930, "egyseg": "Ft/tonna bruttó, bányában rakodva"},
+      {"nev": "Homokos kavics 0/16", "ar": 4720, "egyseg": "Ft/tonna bruttó, bányában rakodva"},
+      {"nev": "Homokos kavics 0/8 (mosott)", "ar": 5740, "egyseg": "Ft/tonna bruttó, bányában rakodva"}
+    ],
+    "forrasok": [
+      {"bolt": "Kő és Homok Kft. (bánya)", "termek": "Homokos kavics EHK 0/24 PTT (0/16: 3455)", "ar": 3345, "egyseg": "Ft/tonna", "url": "http://www.koeshomokkft.hu/hu/termekeink.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 2635), bányában, szállítás nélkül; az oldalon nincs dátum"},
+      {"bolt": "Basaltker – Darnózseli kavicsbánya", "termek": "0/16 homokos kavics (0/8: 3595 nettó)", "ar": 4197, "egyseg": "Ft/tonna", "url": "https://www.basalt.hu/termekek/darnozseli", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 3305 Ft/t, bruttósítva; rakodással, 2026.02.01-től érvényes"},
+      {"bolt": "Transzkavics Kft. (Püspökmolnári)", "termek": "Mosott, osztályozott homokos kavics 0/24 és 0/16 (0/8: 6922)", "ar": 6515, "egyseg": "Ft/tonna", "url": "https://www.transzkavics.hu/Termekek.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 5130), bányában"},
+      {"bolt": "Puhi-Tárnok (tüzép/betonüzem)", "termek": "0/24 osztályozott kavics (THK 0/24 Q T)", "ar": 8877, "egyseg": "Ft/tonna", "url": "https://www.puhitarn.hu/arak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 6990), telephelyi ár, 2025.02.01-től; szállítás 2400–5700 Ft/t pluszban"},
+      {"bolt": "Sóderexpress (Budapest)", "termek": "0-24 sóder", "ar": 9449, "egyseg": "Ft/m³ nettó", "url": "https://soderexpress.hu/soder-arak", "ellenorizve": "keresési találat", "megjegyzes": "nettó m³-ár (bruttó ~12 000 Ft/m³), 1,8 t/m³-rel ~6670 Ft/t bruttó; kiszállítást külön kalkulálják"}
+    ],
+    "megjegyzes": "Sóder = homokos kavics 0/8–0/24. A bányák tonnaárat adnak (rakodással, szállítás nélkül), a budapesti fuvarosok m³-árat, gyakran szállítással együtt (10–13 ezer Ft/m³). Átváltás: homokos kavics ~1,8–1,9 t/m³ (Basalt adatlap: 1,85–1,95). A Ft/tonna egység jó, de a lakossági vevő m³-ben gondolkodik: érdemes Ft/m³ árat is mutatni (bányai ~6000–12 000 Ft/m³, házhoz szállítva 10–13 ezer Ft/m³). Nagy regionális szórás: a tüzépi telephelyi ár a bányai ár kétszerese is lehet."
+  },
+  "kavics": {
+    "egyseg": "Ft/tonna",
+    "min": 4050, "max": 11300, "atlag": 6600,
+    "variansok": [
+      {"nev": "Mosott, osztályozott kavics 4/8", "ar": 6560, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Mosott, osztályozott kavics 8/16", "ar": 6600, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Mosott, osztályozott kavics 16/32", "ar": 6630, "egyseg": "Ft/tonna bruttó"}
+    ],
+    "forrasok": [
+      {"bolt": "Kő és Homok Kft. (bánya)", "termek": "Kavics OK 8/16 TT (4/8: 4055; 16/32: 4400)", "ar": 4055, "egyseg": "Ft/tonna", "url": "http://www.koeshomokkft.hu/hu/termekeink.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 3195), bányában"},
+      {"bolt": "Basaltker – Darnózseli kavicsbánya", "termek": "8/16 kavics, osztályozott mosott (4/8 és 16/32 is 3245 nettó)", "ar": 4121, "egyseg": "Ft/tonna", "url": "https://www.basalt.hu/termekek/darnozseli", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 3245 Ft/t, bruttósítva; 2026.02.01-től"},
+      {"bolt": "Transzkavics Kft.", "termek": "Mosott, osztályozott kavics 4/8, 8/16, 16/32", "ar": 6922, "egyseg": "Ft/tonna", "url": "https://www.transzkavics.hu/Termekek.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 5450)"},
+      {"bolt": "Puhi-Tárnok", "termek": "8/16 mosott osztályozott kavics (OK 8/16) (4/8: 11 151; 16/32: 11 087)", "ar": 11316, "egyseg": "Ft/tonna", "url": "https://www.puhitarn.hu/arak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 8910), tüzépi telephelyi ár, 2025.02.01-től"},
+      {"bolt": "Építőanyag Szállítás (epitoanyagszallitas.hu)", "termek": "Kavics 8-16 mm", "ar": 7100, "egyseg": "Ft/m³", "url": "https://epitoanyagszallitas.hu/kavics-ar", "ellenorizve": "keresési találat", "megjegyzes": "m³-ár, nem derül ki, hogy nettó vagy bruttó; 1,5 t/m³-rel ~4730 Ft/t"}
+    ],
+    "megjegyzes": "Osztályozott, mosott kavics. Sűrűség: ~1,5–1,6 t/m³ (Basalt adatlap). A bányai ár 4000–7000 Ft/t, a tüzépi telephelyi ár 11 000 Ft/t körül. Az oldal becslése (5000–9000) nagyjából rendben van, a tüzépi árak felfelé kilógnak."
+  },
+  "homok": {
+    "egyseg": "Ft/tonna",
+    "min": 4050, "max": 7570, "atlag": 5500,
+    "variansok": [
+      {"nev": "Homok 0/1 (vakoló-, simítóhomok)", "ar": 5630, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Homok 0/2", "ar": 4750, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Homok 0/4 (falazó/esztrich)", "ar": 5610, "egyseg": "Ft/tonna bruttó"}
+    ],
+    "forrasok": [
+      {"bolt": "Kő és Homok Kft. (bánya)", "termek": "Homok OH 0/4 PTT (0/1: 4375; 0/2: 4055, ill. másik tételnél 5435)", "ar": 4250, "egyseg": "Ft/tonna", "url": "http://www.koeshomokkft.hu/hu/termekeink.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 3345), bányában"},
+      {"bolt": "Basaltker – Darnózseli", "termek": "0/4 homok, osztályozott mosott", "ar": 5010, "egyseg": "Ft/tonna", "url": "https://www.basalt.hu/termekek/darnozseli", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 3945 Ft/t, bruttósítva; halmazsűrűség 1,6–1,7 t/m³"},
+      {"bolt": "Transzkavics Kft.", "termek": "Kábelhomok", "ar": 6299, "egyseg": "Ft/tonna", "url": "https://www.transzkavics.hu/Termekek.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 4960)"},
+      {"bolt": "Puhi-Tárnok", "termek": "OH 0/4 homok (OH 0/1: 6883)", "ar": 7569, "egyseg": "Ft/tonna", "url": "https://www.puhitarn.hu/arak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 5960), tüzépi telephelyi ár; az oldalon 1,4 t/m³ térfogatsúllyal számolnak"},
+      {"bolt": "Kovics Fuvar", "termek": "0-1 homok (vakoló, mosott)", "ar": 4000, "egyseg": "Ft/m³ nettó", "url": "https://kovicsfuvar.hu/index.php/arlista", "ellenorizve": "keresési találat", "megjegyzes": "4000 Ft+ÁFA/m³ = 5080 Ft/m³ bruttó, 1,5 t/m³-rel ~3400 Ft/t; bányahomok 3100+ÁFA/m³"}
+    ],
+    "megjegyzes": "Sűrűség: homok ~1,4–1,7 t/m³ (a források 1,4-et és 1,6–1,7-et adnak meg). Az oldal becslése (3500–6000) kissé alacsony, a mosott homok bruttó 4000–7500 Ft/t."
+  },
+  "zuzott-ko": {
+    "egyseg": "Ft/tonna",
+    "min": 4700, "max": 13800, "atlag": 6500,
+    "variansok": [
+      {"nev": "Zúzottkő Z 0/22 (útalap, murva)", "ar": 6050, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Zúzottkő Z 0/32", "ar": 7180, "egyseg": "Ft/tonna bruttó"},
+      {"nev": "Nemes zúzalék NZ 22/32 (osztályozott)", "ar": 11270, "egyseg": "Ft/tonna bruttó"}
+    ],
+    "forrasok": [
+      {"bolt": "Colas Északkő – Tállya (andezit)", "termek": "Z 0/22 – Z 0/32 (NZ 22/32: 10 900 nettó = 13 843 bruttó)", "ar": 5461, "egyseg": "Ft/tonna", "url": "https://colas.hu/wp-content/uploads/2026/05/Colas-Eszakko-Arjegyzek-2026.05.11.pdf", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 4300 Ft/t, bruttósítva; ÁFA és rakodás nélküli árjegyzék, érvényes 2026.05.11-től"},
+      {"bolt": "Colas Északkő – Szob (andezit)", "termek": "Z 0/22 (NZ 22/32: 8500 nettó = 10 795 bruttó)", "ar": 4699, "egyseg": "Ft/tonna", "url": "https://colas.hu/wp-content/uploads/2026/05/Colas-Eszakko-Arjegyzek-2026.05.11.pdf", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 3700 Ft/t, bruttósítva; rakodás nélkül"},
+      {"bolt": "Mészkő / Csúcsos-hegyi gránitbánya (Székesfehérvár)", "termek": "Z 0/22", "ar": 4826, "egyseg": "Ft/tonna", "url": "http://www.meszko.com/arlista.html", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (nettó 3800); az árlista dátuma nem ismert"},
+      {"bolt": "Kő és Homok Kft.", "termek": "Zúzottkő 0/32 (16/32: 12 670)", "ar": 7480, "egyseg": "Ft/tonna", "url": "http://www.koeshomokkft.hu/hu/termekeink.html", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 5890)"},
+      {"bolt": "Puhi-Tárnok", "termek": "0/22 dolomit útépítési kő (22/32 zúzalék: 9157)", "ar": 9233, "egyseg": "Ft/tonna", "url": "https://www.puhitarn.hu/arak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó (nettó 7270), tüzépi telephelyi ár, 2025.02.01-től"},
+      {"bolt": "Hufbau (tuzepweb.hu)", "termek": "Zúzottkő Z 0/22-32", "ar": 17336, "egyseg": "Ft/tonna", "url": "https://tuzepweb.hu/epitoanyagok-uzletag/omlesztett-aruk/19985207-zuzottko-z-022-32", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (kedvezményes nettó 12 740); barkácsáruházi kiskereskedelmi ár, kiugró érték, a sávba nem számoltam bele"}
+    ],
+    "megjegyzes": "A bányák nettó, rakodás nélküli tonnaárat adnak, ezeket bruttósítottam. Az útalapnak használt Z 0/22–0/32 bruttó 4700–9200 Ft/t, a nemes zúzalékok (NZ/KZ) 9000–14 000 Ft/t, a barkácsáruházi ár 17 000 Ft/t körül. Sűrűség ~1,5–1,7 t/m³. Az oldal becslése (4000–7500) az útalap zúzottkőre nagyjából jó, a zúzalékokra alacsony."
+  },
+  "mesz": {
+    "egyseg": "Ft/zsák (25 kg)",
+    "min": 1880, "max": 3090, "atlag": 2480,
+    "variansok": [
+      {"nev": "Oltott mész 25 kg (tüzépi alapár)", "ar": 1925, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Oltott mész / mészhidrát 25 kg (webshop átlag)", "ar": 2940, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Mészhidrát 25 kg, prémium márka (Horváth)", "ar": 5200, "egyseg": "Ft/zsák (25 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Tímár Vasker", "termek": "Mész oltott 25 kg", "ar": 1905, "egyseg": "Ft/zsák (25 kg)", "url": "https://timarvasker.hu/mesz-oltott-25kg/t", "ellenorizve": "keresési találat", "megjegyzes": "bruttó"},
+      {"bolt": "epitoanyag.hu", "termek": "Oltott mész 25 kg BIG-BAG zsákos", "ar": 1880, "egyseg": "Ft/zsák (25 kg)", "url": "https://epitoanyag.hu/oltott-mesz-25-kg-big-bag-zsakos-pTcOJU1pSWlMyNUJJRw_eq2", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, 75 Ft/kg; a találat szerint jelenleg nem rendelhető"},
+      {"bolt": "Kincsem Áruház", "termek": "Mész 25 kg/zsák", "ar": 1990, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.kincsemaruhaz.hu/Mesz-25-kg-zsak", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, csak üzletben"},
+      {"bolt": "Újház Buildox (Nyíregyháza)", "termek": "Oltott mész 25 kg/zsák", "ar": 2275, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.buildox.hu/Oltott-mesz-25-kg-zsak", "ellenorizve": "keresési találat", "megjegyzes": "91 Ft/kg bruttó egységárból számolva (×25)"},
+      {"bolt": "Már-Team Tüzép", "termek": "Oltott mész 25kg (Szivek, Piliscsév)", "ar": 2756, "egyseg": "Ft/zsák (25 kg)", "url": "https://marteamtuzep.hu/termek/oltott-mesz-25kg", "ellenorizve": "keresési találat", "megjegyzes": "bruttó"},
+      {"bolt": "Winkler Tüzép", "termek": "Mészhidrát (zsák)", "ar": 2980, "egyseg": "Ft/zsák", "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó, akciós 2820 Ft; a kiszerelés (kg) nincs feltüntetve, valószínűleg 25 kg"},
+      {"bolt": "Festékcsodák", "termek": "Oltott mész 25kg/zsák", "ar": 2980, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.festekcsodak.com/oltott-mesz-25kg-zsak-kaloda-40zsak", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (nettó 2346)"},
+      {"bolt": "Pergeépker", "termek": "Mész oltott zsákos 25kg", "ar": 3090, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.pergeepker.hu/Otott-mesz-meszhidrat", "ellenorizve": "keresési találat", "megjegyzes": "bruttó"},
+      {"bolt": "epitoanyag.hu", "termek": "MÉSZHIDRÁT 25KG (Horváth)", "ar": 5200, "egyseg": "Ft/zsák (25 kg)", "url": "https://epitoanyag.hu/meszhidrat-25-kg-pTcOJU1pISURSw4FUMjU_eq1", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, prémium márka, kiugró érték, a sávba nem számoltam bele"}
+    ],
+    "megjegyzes": "Szinte minden talált termék 25 kg-os zsák (20 kg-os mészhidrátot egy boltban láttam, ár nélkül). Az OBI-nál van 25 kg-os oltott mész, de az ár az oldalról nem olvasható ki. Az oldal becslése (800–1400) erősen alacsony, a reális sáv 1900–3100 Ft/zsák."
+  },
+  "aljzatbeton": {
+    "egyseg": "Ft/zsák (25 kg)",
+    "min": 1200, "max": 2300, "atlag": 1730,
+    "variansok": [
+      {"nev": "Baumit Szárazbeton C20/25 (B225), 25 kg", "ar": 1870, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Sakret szárazbeton / Esztrich BE 0-4 C16/20, 25 kg", "ar": 2290, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Baumit Esztrich E225, 40 kg (25 kg-ra vetítve ~1760)", "ar": 2819, "egyseg": "Ft/zsák (40 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Winkler Tüzép", "termek": "Baumit száraz beton C20/25 B225 (25kg/zs)", "ar": 1853, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó, akciós 1759 Ft; ugyanitt Baumit esztrich E225 40 kg: 2819 Ft, Sakret BE-04 40 kg: 2850 Ft"},
+      {"bolt": "Kocsis Tüzép (Kistarcsa)", "termek": "Baumit Szárazbeton C20 25kg", "ar": 1860, "egyseg": "Ft/zsák (25 kg)", "url": "https://tuzepwebshop.hu/Esztrich-beton-cement", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, akciós 1699 Ft (68 Ft/kg)"},
+      {"bolt": "Pergeépker", "termek": "Baumit Száraz beton C20 25 kg", "ar": 1890, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.pergeepker.hu/Szarazbeton-beton-esztrich", "ellenorizve": "keresési találat", "megjegyzes": "bruttó; ugyanitt Sakret Szárazbeton C16/20 25 kg: 3390 Ft (kiugró)"},
+      {"bolt": "anda.hu (Árukereső)", "termek": "SAKRET Esztrich BE 0-4 C16/20 szárazbeton 25 kg", "ar": 2290, "egyseg": "Ft/zsák (25 kg)", "url": "https://szaraz-beton.arukereso.hu", "ellenorizve": "keresési találat", "megjegyzes": "bruttó, árösszehasonlító találat"},
+      {"bolt": "OBI (tuzepinfo.hu összesítő szerint)", "termek": "Interproject Esztrich 25 kg", "ar": 1199, "egyseg": "Ft/zsák (25 kg)", "url": "https://tuzepinfo.hu/k/epitoanyag/vakolat-csemperagaszto-habarcs-cement-szilikon/esztrich-szarazbeton-betonjavito-korroziogatlo-kiegeszito/esztrich-szarazbeton", "ellenorizve": "keresési találat", "megjegyzes": "bruttó; ugyanitt Baumit Szárazbeton 25 kg: Dalos Tüzép 1240 Ft, legdrágább ajánlat 1838 Ft; a dátum nem ismert"}
+    ],
+    "megjegyzes": "Szárazbeton/esztrich zsákban. Sok esztrich (Baumit E225, Cemix ZE20, Sakret BE-04, weberNiv) 40 kg-os zsákban kapható (2600–2850 Ft), ezeket 25 kg-ra vetítve 1650–1780 Ft. Az oldal becslése (650–1200) erősen alacsony, csak a legolcsóbb saját márka (OBI Interproject 1199) esik bele."
+  },
+  "betonacél": {
+    "egyseg": "Ft/kg",
+    "min": 300, "max": 450, "atlag": 430,
+    "variansok": [
+      {"nev": "B500B Ø8 (6 fm, 2,37 kg/szál)", "ar": 436, "egyseg": "Ft/kg"},
+      {"nev": "B500B Ø10 (6 fm, 3,70 kg/szál)", "ar": 430, "egyseg": "Ft/kg"},
+      {"nev": "B500B Ø12 (6 fm, 5,33 kg/szál)", "ar": 441, "egyseg": "Ft/kg"},
+      {"nev": "B500B Ø16 (6 fm, 9,47 kg/szál)", "ar": 423, "egyseg": "Ft/kg"}
+    ],
+    "forrasok": [
+      {"bolt": "Winkler Tüzép", "termek": "Betonacél 8-as 6fm 1037 Ft/szál; 10-es 1590; 12-es 2287; 16-os 4065 Ft/szál", "ar": 430, "egyseg": "Ft/kg", "url": "https://www.winklertuzep.hu/arlista-web/vasak", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó szálár, az árlista súlyával osztva: Ø8 438, Ø10 430, Ø12 429, Ø16 429 Ft/kg"},
+      {"bolt": "Baustar 98 Kft.", "termek": "Betonacél B500B 8 mm x 12 m", "ar": 435, "egyseg": "Ft/kg", "url": "https://www.baustar98kft.hu/termek/betonacel-b500b-8-mm-x-12-m-uh-113220-2", "ellenorizve": "keresési találat", "megjegyzes": "bruttó"},
+      {"bolt": "Újház Bodrogi", "termek": "Betonacél B500B 12 mm x 6 m (5,328 kg/db)", "ar": 452, "egyseg": "Ft/kg", "url": "https://ujhazbodrogi.hu/epitoanyag/vasanyagok/uh-113239-betonacel-b500b-12-mm-x-6-m-5328kgdb", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 2409 Ft/szál ÷ 5,328 kg"},
+      {"bolt": "Újház Farmker", "termek": "Betonacél B500B 16 mm x 6 m", "ar": 416, "egyseg": "Ft/kg", "url": "https://ujhazfarmker.hu/betonacel-b500b-10mm-6m", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 3945 Ft/szál ÷ 9,48 kg"},
+      {"bolt": "Vas Centrum (Euronorm Group Builder)", "termek": "Betonacél szálban, kötegben Ø10–Ø25 (Ø8: 244)", "ar": 302, "egyseg": "Ft/kg", "url": "https://vas-centrum.hu/arak", "ellenorizve": "keresési találat", "megjegyzes": "238 Ft/kg-ot írnak ki, valószínűleg nettó, gyártói/nagyker kötegár; bruttósítva ~302 Ft/kg. A nettó/bruttó jelölés nem egyértelmű"}
+    ],
+    "megjegyzes": "Kiskereskedelmi (szálas, tüzépi) bruttó ár 415–455 Ft/kg, a nagyker kötegár bruttó ~300 Ft/kg. Súlyok: Ø8 0,395; Ø10 0,617; Ø12 0,888; Ø16 1,58 kg/fm. Az oldal becslése (280–420) a kiskereskedelmi árnál kicsit alacsony."
+  },
+  "zartszelveny": {
+    "egyseg": "Ft/fm",
+    "min": 560, "max": 2900, "atlag": 1300,
+    "variansok": [
+      {"nev": "Zártszelvény 20x20x2", "ar": 630, "egyseg": "Ft/fm"},
+      {"nev": "Zártszelvény 40x40x2", "ar": 1280, "egyseg": "Ft/fm"},
+      {"nev": "Zártszelvény 60x40x2", "ar": 1675, "egyseg": "Ft/fm"},
+      {"nev": "Zártszelvény 60x60x3", "ar": 2880, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Tolnay Vasker (Páty)", "termek": "Zártszelvény 40x40x2,0 mm / 6 fm (bruttó 7675 Ft/szál); 20x20x2: 3460; 60x40x2: 9765; 60x60x3: 17 290 Ft/szál", "ar": 1279, "egyseg": "Ft/fm", "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/zartszelvenyek", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó szálár ÷ 6; frissítve 2026.04.29"},
+      {"bolt": "Uniholz", "termek": "Zártszelvény 40 x 40 x 2 (6 fm) S235JRG2", "ar": 1253, "egyseg": "Ft/fm", "url": "https://uniholz.hu/hu/acel-zartszelvenyek/termekek/18", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 7520 Ft/szál ÷ 6"},
+      {"bolt": "Komprador", "termek": "Zártszelvény 40x40x2 (6 fm) (20x20x2: 3840 Ft/szál)", "ar": 1304, "egyseg": "Ft/fm", "url": "https://www.komprador.hu/zartszelvenyek-cvaszzs.html", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 7826 Ft/szál ÷ 6"},
+      {"bolt": "Tímár Vasker", "termek": "Zártszelvény 20x20x2,0 6 fm (60x40x2: 10 680 Ft/szál)", "ar": 665, "egyseg": "Ft/fm", "url": "https://timarvasker.hu/zartszelvenyek/k", "ellenorizve": "2026-09-24", "megjegyzes": "3991 Ft/szál ÷ 6; bruttónak tűnik"},
+      {"bolt": "Vasáruház (vasaruhaz.hu)", "termek": "Acél zártszelvény S235 20x20x2 (szál, 6 m)", "ar": 711, "egyseg": "Ft/fm", "url": "https://vasaruhaz.hu/acel-101/vas-zartszelveny-107", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 4267 Ft/szál (nettó 3360) ÷ 6"},
+      {"bolt": "Már-Team Tüzép", "termek": "Zártszelvény 60x40x2 mm, 6 fm", "ar": 1617, "egyseg": "Ft/fm", "url": "https://marteamtuzep.hu/termek/zartszelveny-60x40x2", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 9702 Ft/db ÷ 6"}
+    ],
+    "megjegyzes": "A kereskedők 6 fm-es szálban árulnak, a Ft/fm ár = szálár ÷ 6. Fekete (nem horganyzott) S235 acél. Az oldal becslése (1200–4000) a kis méreteknél (20x20, 25x25) túl magas alsó határú, a reális sáv méret szerint ~560–2900 Ft/fm."
+  },
+  "szogvas": {
+    "egyseg": "Ft/fm",
+    "min": 570, "max": 1960, "atlag": 1100,
+    "variansok": [
+      {"nev": "Szögacél L 30x30x3", "ar": 785, "egyseg": "Ft/fm"},
+      {"nev": "Szögacél L 40x40x4", "ar": 1380, "egyseg": "Ft/fm"},
+      {"nev": "Szögacél L 50x50x5", "ar": 1960, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Tolnay Vasker", "termek": "Szögacél 30x30x3,0 mm / 6fm (bruttó 4590 Ft/szál); 20x20x3: 3410; 40x40x4: 8290; 50x50x5: 11 760 Ft/szál", "ar": 765, "egyseg": "Ft/fm", "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/szogacel", "ellenorizve": "keresési találat (árlista)", "megjegyzes": "bruttó szálár ÷ 6; frissítve 2026.04.29"},
+      {"bolt": "Tímár Vasker", "termek": "Szögacél 30x30x3, 6 fm", "ar": 826, "egyseg": "Ft/fm", "url": "https://timarvasker.hu/szogacel-30x30x-3-hossz.-6-fm-szogvas/t", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 4954 Ft/szál ÷ 6"},
+      {"bolt": "KLS Design", "termek": "Szögacél S235 30x30x3 mm (6 fm)", "ar": 787, "egyseg": "Ft/fm", "url": "https://www.klsdesign.hu/termek/szogacel-s235-30x30x3-mm-6-fm", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 4720 Ft/szál ÷ 6"},
+      {"bolt": "LMNT (Győr)", "termek": "Szögacél 40x3, 6 fm (~11 kg/szál)", "ar": 1184, "egyseg": "Ft/fm", "url": "https://www.lmnt.hu/vasanyagok-486/zartszelveny-218/szogacel-szogvas-gyor", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 7104 Ft/szál (nettó 5594) ÷ 6"},
+      {"bolt": "San Lorenzo Kft.", "termek": "Szögacél 30x30x3 (fm árlista)", "ar": 762, "egyseg": "Ft/fm", "url": "https://sanlorenzo.hupont.hu/10/lacelokarlista", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 762 (nettó 600) Ft/fm; az árlista dátuma nem ismert, régebbi lehet"}
+    ],
+    "megjegyzes": "Melegen hengerelt egyenlő szárú L-acél, 6 fm-es szálban. Az acelkereskedes.hu-n a 30x30x3 6500 Ft/szál (1083 Ft/fm), ez a sáv felső része. Az oldal becslése (800–2500) a felső végén magas, a gyakori méretek 570–2000 Ft/fm."
+  },
+  "horganyzott-lemez": {
+    "egyseg": "Ft/m²",
+    "min": 2400, "max": 6050, "atlag": 3050,
+    "variansok": [
+      {"nev": "Horganyzott síklemez 0,5 mm (1000x2000)", "ar": 3030, "egyseg": "Ft/m²"},
+      {"nev": "Horganyzott síklemez 0,8 mm (1000x2000)", "ar": 4555, "egyseg": "Ft/m²"},
+      {"nev": "Horganyzott síklemez 1,0 mm (1000x2000)", "ar": 5820, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Tolnay Vasker", "termek": "Horganyzott lemez 1000x2000x0,5 mm (bruttó 6790 Ft/tábla); 0,8 mm: 9110; 1,0 mm: 12 030 Ft/tábla", "ar": 3395, "egyseg": "Ft/m²", "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/lemezek/horganyzott-lemez", "ellenorizve": "keresési találat (árlista)", "megjegyzes": "bruttó táblaár ÷ 2 m²; frissítve 2026.04.29"},
+      {"bolt": "Tímár Vasker", "termek": "Horganyzott lemez 0,5x1000x2000 (1,0 mm: 12 080 Ft)", "ar": 3120, "egyseg": "Ft/m²", "url": "https://timarvasker.hu/horganyzott-lemez/k", "ellenorizve": "keresési találat", "megjegyzes": "6240 Ft/tábla ÷ 2; 780 Ft/kg"},
+      {"bolt": "Uniholz", "termek": "Horganyzott lemez 0,5 x 1000 x 2000 DX51D+Z (1 mm: 11 585)", "ar": 3048, "egyseg": "Ft/m²", "url": "https://uniholz.hu/hu/horganyzott-lemezek/termekek/48", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 6095 Ft/tábla ÷ 2"},
+      {"bolt": "Metalloglobus", "termek": "Horganyzott 0,5*1000*2000 mm (1 mm: 10 878)", "ar": 2829, "egyseg": "Ft/m²", "url": "https://www.metalloglobus.com/horganyzott-0-5-1000-2000-mm", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 5657 Ft/tábla ÷ 2"},
+      {"bolt": "Acélkereskedés.hu (Nagykáta)", "termek": "Lv0,5x1000x2000 Horganyzott Lemez", "ar": 2390, "egyseg": "Ft/m²", "url": "https://www.acelkereskedes.hu/Lv05x1000x2000-Horganyzott-Lemez", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 4780 Ft/tábla ÷ 2, a legolcsóbb"},
+      {"bolt": "Vasáruház", "termek": "Horganyzott lemez DX51D+Z275 0,5*1000*2000", "ar": 3410, "egyseg": "Ft/m²", "url": "https://vasaruhaz.hu/horganyzott_lemez_zartszelveny/horganyzott-lemez", "ellenorizve": "keresési találat", "megjegyzes": "bruttó 6820 Ft/tábla ÷ 2"}
+    ],
+    "megjegyzes": "1000x2000 mm-es tábla = 2 m². Az ár a vastagsággal nagyjából arányos (~700–800 Ft/kg bruttó). A madarvas.hu 9800 Ft/tábla ára (4900 Ft/m²) kiugró, nem számoltam bele. Az oldal becslése (2500–5500) rendben van."
+  },
+  "trapezlemez": {
+    "egyseg": "Ft/m²",
+    "min": 2030, "max": 3660, "atlag": 2750,
+    "variansok": [
+      {"nev": "T18 trapézlemez 0,5 mm horganyzott", "ar": 2920, "egyseg": "Ft/m²"},
+      {"nev": "T18 trapézlemez 0,45–0,5 mm színes (RAL)", "ar": 2825, "egyseg": "Ft/m²"},
+      {"nev": "T18 trapézlemez 0,5 mm famintás", "ar": 2840, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Trapezlemezes.hu (gyártó)", "termek": "T18 trapézlemez 0,5 mm horganyzott (színes RAL 2640; famintás 2840)", "ar": 2240, "egyseg": "Ft/m²", "url": "https://trapezlemezes.hu", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó, méretre vágva; a táblázat szerint a 2240 Ft II. osztályú (értékcsökkent) lemezre vonatkozhat; szállítás 250 m² alatt 19 990 Ft"},
+      {"bolt": "Steeldiszkont", "termek": "Trapézlemez T18 horganyzott", "ar": 2862, "egyseg": "Ft/m²", "url": "https://steeldiszkont.eu/trapezlemez_t20_akcios", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (nettó 2254)"},
+      {"bolt": "Panelcentrum", "termek": "Trapézlemez horganyzott 0,5 mm T18", "ar": 3658, "egyseg": "Ft/m²", "url": "https://www.panelcentrum.com/termek/trapezlemez-horgonyzott-05-mm-t18", "ellenorizve": "keresési találat", "megjegyzes": "bruttó (nettó 2880)"},
+      {"bolt": "Vano.hu", "termek": "T18 trapézlemez", "ar": 3092, "egyseg": "Ft/m²", "url": "https://vano.hu/trapezlemez/t18-trapezlemez", "ellenorizve": "keresési találat", "megjegyzes": "bruttó-tól ár (nettó 2435-től)"},
+      {"bolt": "Lemezker.hu", "termek": "T18 Trapézlemez RAL8004 matt rézbarna (II. o. antracit akció: 2025)", "ar": 2785, "egyseg": "Ft/m²", "url": "https://lemezker.hu/trapezlemez/t18-trapezlemez", "ellenorizve": "keresési találat", "megjegyzes": "bruttó; 30 m² alatt kis mennyiségi felár"},
+      {"bolt": "BL Trapéz", "termek": "T18 Trapézlemez RAL8004 matt rézbarna (RAL7016 akció: 2031)", "ar": 2781, "egyseg": "Ft/m²", "url": "https://bltrapez.hu/trapezlemez/t18-trapezlemez", "ellenorizve": "keresési találat", "megjegyzes": "bruttó; kiszállítás 17 900 Ft+ÁFA"}
+    ],
+    "megjegyzes": "A T18 a leggyakoribb profil. A 2000–2100 Ft/m² körüli árak II. osztályú vagy akciós lemezre vonatkoznak. Az oldal becslése (2000–5000) rendben van, a felső határ inkább vastagabb (0,7 mm+) vagy magasabb profilokra (T35–T45) igaz."
+  }
+}

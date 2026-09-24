@@ -1,26 +1,26 @@
 {
   "anyag_id": "zsaluko",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 120,
-    "max": 250,
-    "atlag": 180,
+    "min": 555,
+    "max": 878,
+    "atlag": 700,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "25 cm üreges",
-      "ar": 130,
+      "nev": "Zsalukő 15 cm (50x15x23-25)",
+      "ar": 580,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "30 cm üreges",
-      "ar": 170,
+      "nev": "Zsalukő 20 cm (Leier ZS 20)",
+      "ar": 646,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "38 cm üreges",
-      "ar": 230,
+      "nev": "Zsalukő 30 cm (50x30x25)",
+      "ar": 845,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +48,108 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Zsalukő 2026-ban?",
-      "valasz": "A(z) Zsalukő ára 2026-ban 120 – 250 Ft/db között mozog, az átlagár 180 Ft/db."
+      "kerdes": "Mennyibe kerül a zsalukő 2026-ban?",
+      "valasz": "Zsalukő ára 2026 szeptemberében 555–878 Ft/db, a boltok átlagára 700 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Zsalukő 15 cm (50x15x23-25) (580 Ft), a legdrágább: Zsalukő 30 cm (50x30x25) (845 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón zsalukőt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a zsalukő árai?",
+      "valasz": "8 magyar kereskedő nyilvános, bruttó árából (Metalloglobus, Építőanyagok Most, Szatmári Építőanyag, Anyagdepó), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi zsalukő kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a zsalukő ára?",
+      "valasz": "Kb. 8–8,7 db kell 1 m² falhoz. A raklapdíj külön tétel."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj zsalukő vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Metalloglobus",
+      "termek": "Leier zsalukő 20-as (20x50x23)",
+      "ar": 646,
+      "egyseg": "Ft/db",
+      "url": "https://www.metalloglobus.com/leier-zsaluko-20-as",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Listaár 759; ugyanitt Leier 15-ös akciósan 580 (lista 682) Ft/db"
+    },
+    {
+      "bolt": "Építőanyagok Most (Pannon Group)",
+      "termek": "LEIER zsalukő 20-as",
+      "ar": 555,
+      "egyseg": "Ft/db",
+      "url": "https://epitoanyagokmost.hu/termek/leier-zsaluko-20-as",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Szatmári Építőanyag",
+      "termek": "Leier zsalukő 20 50x20x23 cm",
+      "ar": 870,
+      "egyseg": "Ft/db",
+      "url": "https://szatmari.hu/epitoanyag/product/41092-leier-zsaluko-20-50x20x23-cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Anyagdepó",
+      "termek": "Leier zsalukő 20 cm",
+      "ar": 800,
+      "egyseg": "Ft/db",
+      "url": "https://anyagdepo.hu/termek/leier-zsaluko-20cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Tüzépshop (tuzepshop.hu)",
+      "termek": "Beton EPAG zsalukő 15x50x25 / 20x50x25 / 25x50x25 / 30x50x25",
+      "ar": 595,
+      "egyseg": "Ft/db",
+      "url": "https://www.tuzepshop.hu/zsaluko",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "15 cm 566, 20 cm 595, 25 cm 680, 30 cm 709 Ft/db"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "BetonLM zsalukő 30 cm",
+      "ar": 845,
+      "egyseg": "Ft/db",
+      "url": "https://epitoanyag.hu/betonlm-zsaluko-30-cm-pQkVUVi1aUzMw",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Tímár Vaskereskedelmi Kft.",
+      "termek": "Zsalukő 30x50x25",
+      "ar": 878,
+      "egyseg": "Ft/db",
+      "url": "https://timarvasker.hu/zsaluko-30x50x25/t",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "8 db/m², 40 db/raklap"
+    },
+    {
+      "bolt": "Kocsis Tüzép (tuzepwebshop.hu)",
+      "termek": "BLM zsalukő 50x25x15",
+      "ar": 700,
+      "egyseg": "Ft/db",
+      "url": "https://tuzepwebshop.hu/zsaluko",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "Kb. 8–8,7 db kell 1 m² falhoz. A raklapdíj külön tétel.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

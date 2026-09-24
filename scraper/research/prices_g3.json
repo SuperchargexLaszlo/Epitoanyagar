@@ -1,0 +1,298 @@
+{
+  "_meta": {
+    "datum": "2026-09-24",
+    "modszer": "Tavily keresés + oldalkivonat (Magyarország). 'ellenorizve' = az ár a bolt termék/kategória-oldalának 2026-09-24-i keresési kivonatában (snippet) vagy teljes kiolvasásában szerepelt. Ahol 'teljes oldal kiolvasva' áll, ott a teljes oldalt letöltöttük. Az akciós árak jelölve.",
+    "megjegyzes": "Minden ár bruttó (27% ÁFA-val), fogyasztói ár."
+  },
+  "gipszkarton": {
+    "egyseg": "Ft/lap",
+    "min": 2150,
+    "max": 4100,
+    "atlag": 3100,
+    "variansok": [
+      {"nev": "Normál (GKB/RB) 12,5 mm 1200×2000", "ar": 2450, "egyseg": "Ft/lap"},
+      {"nev": "Impregnált (GKBI/RBI) 12,5 mm 1200×2000", "ar": 3800, "egyseg": "Ft/lap"},
+      {"nev": "Tűzgátló (GKF/RF) 12,5 mm 1200×2000", "ar": 3570, "egyseg": "Ft/lap"}
+    ],
+    "forrasok": [
+      {"bolt": "Buildox (Újház Nyíregyháza)", "termek": "Rigips Standard Normál gipszkarton 12,5×1200×2000 mm", "ar": 2150, "egyseg": "Ft/lap", "url": "https://www.buildox.hu/Rigips-Standard-Normal-gipszkarton-lap", "ellenorizve": "2026-09-24", "megjegyzes": "896 Ft/m² × 2,4 m² = 2 150 Ft/tábla; oldal szerint 'áraink bruttó árak'"},
+      {"bolt": "Tüzépwebshop (Kistarcsa)", "termek": "Knauf RS normál gipszkarton 1200×2000×12,5 mm", "ar": 2350, "egyseg": "Ft/lap", "url": "https://tuzepwebshop.hu/Gk-Gipszkarton-NORMAL-STANDARD-RS", "ellenorizve": "2026-09-24", "megjegyzes": "979 Ft/m² × 2,4 m² ≈ 2 350 Ft; webshopos akciós ár (9% kedvezmény)"},
+      {"bolt": "Kőházy Festékáruházak", "termek": "Gipszkarton 12,5 mm 2 m × 1,2 m", "ar": 2590, "egyseg": "Ft/lap", "url": "https://www.kohazy.hu/gipszkarton-profil-almennyezet-osb/-osb-lapok/gipszkarton-125-mm-2-m-x-12-m", "ellenorizve": "2026-09-24", "megjegyzes": "2 590 Ft (2 039 + ÁFA), 'Szuper ár'"},
+      {"bolt": "OBI", "termek": "Gipszkarton 12,5 mm × 1250 mm × 2000 mm (Knauf)", "ar": 2649, "egyseg": "Ft/lap", "url": "https://www.obi.hu/gipszkartonlapok/gipszkarton-12-5-mm-x-1250-mm-x-2000-mm/p/1400787", "ellenorizve": "2026-09-24", "megjegyzes": "2,5 m²-es tábla; ár keresési kivonatból, a kiolvasott oldal az árat nem jelenítette meg"},
+      {"bolt": "Újház Budapest", "termek": "Rigips RBI impregnált gipszkarton 12,5×1200×2000 mm", "ar": 3590, "egyseg": "Ft/lap", "url": "https://ujhazbudapest.hu/termek/rigips-rbi-impregnalt-gipszkarton-lap-125x1200x2000-mm", "ellenorizve": "2026-09-24", "megjegyzes": "akciós, eredeti 3 650 Ft"},
+      {"bolt": "Metalloglobus", "termek": "Rigips impregnált építőlemez RBI 12,5×1200×2000 mm", "ar": 3762, "egyseg": "Ft/lap", "url": "https://www.metalloglobus.com/rigips-impregnalt-epitolemez-rbi-12-5x1200x2000-mm", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó ár/tábla"},
+      {"bolt": "Arkibau", "termek": "Knauf RBI impregnált gipszkarton 12,5 mm (1200×2000)", "ar": 3920, "egyseg": "Ft/lap", "url": "https://arkibau.hu/rbi-125-mm-1200x2000-knaufcsn-impregnalt-gipszkarton-56-65326", "ellenorizve": "2026-09-24", "megjegyzes": "3 920 Ft (3 087 + ÁFA)"},
+      {"bolt": "BodrogiBau (Újház)", "termek": "Rigips RBI impregnált 12,5×1250×2000 mm", "ar": 4109, "egyseg": "Ft/lap", "url": "https://ujhazbodrogi.hu/epitoanyag/gipszkartonozas/gipszkarton-lapok/uh-810438-rigips-rbi-impregnalt-gipszkarton-lap-125x1250x2000-mm", "ellenorizve": "2026-09-24", "megjegyzes": "2,5 m²-es tábla"},
+      {"bolt": "Festékpalota (Bp. X.)", "termek": "Rigips RF tűzgátló gipszkarton 12,5 mm 1200×2000", "ar": 3550, "egyseg": "Ft/lap", "url": "https://www.festekpalota.hu/rigips-gipszkarton-rf-tuzgatlo-125-mm-1200-x-2000-24-m2tabla", "ellenorizve": "2026-09-24", "megjegyzes": "3 550 Ft (2 795 + ÁFA)"},
+      {"bolt": "epitoanyag.hu (Újház)", "termek": "Rigips RF 120×200×1,25 cm tűzgátló gipszkarton", "ar": 3590, "egyseg": "Ft/lap", "url": "https://epitoanyag.hu/belsoepiteszet/gipszkarton-gipszkarton-rendszer-c9625", "ellenorizve": "2026-09-24", "megjegyzes": "1 496 Ft/m²"}
+    ],
+    "megjegyzes": "Normál 12,5 mm lap 2 150–2 650 Ft, impregnált 3 590–4 110 Ft, tűzgátló ~3 550–3 600 Ft. Tűzgátló-impregnált (GKFI) ~5 400–5 700 Ft (Norgips 5 737 Ft, gipszkarton.net, dátum nem ellenőrzött) – a sávba nem számítottuk. Átlag a három típus középárából."
+  },
+  "polikarbonat": {
+    "egyseg": "Ft/m²",
+    "min": 3200,
+    "max": 9900,
+    "atlag": 6200,
+    "variansok": [
+      {"nev": "Üregkamrás víztiszta 4 mm (1 oldalon UV)", "ar": 3600, "egyseg": "Ft/m²"},
+      {"nev": "Üregkamrás víztiszta 10 mm (2 falú)", "ar": 6500, "egyseg": "Ft/m²"},
+      {"nev": "Üregkamrás víztiszta 16 mm (2 oldalon UV)", "ar": 9000, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Tetőfedők Boltja", "termek": "Polikarbonát víztiszta 4 / 6 / 16 mm", "ar": 3200, "egyseg": "Ft/m²", "url": "https://tetofedokboltja.hu?product=pelda", "ellenorizve": "2026-09-24", "megjegyzes": "4 mm 1UV 3 200; 6 mm 1UV 5 180; 16 mm 2UV 8 960 Ft/m² bruttó"},
+      {"bolt": "Polikarbonát Zugló", "termek": "Víztiszta üregkamrás polikarbonát 4 / 6 mm", "ar": 3800, "egyseg": "Ft/m²", "url": "https://polikarbonatzuglo.hu/viztiszta-uregkamras-polikarbonat", "ellenorizve": "2026-09-24", "megjegyzes": "4 mm 3 800; 6 mm 4 300 Ft/m²"},
+      {"bolt": "TetőSipos webshop", "termek": "Polikarbonát víztiszta 10 mm 2 falú / 1 kamrás", "ar": 5881, "egyseg": "Ft/m²", "url": "https://webshop.tetosipos.hu/products/polikarbonat-viztiszta-10-mm-2-falu-1-kamras", "ellenorizve": "2026-09-24", "megjegyzes": "akciós egységár (−15%), normál ár magasabb"},
+      {"bolt": "Skandináv Fatelep", "termek": "Polikarbonát víztiszta tábla 2UV 10 mm 105×300 cm", "ar": 6464, "egyseg": "Ft/m²", "url": "https://www.skandinavfatelep.hu/termek/polikarbonat-viztiszta-tabla-2uv-10mm-105x300cm", "ellenorizve": "2026-09-24", "megjegyzes": "20 363 Ft/tábla"},
+      {"bolt": "Polikarbonátfutár", "termek": "Víztiszta Standard polikarbonát 10 mm (210×600 cm)", "ar": 6867, "egyseg": "Ft/m²", "url": "https://polikarbonatfutar.hu/viztiszta-standard-polikarbonat-10mm-210x600", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó négyzetméterár"},
+      {"bolt": "Praktiker", "termek": "Gutta átlátszó légkamrás polikarbonát 3000×1050×10 mm", "ar": 8799, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/teto/polikarbonat-lemez/c/1112", "ellenorizve": "2026-09-24", "megjegyzes": "barkácsáruházi ár, a sáv felső része"},
+      {"bolt": "Polibex shop", "termek": "Légkamrás 16 mm polikarbonát UV víztiszta 7 falú 1,05×2,0 m", "ar": 9905, "egyseg": "Ft/m²", "url": "https://www.polibexshop.hu/legkamras-cellas-16-mm-polikarbonat-lemez-uv2-viztiszta-7-falu-6-kamras-105m-x-20m", "ellenorizve": "2026-09-24", "megjegyzes": "9 904,76 Ft/m²"}
+    ],
+    "megjegyzes": "4 mm 3 200–3 900, 6 mm 4 300–5 200, 10 mm 5 900–8 800, 16 mm 8 450–9 900 Ft/m² (Tető-Zsindely Érd árlista 2025.01: 4 mm 3 920, 16 mm 8 450 – régebbi). Bronz/opál +5–15%. Tömör polikarbonátra nem találtunk megbízható m²-árat – kihagyva. Egy 2 999 Ft/m²-es 10 mm-es ár (metallaruhaz.hu) valószínűleg elavult/nettó, kihagyva."
+  },
+  "osb-lap": {
+    "egyseg": "Ft/lap",
+    "min": 6400,
+    "max": 13500,
+    "atlag": 9000,
+    "variansok": [
+      {"nev": "OSB-3 12 mm 2500×1250", "ar": 7300, "egyseg": "Ft/lap"},
+      {"nev": "OSB-3 18 mm 2500×1250", "ar": 10800, "egyseg": "Ft/lap"},
+      {"nev": "OSB-3 22 mm 2500×1250", "ar": 13000, "egyseg": "Ft/lap"}
+    ],
+    "forrasok": [
+      {"bolt": "Fadepo Fatelep (Bp. XVIII.)", "termek": "OSB lap 10/12/15/18/22 mm (2500×1250)", "ar": 7190, "egyseg": "Ft/lap", "url": "https://fadepofatelep.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "teljes oldal kiolvasva: 10 mm 6 390, 12 mm 7 190 (akció 6 890), 15 mm 8 990, 18 mm 10 590, 22 mm 12 790 Ft/tábla"},
+      {"bolt": "Marteam Tüzép", "termek": "OSB-3 12×1250×2500 mm", "ar": 6792, "egyseg": "Ft/lap", "url": "https://marteamtuzep.hu/termek/osb-3-12mm", "ellenorizve": "2026-09-24", "megjegyzes": "bruttó ár"},
+      {"bolt": "Kőházy", "termek": "OSB-3 lap 12 mm 1,25×2,5 m", "ar": 7760, "egyseg": "Ft/lap", "url": "https://www.kohazy.hu/gipszkarton-profil-almennyezet-osb/-osb-lapok/osb-3-lap-12-mm-es-125-x-25-m-3125-m2", "ellenorizve": "2026-09-24", "megjegyzes": "7 760 Ft (6 110 + ÁFA); 18 mm: 11 689 Ft"},
+      {"bolt": "Mixvill", "termek": "OSB-3 12 mm 12×2500×1250 mm", "ar": 7681, "egyseg": "Ft/lap", "url": "https://www.mixvill.hu/epitoipari-osb-lap-osb-3-12mm-12x2500x1250mm-3-125-m2_tabla-84-db_rak-18023-18002", "ellenorizve": "2026-09-24", "megjegyzes": "online ár"},
+      {"bolt": "Káplár Fatelep", "termek": "OSB-3 lap 18 mm", "ar": 10690, "egyseg": "Ft/lap", "url": "https://kaplarfatelep.hu/osb-lapok/osb-lap/osb-lap-18mm", "ellenorizve": "2026-09-24", "megjegyzes": "3 421 Ft/m²"},
+      {"bolt": "Woodland", "termek": "OSB lap 18 mm / 22 mm 1250×2500", "ar": 11070, "egyseg": "Ft/lap", "url": "https://www.woodland.hu/osb-tabla.html", "ellenorizve": "2026-09-24", "megjegyzes": "18 mm 11 070; 22 mm 13 500 Ft/tábla"},
+      {"bolt": "Timbershop", "termek": "OSB tábla 22 mm 2500×1250", "ar": 12995, "egyseg": "Ft/lap", "url": "https://www.timbershop.hu/Normal-tabla-2500x1250-mm", "ellenorizve": "2026-09-24", "megjegyzes": ""}
+    ],
+    "megjegyzes": "12 mm 6 700–7 800, 18 mm 9 500–11 700, 22 mm 12 600–13 500 Ft/tábla. Nútféderes (675×2500) lapok táblánként olcsóbbak (12 mm ~4 000–4 200), de kisebbek. Kronospan Superfinish 12 mm 11 351 Ft (vasaruhaz.hu) kiugró, kihagyva."
+  },
+  "retegelt-lemez": {
+    "egyseg": "Ft/lap",
+    "min": 13000,
+    "max": 44000,
+    "atlag": 23000,
+    "variansok": [
+      {"nev": "Nyír BB/CP 9 mm 1525×1525", "ar": 13220, "egyseg": "Ft/lap"},
+      {"nev": "Nyír BB/CP 12 mm 1525×1525", "ar": 19000, "egyseg": "Ft/lap"},
+      {"nev": "Nyír BB/CP 18 mm 1525×1525", "ar": 28500, "egyseg": "Ft/lap"}
+    ],
+    "forrasok": [
+      {"bolt": "Tandem Plussz (árlista 2026.02.20-tól)", "termek": "Nyír rétegelt lemez kocka 1525×1525 BB/CP 9/12/18 mm; nagytábla 1250×2500 BB/CP", "ar": 25590, "egyseg": "Ft/lap", "url": "https://tandemplussz.hu/alkatresz-ertekesites/retegelt-lemez-elerheto-meretekben-friss-arakkal-hexa-giga-nyir-nyar-retegelt-lemezek", "ellenorizve": "2026-09-24", "megjegyzes": "teljes oldal kiolvasva: kocka 9 mm 13 220, 12 mm 17 060, 18 mm 25 590; 1250×2500 BB/CP 9 mm 25 730, 18 mm 43 790 Ft/tábla; nem klasszikus fatelep, de bruttó kiskereskedelmi árlista"},
+      {"bolt": "Skandináv Fatelep", "termek": "Nyír rétegelt lemez 12 mm 1525×1525 BB/CP; nyír vízálló 9×1250×2500", "ar": 20690, "egyseg": "Ft/lap", "url": "https://www.skandinavfatelep.hu/termek/nyir-vizallo-retegelt-lemez-9x1250x2500mm", "ellenorizve": "2026-09-24", "megjegyzes": "12 mm kocka 20 690 (8 897 Ft/m²); 21 mm kocka 33 590; 9 mm vízálló 1250×2500: 28 600 Ft"},
+      {"bolt": "Fadepo Fatelep", "termek": "Nyír rétegelt lemez IF20 BB/CP 12 / 18 mm", "ar": 31389, "egyseg": "Ft/lap", "url": "https://fadepofatelep.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "m²-ár: 12 mm 9 026, 18 mm 13 497 Ft/m²; átszámítva 1525×1525 (2,3256 m²) táblára: 12 mm ≈ 20 990, 18 mm ≈ 31 390 Ft"}
+    ],
+    "megjegyzes": "A nyír rétegelt lemez ára jóval magasabb az oldal becslésénél. Kocka (1525×1525) 9 mm ~13 000, 12 mm 17 000–21 000, 18 mm 25 500–31 500 Ft; nagytábla (1250×2500) 9 mm 25 700–28 600, 18 mm ~43 800 Ft. Olcsóbb alternatíva: borovi fenyő rétegelt C/C 1250×2500 9 mm 12 210, 18 mm 22 140 Ft (Tandem Plussz). Átlag a kocka-formátumok középárából."
+  },
+  "fa-gerenda": {
+    "egyseg": "Ft/fm",
+    "min": 1900,
+    "max": 4350,
+    "atlag": 2900,
+    "variansok": [
+      {"nev": "Fenyő gerenda 10×10 cm (4–6 m)", "ar": 1900, "egyseg": "Ft/fm"},
+      {"nev": "Fenyő gerenda 12×12 cm (4–6 m)", "ar": 2740, "egyseg": "Ft/fm"},
+      {"nev": "Fenyő gerenda 15×15 cm (4–6 m)", "ar": 4280, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Fadepo Fatelep", "termek": "Fenyő fűrészáru 4–5–6 m (gerenda, szarufa, palló)", "ar": 1899, "egyseg": "Ft/fm", "url": "https://fadepofatelep.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "189 900 Ft/m³ (7 m: 199 000; 8 m: 209 900). 10×10: 0,01 m³/fm × 189 900 = 1 899 Ft/fm; 12×12: 0,0144 × 189 900 = 2 735; 15×15: 0,0225 × 189 900 = 4 273 Ft/fm"},
+      {"bolt": "Székely Fatelep (Bp. XVI.)", "termek": "Normál méretű hosszú áru 6 fm-ig", "ar": 1920, "egyseg": "Ft/fm", "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar", "ellenorizve": "2026-09-24", "megjegyzes": "192 000 Ft/m³ bruttó; 10×10: 1 920, 15×15: 0,0225 × 192 000 = 4 320 Ft/fm; 8 m-ig 220 000 Ft/m³"},
+      {"bolt": "Farengeteg Fatelep", "termek": "Lucfenyő gerenda 7,5×15, 10×10, 12×12, 15×15 (4–6 m)", "ar": 1890, "egyseg": "Ft/fm", "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru", "ellenorizve": "2026-09-24", "megjegyzes": "189 000 Ft/m³; 10×10: 1 890; 7,5×15: 0,01125 × 189 000 = 2 126 Ft/fm; 7–8 m: 215 000 Ft/m³"}
+    ],
+    "megjegyzes": "Fatelepek m³-ben árazzák (2026 szept.: 185 000–192 000 Ft/m³ 4–6 m-ig; hosszabb 200 000–255 000). Ft/fm = keresztmetszet (m²) × m³-ár. Gyalulás +35 000–40 000, impregnálás +12 000–13 000 Ft/m³. Barkácsáruházi (OBI/Praktiker) gerendaárat nem sikerült ellenőrizni."
+  },
+  "deszka": {
+    "egyseg": "Ft/fm",
+    "min": 475,
+    "max": 1350,
+    "atlag": 780,
+    "variansok": [
+      {"nev": "Fenyő deszka 2,5×10 cm gyalulatlan", "ar": 475, "egyseg": "Ft/fm"},
+      {"nev": "Fenyő deszka 2,5×15 cm gyalulatlan", "ar": 715, "egyseg": "Ft/fm"},
+      {"nev": "Lucfenyő gyalult deszka 19×146 mm AB", "ar": 990, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Fadepo Fatelep", "termek": "Légszáraz fenyő deszka; lucfenyő gyalult deszka 19×96/116/146/170 mm AB", "ar": 990, "egyseg": "Ft/fm", "url": "https://fadepofatelep.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "légszáraz deszka 189 900 Ft/m³ → 2,5×15: 0,00375 × 189 900 = 712 Ft/fm; gyalult 19×96: 680, 19×116: 800, 19×146: 990 (B: 750), 19×170: 1 350 Ft/fm"},
+      {"bolt": "Székely Fatelep", "termek": "Normál méretű hosszú áru 6 fm-ig (deszka)", "ar": 720, "egyseg": "Ft/fm", "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar", "ellenorizve": "2026-09-24", "megjegyzes": "192 000 Ft/m³ → 2,5×15: 720 Ft/fm; 2,5×10: 480 Ft/fm; zsaludeszka 135 000 Ft/m³ → 2,5×15: 506 Ft/fm"},
+      {"bolt": "Farengeteg Fatelep", "termek": "Deszka 2,5×10/12/15 (189 000 Ft/m³), 2,5×20 (210 000 Ft/m³)", "ar": 1050, "egyseg": "Ft/fm", "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru", "ellenorizve": "2026-09-24", "megjegyzes": "2,5×20: 0,005 × 210 000 = 1 050 Ft/fm; 2,5×10: 0,0025 × 189 000 = 473 Ft/fm"}
+    ],
+    "megjegyzes": "Gyalulatlan 2,5 cm-es deszka 470–1 050 Ft/fm szélességtől függően; gyalult 19 mm-es lucfenyő deszka 680–1 350 Ft/fm. Zsaludeszka olcsóbb (Székely 135 000 Ft/m³ → 2,5×15 ≈ 506 Ft/fm)."
+  },
+  "lec": {
+    "egyseg": "Ft/fm",
+    "min": 270,
+    "max": 600,
+    "atlag": 400,
+    "variansok": [
+      {"nev": "Tetőléc 2,5×5 cm", "ar": 270, "egyseg": "Ft/fm"},
+      {"nev": "Bramac léc 3×5 cm", "ar": 310, "egyseg": "Ft/fm"},
+      {"nev": "Stafni 5×5 cm", "ar": 550, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Fadepo Fatelep", "termek": "Bramac léc 30×50; tetőléc 25×50; stafni 50×50; egalizált stafni 48×48", "ar": 299, "egyseg": "Ft/fm", "url": "https://fadepofatelep.hu/arlista", "ellenorizve": "2026-09-24", "megjegyzes": "Bramac 299; tetőléc 25×50: 270; stafni 50×50: 499; egalizált stafni: 580; méretpontos léc 28×48: 400 (akció 350) Ft/fm"},
+      {"bolt": "Farengeteg Fatelep", "termek": "Bramac tetőléc 3×5 (4–6 m); stafni 5×5", "ar": 330, "egyseg": "Ft/fm", "url": "https://farengetegfatelep.hu/lucfenyo-epito-fureszaru", "ellenorizve": "2026-09-24", "megjegyzes": "stafni 5×5: 600 Ft/fm"},
+      {"bolt": "Szirmafa Tüzép (Miskolc)", "termek": "Bramac léc 3×5×4 m; normál léc 2,5×5×4 m", "ar": 300, "egyseg": "Ft/fm", "url": "https://www.miskolcfatelep.hu", "ellenorizve": "2026-09-24", "megjegyzes": "2,5×5: 290 Ft/fm"},
+      {"bolt": "Székely Fatelep", "termek": "Bramac léc / normál léc / stafni", "ar": 330, "egyseg": "Ft/fm", "url": "https://szekelyfatelep.hu/fatelep-budapest-xvi-arak-fa-ar", "ellenorizve": "2026-09-24", "megjegyzes": "220 000 Ft/m³ → 3×5: 0,0015 × 220 000 = 330; 5×5: 0,0025 × 220 000 = 550 Ft/fm"}
+    ],
+    "megjegyzes": "Tetőléc 270–330 Ft/fm, stafni 5×5 500–600 Ft/fm. Az oldal becslése (200–600) helyes, az alsó széle kissé alacsony."
+  },
+  "laminalt-gerenda": {
+    "egyseg": "Ft/fm",
+    "min": 2800,
+    "max": 8400,
+    "atlag": 5200,
+    "variansok": [
+      {"nev": "BSH GL24h 10×10 cm", "ar": 3975, "egyseg": "Ft/fm"},
+      {"nev": "BSH GL24h 12×12 cm", "ar": 5650, "egyseg": "Ft/fm"},
+      {"nev": "BSH GL24h 10×20 cm", "ar": 8400, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Székely Fatelep", "termek": "BSH GL24h 6×12, 8×16, 10×10, 10×16, 10×20, 12×12, 12×20 (13,5 m/szál)", "ar": 5610, "egyseg": "Ft/fm", "url": "https://szekelyfatelep.hu/fatelep/bsh-ragasztott-gerenda", "ellenorizve": "2026-09-24", "megjegyzes": "6×12: 2 810; 8×16: 4 490; 10×10: 3 975; 10×16: 6 240; 10×20: 8 400; 12×12: 5 610; 12×20: 9 144 Ft/fm"},
+      {"bolt": "Káplár Fatelep", "termek": "Ragasztott BSH gerenda 12×12×449 cm (Pabst)", "ar": 6098, "egyseg": "Ft/fm", "url": "https://kaplarfatelep.hu/Ragasztott-gerenda-12x12x450cm-retegragasztott-BSH", "ellenorizve": "2026-09-24", "megjegyzes": "27 440 Ft/db ÷ 4,5 m = 6 098 Ft/fm (rövid szál, drágább fm-ár)"},
+      {"bolt": "Central Fatelep", "termek": "12×12 BSH rétegragasztott gerenda GL24h", "ar": 5169, "egyseg": "Ft/fm", "url": "https://centralfatelep.hu/12x12-bsh-retegragasztott-gerenda-gl24h-1133", "ellenorizve": "2026-09-24", "megjegyzes": "69 780 Ft/szál; 358 950 Ft/m³ × 0,0144 = 5 169 Ft/fm (13,5 m-es szál feltételezve)"},
+      {"bolt": "Elvira Tüzép", "termek": "BSH ragasztott gerenda 12×12 cm, 13,5 m, GL24h", "ar": 5760, "egyseg": "Ft/fm", "url": "https://elviratuzep.hu/termekek/bsh-ragasztott-gerenda/bsh-ragasztott-gerenda-12x12", "ellenorizve": "2026-09-24", "megjegyzes": "77 758 Ft/db ÷ 13,5 m = 5 760 Ft/fm"},
+      {"bolt": "VEMI-2003 / Asztalos Fatelep Tapolca (árjegyzék 2026.05.05)", "termek": "BSH lucfenyő ragasztott gerenda 6×10 cm, 13,5 m", "ar": 2990, "egyseg": "Ft/fm", "url": "https://asztalosfatelep.hu/upload/dokumentumok/arjegyzek_ragasztottgerenda.pdf", "ellenorizve": "2026-09-24", "megjegyzes": "PDF árjegyzék; 6×14: 4 220; 16×16: 10 890 Ft/fm"}
+    ],
+    "megjegyzes": "BSH m³-ár 2026-ban ~359 000–400 000 Ft/m³. Gyakori keresztmetszetek: 6×12 ~2 800–3 000, 10×10 ~4 000, 12×12 5 170–6 100, 10×20 ~8 400 Ft/fm. KVH olcsóbb (kb. 10–25%-kal), de megbízható, egyértelműen azonosítható KVH-fm-árat nem rögzítettünk."
+  },
+  "jarolap": {
+    "egyseg": "Ft/m²",
+    "min": 3500,
+    "max": 9000,
+    "atlag": 5600,
+    "variansok": [
+      {"nev": "Gres padlólap 30×60 (belső, fa/kő hatású)", "ar": 4750, "egyseg": "Ft/m²"},
+      {"nev": "Gres padlólap 60×60 matt", "ar": 6000, "egyseg": "Ft/m²"},
+      {"nev": "Gres padlólap 60×60 antracit, bel-/kültéri", "ar": 8999, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Zalakerámia Agex kültéri fagyálló barna 30×60 cm gres padlólap", "ar": 4499, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/zalakeramia/cc/2544", "ellenorizve": "2026-09-24", "megjegyzes": "'Ütős ár'"},
+      {"bolt": "OBI", "termek": "Natural Grey gres járólap 30×60 cm", "ar": 4999, "egyseg": "Ft/m²", "url": "https://www.obi.hu/padlolapok-jarolapok/natural-grey-gres-jarolap-30-cm-x-60-cm/p/5140678", "ellenorizve": "2026-09-24", "megjegyzes": "8 098 Ft/eladási egység"},
+      {"bolt": "Palatinus Fürdőszoba", "termek": "Zalakerámia Woodshine Bianco padlólap 33,3×33,3 cm", "ar": 5589, "egyseg": "Ft/m²", "url": "https://www.palatinusfurdoszoba.hu/zalakeramia-woodshine-bianco-33-3x33-3x0-8-1-33-nmdz-61-18-pal", "ellenorizve": "2026-09-24", "megjegyzes": "7 434 Ft/doboz (1,33 m²)"},
+      {"bolt": "Praktiker", "termek": "60×60 cm fehér matt gres padlólap", "ar": 5999, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/idoszakos-ajanlatok/padlolapok/bfd", "ellenorizve": "2026-09-24", "megjegyzes": "időszakos ajánlat"},
+      {"bolt": "OBI", "termek": "Greslap antracit 60 cm × 60 cm", "ar": 8999, "egyseg": "Ft/m²", "url": "https://www.obi.hu/padlolapok-jarolapok/greslap-60-cm-x-60-cm/p/5553052", "ellenorizve": "2026-09-24", "megjegyzes": "12 958 Ft/eladási egység; bel- és kültéri"},
+      {"bolt": "OBI", "termek": "Statuario Classic fehér porcelán padlólap (Top ár)", "ar": 3499, "egyseg": "Ft/m²", "url": "https://www.obi.hu/hidegburkolatok/padlolapok-jarolapok/c/1150", "ellenorizve": "2026-09-24", "megjegyzes": "akciós 'Top ár', a sáv alja"}
+    ],
+    "megjegyzes": "Barkácsáruházi alap-greslapok 3 500–6 000 Ft/m², nagyformátumú/rektifikált 7 000–9 000 Ft/m²; prémium olasz/spanyol lapok 12 000 Ft/m² felett (nem számítva)."
+  },
+  "csempe": {
+    "egyseg": "Ft/m²",
+    "min": 4000,
+    "max": 9600,
+    "atlag": 6300,
+    "variansok": [
+      {"nev": "Fehér/márványos fali csempe 30×60 (akciós, barkácsáruház)", "ar": 4499, "egyseg": "Ft/m²"},
+      {"nev": "Cersanit Bianca fehér fényes 30×60", "ar": 6699, "egyseg": "Ft/m²"},
+      {"nev": "Szaküzleti I. osztályú fali csempe 30×60 / 25×x", "ar": 8800, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Talento 30×60 cm fehér márványos fali csempe", "ar": 4499, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/hidegburkolat-es-tartozek/falicsempe/c/287", "ellenorizve": "2026-09-24", "megjegyzes": "a kategóriaoldalon 3 999 Ft/m²-es akciós tétel is volt"},
+      {"bolt": "Praktiker", "termek": "20×60 cm márványos fehér fényes fali csempe", "ar": 5999, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/ajanlatok-v2?category=hidegburkolas&subcategory=csempe", "ellenorizve": "2026-09-24", "megjegyzes": "akciós, eredeti 7 498 Ft/m²"},
+      {"bolt": "OBI", "termek": "Cersanit Bianca falicsempe fényes fehér 30×60 cm", "ar": 6699, "egyseg": "Ft/m²", "url": "https://www.obi.hu/hidegburkolatok/fali-csempek/c/786", "ellenorizve": "2026-09-24", "megjegyzes": "8 843 Ft/eladási egység, 'Top ár'"},
+      {"bolt": "Csempevásár", "termek": "Zalakerámia egyszínű fényes csempe", "ar": 4930, "egyseg": "Ft/m²", "url": "https://www.csempevasar.hu/burkolat-138/termekcsaladok-3017/zalakeramia-535", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Csempebolt", "termek": "Fali csempe 30×60 I.o. / 25 cm széles", "ar": 7990, "egyseg": "Ft/m²", "url": "https://csempebolt.hu", "ellenorizve": "2026-09-24", "megjegyzes": "30×60 I.o.: 7 990; másik 25 cm-es tétel: 9 590 Ft/m²"}
+    ],
+    "megjegyzes": "Barkácsáruházi fehér/márványos fali csempe 4 000–7 000 Ft/m²; szaküzleti I. osztály 8 000–9 600 Ft/m²; designer/nagyformátum 12 000+ (nem számítva)."
+  },
+  "terko": {
+    "egyseg": "Ft/m²",
+    "min": 4600,
+    "max": 8000,
+    "atlag": 6200,
+    "variansok": [
+      {"nev": "Leier Piazza 10×20×6 cm szürke", "ar": 4660, "egyseg": "Ft/m²"},
+      {"nev": "Semmelrock Citytop kombi 6 cm szürke", "ar": 6209, "egyseg": "Ft/m²"},
+      {"nev": "Leier Mercato 6 cm (antik felület)", "ar": 7351, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "H-Barkácsáruház", "termek": "LEIER Piazza térkő 10×20×6 cm szürke", "ar": 4660, "egyseg": "Ft/m²", "url": "https://hbarkacsaruhaz.hu/epitoanyag/terko-szegelyko-fedlap/terko/le-hutjh6600-leier-piazza-terko-10-cm-x-20-cm-x-6-cm-szurke-108-m2-hutjh6600", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 3 669 / bruttó 4 660 Ft/m²"},
+      {"bolt": "epitoanyag.hu (Újház)", "termek": "Leier Piazza térkő szürke 20×30×6 cm", "ar": 6170, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/leier-piazza-terko-szurke-20x30x6-cm-pVUgtMTk4ODEz", "ellenorizve": "2026-09-24", "megjegyzes": "gyártói készleten"},
+      {"bolt": "Wienerberger shop (Semmelrock)", "termek": "Citytop kombi 6 cm szürke / Castello antico kombi 6 cm", "ar": 6209, "egyseg": "Ft/m²", "url": "https://shop.wienerberger.hu/semmelrock/terburkolatok", "ellenorizve": "2026-09-24", "megjegyzes": "ajánlott bruttó fogyasztói ár; Castello antico homoksárga 16 219 Ft/m² (prémium, sávon kívül)"},
+      {"bolt": "epitoanyag.hu (Újház)", "termek": "Semmelrock Citytop kombi térkő szürke 6 cm", "ar": 6210, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/semmelrock-citytop-kombi-terko-szurke-6-cm-pVUgtMTAyMDcy", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Marteam Tüzép", "termek": "Semmelrock Citytop Plus kombi szürke-fehér 6 cm", "ar": 5453, "egyseg": "Ft/m²", "url": "https://marteamtuzep.hu/termek/semmelrock-citytop-plus-kombi-szurke-feher", "ellenorizve": "2026-09-24", "megjegyzes": "akciós ár"},
+      {"bolt": "GRaS Kft.", "termek": "Leier Mercato térkő 6 cm", "ar": 7351, "egyseg": "Ft/m²", "url": "https://gras.hu/termek/5345/leier-mercato-terko-6-cm", "ellenorizve": "2026-09-24", "megjegyzes": "-tól ár, gyártói telephelyi átadás"},
+      {"bolt": "Elágazás webáruház", "termek": "Semmelrock Citytop kombi 6 cm őszilomb (színes)", "ar": 7880, "egyseg": "Ft/m²", "url": "https://elagazas.hu/webaruhaz/semmelrock-citytop-kombi-terko-6-cm-oszilomb", "ellenorizve": "2026-09-24", "megjegyzes": "akciós, eredeti 9 850 Ft/m²"}
+    ],
+    "megjegyzes": "6 cm-es szürke alaptérkő 4 600–6 200, színes/mosott 6 500–8 000 Ft/m²; antikolt prémium (Castello antico) 16 000+. 8 cm-es kivitel jellemzően +15–25%. Frühwald és Beton-Viacolor árat nem ellenőriztünk. Szállítás, raklapdíj külön."
+  },
+  "parkett": {
+    "egyseg": "Ft/m²",
+    "min": 14700,
+    "max": 29000,
+    "atlag": 22000,
+    "variansok": [
+      {"nev": "Tömör tölgy csaphornyos parketta 22 mm (standard/rusztikus)", "ar": 17500, "egyseg": "Ft/m²"},
+      {"nev": "Háromrétegű tölgy szalagparketta 14 mm (Barlinek, alap)", "ar": 22000, "egyseg": "Ft/m²"},
+      {"nev": "Háromrétegű tölgy 1 sávos (Barlinek Pure Line / Kährs)", "ar": 27000, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Woodland", "termek": "Csaphornyos parketta 20–22 mm", "ar": 14700, "egyseg": "Ft/m²", "url": "https://www.woodland.hu/csaphornyos-parketta.html", "ellenorizve": "2026-09-24", "megjegyzes": "-tól ár"},
+      {"bolt": "Bigfoot", "termek": "Hagyományos csaphornyos parketta tölgy standard 350×45×22 mm", "ar": 18355, "egyseg": "Ft/m²", "url": "https://bigfoot.hu/termekek/hagyom%C3%A1nyos-parketta/product-506-detail", "ellenorizve": "2026-09-24", "megjegyzes": "300×65×22: 18 848 Ft/m²"},
+      {"bolt": "Parkett-Zóna", "termek": "Csaphornyos parketta tölgy natúr 350×50×22 mm", "ar": 23390, "egyseg": "Ft/m²", "url": "https://parkett-zona.hu/csaphornyos-parketta-tolgy-natur-350x50x22mm", "ellenorizve": "2026-09-24", "megjegyzes": "20 466 Ft/doboz (0,875 m²)"},
+      {"bolt": "SBS Parketta", "termek": "Barlinek Wood Pure Line Country tölgy matt lakkozott Brown Sugar Piccolo 2200×130×14 mm", "ar": 21990, "egyseg": "Ft/m²", "url": "https://sbsparketta.hu/fedezze-fel-a-barlinek-wood-szalagparketta-kollekciot-termeszetes-szepseg-es-premium-minoseg", "ellenorizve": "2026-09-24", "megjegyzes": "háromrétegű"},
+      {"bolt": "Parkettstore", "termek": "Kährs Grand Selection Origin/Authentic (Aquastop) 14 mm", "ar": 24990, "egyseg": "Ft/m²", "url": "https://parkettstore.hu/4675-kahrs-akcio", "ellenorizve": "2026-09-24", "megjegyzes": "akció 2025.08.01-től visszavonásig"},
+      {"bolt": "Hubert Parketta", "termek": "Barlinek Pure Line Azure Window tölgy 1 sávos szalagparketta", "ar": 28790, "egyseg": "Ft/m²", "url": "https://hubertparketta.hu/termekkategoria/szalagparketta", "ellenorizve": "2026-09-24", "megjegyzes": "79 748 Ft/doboz"},
+      {"bolt": "Padlófutár", "termek": "Barlinek szalagparketta Szahara tölgy grande", "ar": 28740, "egyseg": "Ft/m²", "url": "https://padlofutar.hu/szalagparketta-2", "ellenorizve": "2026-09-24", "megjegyzes": "háromrétegű"}
+    ],
+    "megjegyzes": "Tömör tölgy csaphornyos 14 700–23 400, háromrétegű tölgy szalagparketta 22 000–29 000 Ft/m² (anyagár, lerakás nélkül). Prémium Kährs sorozatok 34 000–48 000 Ft/m² (nem számítva). Outlet Barlinek 14 490 Ft/m² (maxparketta.hu) is előfordul."
+  },
+  "laminalt-padlo": {
+    "egyseg": "Ft/m²",
+    "min": 2700,
+    "max": 8000,
+    "atlag": 4600,
+    "variansok": [
+      {"nev": "Egger 7–8 mm AC4 (K32) alap", "ar": 3300, "egyseg": "Ft/m²"},
+      {"nev": "Egger 8 mm AC4 Nature Sense (OBI)", "ar": 4699, "egyseg": "Ft/m²"},
+      {"nev": "Vízálló laminált 8 mm (Aqua)", "ar": 6300, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Egger MFM Skee tölgy 8 mm laminált padló 1291×135×8 mm K32", "ar": 2699, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/egger-mfm-skee-tolgy-8mm-laminalt-padlo-1291x135x8mm-1-39nm/cs-k32/p/316262", "ellenorizve": "2026-09-24", "megjegyzes": "3 752 Ft/csomag (1,39 m²)"},
+      {"bolt": "Praktiker", "termek": "Egger Natursense Északi natúr tölgy 7 mm / Bardolino szürke tölgy 8 mm", "ar": 2999, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/c/303", "ellenorizve": "2026-09-24", "megjegyzes": "7 mm 2 999; 8 mm Bardolino 3 699; Easystep Aqua vízálló 8 mm 4 999–6 299; Egger Perganti dió vízálló 7 999 Ft/m²"},
+      {"bolt": "Praktiker", "termek": "Egger basic laminált padló rusztikus fehér 8 mm AC4 (32)", "ar": 3999, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/padloburkolat/laminalt-padlo/egger-basic-laminalt-padlo-rusztfeher8mm-1291x193x8mm-1-99nm/cs-k32/p/333417", "ellenorizve": "2026-09-24", "megjegyzes": "akciós, eredeti 4 499 Ft/m²"},
+      {"bolt": "OBI", "termek": "Egger Laminált padló Nature Sense Barna Loja Tölgy 1292×193×8 mm", "ar": 4699, "egyseg": "Ft/m²", "url": "https://www.obi.hu/laminalt-padlok-vinylpadlok-parkettak/laminalt-padlok/c/514", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Parkettanagyker", "termek": "Laminált padló (kategória)", "ar": 4899, "egyseg": "Ft/m²", "url": "https://parkettanagyker.hu/parketta/laminalt-padlo-1/by,category_name/results,409-432", "ellenorizve": "2026-09-24", "megjegyzes": "fogyasztói ár, konkrét termék a kivonatból nem azonosítható – csak tájékoztató"}
+    ],
+    "megjegyzes": "7–8 mm AC4 alaptermékek 2 700–4 000, közép 4 500–5 000, vízálló/AC5 6 000–8 000 Ft/m². Az oldal becslése (2 500–7 000) jó, a felső határ kissé emelhető."
+  },
+  "vinyl-padlo": {
+    "egyseg": "Ft/m²",
+    "min": 6500,
+    "max": 12500,
+    "atlag": 8600,
+    "variansok": [
+      {"nev": "SPC klikkes vinyl 4 mm (Bauhaus alap)", "ar": 7490, "egyseg": "Ft/m²"},
+      {"nev": "Click vinyl Kolding tölgy hangszigeteléssel (OBI)", "ar": 8899, "egyseg": "Ft/m²"},
+      {"nev": "Decoflooring Click vinyl Narvik tölgy (OBI)", "ar": 12490, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Árukereső (több bolt)", "termek": "SPC vinyl padló 4 mm SPC maggal, 1,976 m²/csomag", "ar": 6590, "egyseg": "Ft/m²", "url": "https://padlo.arukereso.hu", "ellenorizve": "2026-09-24", "megjegyzes": "-tól ár árösszehasonlítóról; bolt nem azonosított"},
+      {"bolt": "Bauhaus", "termek": "SPC vinyl padló világos Sierra tölgy 1220×229×4 mm, 2,235 m²", "ar": 7490, "egyseg": "Ft/m²", "url": "https://www.bauhaus.hu/vinyl-padlo/spc-vinyl-padlo-vilagos-sierra-tolgy-1220x229x4mm-2-235m2/32530412.html", "ellenorizve": "2026-09-24", "megjegyzes": "16 740 Ft/karton"},
+      {"bolt": "OBI", "termek": "Click vinyl padló Kolding tölgy hangszigeteléssel", "ar": 8899, "egyseg": "Ft/m²", "url": "https://www.obi.hu/search/spc%20padl%C3%B3", "ellenorizve": "2026-09-24", "megjegyzes": "23 449 Ft/eladási egység; a vinyl kategóriaoldalon ugyanez 9 299 Ft/m² (eltérő kiszerelés/időpont)"},
+      {"bolt": "OBI", "termek": "Decoflooring Click Vinyl padló Narvik tölgy", "ar": 12490, "egyseg": "Ft/m²", "url": "https://www.obi.hu/magazin/epites/padlo/vinylpadlo-lerakasa", "ellenorizve": "2026-09-24", "megjegyzes": "27 915 Ft/eladási egység"}
+    ],
+    "megjegyzes": "Klikkes SPC/LVT 6 500–12 500 Ft/m², jellemzően 7 500–9 000. Olcsó ragasztós LVT (3 000–5 000 Ft/m²) valószínűleg létezik, de megbízható, ellenőrzött árat nem találtunk – a min ezért 6 500."
+  },
+  "sorolap": {
+    "egyseg": "Ft/m²",
+    "min": 3300,
+    "max": 13000,
+    "atlag": 6500,
+    "variansok": [
+      {"nev": "Kültéri fagyálló gres 33×33 (alap)", "ar": 3300, "egyseg": "Ft/m²"},
+      {"nev": "Kültéri fagyálló gres 30×60 / 31×62", "ar": 6500, "egyseg": "Ft/m²"},
+      {"nev": "2 cm vastag kültéri teraszlap 60×60", "ar": 12990, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Dubai kültéri fagyálló 33×33 cm gres padlólap (vörös/bézs)", "ar": 3299, "egyseg": "Ft/m²", "url": "https://www.praktiker.hu/epites-felujitas/hidegburkolat-es-tartozek/kulteri-padlolap-jarolap/c/291", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt: Cersanit Helios 30×30 R10 4 499; Mantova 30×60 6 999; Roma Beige 31×62 6 499 Ft/m²"},
+      {"bolt": "Kincsem Csempe", "termek": "Bel- és kültéri padlólap 33,3×33,3 cm", "ar": 4490, "egyseg": "Ft/m²", "url": "https://www.kincsemcsempe.hu/Kulteri_jarolapok", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Csempevásár", "termek": "Kültéri fagyálló csúszásmentes gres járólap", "ar": 6070, "egyseg": "Ft/m²", "url": "https://www.csempevasar.hu/burkolat-138/padlolap-140/kulteri-padlolap-221", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Dreamstore", "termek": "2 cm-es kültéri burkolólap (LUNART Liberta)", "ar": 9990, "egyseg": "Ft/m²", "url": "https://dreamstore.hu/hidegburkolatok/kulteri-hidegburkolatok-2351/2-cm-es-kulteri-burkolatok-3662", "ellenorizve": "2026-09-24", "megjegyzes": "-tól ár; felső vég 28 590 Ft/m²"},
+      {"bolt": "Terasz-Burkolat", "termek": "Ragno MyStone Gris Fleury 20 Bianco rett. 60×60 2 cm", "ar": 12990, "egyseg": "Ft/m²", "url": "https://terasz-burkolat.hu/teraszburkolatok/2-cm-es-burkolatok", "ellenorizve": "2026-09-24", "megjegyzes": ""}
+    ],
+    "megjegyzes": "A 'sörolap' kifejezésre egyetlen bolt sem ad találatot; kültéri fagyálló kerámia/gres padlólapként kezeltük. Hagyományos 8–10 mm-es kültéri gres 3 300–7 000, 2 cm-es teraszlap 10 000–16 000 Ft/m² (Profil Store Cersanit Quenos 15 700; metrocsempeshop 16 700). Klinker (Gail stb.) árat nem ellenőriztünk."
+  }
+}

@@ -1,17 +1,27 @@
 {
   "anyag_id": "galvanizalt-anyascsavar",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1000,
-    "max": 3000,
-    "atlag": 2000,
-    "egyseg": "Ft/egység"
+    "min": 2450,
+    "max": 3850,
+    "atlag": 3080,
+    "egyseg": "Ft/csomag (50 db)"
   },
   "variansok": [
     {
-      "nev": "Alap változat",
-      "ar": 2000,
-      "egyseg": "Ft/egység"
+      "nev": "M8×60 8.8 horganyzott csavar (1 kg-os tétel) + anya, 50 db-ra vetítve",
+      "ar": 2450,
+      "egyseg": "Ft/50 garnitúra"
+    },
+    {
+      "nev": "M8×60 DIN933 8.8 horganyzott (darabáras) + anya, 50 db",
+      "ar": 2930,
+      "egyseg": "Ft/50 garnitúra"
+    },
+    {
+      "nev": "M8×60 DIN933 8.8 horganyzott (Mesterközpont) + anya, 50 db",
+      "ar": 3850,
+      "egyseg": "Ft/50 garnitúra"
     }
   ],
   "varos_szorzok": {
@@ -38,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Anyáscsavar 2026-ban?",
-      "valasz": "A(z) Anyáscsavar ára 2026-ban 1 000 – 3 000 Ft/egység között mozog, az átlagár 2 000 Ft/egység."
+      "kerdes": "Mennyibe kerül az anyáscsavar 2026-ban?",
+      "valasz": "Anyáscsavar ára 2026 szeptemberében 2 450–3 850 Ft/csomag (50 db), a boltok átlagára 3 080 Ft/csomag (50 db) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: M8×60 8.8 horganyzott csavar (1 kg-os tétel) + anya, 50 db-ra vetítve (2 450 Ft), a legdrágább: M8×60 DIN933 8.8 horganyzott (Mesterközpont) + anya, 50 db (3 850 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón anyáscsavart venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az anyáscsavar árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Mesterellátó, Mesterközpont, LMNT, Allegro), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi anyáscsavar kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az anyáscsavar ára?",
+      "valasz": "M8×60 horganyzott hatlapfejű csavar anyával, 50 garnitúrára számolva."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj anyáscsavar vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Mesterellátó",
+      "termek": "Hatlapfejű tövigmenetes csavar M8×60 8.8 DIN 933 horganyzott",
+      "ar": 49,
+      "egyseg": "Ft/db",
+      "url": "https://mesterellato.hu/Hatlapfeju-tovigmenetes-csavar-M8x60-8-8-DIN-933-h",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "48,6 Ft/db"
+    },
+    {
+      "bolt": "Mesterközpont",
+      "termek": "Hatlapfejű tövigmenetes csavar 8.8 M8×60 DIN 933 horganyzott",
+      "ar": 67,
+      "egyseg": "Ft/db",
+      "url": "https://www.mesterkozpont.hu/htl-tm-csavar-88-m8x60-din-933-933860-23926",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "LMNT",
+      "termek": "Hatlapú anya DIN934 horganyzott M8",
+      "ar": 10,
+      "egyseg": "Ft/db",
+      "url": "https://www.lmnt.hu/hatlapfeju-tovigmenetes-csavar-din933-58-m840-649",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 8 Ft"
+    },
+    {
+      "bolt": "Allegro (piactér)",
+      "termek": "Csavar M8×60 hatlapfejű horganyzott DIN 933 kl. 8.8, 1 kg",
+      "ar": 39,
+      "egyseg": "Ft/db",
+      "url": "https://allegro.hu/termek/m8x60-hatlapfeju-csavar-horganyzott-din933-kl-8-8-1kg-a355e3cc-bb14-4ecd-96b5-561706276be0",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "1555 Ft/1 kg"
+    }
+  ],
+  "megjegyzes": "M8×60 horganyzott hatlapfejű csavar anyával, 50 garnitúrára számolva.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

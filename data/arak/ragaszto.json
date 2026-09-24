@@ -1,26 +1,26 @@
 {
   "anyag_id": "ragaszto",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 600,
-    "max": 1500,
-    "atlag": 900,
+    "min": 2290,
+    "max": 13790,
+    "atlag": 6500,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "Normál csemperagasztó",
-      "ar": 650,
+      "nev": "C1T alap csemperagasztó (pl. Stone Basic, Baumit One) 25 kg",
+      "ar": 2500,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Flex ragasztó C2",
-      "ar": 1000,
+      "nev": "Ceresit CM 11 Plus (C1T, fagyálló) 25 kg",
+      "ar": 5045,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Prémium S2 flex",
-      "ar": 1450,
+      "nev": "Ceresit CM 17 / Mapei Keraflex S1 flex (C2TE S1) 25 kg",
+      "ar": 10850,
       "egyseg": "Ft/zsák (25 kg)"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Csemperagasztó 2026-ban?",
-      "valasz": "A(z) Csemperagasztó ára 2026-ban 600 – 1 500 Ft/zsák (25 kg) között mozog, az átlagár 900 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül a csemperagasztó 2026-ban?",
+      "valasz": "Csemperagasztó ára 2026 szeptemberében 2 290–13 790 Ft/zsák (25 kg), a boltok átlagára 6 500 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: C1T alap csemperagasztó (pl. Stone Basic, Baumit One) 25 kg (2 500 Ft), a legdrágább: Ceresit CM 17 / Mapei Keraflex S1 flex (C2TE S1) 25 kg (10 850 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón csemperagasztót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a csemperagasztó árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Bauhaus, OBI, HelloMester Kecskemét, Burkolóáruház), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi csemperagasztó kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a csemperagasztó ára?",
+      "valasz": "Nagy a különbség a típusok között: C1 alapragasztó 2 300–2 600, flexibilis S1 ragasztó 10 000–13 800 Ft / 25 kg."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj csemperagasztó vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Bauhaus",
+      "termek": "CERESIT CM11 PLUS fagyálló csemperagasztó 25 kg",
+      "ar": 4890,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.bauhaus.hu/csemperagaszto/ceresit-cm11-plus-fagyallo-csemperagaszto-25kg/23827464.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "196 Ft/kg"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Ceresit csempe- és padlóragasztó CM 11 Plus 25 kg",
+      "ar": 5200,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.obi.hu/csemperagasztok/ceresit-csempe-es-padloragaszto-cm-11-plus-25kg/p/2916450",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: az oldalon 208 Ft/kg egységár × 25 kg"
+    },
+    {
+      "bolt": "HelloMester Kecskemét",
+      "termek": "Baumit One 25 kg burkolatragasztó",
+      "ar": 2690,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://hellomester.hu/termekkategoria/zsakos-anyag/csemperagaszto",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt Stone Basic C1T 2290 Ft/zsák"
+    },
+    {
+      "bolt": "Burkolóáruház",
+      "termek": "Ceresit CM 17 S1 szálerősített flexibilis csemperagasztó 25 kg",
+      "ar": 10895,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.burkoloaruhaz.hu/ceresit-cm17-szalerositett-flexibilis-csemperagaszto-25kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Kolorfull",
+      "termek": "Mapei Keraflex Easy S1 csemperagasztó szürke 25 kg",
+      "ar": 13790,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://kolorfull.hu/portermekek/csemperagaszto-c0601.html?p=2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "prémium S1"
+    }
+  ],
+  "megjegyzes": "Nagy a különbség a típusok között: C1 alapragasztó 2 300–2 600, flexibilis S1 ragasztó 10 000–13 800 Ft / 25 kg.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,27 +1,27 @@
 {
   "anyag_id": "szilikon",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 700,
-    "max": 2000,
-    "atlag": 1200,
-    "egyseg": "Ft/db (310 ml)"
+    "min": 2999,
+    "max": 4990,
+    "atlag": 3600,
+    "egyseg": "Ft/db (280–310 ml)"
   },
   "variansok": [
     {
-      "nev": "Víztiszta szilikon",
-      "ar": 750,
+      "nev": "Soudal Szaniter STOP szilikon 280 ml",
+      "ar": 2999,
+      "egyseg": "Ft/db (280 ml)"
+    },
+    {
+      "nev": "Pattex penészálló szaniter szilikon 310 ml",
+      "ar": 3499,
       "egyseg": "Ft/db (310 ml)"
     },
     {
-      "nev": "Szaniter szilikon",
-      "ar": 1200,
-      "egyseg": "Ft/db (310 ml)"
-    },
-    {
-      "nev": "Prémium UV-álló",
-      "ar": 1900,
-      "egyseg": "Ft/db (310 ml)"
+      "nev": "Ceresit CS 25 szaniter szilikon 280 ml",
+      "ar": 4690,
+      "egyseg": "Ft/db (280 ml)"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Szilikon tömítő 2026-ban?",
-      "valasz": "A(z) Szilikon tömítő ára 2026-ban 700 – 2 000 Ft/db (310 ml) között mozog, az átlagár 1 200 Ft/db (310 ml)."
+      "kerdes": "Mennyibe kerül a szilikon tömítő 2026-ban?",
+      "valasz": "Szilikon tömítő ára 2026 szeptemberében 2 999–4 990 Ft/db (280–310 ml), a boltok átlagára 3 600 Ft/db (280–310 ml) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Soudal Szaniter STOP szilikon 280 ml (2 999 Ft), a legdrágább: Ceresit CS 25 szaniter szilikon 280 ml (4 690 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón szilikon tömítőt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a szilikon tömítő árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, OBI, Mesterek Futára, ANDA Festékáruház), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi szilikon tömítő kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a szilikon tömítő ára?",
+      "valasz": "A márkás szilikonok többsége 280 ml-es kartusban kapható."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj szilikon tömítő vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Pattex penészálló szaniter szilikon fehér 310 ml",
+      "ar": 3499,
+      "egyseg": "Ft/db (310 ml)",
+      "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/szilikon/c/1101",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Soudal Szaniter STOP szilikon 280 ml szürke",
+      "ar": 2999,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/szilikon/soudal-szaniter-stop-szilikon-280ml-szurke/p/437381",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "10 711 Ft/l"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Univerzális szilikon Soudal 280 ml",
+      "ar": 3299,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://www.obi.hu/hidegburkolatok-tartozekai/szilikon-akril/c/317",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "11 782 Ft/l"
+    },
+    {
+      "bolt": "Mesterek Futára",
+      "termek": "Ceresit CS 25 Szaniter szilikon transzparens 280 ml",
+      "ar": 3443,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://mesterekfutara.hu/webshop/ceresit-cs-25-szaniter-szilikon",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós (eredeti 3742 Ft)"
+    },
+    {
+      "bolt": "ANDA Festékáruház",
+      "termek": "Ceresit CS 25 szaniter szilikon 12 cementszürke 280 ml",
+      "ar": 4690,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://www.anda.hu/szilikonok/ceresit-cs-25-szaniter-szilikon-12-cementszurke-280-ml-110016-p110016.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "színes változatok 4990 Ft-ig"
+    }
+  ],
+  "megjegyzes": "A márkás szilikonok többsége 280 ml-es kartusban kapható.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

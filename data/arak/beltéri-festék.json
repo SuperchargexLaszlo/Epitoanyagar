@@ -1,26 +1,26 @@
 {
   "anyag_id": "beltéri-festék",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 800,
-    "max": 3500,
-    "atlag": 1800,
+    "min": 699,
+    "max": 1966,
+    "atlag": 1050,
     "egyseg": "Ft/liter"
   },
   "variansok": [
     {
-      "nev": "Alap latex fehér",
-      "ar": 850,
+      "nev": "Héra belső falfesték fehér 15 l",
+      "ar": 699,
       "egyseg": "Ft/liter"
     },
     {
-      "nev": "Mosható latex",
-      "ar": 1800,
+      "nev": "Poli-Farbe Inntaler Prémium belső falfesték fehér 15 l",
+      "ar": 953,
       "egyseg": "Ft/liter"
     },
     {
-      "nev": "Prémium supermatt",
-      "ar": 3400,
+      "nev": "Poli-Farbe Platinum hófehér beltéri falfesték 15 l",
+      "ar": 1935,
       "egyseg": "Ft/liter"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Beltéri festék 2026-ban?",
-      "valasz": "A(z) Beltéri festék ára 2026-ban 800 – 3 500 Ft/liter között mozog, az átlagár 1 800 Ft/liter."
+      "kerdes": "Mennyibe kerül a beltéri festék 2026-ban?",
+      "valasz": "Beltéri festék ára 2026 szeptemberében 699–1 966 Ft/liter, a boltok átlagára 1 050 Ft/liter (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Héra belső falfesték fehér 15 l (699 Ft), a legdrágább: Poli-Farbe Platinum hófehér beltéri falfesték 15 l (1 935 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón beltéri festékt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a beltéri festék árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Bauhaus, OBI, Kőházy, Bíbor Festék), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi beltéri festék kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a beltéri festék ára?",
+      "valasz": "15 l-es fehér diszperziós festék 700–950 Ft/l, prémium mosható 1 900–2 000 Ft/l. Színkevert és kis kiszerelés drágább."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj beltéri festék vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Bauhaus",
+      "termek": "HÉRA beltéri falfesték fehér 15 l",
+      "ar": 699,
+      "egyseg": "Ft/l",
+      "url": "https://www.bauhaus.hu/belteri-festek/hera-belteri-falfestek-feher-15l/29701195.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "10 490 Ft / 15 l"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Poli-Farbe Inntaler Premium beltéri diszperziós falfesték fehér 15 l",
+      "ar": 699,
+      "egyseg": "Ft/l",
+      "url": "https://www.obi.hu/belteri-falfestekek/feher-falfestekek/c/2993",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 10 490 Ft / 15 l (kategórialistából)"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Inntaler Prémium belső falfesték fehér 15 liter",
+      "ar": 953,
+      "egyseg": "Ft/l",
+      "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 14 289 Ft / 15 l; ugyanitt Héra belső 15 l 11 279 Ft (752 Ft/l)"
+    },
+    {
+      "bolt": "Bíbor Festék",
+      "termek": "Poli-Farbe Platinum Hófehér beltéri falfesték 15 l",
+      "ar": 1935,
+      "egyseg": "Ft/l",
+      "url": "https://www.biborfestek.hu/lemoshato-falfestek-polifarbe",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "29 020 Ft / 15 l"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Dulux Acryl Matt fehér falfesték 3 l",
+      "ar": 1966,
+      "egyseg": "Ft/l",
+      "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 5899 Ft / 3 l"
+    }
+  ],
+  "megjegyzes": "15 l-es fehér diszperziós festék 700–950 Ft/l, prémium mosható 1 900–2 000 Ft/l. Színkevert és kis kiszerelés drágább.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

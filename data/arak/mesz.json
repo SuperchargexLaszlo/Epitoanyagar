@@ -1,26 +1,26 @@
 {
   "anyag_id": "mész",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 800,
-    "max": 1400,
-    "atlag": 1100,
+    "min": 1880,
+    "max": 3090,
+    "atlag": 2480,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "Oltott mész",
-      "ar": 900,
+      "nev": "Oltott mész 25 kg (tüzépi alapár)",
+      "ar": 1925,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Égetett mész",
-      "ar": 1200,
+      "nev": "Oltott mész / mészhidrát 25 kg (webshop átlag)",
+      "ar": 2940,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Meszes kötőanyag",
-      "ar": 1000,
+      "nev": "Mészhidrát 25 kg, prémium márka (Horváth)",
+      "ar": 5200,
       "egyseg": "Ft/zsák (25 kg)"
     }
   ],
@@ -48,24 +48,118 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Mész 2026-ban?",
-      "valasz": "A(z) Mész ára 2026-ban 800 – 1 400 Ft/zsák (25 kg) között mozog, az átlagár 1 100 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül a mész 2026-ban?",
+      "valasz": "Mész ára 2026 szeptemberében 1 880–3 090 Ft/zsák (25 kg), a boltok átlagára 2 480 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Oltott mész 25 kg (tüzépi alapár) (1 925 Ft), a legdrágább: Mészhidrát 25 kg, prémium márka (Horváth) (5 200 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón mészt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a mész árai?",
+      "valasz": "9 magyar kereskedő nyilvános, bruttó árából (Tímár Vasker, epitoanyag.hu, Kincsem Áruház, Újház Buildox), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi mész kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a mész ára?",
+      "valasz": "Oltott mész / mészhidrát 25 kg-os zsákban."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj mész vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tímár Vasker",
+      "termek": "Mész oltott 25 kg",
+      "ar": 1905,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://timarvasker.hu/mesz-oltott-25kg/t",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Oltott mész 25 kg BIG-BAG zsákos",
+      "ar": 1880,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://epitoanyag.hu/oltott-mesz-25-kg-big-bag-zsakos-pTcOJU1pSWlMyNUJJRw_eq2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, 75 Ft/kg; a találat szerint jelenleg nem rendelhető"
+    },
+    {
+      "bolt": "Kincsem Áruház",
+      "termek": "Mész 25 kg/zsák",
+      "ar": 1990,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.kincsemaruhaz.hu/Mesz-25-kg-zsak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, csak üzletben"
+    },
+    {
+      "bolt": "Újház Buildox (Nyíregyháza)",
+      "termek": "Oltott mész 25 kg/zsák",
+      "ar": 2275,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.buildox.hu/Oltott-mesz-25-kg-zsak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "91 Ft/kg bruttó egységárból számolva (×25)"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Oltott mész 25kg (Szivek, Piliscsév)",
+      "ar": 2756,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://marteamtuzep.hu/termek/oltott-mesz-25kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó"
+    },
+    {
+      "bolt": "Winkler Tüzép",
+      "termek": "Mészhidrát (zsák)",
+      "ar": 2980,
+      "egyseg": "Ft/zsák",
+      "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó, akciós 2820 Ft; a kiszerelés (kg) nincs feltüntetve, valószínűleg 25 kg"
+    },
+    {
+      "bolt": "Festékcsodák",
+      "termek": "Oltott mész 25kg/zsák",
+      "ar": 2980,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.festekcsodak.com/oltott-mesz-25kg-zsak-kaloda-40zsak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 2346)"
+    },
+    {
+      "bolt": "Pergeépker",
+      "termek": "Mész oltott zsákos 25kg",
+      "ar": 3090,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.pergeepker.hu/Otott-mesz-meszhidrat",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "MÉSZHIDRÁT 25KG (Horváth)",
+      "ar": 5200,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://epitoanyag.hu/meszhidrat-25-kg-pTcOJU1pISURSw4FUMjU_eq1",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, prémium márka, kiugró érték, a sávba nem számoltam bele"
+    }
+  ],
+  "megjegyzes": "Oltott mész / mészhidrát 25 kg-os zsákban.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

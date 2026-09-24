@@ -100,3 +100,18 @@ Formátum: `[DÁTUM] [SPRINT-X] LEÍRÁS`
 - S6.8: CHANGELOG végleges frissítés
 
 **ÁLLAPOT: DEPLOY-READY**
+
+---
+
+## 2026-09-24 Valós, forrásolt árak + „Építőanyag árak alakulása 2026” oldal
+
+- GSC (jún–szept): a főoldal viszi a „cement árak 2026” (564 megj., 2,4. hely), „építőanyag árak alakulása 2026” (72 megj., 5,7. hely), „betonacél ár kg 2026 magyarország” kereséseket → a főoldalra ártábla + KSH-összefoglaló került.
+- Árak: mind a 69 anyag új, 2026-09-24-i bruttó bolti árat kapott, anyagonként 3–10 kereskedői forrással (URL). Nyers kutatás: `scraper/research/prices_g1..g4.json`, beolvasztó: `scraper/merge_prices.py`. A régi becslés sok anyagnál 2–5× alacsony volt (beton, tégla, Porotherm, Ytong, zsalukő, szigetelések, OSB).
+- Anyagoldalak: forrástáblázat, anyagspecifikus ármegjegyzés, új FAQ-k; cement / OSB / betonacél kézi szövegei új árakkal.
+- Városi oldalak: „becsült” jelölés, a szorzó módszertana kiírva.
+- Új oldal: `/epitoanyag-arak-alakulasa/` – KSH lakásépítési költségindex (18.1.1.11, 18.2.1.7), építőipari termelői árindex, szakágazati termelői árak (1.2.1.23), fogyasztói ár 04.3.1, fajlagos költség; 2 SVG grafikon, forráslista. Adat: `data/statisztika.json`, KSH-nyers: `scraper/research/ksh.json`.
+- `scraper.py`: a `frissitve` dátum csak tényleges árváltozásnál íródik át (eddig minden hónapban, változatlan árakkal is). `generate_data.py` csak `--force`-szal írja felül az árakat.
+- Korábbi, még nem commitolt munka is bekerült: sitemap lastmod, 404 noindex, ékezet nélküli betonacél URL-ek 301-e (`_redirects`).
+- Build: 1480 oldal, 0 hiba.
+
+**Következő:** 2026-09-29-én jön a KSH lakásépítési költségindex 2026 II. negyedéve → `data/statisztika.json` frissítése.

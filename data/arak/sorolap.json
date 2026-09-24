@@ -1,26 +1,26 @@
 {
   "anyag_id": "sorolap",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3000,
-    "max": 9000,
-    "atlag": 5500,
+    "min": 3300,
+    "max": 13000,
+    "atlag": 6500,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Klinker 30×30",
-      "ar": 3200,
+      "nev": "Kültéri fagyálló gres 33×33 (alap)",
+      "ar": 3300,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Gres kültéri 40×40",
-      "ar": 5500,
+      "nev": "Kültéri fagyálló gres 30×60 / 31×62",
+      "ar": 6500,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "Prémium 60×60",
-      "ar": 8500,
+      "nev": "2 cm vastag kültéri teraszlap 60×60",
+      "ar": 12990,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Sörolap (kerámia) 2026-ban?",
-      "valasz": "A(z) Sörolap (kerámia) ára 2026-ban 3 000 – 9 000 Ft/m² között mozog, az átlagár 5 500 Ft/m²."
+      "kerdes": "Mennyibe kerül a sörolap (kerámia) 2026-ban?",
+      "valasz": "Sörolap (kerámia) ára 2026 szeptemberében 3 300–13 000 Ft/m², a boltok átlagára 6 500 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Kültéri fagyálló gres 33×33 (alap) (3 300 Ft), a legdrágább: 2 cm vastag kültéri teraszlap 60×60 (12 990 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón sörolap (kerámia)t venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a sörolap (kerámia) árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, Kincsem Csempe, Csempevásár, Dreamstore), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi sörolap (kerámia) kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a sörolap (kerámia) ára?",
+      "valasz": "Kültéri, fagyálló gres/kerámia lap. 8–10 mm vastag 3 300–7 000 Ft/m², a 2 cm-es teraszlap 10 000–16 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj sörolap (kerámia) vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Dubai kültéri fagyálló 33×33 cm gres padlólap (vörös/bézs)",
+      "ar": 3299,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/hidegburkolat-es-tartozek/kulteri-padlolap-jarolap/c/291",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt: Cersanit Helios 30×30 R10 4 499; Mantova 30×60 6 999; Roma Beige 31×62 6 499 Ft/m²"
+    },
+    {
+      "bolt": "Kincsem Csempe",
+      "termek": "Bel- és kültéri padlólap 33,3×33,3 cm",
+      "ar": 4490,
+      "egyseg": "Ft/m²",
+      "url": "https://www.kincsemcsempe.hu/Kulteri_jarolapok",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Csempevásár",
+      "termek": "Kültéri fagyálló csúszásmentes gres járólap",
+      "ar": 6070,
+      "egyseg": "Ft/m²",
+      "url": "https://www.csempevasar.hu/burkolat-138/padlolap-140/kulteri-padlolap-221",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Dreamstore",
+      "termek": "2 cm-es kültéri burkolólap (LUNART Liberta)",
+      "ar": 9990,
+      "egyseg": "Ft/m²",
+      "url": "https://dreamstore.hu/hidegburkolatok/kulteri-hidegburkolatok-2351/2-cm-es-kulteri-burkolatok-3662",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "-tól ár; felső vég 28 590 Ft/m²"
+    },
+    {
+      "bolt": "Terasz-Burkolat",
+      "termek": "Ragno MyStone Gris Fleury 20 Bianco rett. 60×60 2 cm",
+      "ar": 12990,
+      "egyseg": "Ft/m²",
+      "url": "https://terasz-burkolat.hu/teraszburkolatok/2-cm-es-burkolatok",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "Kültéri, fagyálló gres/kerámia lap. 8–10 mm vastag 3 300–7 000 Ft/m², a 2 cm-es teraszlap 10 000–16 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

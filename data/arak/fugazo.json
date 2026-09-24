@@ -1,26 +1,26 @@
 {
   "anyag_id": "fugazo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 600,
-    "max": 2500,
-    "atlag": 1200,
+    "min": 916,
+    "max": 1995,
+    "atlag": 1520,
     "egyseg": "Ft/kg"
   },
   "variansok": [
     {
-      "nev": "Cement alapú normál",
-      "ar": 650,
+      "nev": "Mapei Ultracolor Plus 5 kg (flex)",
+      "ar": 1458,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "Cement alapú vízálló",
-      "ar": 1200,
+      "nev": "Mapei Keracolor FF Flex 2 kg",
+      "ar": 1652,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "Epoxi fugázó",
-      "ar": 2400,
+      "nev": "Ceresit CE 40 Aquastatic 2 kg",
+      "ar": 1711,
       "egyseg": "Ft/kg"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Fugázó 2026-ban?",
-      "valasz": "A(z) Fugázó ára 2026-ban 600 – 2 500 Ft/kg között mozog, az átlagár 1 200 Ft/kg."
+      "kerdes": "Mennyibe kerül a fugázó 2026-ban?",
+      "valasz": "Fugázó ára 2026 szeptemberében 916–1 995 Ft/kg, a boltok átlagára 1 520 Ft/kg (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Mapei Ultracolor Plus 5 kg (flex) (1 458 Ft), a legdrágább: Ceresit CE 40 Aquastatic 2 kg (1 711 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón fugázót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a fugázó árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (ANDA Festékáruház, Mesterek Futára, Bau92 webshop, Marteam Tüzép), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi fugázó kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a fugázó ára?",
+      "valasz": "5 kg-os kiszerelésben kg-onként 1 250–1 600, 2 kg-osban 1 650–2 000 Ft. Epoxi fugázó ennél drágább."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj fugázó vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "ANDA Festékáruház",
+      "termek": "Ceresit CE 40 aquastatic fugázó 16 graphite 2 kg",
+      "ar": 1995,
+      "egyseg": "Ft/kg",
+      "url": "https://www.anda.hu/fugazok/ceresit-ce-40-aquastatic-fugazo-16-graphite-2-kg-113031-p113031.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "oldalon feltüntetett egységár"
+    },
+    {
+      "bolt": "Mesterek Futára",
+      "termek": "Ceresit CE 40 aquastatic fehér 2 kg",
+      "ar": 1711,
+      "egyseg": "Ft/kg",
+      "url": "https://mesterekfutara.hu/webshop/ceresit-ce-40-aquastatic",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 3422 Ft (akciós) / 2 kg"
+    },
+    {
+      "bolt": "Bau92 webshop",
+      "termek": "Mapei ULTRACOLOR Plus fugázó 100 fehér 5 kg",
+      "ar": 1246,
+      "egyseg": "Ft/kg",
+      "url": "https://webshop.bau92.hu/mapei-ultracolor-plus-fugazo-100-feher-5kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 6230 Ft / 5 kg"
+    },
+    {
+      "bolt": "Marteam Tüzép",
+      "termek": "MAPEI Ultracolor Plus fugázóhabarcs 100 fehér 5 kg",
+      "ar": 1582,
+      "egyseg": "Ft/kg",
+      "url": "https://marteamtuzep.hu/termek/mapei-ultracolor-plus",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 7912 Ft / 5 kg"
+    },
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Mapei Ultracolor Plus fugázó 100 fehér 5 kg",
+      "ar": 916,
+      "egyseg": "Ft/kg",
+      "url": "https://epitoanyag.hu/mapei-ultracolor-plus-fugazo-100-feher-5-kg-pVUgtMDkzNDg2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "4580 Ft/5 kg – feltűnően alacsony, valószínűleg akció; ugyanitt Keracolor FF 2 kg 3305 Ft (1652 Ft/kg)"
+    }
+  ],
+  "megjegyzes": "5 kg-os kiszerelésben kg-onként 1 250–1 600, 2 kg-osban 1 650–2 000 Ft. Epoxi fugázó ennél drágább.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

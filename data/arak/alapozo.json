@@ -1,26 +1,26 @@
 {
   "anyag_id": "alapozó",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 400,
-    "max": 1500,
-    "atlag": 800,
+    "min": 1002,
+    "max": 2840,
+    "atlag": 1650,
     "egyseg": "Ft/liter"
   },
   "variansok": [
     {
-      "nev": "Mélyalapozó",
-      "ar": 450,
-      "egyseg": "Ft/liter"
-    },
-    {
-      "nev": "Kontaktalapozó",
-      "ar": 850,
-      "egyseg": "Ft/liter"
-    },
-    {
-      "nev": "Kültéri tapadóhíd",
+      "nev": "Sakret univerzális alapozó és tapadóhíd 5 L",
       "ar": 1400,
+      "egyseg": "Ft/liter"
+    },
+    {
+      "nev": "Prima Fixatív mélyalapozó 1 L",
+      "ar": 1529,
+      "egyseg": "Ft/liter"
+    },
+    {
+      "nev": "Ceresit CT 17 mélyalapozó 5 L",
+      "ar": 1858,
       "egyseg": "Ft/liter"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Alapozó 2026-ban?",
-      "valasz": "A(z) Alapozó ára 2026-ban 400 – 1 500 Ft/liter között mozog, az átlagár 800 Ft/liter."
+      "kerdes": "Mennyibe kerül az alapozó 2026-ban?",
+      "valasz": "Alapozó ára 2026 szeptemberében 1 002–2 840 Ft/liter, a boltok átlagára 1 650 Ft/liter (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Sakret univerzális alapozó és tapadóhíd 5 L (1 400 Ft), a legdrágább: Ceresit CT 17 mélyalapozó 5 L (1 858 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón alapozót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az alapozó árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (OBI, HelloMester, Kőházy, Allegro), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi alapozó kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az alapozó ára?",
+      "valasz": "5 l-es kiszerelésben literenként 1 000–1 900 Ft, 1 l-esben 1 500–2 850 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj alapozó vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "OBI",
+      "termek": "Sakret univerzális alapozó és tapadóhíd 5 L AGR",
+      "ar": 1400,
+      "egyseg": "Ft/l",
+      "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "6999 Ft / 5 l (listában 1400 Ft/l); 1 L-es: 1699 Ft"
+    },
+    {
+      "bolt": "HelloMester",
+      "termek": "Ceresit CT 17 Universal mélyalapozó 5 l",
+      "ar": 1858,
+      "egyseg": "Ft/l",
+      "url": "https://hellomester.hu/termek/ceresit-univerzalis-alapozo-ct-17-universal-5-l",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 9290 Ft / 5 l"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Prima Fixatív mélyalapozó 1 L",
+      "ar": 1529,
+      "egyseg": "Ft/l",
+      "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher/hera-belso-falfestek-15-l-feher",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "kapcsolódó termékként; ugyanitt Falfix diszperziós mélyalapozó 1 L 2840 Ft"
+    },
+    {
+      "bolt": "Allegro (piactér)",
+      "termek": "Ceresit CT 17 mélyalapozó 5 L",
+      "ar": 1002,
+      "egyseg": "Ft/l",
+      "url": "https://allegro.hu/termek/melyalapozo-ceresit-ct17-5l-gyors-ceb91c0d-3e55-4322-93df-5d4d26607f0f",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "5010 Ft / 5 l, piactéri ár"
+    }
+  ],
+  "megjegyzes": "5 l-es kiszerelésben literenként 1 000–1 900 Ft, 1 l-esben 1 500–2 850 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

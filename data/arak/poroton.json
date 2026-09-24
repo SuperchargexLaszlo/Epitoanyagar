@@ -1,26 +1,26 @@
 {
   "anyag_id": "poroton",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 280,
-    "max": 550,
-    "atlag": 380,
+    "min": 591,
+    "max": 1500,
+    "atlag": 1060,
     "egyseg": "Ft/db"
   },
   "variansok": [
     {
-      "nev": "P+W 30 (30 cm)",
-      "ar": 320,
+      "nev": "Porotherm 30 N+F neo (16 db/m²)",
+      "ar": 758,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "P+W 38 (38 cm)",
-      "ar": 420,
+      "nev": "Porotherm 38 N+F (16 db/m²)",
+      "ar": 1221,
       "egyseg": "Ft/db"
     },
     {
-      "nev": "P+W 44 (44 cm)",
-      "ar": 520,
+      "nev": "Porotherm 44 X-therm (16 db/m²)",
+      "ar": 1497,
       "egyseg": "Ft/db"
     }
   ],
@@ -48,24 +48,128 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Poroton 2026-ban?",
-      "valasz": "A(z) Poroton ára 2026-ban 280 – 550 Ft/db között mozog, az átlagár 380 Ft/db."
+      "kerdes": "Mennyibe kerül a poroton 2026-ban?",
+      "valasz": "Poroton ára 2026 szeptemberében 591–1 500 Ft/db, a boltok átlagára 1 060 Ft/db (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Porotherm 30 N+F neo (16 db/m²) (758 Ft), a legdrágább: Porotherm 44 X-therm (16 db/m²) (1 497 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón porotont venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a poroton árai?",
+      "valasz": "10 magyar kereskedő nyilvános, bruttó árából (Wienerberger Shop, Már-Team Tüzép, Építőáruház, Metalloglobus), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi poroton kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a poroton ára?",
+      "valasz": "Porotherm falazóblokk, 16 db/m². Hőszigeteléssel töltött Thermo blokkok 2 900–3 400 Ft/db (a sávban nincsenek benne)."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj poroton vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Wienerberger Shop (gyártói ajánlott fogy. ár)",
+      "termek": "Porotherm 30 N+F neo tégla",
+      "ar": 894,
+      "egyseg": "Ft/db",
+      "url": "https://shop.wienerberger.hu/porotherm/1932/porotherm-30-nf-neo-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Ajánlott bruttó 14 304 Ft/m²; kereskedőnél változhat"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "Porotherm 30 N+F neo tégla",
+      "ar": 758,
+      "egyseg": "Ft/db",
+      "url": "https://marteamtuzep.hu/termek/porotherm-30-nf",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építőáruház (epitoaruhaz.hu)",
+      "termek": "Porotherm 30 N+F Neo tégla 80 db/rkl",
+      "ar": 616,
+      "egyseg": "Ft/db",
+      "url": "https://www.epitoaruhaz.hu/porotherm-30-n-f-neo-tegla-80-dbrkl",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Metalloglobus",
+      "termek": "Porotherm 30 NF NEO tégla, 80 db/raklap",
+      "ar": 591,
+      "egyseg": "Ft/db",
+      "url": "https://www.metalloglobus.com/porotherm-30-nf-neo-tegla-80-db-raklap",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "47 244 Ft/raklap ÷ 80 db = 591 Ft/db; csak egész raklap, telepi átvétel"
+    },
+    {
+      "bolt": "Wienerberger Shop",
+      "termek": "Porotherm 38 N+F tégla",
+      "ar": 1221,
+      "egyseg": "Ft/db",
+      "url": "https://shop.wienerberger.hu/porotherm/78/porotherm-38-nf-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "19 536 Ft/m²"
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Wienerberger Porotherm 38 Klíma tégla",
+      "ar": 1205,
+      "egyseg": "Ft/db",
+      "url": "https://epitoanyag.hu/wienerberger-porotherm-38-klima-tegla-pVUgtMTAwMjEw",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Wienerberger Shop",
+      "termek": "Porotherm 44 X-therm tégla",
+      "ar": 1497,
+      "egyseg": "Ft/db",
+      "url": "https://shop.wienerberger.hu/porotherm/1588/porotherm-44-x-therm-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "23 952 Ft/m²"
+    },
+    {
+      "bolt": "Hofstädter Tüzép",
+      "termek": "Porotherm 44 X-therm tégla",
+      "ar": 1323,
+      "egyseg": "Ft/db",
+      "url": "https://tuzep.hofstadter.hu/kat/porotherm-teglak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Építőanyag.hu (újHÁZ)",
+      "termek": "Wienerberger Porotherm 44 Klíma tégla",
+      "ar": 1430,
+      "egyseg": "Ft/db",
+      "url": "https://epitoanyag.hu/wienerberger-porotherm-44-klima-tegla-pVUgtMTAwMjE3",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Wienerberger Shop",
+      "termek": "Porotherm 44 Thermo Rapid Dryfix (kőzetgyapot töltésű)",
+      "ar": 3436,
+      "egyseg": "Ft/db",
+      "url": "https://shop.wienerberger.hu/porotherm/60/porotherm-44-thermo-rapid-dryfix-tegla",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Prémium töltött tégla, kívül esik a min/max sávon"
+    }
+  ],
+  "megjegyzes": "Porotherm falazóblokk, 16 db/m². Hőszigeteléssel töltött Thermo blokkok 2 900–3 400 Ft/db (a sávban nincsenek benne).",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

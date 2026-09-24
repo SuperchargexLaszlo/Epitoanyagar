@@ -1,26 +1,26 @@
 {
   "anyag_id": "polikarbonat",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3000,
-    "max": 8000,
-    "atlag": 5000,
+    "min": 3200,
+    "max": 9900,
+    "atlag": 6200,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "4 mm üregkamrás",
-      "ar": 3200,
+      "nev": "Üregkamrás víztiszta 4 mm (1 oldalon UV)",
+      "ar": 3600,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "10 mm üregkamrás",
-      "ar": 5500,
+      "nev": "Üregkamrás víztiszta 10 mm (2 falú)",
+      "ar": 6500,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "4 mm tömör",
-      "ar": 7500,
+      "nev": "Üregkamrás víztiszta 16 mm (2 oldalon UV)",
+      "ar": 9000,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,98 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Polikarbonát 2026-ban?",
-      "valasz": "A(z) Polikarbonát ára 2026-ban 3 000 – 8 000 Ft/m² között mozog, az átlagár 5 000 Ft/m²."
+      "kerdes": "Mennyibe kerül a polikarbonát 2026-ban?",
+      "valasz": "Polikarbonát ára 2026 szeptemberében 3 200–9 900 Ft/m², a boltok átlagára 6 200 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Üregkamrás víztiszta 4 mm (1 oldalon UV) (3 600 Ft), a legdrágább: Üregkamrás víztiszta 16 mm (2 oldalon UV) (9 000 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón polikarbonátt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a polikarbonát árai?",
+      "valasz": "7 magyar kereskedő nyilvános, bruttó árából (Tetőfedők Boltja, Polikarbonát Zugló, TetőSipos webshop, Skandináv Fatelep), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi polikarbonát kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a polikarbonát ára?",
+      "valasz": "Üregkamrás lap: 4 mm 3 200–3 900, 6 mm 4 300–5 200, 10 mm 5 900–8 800, 16 mm 8 450–9 900 Ft/m². Bronz és opál színben 5–15%-kal drágább."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj polikarbonát vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Tetőfedők Boltja",
+      "termek": "Polikarbonát víztiszta 4 / 6 / 16 mm",
+      "ar": 3200,
+      "egyseg": "Ft/m²",
+      "url": "https://tetofedokboltja.hu?product=pelda",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "4 mm 1UV 3 200; 6 mm 1UV 5 180; 16 mm 2UV 8 960 Ft/m² bruttó"
+    },
+    {
+      "bolt": "Polikarbonát Zugló",
+      "termek": "Víztiszta üregkamrás polikarbonát 4 / 6 mm",
+      "ar": 3800,
+      "egyseg": "Ft/m²",
+      "url": "https://polikarbonatzuglo.hu/viztiszta-uregkamras-polikarbonat",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "4 mm 3 800; 6 mm 4 300 Ft/m²"
+    },
+    {
+      "bolt": "TetőSipos webshop",
+      "termek": "Polikarbonát víztiszta 10 mm 2 falú / 1 kamrás",
+      "ar": 5881,
+      "egyseg": "Ft/m²",
+      "url": "https://webshop.tetosipos.hu/products/polikarbonat-viztiszta-10-mm-2-falu-1-kamras",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós egységár (−15%), normál ár magasabb"
+    },
+    {
+      "bolt": "Skandináv Fatelep",
+      "termek": "Polikarbonát víztiszta tábla 2UV 10 mm 105×300 cm",
+      "ar": 6464,
+      "egyseg": "Ft/m²",
+      "url": "https://www.skandinavfatelep.hu/termek/polikarbonat-viztiszta-tabla-2uv-10mm-105x300cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "20 363 Ft/tábla"
+    },
+    {
+      "bolt": "Polikarbonátfutár",
+      "termek": "Víztiszta Standard polikarbonát 10 mm (210×600 cm)",
+      "ar": 6867,
+      "egyseg": "Ft/m²",
+      "url": "https://polikarbonatfutar.hu/viztiszta-standard-polikarbonat-10mm-210x600",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó négyzetméterár"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Gutta átlátszó légkamrás polikarbonát 3000×1050×10 mm",
+      "ar": 8799,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/teto/polikarbonat-lemez/c/1112",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "barkácsáruházi ár, a sáv felső része"
+    },
+    {
+      "bolt": "Polibex shop",
+      "termek": "Légkamrás 16 mm polikarbonát UV víztiszta 7 falú 1,05×2,0 m",
+      "ar": 9905,
+      "egyseg": "Ft/m²",
+      "url": "https://www.polibexshop.hu/legkamras-cellas-16-mm-polikarbonat-lemez-uv2-viztiszta-7-falu-6-kamras-105m-x-20m",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "9 904,76 Ft/m²"
+    }
+  ],
+  "megjegyzes": "Üregkamrás lap: 4 mm 3 200–3 900, 6 mm 4 300–5 200, 10 mm 5 900–8 800, 16 mm 8 450–9 900 Ft/m². Bronz és opál színben 5–15%-kal drágább.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,26 +1,26 @@
 {
   "anyag_id": "trapezlemez",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 2000,
-    "max": 5000,
-    "atlag": 3200,
+    "min": 2030,
+    "max": 3660,
+    "atlag": 2750,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "T-18 (0.5 mm)",
-      "ar": 2100,
+      "nev": "T18 trapézlemez 0,45–0,5 mm színes (RAL)",
+      "ar": 2825,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "T-35 (0.7 mm)",
-      "ar": 3300,
+      "nev": "T18 trapézlemez 0,5 mm famintás",
+      "ar": 2840,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "T-50 (0.9 mm)",
-      "ar": 4800,
+      "nev": "T18 trapézlemez 0,5 mm horganyzott",
+      "ar": 2920,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,88 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Trapézlemez 2026-ban?",
-      "valasz": "A(z) Trapézlemez ára 2026-ban 2 000 – 5 000 Ft/m² között mozog, az átlagár 3 200 Ft/m²."
+      "kerdes": "Mennyibe kerül a trapézlemez 2026-ban?",
+      "valasz": "Trapézlemez ára 2026 szeptemberében 2 030–3 660 Ft/m², a boltok átlagára 2 750 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: T18 trapézlemez 0,45–0,5 mm színes (RAL) (2 825 Ft), a legdrágább: T18 trapézlemez 0,5 mm horganyzott (2 920 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón trapézlemezt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a trapézlemez árai?",
+      "valasz": "6 magyar kereskedő nyilvános, bruttó árából (Trapezlemezes.hu, Steeldiszkont, Panelcentrum, Vano.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi trapézlemez kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a trapézlemez ára?",
+      "valasz": "T18 profil. A 2 000–2 100 Ft/m² körüli árak jellemzően II. osztályú vagy akciós lemezre vonatkoznak."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj trapézlemez vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Trapezlemezes.hu (gyártó)",
+      "termek": "T18 trapézlemez 0,5 mm horganyzott (színes RAL 2640; famintás 2840)",
+      "ar": 2240,
+      "egyseg": "Ft/m²",
+      "url": "https://trapezlemezes.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó, méretre vágva; a táblázat szerint a 2240 Ft II. osztályú (értékcsökkent) lemezre vonatkozhat; szállítás 250 m² alatt 19 990 Ft"
+    },
+    {
+      "bolt": "Steeldiszkont",
+      "termek": "Trapézlemez T18 horganyzott",
+      "ar": 2862,
+      "egyseg": "Ft/m²",
+      "url": "https://steeldiszkont.eu/trapezlemez_t20_akcios",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 2254)"
+    },
+    {
+      "bolt": "Panelcentrum",
+      "termek": "Trapézlemez horganyzott 0,5 mm T18",
+      "ar": 3658,
+      "egyseg": "Ft/m²",
+      "url": "https://www.panelcentrum.com/termek/trapezlemez-horgonyzott-05-mm-t18",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 2880)"
+    },
+    {
+      "bolt": "Vano.hu",
+      "termek": "T18 trapézlemez",
+      "ar": 3092,
+      "egyseg": "Ft/m²",
+      "url": "https://vano.hu/trapezlemez/t18-trapezlemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó-tól ár (nettó 2435-től)"
+    },
+    {
+      "bolt": "Lemezker.hu",
+      "termek": "T18 Trapézlemez RAL8004 matt rézbarna (II. o. antracit akció: 2025)",
+      "ar": 2785,
+      "egyseg": "Ft/m²",
+      "url": "https://lemezker.hu/trapezlemez/t18-trapezlemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó; 30 m² alatt kis mennyiségi felár"
+    },
+    {
+      "bolt": "BL Trapéz",
+      "termek": "T18 Trapézlemez RAL8004 matt rézbarna (RAL7016 akció: 2031)",
+      "ar": 2781,
+      "egyseg": "Ft/m²",
+      "url": "https://bltrapez.hu/trapezlemez/t18-trapezlemez",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó; kiszállítás 17 900 Ft+ÁFA"
+    }
+  ],
+  "megjegyzes": "T18 profil. A 2 000–2 100 Ft/m² körüli árak jellemzően II. osztályú vagy akciós lemezre vonatkoznak.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

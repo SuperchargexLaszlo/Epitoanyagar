@@ -1,26 +1,26 @@
 {
   "anyag_id": "akriltomito",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 500,
-    "max": 1500,
-    "atlag": 900,
-    "egyseg": "Ft/db (310 ml)"
+    "min": 719,
+    "max": 1490,
+    "atlag": 1000,
+    "egyseg": "Ft/db (280–310 ml)"
   },
   "variansok": [
     {
-      "nev": "Fehér akril",
-      "ar": 520,
+      "nev": "Soudal Akryl fehér 280 ml",
+      "ar": 719,
+      "egyseg": "Ft/db (280 ml)"
+    },
+    {
+      "nev": "Soudal akril tömítő 310 ml",
+      "ar": 1090,
       "egyseg": "Ft/db (310 ml)"
     },
     {
-      "nev": "Festékkel festhető",
-      "ar": 900,
-      "egyseg": "Ft/db (310 ml)"
-    },
-    {
-      "nev": "Szürke prémium",
-      "ar": 1450,
+      "nev": "Tytan Turbo akril tömítő fehér 310 ml",
+      "ar": 1490,
       "egyseg": "Ft/db (310 ml)"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Akril tömítő 2026-ban?",
-      "valasz": "A(z) Akril tömítő ára 2026-ban 500 – 1 500 Ft/db (310 ml) között mozog, az átlagár 900 Ft/db (310 ml)."
+      "kerdes": "Mennyibe kerül az akril tömítő 2026-ban?",
+      "valasz": "Akril tömítő ára 2026 szeptemberében 719–1 490 Ft/db (280–310 ml), a boltok átlagára 1 000 Ft/db (280–310 ml) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Soudal Akryl fehér 280 ml (719 Ft), a legdrágább: Tytan Turbo akril tömítő fehér 310 ml (1 490 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón akril tömítőt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az akril tömítő árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Czifra Festék, Festékcenter.hu, Kőházy, Dobotrade), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi akril tömítő kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az akril tömítő ára?",
+      "valasz": "Festhető akril 700–1 100 Ft, gyors kötésű/esőálló 1 200–1 500 Ft."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj akril tömítő vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Czifra Festék",
+      "termek": "SOUDAL AKRIL TÖMÍTŐ 310 ML",
+      "ar": 1090,
+      "egyseg": "Ft/db (310 ml)",
+      "url": "https://www.czifrafestek.hu/Festheto-akril-tomito/SouDAL-AKRIL-ToMiTo-310ML/70/2",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Festékcenter.hu",
+      "termek": "Tytan Turbo Akril tömítő fehér 310 ml",
+      "ar": 1490,
+      "egyseg": "Ft/db (310 ml)",
+      "url": "https://www.festekcenter.hu/tytan-turbo-akril-tomito-feher-310-ml",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "gyorsan festhető"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "Soudal Akryl fehér 280 ml",
+      "ar": 719,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://www.kohazy.hu/purhab-szilikon-akril-tomito/-festheto-akril-tomito",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "'Szuper ár' akció"
+    },
+    {
+      "bolt": "Dobotrade",
+      "termek": "Tytan akril festhető tömítő fehér 280 ml",
+      "ar": 724,
+      "egyseg": "Ft/db (280 ml)",
+      "url": "https://dobotrade.hu/tytan-akril-festheto-tomito-feher-280ml",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "kedvezményes ár (2026-08-31-ig érvényes volt), eredeti 746 Ft"
+    }
+  ],
+  "megjegyzes": "Festhető akril 700–1 100 Ft, gyors kötésű/esőálló 1 200–1 500 Ft.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

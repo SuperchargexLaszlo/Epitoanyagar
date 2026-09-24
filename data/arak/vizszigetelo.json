@@ -1,27 +1,27 @@
 {
   "anyag_id": "vizszigetelo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1500,
-    "max": 5000,
-    "atlag": 2800,
+    "min": 3525,
+    "max": 6370,
+    "atlag": 4580,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "Bitumenes kenőanyag",
-      "ar": 1600,
-      "egyseg": "Ft/m²"
+      "nev": "Ceresit CL 51 kenhető szigetelőfólia 5 kg",
+      "ar": 12590,
+      "egyseg": "Ft/vödör (5 kg)"
     },
     {
-      "nev": "Flexibilis 2K-s",
-      "ar": 2800,
-      "egyseg": "Ft/m²"
+      "nev": "Mapei Mapelastic Aquadefense 7,5 kg",
+      "ar": 28990,
+      "egyseg": "Ft/vödör (7,5 kg)"
     },
     {
-      "nev": "Bitumenes lemez önragasztó",
-      "ar": 4800,
-      "egyseg": "Ft/m²"
+      "nev": "Ceresit CL 51 szigetelőfólia 15 kg",
+      "ar": 41190,
+      "egyseg": "Ft/vödör (15 kg)"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Vízszigetelő anyag 2026-ban?",
-      "valasz": "A(z) Vízszigetelő anyag ára 2026-ban 1 500 – 5 000 Ft/m² között mozog, az átlagár 2 800 Ft/m²."
+      "kerdes": "Mennyibe kerül a vízszigetelő anyag 2026-ban?",
+      "valasz": "Vízszigetelő anyag ára 2026 szeptemberében 3 525–6 370 Ft/m², a boltok átlagára 4 580 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Ceresit CL 51 kenhető szigetelőfólia 5 kg (12 590 Ft), a legdrágább: Ceresit CL 51 szigetelőfólia 15 kg (41 190 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón vízszigetelő anyagt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a vízszigetelő anyag árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (HelloMester, Kőházy, Árukereső, OBI), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi vízszigetelő anyag kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a vízszigetelő anyag ára?",
+      "valasz": "Kenhető (fürdőszobai) vízszigetelés, kb. 1,4 kg/m² anyagigénnyel számolva. Bitumenes lemez: lásd építési karton."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj vízszigetelő anyag vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "HelloMester",
+      "termek": "Henkel Ceresit CL 51 egykomponensű, kenhető szigetelőfólia 5 kg",
+      "ar": 3525,
+      "egyseg": "Ft/m²",
+      "url": "https://hellomester.hu/termek/henkel-ceresit-cl-51-egykomponensu-kenheto-szigetelofolia-5-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 12 590 Ft / 5 kg × 1,4 kg/m²"
+    },
+    {
+      "bolt": "Kőházy",
+      "termek": "CERESIT CL 51 kenhető szigetelő fólia 5 kg",
+      "ar": 6370,
+      "egyseg": "Ft/m²",
+      "url": "https://www.kohazy.hu/gipszkarton-profil-almennyezet-osb/-osb-lapok/ceresit-cl-51-kenheto-szigetelo-folia-5-kg",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 22 750 Ft / 5 kg × 1,4 kg/m² (anyagigény a Kőházy oldal szerint)"
+    },
+    {
+      "bolt": "Árukereső (bolti ajánlat)",
+      "termek": "HENKEL Ceresit CL 51 szigetelő fólia 15 kg",
+      "ar": 3844,
+      "egyseg": "Ft/m²",
+      "url": "https://kenheto-szigeteloanyag.arukereso.hu/henkel/ceresit-cl-51-szigetelo-folia-15-kg-2895098-p1232156977",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 41 190 Ft / 15 kg × 1,4 kg/m²"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Mapei Mapelastic Aquadefense 7,5 kg",
+      "ar": 28990,
+      "egyseg": "Ft/vödör (7,5 kg)",
+      "url": "https://www.obi.hu/epueletszigetelesek/ceresit-cl51-kenheto-szigetelofolia/p/3686961",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "OBI kapcsolódó termék listájából; ≈3865 Ft/kg, m²-re nem számoltuk (anyagigény nem ellenőrzött)"
+    }
+  ],
+  "megjegyzes": "Kenhető (fürdőszobai) vízszigetelés, kb. 1,4 kg/m² anyagigénnyel számolva. Bitumenes lemez: lásd építési karton.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,0 +1,450 @@
+{
+  "_meta": {
+    "datum": "2026-09-24",
+    "modszer": "Tavily keresés + oldal-kivonatok (magyar webshopok termék- és kategóriaoldalai). Minden ár bruttó (ÁFA-val), ahogy a forrás oldalon/snippetben szerepelt. OBI termékoldalak ára JS-ből töltődik, ezért OBI-árat csak kategória/keresési listából vettünk át. Az átszámolt értékeknél a 'megjegyzes' jelzi a számítást.",
+    "figyelem": "Az 'ellenorizve' dátum a keresés napja; a snippetek egy része néhány napos/hetes cache lehet. Allegro/eMAG piactéri árak csak tájékoztató jellegűek."
+  },
+
+  "vakolat": {
+    "egyseg": "Ft/zsák (25 kg, kézi alapvakolat)",
+    "min": 2150, "max": 3865, "atlag": 3020,
+    "variansok": [
+      {"nev": "Sakret PM-01 Uniputz kézi alapvakolat 25 kg", "ar": 2150, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Baumit Manu 1 kézi alapvakolat 25 kg", "ar": 3199, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Baumit MPI 25 gépi mész-cement alapvakolat 40 kg", "ar": 3580, "egyseg": "Ft/zsák (40 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Baumit Manu 1 kézi vakolóhabarcs 25 kg", "ar": 3199, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/vakolat-habarcs/c/1046", "ellenorizve": "2026-09-24", "megjegyzes": "128 Ft/kg, 23 áruházban készleten"},
+      {"bolt": "Webépker (bolt.webepker.hu)", "termek": "Baumit Manu 1 kézi alapvakolat 25 kg", "ar": 2655, "egyseg": "Ft/zsák (25 kg)", "url": "https://bolt.webepker.hu/termek/habarcsok/vakolatok/baumit-manu-1-kezi-alapvakolat-25-kg", "ellenorizve": "2026-09-24", "megjegyzes": "raktári ár"},
+      {"bolt": "Kocsis Tüzép (tuzepwebshop.hu)", "termek": "SAKRET PM-01 Uniputz kézi alapvakolat szürke 25 kg", "ar": 2150, "egyseg": "Ft/zsák (25 kg)", "url": "https://tuzepwebshop.hu/falazohabarcs-vakolat-mesz", "ellenorizve": "2026-09-24", "megjegyzes": "akciós (eredeti 2300 Ft)"},
+      {"bolt": "epitoanyag.hu", "termek": "Baumit UniPutz kézi vakolat szürke 25 kg", "ar": 3215, "egyseg": "Ft/zsák (25 kg)", "url": "https://epitoanyag.hu/baumit-uniputz-kezi-vakolat-szurke-25-kg-pVUgtNTI4MDQ4", "ellenorizve": "2026-09-24", "megjegyzes": "rendelésre"},
+      {"bolt": "Kemiker webshop", "termek": "Baumit UnoRed 25 kg", "ar": 3865, "egyseg": "Ft/zsák (25 kg)", "url": "https://webshop.kemiker.hu/termekkategoria/vakolatok-habarcsok/alapvakolatok/951711-baumit-unored-25kg", "ellenorizve": "2026-09-24", "megjegyzes": "prémium, egyrétegű kézi vakolat"},
+      {"bolt": "epitoanyag.hu", "termek": "Baumit MPI 25 (GV 25 belső gépi vakolat) 40 kg", "ar": 3580, "egyseg": "Ft/zsák (40 kg)", "url": "https://epitoanyag.hu/baumit-mpi-25-gv-25-belso-gepi-vakolat-40-kg-pVUgtMDA2OTIx", "ellenorizve": "2026-09-24", "megjegyzes": "90 Ft/kg; 25 kg-ra vetítve ≈2238 Ft"},
+      {"bolt": "Buildox (Újház Nyíregyháza)", "termek": "Baumit MPI 25 gépi alapvakolat 40 kg", "ar": 2995, "egyseg": "Ft/zsák (40 kg)", "url": "https://www.buildox.hu/Baumit-mpi-25-gepi-alapvakolat-40kg", "ellenorizve": "2026-09-24", "megjegyzes": "akciós (eredeti 3150 Ft), 75 Ft/kg"},
+      {"bolt": "Kőházy", "termek": "Baumit GV 25 (MPI 25) beltéri gépi vakolat 40 kg", "ar": 4190, "egyseg": "Ft/zsák (40 kg)", "url": "https://www.kohazy.hu/favedoszer-es-lazur-egyben/-vekonylazur-fapac/baumit-gv-25-mpi-25-belteri-gepi-vakolat-40-kg", "ellenorizve": "2026-09-24", "megjegyzes": ""}
+    ],
+    "megjegyzes": "Kézi alapvakolat jellemzően 25 kg, gépi vakolat jellemzően 40 kg zsákban kapható. A min/max/átlag a 25 kg-os kézi vakolatokra vonatkozik. Gépi 40 kg: 2995–4190 Ft/zsák (75–105 Ft/kg), kg-ra vetítve olcsóbb a kézinél."
+  },
+
+  "ragaszto": {
+    "egyseg": "Ft/zsák (25 kg)",
+    "min": 2290, "max": 13790, "atlag": 6500,
+    "variansok": [
+      {"nev": "C1T alap csemperagasztó (pl. Stone Basic, Baumit One) 25 kg", "ar": 2500, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Ceresit CM 11 Plus (C1T, fagyálló) 25 kg", "ar": 5045, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Ceresit CM 17 / Mapei Keraflex S1 flex (C2TE S1) 25 kg", "ar": 10850, "egyseg": "Ft/zsák (25 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Bauhaus", "termek": "CERESIT CM11 PLUS fagyálló csemperagasztó 25 kg", "ar": 4890, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.bauhaus.hu/csemperagaszto/ceresit-cm11-plus-fagyallo-csemperagaszto-25kg/23827464.html", "ellenorizve": "2026-09-24", "megjegyzes": "196 Ft/kg"},
+      {"bolt": "OBI", "termek": "Ceresit csempe- és padlóragasztó CM 11 Plus 25 kg", "ar": 5200, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.obi.hu/csemperagasztok/ceresit-csempe-es-padloragaszto-cm-11-plus-25kg/p/2916450", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: az oldalon 208 Ft/kg egységár × 25 kg"},
+      {"bolt": "HelloMester Kecskemét", "termek": "Baumit One 25 kg burkolatragasztó", "ar": 2690, "egyseg": "Ft/zsák (25 kg)", "url": "https://hellomester.hu/termekkategoria/zsakos-anyag/csemperagaszto", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt Stone Basic C1T 2290 Ft/zsák"},
+      {"bolt": "Burkolóáruház", "termek": "Ceresit CM 17 S1 szálerősített flexibilis csemperagasztó 25 kg", "ar": 10895, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.burkoloaruhaz.hu/ceresit-cm17-szalerositett-flexibilis-csemperagaszto-25kg", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Kolorfull", "termek": "Mapei Keraflex Easy S1 csemperagasztó szürke 25 kg", "ar": 13790, "egyseg": "Ft/zsák (25 kg)", "url": "https://kolorfull.hu/portermekek/csemperagaszto-c0601.html?p=2", "ellenorizve": "2026-09-24", "megjegyzes": "prémium S1"}
+    ],
+    "megjegyzes": "Nagy a szórás C1 és S1 flex között (kb. 4×). A Praktiker CM11 Plus termékoldala (2799 Ft) 'kifutott termék' – nem vettük figyelembe. Az arkibau.hu CM11 ára (2910 Ft) szintén kifutott (2026-08-25)."
+  },
+
+  "habarcs": {
+    "egyseg": "Ft/zsák (25 kg)",
+    "min": 1431, "max": 4323, "atlag": 2900,
+    "variansok": [
+      {"nev": "Baumit MM30 (MauerMörtel 30) falazóhabarcs 40 kg", "ar": 2290, "egyseg": "Ft/zsák (40 kg)"},
+      {"nev": "Sakret ZM falazóhabarcs M10 30 kg", "ar": 2970, "egyseg": "Ft/zsák (30 kg)"},
+      {"nev": "Viablokk M10 falazóhabarcs 25 kg", "ar": 3969, "egyseg": "Ft/zsák (25 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Grás Tüzép", "termek": "VIABLOKK falazóhabarcs M10 - 25 kg", "ar": 3969, "egyseg": "Ft/zsák (25 kg)", "url": "https://gras.hu/termek/7072/viablokk-falazohabarcs-m10-25-kg", "ellenorizve": "2026-09-24", "megjegyzes": "árak módosítva 2026-09-14"},
+      {"bolt": "Veledépítünk", "termek": "VIABLOKK M10 falazóhabarcs 25 kg", "ar": 4323, "egyseg": "Ft/zsák (25 kg)", "url": "https://veledepitunk.hu/viablokk-m10-falazohabarcs-25-kg", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Sakret Vakolatom", "termek": "Sakret ZM falazóhabarcs M10 30 kg", "ar": 2970, "egyseg": "Ft/zsák (30 kg)", "url": "https://sakretvakolatom.hu/termek/170/sakret-zm-falazohabarcs-m10-30-kg", "ellenorizve": "2026-09-24", "megjegyzes": "25 kg-ra vetítve ≈2475 Ft"},
+      {"bolt": "Újház Farmker", "termek": "Baumit Falazóhabarcs 30 (MauerMörtel) 40 kg", "ar": 2290, "egyseg": "Ft/zsák (40 kg)", "url": "https://ujhazfarmker.hu/habarcsok-adalekszerek", "ellenorizve": "2026-09-24", "megjegyzes": "nincs készleten; 25 kg-ra vetítve ≈1431 Ft"},
+      {"bolt": "HőszigetelőShop", "termek": "Falazóhabarcs M10 – 30 kg", "ar": 3290, "egyseg": "Ft/zsák (30 kg)", "url": "https://hoszigeteloshop.hu/falazohabarcs", "ellenorizve": "2026-09-24", "megjegyzes": "25 kg-ra vetítve ≈2742 Ft"}
+    ],
+    "megjegyzes": "A hagyományos mész-cement falazóhabarcs jellemzően 30–40 kg-os zsákban kapható (Baumit MM30 40 kg, Sakret ZM 30 kg); 25 kg-os zsák főleg rendszerhabarcsoknál (Viablokk, Silka vékonyágyas: epitoanyag.hu 4620 Ft/25 kg). Min/max 25 kg-ra átszámolva. Javaslat: az oldalon inkább Ft/zsák (40 kg) vagy Ft/kg egységet használni."
+  },
+
+  "vizszigetelo": {
+    "egyseg": "Ft/m² (kenhető vízszigetelés, kb. 1,4 kg/m² két rétegben)",
+    "min": 3525, "max": 6370, "atlag": 4580,
+    "variansok": [
+      {"nev": "Ceresit CL 51 kenhető szigetelőfólia 5 kg", "ar": 12590, "egyseg": "Ft/vödör (5 kg)"},
+      {"nev": "Ceresit CL 51 szigetelőfólia 15 kg", "ar": 41190, "egyseg": "Ft/vödör (15 kg)"},
+      {"nev": "Mapei Mapelastic Aquadefense 7,5 kg", "ar": 28990, "egyseg": "Ft/vödör (7,5 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "HelloMester", "termek": "Henkel Ceresit CL 51 egykomponensű, kenhető szigetelőfólia 5 kg", "ar": 3525, "egyseg": "Ft/m²", "url": "https://hellomester.hu/termek/henkel-ceresit-cl-51-egykomponensu-kenheto-szigetelofolia-5-kg", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 12 590 Ft / 5 kg × 1,4 kg/m²"},
+      {"bolt": "Kőházy", "termek": "CERESIT CL 51 kenhető szigetelő fólia 5 kg", "ar": 6370, "egyseg": "Ft/m²", "url": "https://www.kohazy.hu/gipszkarton-profil-almennyezet-osb/-osb-lapok/ceresit-cl-51-kenheto-szigetelo-folia-5-kg", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 22 750 Ft / 5 kg × 1,4 kg/m² (anyagigény a Kőházy oldal szerint)"},
+      {"bolt": "Árukereső (bolti ajánlat)", "termek": "HENKEL Ceresit CL 51 szigetelő fólia 15 kg", "ar": 3844, "egyseg": "Ft/m²", "url": "https://kenheto-szigeteloanyag.arukereso.hu/henkel/ceresit-cl-51-szigetelo-folia-15-kg-2895098-p1232156977", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 41 190 Ft / 15 kg × 1,4 kg/m²"},
+      {"bolt": "OBI", "termek": "Mapei Mapelastic Aquadefense 7,5 kg", "ar": 28990, "egyseg": "Ft/vödör (7,5 kg)", "url": "https://www.obi.hu/epueletszigetelesek/ceresit-cl51-kenheto-szigetelofolia/p/3686961", "ellenorizve": "2026-09-24", "megjegyzes": "OBI kapcsolódó termék listájából; ≈3865 Ft/kg, m²-re nem számoltuk (anyagigény nem ellenőrzött)"}
+    ],
+    "megjegyzes": "A kenhető szigetelés és a bitumenes lemez m²-ára nagyon eltér: bitumenes lemez (GV35–GV45) 1 090–1 520 Ft/m², SBS modifikált 3 045–3 735 Ft/m² (lásd 'epuletkarton'). Itt a kenhető (fürdőszobai) változat szerepel. Az m²-ár erősen függ az anyagigénytől (1,4 kg/m² feltételezve)."
+  },
+
+  "fugazo": {
+    "egyseg": "Ft/kg",
+    "min": 916, "max": 1995, "atlag": 1520,
+    "variansok": [
+      {"nev": "Mapei Ultracolor Plus 5 kg (flex)", "ar": 1458, "egyseg": "Ft/kg"},
+      {"nev": "Mapei Keracolor FF Flex 2 kg", "ar": 1652, "egyseg": "Ft/kg"},
+      {"nev": "Ceresit CE 40 Aquastatic 2 kg", "ar": 1711, "egyseg": "Ft/kg"}
+    ],
+    "forrasok": [
+      {"bolt": "ANDA Festékáruház", "termek": "Ceresit CE 40 aquastatic fugázó 16 graphite 2 kg", "ar": 1995, "egyseg": "Ft/kg", "url": "https://www.anda.hu/fugazok/ceresit-ce-40-aquastatic-fugazo-16-graphite-2-kg-113031-p113031.html", "ellenorizve": "2026-09-24", "megjegyzes": "oldalon feltüntetett egységár"},
+      {"bolt": "Mesterek Futára", "termek": "Ceresit CE 40 aquastatic fehér 2 kg", "ar": 1711, "egyseg": "Ft/kg", "url": "https://mesterekfutara.hu/webshop/ceresit-ce-40-aquastatic", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 3422 Ft (akciós) / 2 kg"},
+      {"bolt": "Bau92 webshop", "termek": "Mapei ULTRACOLOR Plus fugázó 100 fehér 5 kg", "ar": 1246, "egyseg": "Ft/kg", "url": "https://webshop.bau92.hu/mapei-ultracolor-plus-fugazo-100-feher-5kg", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 6230 Ft / 5 kg"},
+      {"bolt": "Marteam Tüzép", "termek": "MAPEI Ultracolor Plus fugázóhabarcs 100 fehér 5 kg", "ar": 1582, "egyseg": "Ft/kg", "url": "https://marteamtuzep.hu/termek/mapei-ultracolor-plus", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 7912 Ft / 5 kg"},
+      {"bolt": "epitoanyag.hu", "termek": "Mapei Ultracolor Plus fugázó 100 fehér 5 kg", "ar": 916, "egyseg": "Ft/kg", "url": "https://epitoanyag.hu/mapei-ultracolor-plus-fugazo-100-feher-5-kg-pVUgtMDkzNDg2", "ellenorizve": "2026-09-24", "megjegyzes": "4580 Ft/5 kg – feltűnően alacsony, valószínűleg akció; ugyanitt Keracolor FF 2 kg 3305 Ft (1652 Ft/kg)"}
+    ],
+    "megjegyzes": "5 kg-os kiszerelés kg-ra olcsóbb (≈1250–1600 Ft/kg), 2 kg-os ≈1650–2000 Ft/kg. Az eMAG CE40 ajánlat (3352 Ft/kg) kiugró, nem vettük be. Epoxi fugázók ennél jóval drágábbak (nem vizsgálva)."
+  },
+
+  "gletteloanvag": {
+    "egyseg": "Ft/zsák (20 kg)",
+    "min": 6470, "max": 9695, "atlag": 7700,
+    "variansok": [
+      {"nev": "Széria glett 0–10 mm 20 kg (OBI saját márka)", "ar": 6800, "egyseg": "Ft/zsák (20 kg)"},
+      {"nev": "Baumit FinoBello kézi glett 20 kg", "ar": 7999, "egyseg": "Ft/zsák (20 kg)"},
+      {"nev": "Baumit beltéri meszes klíma glett 20 kg", "ar": 9695, "egyseg": "Ft/zsák (20 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Baumit Finobello kézi glettanyag 20 kg, beltéri gipszes (0–10 mm)", "ar": 7999, "egyseg": "Ft/zsák (20 kg)", "url": "https://www.praktiker.hu/gipszek-glettek/cc/4355", "ellenorizve": "2026-09-24", "megjegyzes": "400 Ft/kg; ugyanitt Baumit Finish Superior 20 kg 8999 Ft"},
+      {"bolt": "OBI", "termek": "Széria glett 0–10 mm 20 kg", "ar": 6800, "egyseg": "Ft/zsák (20 kg)", "url": "https://www.obi.hu/search/glett", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: listában 340 Ft/kg × 20 kg"},
+      {"bolt": "epitoanyag.hu", "termek": "Baumit FinoGrande beltéri gipszes glett 20 kg", "ar": 7335, "egyseg": "Ft/zsák (20 kg)", "url": "https://epitoanyag.hu/baumit-finogrande-belteri-gipszes-glett-20-kg-pVUgtMDMwNzMw", "ellenorizve": "2026-09-24", "megjegyzes": "367 Ft/kg"},
+      {"bolt": "epitoanyag.hu", "termek": "Rigips Rimano Plus A 0-10 glett 20 kg", "ar": 6470, "egyseg": "Ft/zsák (20 kg)", "url": "https://epitoanyag.hu/baumit-finish-expert-premium-belteri-glett-20-kg-pVUgtNjc1NTQ0", "ellenorizve": "2026-09-24", "megjegyzes": "324 Ft/kg, 'hasonló termékek' listából"},
+      {"bolt": "epitoanyag.hu", "termek": "Baumit beltéri meszes klíma glett 20 kg", "ar": 9695, "egyseg": "Ft/zsák (20 kg)", "url": "https://epitoanyag.hu/baumit-belteri-meszes-klima-glett-20-kg-pVUgtMDE1MzE4", "ellenorizve": "2026-09-24", "megjegyzes": "485 Ft/kg, prémium meszes"}
+    ],
+    "megjegyzes": "Porglett 20 kg-os zsákban 6 500–9 700 Ft (320–485 Ft/kg). Kis kiszerelés (5 kg) kg-ra 680–740 Ft, vödrös kész glett ennél drágább."
+  },
+
+  "padlolapragaszto": {
+    "egyseg": "Ft/zsák (25 kg, flexibilis C2TE S1)",
+    "min": 3499, "max": 9999, "atlag": 7300,
+    "variansok": [
+      {"nev": "Interproject flexragasztó 25 kg (budget)", "ar": 3499, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Baumit Baumacol FlexTop C2TE S1 25 kg", "ar": 6990, "egyseg": "Ft/zsák (25 kg)"},
+      {"nev": "Mapei Keraflex Maxi S1 25 kg", "ar": 9999, "egyseg": "Ft/zsák (25 kg)"}
+    ],
+    "forrasok": [
+      {"bolt": "epitoanyag.hu", "termek": "Baumit Baumacol FlexTop flexibilis burkolatragasztó 25 kg", "ar": 6990, "egyseg": "Ft/zsák (25 kg)", "url": "https://epitoanyag.hu/baumit-baumacol-flextop-flexibilis-burkolatragaszto-25-kg-pVUgtNTI4MDQ5", "ellenorizve": "2026-09-24", "megjegyzes": "280 Ft/kg"},
+      {"bolt": "Praktiker", "termek": "Baumit Baumacol Flex Top csemperagasztó 25 kg C2TES1", "ar": 6299, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/csemperagaszto/c/207", "ellenorizve": "2026-09-24", "megjegyzes": "akciós, eredeti 8699 Ft"},
+      {"bolt": "HelloMester", "termek": "Henkel Ceresit CM 16 flexibilis burkolatragasztó C2TES1, 25 kg", "ar": 7690, "egyseg": "Ft/zsák (25 kg)", "url": "https://hellomester.hu/termekkategoria/zsakos-anyag/csemperagaszto", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt Mapei Keraflex S1 8490 Ft (akciós)"},
+      {"bolt": "OBI", "termek": "Mapei flexibilis ragasztó Keraflex Maxi S1 C2TE S1 25 kg", "ar": 9999, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310", "ellenorizve": "2026-09-24", "megjegyzes": "400 Ft/kg; online nem elérhető"},
+      {"bolt": "OBI", "termek": "Interproject flexragasztó 25 kg", "ar": 3499, "egyseg": "Ft/zsák (25 kg)", "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310", "ellenorizve": "2026-09-24", "megjegyzes": "'Top ár', 140 Ft/kg – saját/budget márka"}
+    ],
+    "megjegyzes": "Márkás S1 flex ragasztó 6 300–10 000 Ft/25 kg; budget flex 3 500 Ft körül. S2 (pl. Mapei Ultralite S2 15 kg 17 850 Ft) nem része a sávnak."
+  },
+
+  "geotextilia": {
+    "egyseg": "Ft/m²",
+    "min": 338, "max": 479, "atlag": 420,
+    "variansok": [
+      {"nev": "Geotextília 100 g/m² (2×25 m)", "ar": 338, "egyseg": "Ft/m²"},
+      {"nev": "Geotextília 200 g/m² (Protex, 4×100 m)", "ar": 360, "egyseg": "Ft/m²"},
+      {"nev": "Geotextília 200 g/m² erősített, méterre vágva", "ar": 431, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Öntözés Webáruház", "termek": "Geotextília (tarka) 200 g/m² erősített, ár/m²", "ar": 431, "egyseg": "Ft/m²", "url": "https://www.ontozeswebaruhaz.hu/geotextilia/11351-geotextilia-tarka-200-g-m2-erositett-az-ar-1-m-re-vonatkozik-.html", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 339 Ft"},
+      {"bolt": "Koi-Farm", "termek": "BS16 Geotextília 200 g/m², 2 m × 100 m egész tekercs", "ar": 479, "egyseg": "Ft/m²", "url": "https://www.koi-farm.hu/geotextil-200-g-nm-2x100m-ar-nm-szemelyes-atvetel-", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 95 800 Ft / 200 m²"},
+      {"bolt": "Baupro", "termek": "Geotextília 100 g/m² Mini 2×25 m fehér", "ar": 338, "egyseg": "Ft/m²", "url": "https://baupro.hu/geotextilia", "ellenorizve": "2026-09-24", "megjegyzes": "akciós (eredeti 395 Ft/m²), 16 900 Ft/tekercs"},
+      {"bolt": "ÁrGép (bolti ajánlat)", "termek": "Protex geotextília 200 g/m² 4 × 100 m, ár/m²", "ar": 360, "egyseg": "Ft/m²", "url": "https://www.argep.hu/trend/GEOT/Geotextilia-200-g-m2.html", "ellenorizve": "2026-09-24", "megjegyzes": "+3990 Ft szállítás"}
+    ],
+    "megjegyzes": "Nagy tekercsben 340–480 Ft/m². 300 g/m²-re nem találtunk megbízható aktuális árat. Kis kiszerelésű (pl. Masterplast Terraplast Geotex 100 g 10 m² 4696 Ft = 470 Ft/m², marteamtuzep.hu) hasonló sávban."
+  },
+
+  "drencso": {
+    "egyseg": "Ft/fm",
+    "min": 700, "max": 4191, "atlag": 1900,
+    "variansok": [
+      {"nev": "Dréncső Ø100 perforált, csupasz (50 m tekercs)", "ar": 1149, "egyseg": "Ft/fm"},
+      {"nev": "Dréncső Ø100 geotextíliás (50 m tekercs)", "ar": 1784, "egyseg": "Ft/fm"},
+      {"nev": "Dréncső Ø160 geotextíliás (25 m tekercs)", "ar": 2810, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Lambda Webáruház", "termek": "Dréncső geotextíliás DN100 50 m/tekercs", "ar": 2089, "egyseg": "Ft/fm", "url": "https://lambdawebaruhaz.hu/drencso-geotextilias-dn100-50-mtekercs-24888", "ellenorizve": "2026-09-24", "megjegyzes": "2088,50 Ft/fm"},
+      {"bolt": "Marteam Tüzép", "termek": "Dréncső 100 geotextíliával bevont 50 fm", "ar": 1933, "egyseg": "Ft/fm", "url": "https://marteamtuzep.hu/termek/drencso-100-perforalt-50-fm", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Merkapt Online", "termek": "Dréncső 100 perforált geotextiles 50 m/tekercs", "ar": 1634, "egyseg": "Ft/fm", "url": "https://merkaptonline.hu/viz-gaz-futes/csorendszerek-es-idomok/lefolyocsovek-es-idomok/d100t-drencso-100-perforalt-geotextiles-50mtekercs", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Szatmári", "termek": "Dréncső 100 perforált 50 fm", "ar": 1149, "egyseg": "Ft/fm", "url": "https://szatmari.hu/termekek/product/21358-drencso-100-perforalt-50fm", "ellenorizve": "2026-09-24", "megjegyzes": "geotextília nélkül"},
+      {"bolt": "Terra Metal", "termek": "160 mm geotextíliával bebugyolált PVC perforált dréncső (25 m tekercs)", "ar": 2810, "egyseg": "Ft/fm", "url": "https://terrametal.hu/index.php/termekek/drencso-szivargocso-szivarogtato-cso/item/157:160-geotextiliaval-bebugyolalt-pvc-perforalt-talajviz-gyujto-drencso", "ellenorizve": "2026-09-24", "megjegyzes": "csak egész tekercs, 70 250 Ft/tekercs; ugyanez a cég Ø100 csupasz: 700 Ft/fm"},
+      {"bolt": "Tetra-Pipe (drencsovek.hu)", "termek": "DN160 PE duplafalú geotextíliás drén (50 m)", "ar": 4191, "egyseg": "Ft/fm", "url": "https://drencsovek.hu/duplafalu_pe_drencso", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 3300 Ft + 27% ÁFA; gyártói/nagyker ár"}
+    ],
+    "megjegyzes": "Ø100 geotextíliás: 1 630–2 090 Ft/fm; csupasz Ø100: 700–1 525 Ft/fm; Ø160: 2 810–4 190 Ft/fm. A gepesz.hu Pipelife Ø160 bordázott LPE (9 449 Ft/m) kiugró, nem vettük be."
+  },
+
+  "tetoszeloec": {
+    "egyseg": "Ft/fm (horganyzott bádog oromszegély/szegélylemez, 2 m-es szál)",
+    "min": 980, "max": 2200, "atlag": 1600,
+    "variansok": [
+      {"nev": "Horganyzott acél ereszszegély 2 m", "ar": 980, "egyseg": "Ft/fm"},
+      {"nev": "Horganyzott acél oromszegély 6 cm, 2 m", "ar": 1853, "egyseg": "Ft/fm"},
+      {"nev": "Színes (RAL 3016) oromszegély lemez 2 m", "ar": 2200, "egyseg": "Ft/fm"}
+    ],
+    "forrasok": [
+      {"bolt": "Keri Bádog Direct", "termek": "Horganyzott acél oromszegély lemez 6 cm magas 2 méter", "ar": 1853, "egyseg": "Ft/fm", "url": "https://keribadogdirect.hu/lemeztermekek/lemez-szegelyek", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 3705 Ft / 2 m"},
+      {"bolt": "Tetőpont", "termek": "Oromszegély lemez 2 m, horganyzott acél téglavörös RAL 3016", "ar": 2200, "egyseg": "Ft/fm", "url": "https://tetopont.eu/spl/358992/Lemezszegely-badogszegely", "ellenorizve": "2026-09-24", "megjegyzes": "4400 Ft/2 m szál"},
+      {"bolt": "TetőSipos", "termek": "Horganyzott acél ereszszegély 2 m", "ar": 980, "egyseg": "Ft/fm", "url": "https://webshop.tetosipos.hu/collections/szegelyek", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 1960 Ft-tól / 2 m"},
+      {"bolt": "Bádogstore", "termek": "Falszegély ksz25 2 m-es (horganyzott)", "ar": 1360, "egyseg": "Ft/fm", "url": "https://www.badogstore.hu/termekek/horganyzott", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 2720 Ft / 2 m"}
+    ],
+    "megjegyzes": "A 'tetőszélléc' kifejezés nem egyértelmű: a fa szélléc/oromdeszka faanyagként nem jellemző önálló webshop-termék (fűrészáru, egyedi méret), ezért a tetőfedési bádog szegélyelemet (oromszegély/szegélylemez) javasoljuk – ez folyóméteres, jól árazható termék. Nagy, egyedileg hajtott oromdeszka-takaró szegély ennél drágább (bwestker: 2 m-es szál 13 000 Ft-tól = 6500 Ft/fm)."
+  },
+
+  "horganyozott-szeg": {
+    "egyseg": "Ft/kg",
+    "min": 1100, "max": 2560, "atlag": 1550,
+    "variansok": [
+      {"nev": "Horganyzott bognárszeg 2,2×50 mm", "ar": 1100, "egyseg": "Ft/kg"},
+      {"nev": "Fedéllemez (pala) szeg 1,6×16 tűzihorganyzott, 1 kg", "ar": 1399, "egyseg": "Ft/kg"},
+      {"nev": "Horganyzott huzalszeg 2,8×65 mm", "ar": 2560, "egyseg": "Ft/kg"}
+    ],
+    "forrasok": [
+      {"bolt": "OBI", "termek": "Palaszeg / fedéllemez szeg 1,6 × 16 mm tűzihorganyzott 1 kg", "ar": 1399, "egyseg": "Ft/kg", "url": "https://www.obi.hu/katranypapir-szegek/palaszeg-horganyzott/p/1205491", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Tolnay Vasker", "termek": "Huzalszeg horganyzott 2,8 × 65 mm", "ar": 2560, "egyseg": "Ft/kg", "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/huzalok-szegek/szegek-szogek", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 2016 Ft/kg; ugyanitt horganyzott bognárszeg 2,2×50: 1100 Ft/kg, 2,8×65: 1965 Ft/kg"},
+      {"bolt": "Újház Farmker", "termek": "Koelner zsindelyszeg horganyzott 3×20 mm, 5 kg/doboz", "ar": 1395, "egyseg": "Ft/kg", "url": "https://ujhazfarmker.hu/huzalszeg-100-1kg-doboz", "ellenorizve": "2026-09-24", "megjegyzes": "nincs készleten"}
+    ],
+    "megjegyzes": "Natúr (nem horganyzott) huzalszeg 810–1 290 Ft/kg (solnaiparcikk.hu, teglacentrum.hu), a horganyzott 20–100%-kal drágább. Barkácsáruházi 1 kg-os dobozok drágábbak (pl. Praktiker JKH huzalszeg 40 mm 1 kg 4399 Ft – horganyzottsága nem egyértelmű, ezért kihagyva)."
+  },
+
+  "csavar": {
+    "egyseg": "Ft/csomag (200 db, gipszkarton-/facsavar 3,5×25)",
+    "min": 403, "max": 2899, "atlag": 1100,
+    "variansok": [
+      {"nev": "Gipszkarton csavar 3,5×25 ömlesztett (1000 db dobozból, 200 db-ra vetítve)", "ar": 490, "egyseg": "Ft/200 db"},
+      {"nev": "Facsavar 3,5×25 bliszter 200 db", "ar": 835, "egyseg": "Ft/200 db"},
+      {"nev": "SB önfúró gipszkarton csavar 3,5×25 200 db (barkácsáruház)", "ar": 2899, "egyseg": "Ft/200 db"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "SB gipszkartoncsavar önfúró süllyesztett fejű PH 3,5×25 foszfátozott 200 db/csomag", "ar": 2899, "egyseg": "Ft/csomag (200 db)", "url": "https://www.praktiker.hu/epites-felujitas/csavar-zar-vasalat/csavar/sb-gipszkartoncsavar-onfuro-sullyesztett-feju-ph-3-5x25-foszfatozott-200db/csm/p/426529", "ellenorizve": "2026-09-24", "megjegyzes": "önfúró (fémhez)"},
+      {"bolt": "Kőházy", "termek": "Gipszkarton csavar fémhez 3,5 × 25 mm 1000 db", "ar": 898, "egyseg": "Ft/200 db", "url": "https://www.kohazy.hu/glett-gipsz-csemperagaszto-portermek/-fugazoanyag/gipszkarton-csavar-femhez-35-x-25-mm-1000-db", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 4489 Ft / 1000 db × 200"},
+      {"bolt": "Netrock", "termek": "Gipszkarton csavar fémmenetes, foszfátozott 3,5×25 1000 db/doboz", "ar": 490, "egyseg": "Ft/200 db", "url": "https://netrock.hu/gipszkarton-csavar-femmenetes-foszfatozott-35x25-1000dbdoboz-1200", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 2,45 Ft/db × 200"},
+      {"bolt": "Allegro (piactér)", "termek": "Facsavar 3,5×25 gipszkartonhoz 200 db", "ar": 835, "egyseg": "Ft/csomag (200 db)", "url": "https://allegro.hu/termek/fa-csavar-csavarok-3-5x25-gipszkartonhoz-200-db-3d19bc5e-c706-4428-96c1-2c5718c0d1dd", "ellenorizve": "2026-09-24", "megjegyzes": "piactéri ár"},
+      {"bolt": "eMAG", "termek": "Fahasáb-gipszkarton csavar gyorsmenettel 3,5×25, 1000 db", "ar": 403, "egyseg": "Ft/200 db", "url": "https://www.emag.hu/facsavarok-3-5x25-1000-db-5906365344207/pd/DMHTCDYBM", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 2014 Ft / 1000 × 200"}
+    ],
+    "megjegyzes": "Hatalmas eltérés a barkácsáruházi kis csomag (Praktiker 200 db 2899 Ft ≈ 14,5 Ft/db) és az ömlesztett 1000-es doboz (2–4,5 Ft/db) között. 200 db-os kiskereskedelmi csomag reálisan 800–2 900 Ft."
+  },
+
+  "dubel": {
+    "egyseg": "Ft/csomag (100 db, műanyag 8 mm)",
+    "min": 900, "max": 5321, "atlag": 3100,
+    "variansok": [
+      {"nev": "Koelner FIX-K-08 8×40 (200 db dobozból 100 db-ra vetítve)", "ar": 900, "egyseg": "Ft/100 db"},
+      {"nev": "Koelner Rawlplug univerzális nylon dübel 8×40, 100 db", "ar": 1960, "egyseg": "Ft/100 db"},
+      {"nev": "Fischer S 8 dübel 100 db", "ar": 4290, "egyseg": "Ft/100 db"}
+    ],
+    "forrasok": [
+      {"bolt": "Építőáruház (epitoaruhaz.hu)", "termek": "Koelner Rawlplug univerzális nylon dübel 100 db/doboz 8×40 mm", "ar": 1960, "egyseg": "Ft/csomag (100 db)", "url": "https://www.epitoaruhaz.hu/koelner-rawlplug-univerzalis-nylon-dubel-100-dbdoboz-8x40-mm", "ellenorizve": "2026-09-24", "megjegyzes": "20 Ft/db"},
+      {"bolt": "Gépdepó", "termek": "Fischer dübel S 8 100 db/csomag", "ar": 4290, "egyseg": "Ft/csomag (100 db)", "url": "https://www.gepdepo.hu/rogzitestechnika/altalanos-rogzites/muanyag-dubel/fischer-dubel-s-8-100db-csom-50108f.html", "ellenorizve": "2026-09-24", "megjegyzes": "42,90 Ft/db"},
+      {"bolt": "Prenker Szerszám", "termek": "Fischer SX Plus 8×40 műanyag dübel, 100 db/csomag", "ar": 5321, "egyseg": "Ft/csomag (100 db)", "url": "https://prenkerszerszam.hu/termekek/sx-plus-8-x-40-muanyag-dubel-100dbcsomag-p305758.html", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: nettó 4190 Ft × 1,27"},
+      {"bolt": "BRS", "termek": "Koelner 4ALL-08 Rawlplug univerzális nylon dübel 8×40 (100 db/doboz)", "ar": 3900, "egyseg": "Ft/csomag (100 db)", "url": "https://www.brs.hu/dubel-4all-08-rawlplug-nagyteljesitmenyu-univerzalis-nylon-dubel-8x40-mm-100dbdoboz-19691", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 39 Ft/db × 100"},
+      {"bolt": "Onlinevill", "termek": "Műanyag dübel tipli 8×40 ipari szürke (200 db/doboz) Koelner FIX-K-08", "ar": 900, "egyseg": "Ft/100 db", "url": "https://www.onlinevill.hu/muanyag-dubel-tipli-8x40-ipari-szurke-200dbdoboz-koelner-fix-k-08-01868", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 1800 Ft / 200 db × 100"}
+    ],
+    "megjegyzes": "Egyszerű (FIX) tipli 9–20 Ft/db, márkás univerzális (Fischer SX/DuoPower, Rawlplug 4ALL) 39–53 Ft/db."
+  },
+
+  "hoszigetelomdubel": {
+    "egyseg": "Ft/db (tányéros dübel 10×140, műanyag szeggel)",
+    "min": 35, "max": 103, "atlag": 55,
+    "variansok": [
+      {"nev": "Koelner műanyag beütőszeges dűbel 10×140", "ar": 35, "egyseg": "Ft/db"},
+      {"nev": "Masterplast Thermomaster D dübel 10×140", "ar": 48, "egyseg": "Ft/db"},
+      {"nev": "EJOT IDK-N dűbel (Masterplast)", "ar": 60, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Hőszigetelőrendszer.com", "termek": "Műanyag beütőszeges dűbel 10×140 mm – Koelner", "ar": 35, "egyseg": "Ft/db", "url": "https://hoszigetelorendszer.com/dubelek/muanyag-beutoszeges-dubel/muanyag-beutoszeges-dubel-10x140mm", "ellenorizve": "2026-09-24", "megjegyzes": "EPS/XPS-hez"},
+      {"bolt": "Marteam Tüzép", "termek": "MASTERPLAST Thermomaster D dübel 10×140 mm", "ar": 48, "egyseg": "Ft/db", "url": "https://marteamtuzep.hu/termek/masterplast-thermomaster-d-dubel-10x140-mm", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Homlokzatihőszigetelés.hu", "termek": "Koelner KI műanyagszeges dűbel 10×140", "ar": 40, "egyseg": "Ft/db", "url": "https://www.homlokzatihoszigeteles.hu/hoszigetelo-rendszer-kiegeszitok/koelner-muanyagszeges-dubel", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Mastercenter", "termek": "Masterplast EJOT IDK-N dűbel", "ar": 60, "egyseg": "Ft/db", "url": "https://mastercenter.hu/kategoria/8/homlokzati-hoszigetelo-rendszerek-es-elemei/dubel", "ellenorizve": "2026-09-24", "megjegyzes": "'-tól' ár"},
+      {"bolt": "Jószerszám", "termek": "Koelner beütős dűbel 10×140", "ar": 103, "egyseg": "Ft/db", "url": "https://joszerszam.com/dubelek", "ellenorizve": "2026-09-24", "megjegyzes": "darabos kiskereskedelmi ár"}
+    ],
+    "megjegyzes": "Doboz (250 db) vásárlásnál 35–60 Ft/db; darabos kisker. ár 100 Ft körül. Acélszeges (pl. Koelner KI-140M) változatra nem találtunk megbízható árat – ezek drágábbak."
+  },
+
+  "anyascsavar": {
+    "egyseg": "Ft/csomag (50 db M8 horganyzott hatlapfejű csavar + anya)",
+    "min": 2450, "max": 3850, "atlag": 3080,
+    "variansok": [
+      {"nev": "M8×60 8.8 horganyzott csavar (1 kg-os tétel) + anya, 50 db-ra vetítve", "ar": 2450, "egyseg": "Ft/50 garnitúra"},
+      {"nev": "M8×60 DIN933 8.8 horganyzott (darabáras) + anya, 50 db", "ar": 2930, "egyseg": "Ft/50 garnitúra"},
+      {"nev": "M8×60 DIN933 8.8 horganyzott (Mesterközpont) + anya, 50 db", "ar": 3850, "egyseg": "Ft/50 garnitúra"}
+    ],
+    "forrasok": [
+      {"bolt": "Mesterellátó", "termek": "Hatlapfejű tövigmenetes csavar M8×60 8.8 DIN 933 horganyzott", "ar": 49, "egyseg": "Ft/db", "url": "https://mesterellato.hu/Hatlapfeju-tovigmenetes-csavar-M8x60-8-8-DIN-933-h", "ellenorizve": "2026-09-24", "megjegyzes": "48,6 Ft/db"},
+      {"bolt": "Mesterközpont", "termek": "Hatlapfejű tövigmenetes csavar 8.8 M8×60 DIN 933 horganyzott", "ar": 67, "egyseg": "Ft/db", "url": "https://www.mesterkozpont.hu/htl-tm-csavar-88-m8x60-din-933-933860-23926", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "LMNT", "termek": "Hatlapú anya DIN934 horganyzott M8", "ar": 10, "egyseg": "Ft/db", "url": "https://www.lmnt.hu/hatlapfeju-tovigmenetes-csavar-din933-58-m840-649", "ellenorizve": "2026-09-24", "megjegyzes": "nettó 8 Ft"},
+      {"bolt": "Allegro (piactér)", "termek": "Csavar M8×60 hatlapfejű horganyzott DIN 933 kl. 8.8, 1 kg", "ar": 39, "egyseg": "Ft/db", "url": "https://allegro.hu/termek/m8x60-hatlapfeju-csavar-horganyzott-din933-kl-8-8-1kg-a355e3cc-bb14-4ecd-96b5-561706276be0", "ellenorizve": "2026-09-24", "megjegyzes": "1555 Ft/1 kg"}
+    ],
+    "megjegyzes": "Kész '50 db csavar + anya' csomagot megbízható árral nem találtunk; a csomagárak számoltak: (csavar Ft/db + anya 10 Ft/db) × 50. Az OBI LUX-TOOLS M8 gépcsavar 50 db-os csomagjai léteznek, de az ár nem volt kiolvasható. FIGYELEM: az 'anyáscsavar' köznyelvben a csavaranyát (anyát) is jelentheti – M8 anya önmagában ~10 Ft/db (50 db ≈ 500 Ft). Az egység újragondolása javasolt."
+  },
+
+  "habragaszto": {
+    "egyseg": "Ft/db (750 ml)",
+    "min": 3865, "max": 5949, "atlag": 4700,
+    "variansok": [
+      {"nev": "Tytan Styro 753 PU ragasztóhab 750 ml", "ar": 3865, "egyseg": "Ft/db (750 ml)"},
+      {"nev": "Ceresit CT 84 Express Graphite", "ar": 4390, "egyseg": "Ft/db"},
+      {"nev": "Ceresit CT 84 Express Plus 850 ml", "ar": 5810, "egyseg": "Ft/db (850 ml)"}
+    ],
+    "forrasok": [
+      {"bolt": "HőszigetelőShop", "termek": "Tytan Styro 753 PU-ragasztó 750 ml", "ar": 3865, "egyseg": "Ft/db (750 ml)", "url": "https://hoszigeteloshop.hu/termek/tytan-styro-753-pu-ragaszto-750-ml", "ellenorizve": "2026-09-24", "megjegyzes": "raktáron"},
+      {"bolt": "Épkerwebshop", "termek": "Tytan Styro 753 Ragasztóhab 750 ml", "ar": 4050, "egyseg": "Ft/db (750 ml)", "url": "https://epkerwebshop.hu/Tytan-Styro-753-Ragasztohab-750ml", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Onlinefestékbolt", "termek": "Tytan Styro 753 pisztolyos ragasztóhab 750 ml", "ar": 5490, "egyseg": "Ft/db (750 ml)", "url": "https://onlinefestekbolt.hu/termek/ragasztohab", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Téglacentrum", "termek": "Henkel Ceresit CT 84 Express PU hőszigetelő ragasztó 850 ml", "ar": 5810, "egyseg": "Ft/db (850 ml)", "url": "https://teglacentrum.hu/henkel-ceresit-ct-84-express-pu-hoszig-850ml", "ellenorizve": "2026-09-24", "megjegyzes": "750 ml-re vetítve ≈5126 Ft"},
+      {"bolt": "Mesterek Futára", "termek": "Ceresit CT 84 Express Plus 850 ml", "ar": 5949, "egyseg": "Ft/db (850 ml)", "url": "https://mesterekfutara.hu/webshop/ceresit-ct-84-express-plus", "ellenorizve": "2026-09-24", "megjegyzes": "akciós ár"}
+    ],
+    "megjegyzes": "A Ceresit CT 84 850 ml-es, a Tytan Styro 753 750 ml-es. Az Allegro 2870 Ft-os CT 84 ajánlat piactéri, kiugróan olcsó – nem vettük be."
+  },
+
+  "epuletkarton": {
+    "egyseg": "Ft/m²",
+    "min": 495, "max": 1334, "atlag": 1060,
+    "variansok": [
+      {"nev": "Charvát CharBIT A330 H papírbetétes 'kátránypapír' 20 m²", "ar": 495, "egyseg": "Ft/m²"},
+      {"nev": "Izobud Izobit GV35 oxidált bitumenes lemez 10 m²", "ar": 1086, "egyseg": "Ft/m²"},
+      {"nev": "Villas GV 45 oxidált bitumenes lemez 10 m²", "ar": 1326, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "GL Color festékbolt", "termek": "Charvát CharBIT A330 H papírbetétes bitumenes lemez, 1 tekercs 20 m²", "ar": 495, "egyseg": "Ft/m²", "url": "https://www.glfestek.hu/termek/charvat-charbit-a-330-h-papirbetetes-bitumenes-lemez-1-tekercs-20-m2", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 9900 Ft / 20 m²"},
+      {"bolt": "epitoanyag.hu", "termek": "Izobud Izobit GV35 oxidált bitumenes vízszigetelő lemez 10 m²", "ar": 1086, "egyseg": "Ft/m²", "url": "https://epitoanyag.hu/epitoanyag/szigeteles/vizszigeteles/bitumenes-lemez-c9592", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 10 860 Ft/tekercs; ugyanitt Villas GV45 13 260 Ft/tekercs, Guttabit GV45 1334 Ft/m²"},
+      {"bolt": "Festékcsodák", "termek": "Villas bitumenes lemez GV-35 10 m²/tekercs Hydrobit", "ar": 1094, "egyseg": "Ft/m²", "url": "https://www.festekcsodak.com/villas-bitumenes-lemez-gv-35-10m2-tekercs-hydrobit-28tek-raklap-n2047", "ellenorizve": "2026-09-24", "megjegyzes": "10 940 Ft/tekercs"},
+      {"bolt": "Lang Építőanyag (Újház Veszprém)", "termek": "Izobud IZOBIT GV35 oxidált bitumenes lemez 10 m²", "ar": 1297, "egyseg": "Ft/m²", "url": "https://www.ujhazveszprem.hu/termekek/vizszigeteles-vizelvezetes/bitumenes-lemezek", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt SBS Villas E-G 45: 3045 Ft/m², E-PV 4: 3735 Ft/m²"}
+    ],
+    "megjegyzes": "Csupaszlemez (kátránypapír) ~500 Ft/m², oxidált GV35/GV45 1 090–1 330 Ft/m², SBS modifikált 3 000–3 700 Ft/m² (nincs a min/max-ban)."
+  },
+
+  "szigeteloszalag": {
+    "egyseg": "Ft/tekercs",
+    "min": 1687, "max": 20675, "atlag": 10000,
+    "variansok": [
+      {"nev": "Masterplast Masterfol Tape-2 kétoldalas 20 mm × 25 m", "ar": 1834, "egyseg": "Ft/tekercs"},
+      {"nev": "Masterplast Mastermax TAPE egyoldalas diffúziós szalag", "ar": 8143, "egyseg": "Ft/tekercs"},
+      {"nev": "Isover Vario KB1 egyoldalas légzáró szalag 60 mm × 40 m", "ar": 18095, "egyseg": "Ft/tekercs"}
+    ],
+    "forrasok": [
+      {"bolt": "Marteam Tüzép", "termek": "MASTERPLAST MASTERFOL TAPE-2 kétoldalas ragasztószalag 20 mm × 25 m", "ar": 1834, "egyseg": "Ft/tekercs", "url": "https://marteamtuzep.hu/termek/masterplast-masterfol-tape-2-ketoldalas-ragasztoszalag", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanez epitoanyagmester.hu 1687 Ft, nett.hu 2096 Ft"},
+      {"bolt": "Euroof", "termek": "Masterplast Mastermax TAPE diffúziós ragasztószalag", "ar": 8143, "egyseg": "Ft/tekercs", "url": "https://www.euroof.hu/termdetail.cfm?id=584", "ellenorizve": "2026-09-24", "megjegyzes": "webshop ár, lista ár 9048 Ft; legolcsóbb változat"},
+      {"bolt": "Duralbau", "termek": "Isover Vario KB1 egyoldalas öntapadó ragasztószalag 40 m × 60 mm", "ar": 18095, "egyseg": "Ft/tekercs", "url": "https://duralbau.hu/isover-vario-kb1-egyolgalas-ontapado-regasztoszalag-40-m-x-60-mm-6247", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Nett.hu", "termek": "ISOVER Vario KB1 egyoldalas öntapadó ragasztószalag 6 cm × 40 m", "ar": 20675, "egyseg": "Ft/tekercs", "url": "https://nett.hu/epitoanyag-szarazepiteszet-elvedok/tetofoliak-tetofedes-kiegeszitok/5200441267-isover-vario-kb1-egyoldalas-ontapado-ragasztoszalag-6-cm--40-m--5200441267", "ellenorizve": "2026-09-24", "megjegyzes": ""}
+    ],
+    "megjegyzes": "Két nagyon eltérő termékkör: olcsó kétoldalas rögzítőszalag (1 700–2 100 Ft/25 m) vs. valódi légzáró egyoldalas szalag (Vario KB1: 18 000–20 700 Ft/40 m ≈ 450–520 Ft/fm). Az átlag félrevezető – javasolt Ft/fm egységre váltani, vagy a két típust külön kezelni. A mastercenter.hu Mastermax TAPE-50 885 Ft/tekercs ára a többi forráshoz képest gyanúsan alacsony, kihagyva."
+  },
+
+  "pu-hab": {
+    "egyseg": "Ft/db (750 ml)",
+    "min": 2790, "max": 4690, "atlag": 3300,
+    "variansok": [
+      {"nev": "Den Braven pisztolyos purhab 750 ml", "ar": 2790, "egyseg": "Ft/db"},
+      {"nev": "Den Braven RL enyhén dagadó pisztolyhab 750 ml", "ar": 2907, "egyseg": "Ft/db"},
+      {"nev": "Soudal Flexifoam Gun pisztolyhab 750 ml", "ar": 4690, "egyseg": "Ft/db"}
+    ],
+    "forrasok": [
+      {"bolt": "Gazda Barkács", "termek": "Den Braven Pisztolyos Purhab 750 ml", "ar": 2790, "egyseg": "Ft/db (750 ml)", "url": "https://www.gazda-barkacs.hu/festekek-380/ragasztok-tomitok-773/purhabok-1735", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt kézi purhab 750 ml 2990 Ft"},
+      {"bolt": "Aktív.hu", "termek": "Den Braven Purhab 750 ml pisztolyos piros (40220RLHU)", "ar": 3150, "egyseg": "Ft/db (750 ml)", "url": "https://www.aktiv.hu/muszaki-segedanyagok/purhabok", "ellenorizve": "2026-09-24", "megjegyzes": "RRP 3290 Ft"},
+      {"bolt": "ST Shop", "termek": "Soudal Flexifoam Gun pisztolyhab 750 ml", "ar": 4690, "egyseg": "Ft/db (750 ml)", "url": "https://stshop.hu/pur-es-pisztolyhab", "ellenorizve": "2026-09-24", "megjegyzes": "rugalmas prémium hab"},
+      {"bolt": "Gemino", "termek": "Pisztolyhab 750 ml (Den Braven) purhab", "ar": 3070, "egyseg": "Ft/db (750 ml)", "url": "https://katalogus.gemino.hu/index.php/termek/pisztolyhab-750-ml-den-braven-purhab", "ellenorizve": "2026-09-24", "megjegyzes": "ártartomány 2790–3070 Ft"}
+    ],
+    "megjegyzes": "Standard pisztolyhab 2 800–3 200 Ft; speciális (flexibilis, tűzgátló) 4 500–5 600 Ft."
+  },
+
+  "szilikon": {
+    "egyseg": "Ft/db (280–310 ml kartus)",
+    "min": 2999, "max": 4990, "atlag": 3600,
+    "variansok": [
+      {"nev": "Soudal Szaniter STOP szilikon 280 ml", "ar": 2999, "egyseg": "Ft/db (280 ml)"},
+      {"nev": "Pattex penészálló szaniter szilikon 310 ml", "ar": 3499, "egyseg": "Ft/db (310 ml)"},
+      {"nev": "Ceresit CS 25 szaniter szilikon 280 ml", "ar": 4690, "egyseg": "Ft/db (280 ml)"}
+    ],
+    "forrasok": [
+      {"bolt": "Praktiker", "termek": "Pattex penészálló szaniter szilikon fehér 310 ml", "ar": 3499, "egyseg": "Ft/db (310 ml)", "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/szilikon/c/1101", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Praktiker", "termek": "Soudal Szaniter STOP szilikon 280 ml szürke", "ar": 2999, "egyseg": "Ft/db (280 ml)", "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/szilikon/soudal-szaniter-stop-szilikon-280ml-szurke/p/437381", "ellenorizve": "2026-09-24", "megjegyzes": "10 711 Ft/l"},
+      {"bolt": "OBI", "termek": "Univerzális szilikon Soudal 280 ml", "ar": 3299, "egyseg": "Ft/db (280 ml)", "url": "https://www.obi.hu/hidegburkolatok-tartozekai/szilikon-akril/c/317", "ellenorizve": "2026-09-24", "megjegyzes": "11 782 Ft/l"},
+      {"bolt": "Mesterek Futára", "termek": "Ceresit CS 25 Szaniter szilikon transzparens 280 ml", "ar": 3443, "egyseg": "Ft/db (280 ml)", "url": "https://mesterekfutara.hu/webshop/ceresit-cs-25-szaniter-szilikon", "ellenorizve": "2026-09-24", "megjegyzes": "akciós (eredeti 3742 Ft)"},
+      {"bolt": "ANDA Festékáruház", "termek": "Ceresit CS 25 szaniter szilikon 12 cementszürke 280 ml", "ar": 4690, "egyseg": "Ft/db (280 ml)", "url": "https://www.anda.hu/szilikonok/ceresit-cs-25-szaniter-szilikon-12-cementszurke-280-ml-110016-p110016.html", "ellenorizve": "2026-09-24", "megjegyzes": "színes változatok 4990 Ft-ig"}
+    ],
+    "megjegyzes": "A márkás szilikonok többsége ma 280 ml-es kartusban kapható (310 ml ritkább). Olcsó általános szilikonok (pl. Den Braven szaniter 280 ml 2090 Ft, anda.hu via Árukereső) ennél olcsóbbak – min. ár így reálisan ~2 000 Ft."
+  },
+
+  "akriltomito": {
+    "egyseg": "Ft/db (280–310 ml)",
+    "min": 719, "max": 1490, "atlag": 1000,
+    "variansok": [
+      {"nev": "Soudal Akryl fehér 280 ml", "ar": 719, "egyseg": "Ft/db (280 ml)"},
+      {"nev": "Soudal akril tömítő 310 ml", "ar": 1090, "egyseg": "Ft/db (310 ml)"},
+      {"nev": "Tytan Turbo akril tömítő fehér 310 ml", "ar": 1490, "egyseg": "Ft/db (310 ml)"}
+    ],
+    "forrasok": [
+      {"bolt": "Czifra Festék", "termek": "SOUDAL AKRIL TÖMÍTŐ 310 ML", "ar": 1090, "egyseg": "Ft/db (310 ml)", "url": "https://www.czifrafestek.hu/Festheto-akril-tomito/SouDAL-AKRIL-ToMiTo-310ML/70/2", "ellenorizve": "2026-09-24", "megjegyzes": ""},
+      {"bolt": "Festékcenter.hu", "termek": "Tytan Turbo Akril tömítő fehér 310 ml", "ar": 1490, "egyseg": "Ft/db (310 ml)", "url": "https://www.festekcenter.hu/tytan-turbo-akril-tomito-feher-310-ml", "ellenorizve": "2026-09-24", "megjegyzes": "gyorsan festhető"},
+      {"bolt": "Kőházy", "termek": "Soudal Akryl fehér 280 ml", "ar": 719, "egyseg": "Ft/db (280 ml)", "url": "https://www.kohazy.hu/purhab-szilikon-akril-tomito/-festheto-akril-tomito", "ellenorizve": "2026-09-24", "megjegyzes": "'Szuper ár' akció"},
+      {"bolt": "Dobotrade", "termek": "Tytan akril festhető tömítő fehér 280 ml", "ar": 724, "egyseg": "Ft/db (280 ml)", "url": "https://dobotrade.hu/tytan-akril-festheto-tomito-feher-280ml", "ellenorizve": "2026-09-24", "megjegyzes": "kedvezményes ár (2026-08-31-ig érvényes volt), eredeti 746 Ft"}
+    ],
+    "megjegyzes": "Általános festhető akril 700–1 100 Ft; gyors/esőálló akril 1 200–1 500 Ft."
+  },
+
+  "falazohalo": {
+    "egyseg": "Ft/m²",
+    "min": 253, "max": 369, "atlag": 295,
+    "variansok": [
+      {"nev": "Masterplast Masternet Classic 145 (1 × 50 m)", "ar": 265, "egyseg": "Ft/m²"},
+      {"nev": "Masterplast Masternet Classic 160", "ar": 292, "egyseg": "Ft/m²"},
+      {"nev": "Baumit StarTex 145 g feliratos, 50 m²", "ar": 369, "egyseg": "Ft/m²"}
+    ],
+    "forrasok": [
+      {"bolt": "Építőanyagmester", "termek": "Masternet Classic 145 üvegszövet háló 1 m × 50 m", "ar": 265, "egyseg": "Ft/m²", "url": "https://epitoanyagmester.hu/Homlokzati-hoszigeteles-Uvegszovet-halo", "ellenorizve": "2026-09-24", "megjegyzes": "ugyanitt Classic 160: 292 Ft/m², Solid white 50 m²: 253 Ft/m²"},
+      {"bolt": "Nett.hu", "termek": "Masterplast Üvegszövet háló dryvit 145 g narancssárga 50 m²/tekercs", "ar": 340, "egyseg": "Ft/m²", "url": "https://nett.hu/hoszigeteles/hoszigeteles-kiegeszitok/00163-masterplast-uvegszovet-halo-dryvit-145-g-narancssarga-50-m2-tekercs", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 16 990 Ft / 50 m²"},
+      {"bolt": "Csöme Szigetelés", "termek": "Üvegszövet háló feliratos – Baumit StarTex – 145 g, tekercs", "ar": 369, "egyseg": "Ft/m²", "url": "https://www.csomeszigeteles.hu/uvegszovet-halo", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 18 470 Ft / 50 m²"},
+      {"bolt": "Mixvill", "termek": "Masterplast Masternet Solid White üvegszövet háló 145 g/m² 50 m²", "ar": 289, "egyseg": "Ft/m²", "url": "https://www.mixvill.hu/masterplast-masternet-solid-white-uvegszovet-halo-145-g_m2-50m2-e118l-0102-945wh100", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 14 449 Ft / 50 m², online ár"},
+      {"bolt": "Grás Tüzép", "termek": "Üvegszövet EURONET145 homlokzathoz - 145 g/m²", "ar": 273, "egyseg": "Ft/m²", "url": "https://gras.hu/kategoria/249/webshop/szigetelesek/homlokzati-hoszigeteles-es-tartozekai/homlokzati-uvegszovet", "ellenorizve": "2026-09-24", "megjegyzes": "'-tól' ár"}
+    ],
+    "megjegyzes": "Megbízható, szűk sáv: 250–370 Ft/m² (50 m²-es tekercsben)."
+  },
+
+  "alapozo": {
+    "egyseg": "Ft/liter",
+    "min": 1002, "max": 2840, "atlag": 1650,
+    "variansok": [
+      {"nev": "Sakret univerzális alapozó és tapadóhíd 5 L", "ar": 1400, "egyseg": "Ft/l"},
+      {"nev": "Prima Fixatív mélyalapozó 1 L", "ar": 1529, "egyseg": "Ft/l"},
+      {"nev": "Ceresit CT 17 mélyalapozó 5 L", "ar": 1858, "egyseg": "Ft/l"}
+    ],
+    "forrasok": [
+      {"bolt": "OBI", "termek": "Sakret univerzális alapozó és tapadóhíd 5 L AGR", "ar": 1400, "egyseg": "Ft/l", "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310", "ellenorizve": "2026-09-24", "megjegyzes": "6999 Ft / 5 l (listában 1400 Ft/l); 1 L-es: 1699 Ft"},
+      {"bolt": "HelloMester", "termek": "Ceresit CT 17 Universal mélyalapozó 5 l", "ar": 1858, "egyseg": "Ft/l", "url": "https://hellomester.hu/termek/ceresit-univerzalis-alapozo-ct-17-universal-5-l", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 9290 Ft / 5 l"},
+      {"bolt": "Kőházy", "termek": "Prima Fixatív mélyalapozó 1 L", "ar": 1529, "egyseg": "Ft/l", "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher/hera-belso-falfestek-15-l-feher", "ellenorizve": "2026-09-24", "megjegyzes": "kapcsolódó termékként; ugyanitt Falfix diszperziós mélyalapozó 1 L 2840 Ft"},
+      {"bolt": "Allegro (piactér)", "termek": "Ceresit CT 17 mélyalapozó 5 L", "ar": 1002, "egyseg": "Ft/l", "url": "https://allegro.hu/termek/melyalapozo-ceresit-ct17-5l-gyors-ceb91c0d-3e55-4322-93df-5d4d26607f0f", "ellenorizve": "2026-09-24", "megjegyzes": "5010 Ft / 5 l, piactéri ár"}
+    ],
+    "megjegyzes": "5 l-es kiszerelés literre 1 000–1 900 Ft, 1 l-es 1 500–2 850 Ft. Az epitoanyag.hu Baumit MultiPrimer 10 l (56 175 Ft = 5618 Ft/l) kiugró, valószínűleg koncentrátum/hibás adat – kihagyva."
+  },
+
+  "belteri-festek": {
+    "egyseg": "Ft/liter",
+    "min": 699, "max": 1966, "atlag": 1050,
+    "variansok": [
+      {"nev": "Héra belső falfesték fehér 15 l", "ar": 699, "egyseg": "Ft/l"},
+      {"nev": "Poli-Farbe Inntaler Prémium belső falfesték fehér 15 l", "ar": 953, "egyseg": "Ft/l"},
+      {"nev": "Poli-Farbe Platinum hófehér beltéri falfesték 15 l", "ar": 1935, "egyseg": "Ft/l"}
+    ],
+    "forrasok": [
+      {"bolt": "Bauhaus", "termek": "HÉRA beltéri falfesték fehér 15 l", "ar": 699, "egyseg": "Ft/l", "url": "https://www.bauhaus.hu/belteri-festek/hera-belteri-falfestek-feher-15l/29701195.html", "ellenorizve": "2026-09-24", "megjegyzes": "10 490 Ft / 15 l"},
+      {"bolt": "OBI", "termek": "Poli-Farbe Inntaler Premium beltéri diszperziós falfesték fehér 15 l", "ar": 699, "egyseg": "Ft/l", "url": "https://www.obi.hu/belteri-falfestekek/feher-falfestekek/c/2993", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 10 490 Ft / 15 l (kategórialistából)"},
+      {"bolt": "Kőházy", "termek": "Inntaler Prémium belső falfesték fehér 15 liter", "ar": 953, "egyseg": "Ft/l", "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 14 289 Ft / 15 l; ugyanitt Héra belső 15 l 11 279 Ft (752 Ft/l)"},
+      {"bolt": "Bíbor Festék", "termek": "Poli-Farbe Platinum Hófehér beltéri falfesték 15 l", "ar": 1935, "egyseg": "Ft/l", "url": "https://www.biborfestek.hu/lemoshato-falfestek-polifarbe", "ellenorizve": "2026-09-24", "megjegyzes": "29 020 Ft / 15 l"},
+      {"bolt": "Kőházy", "termek": "Dulux Acryl Matt fehér falfesték 3 l", "ar": 1966, "egyseg": "Ft/l", "url": "https://www.kohazy.hu/fal-es-homlokzatfestek-szinkeveres/-belso-falfestek-feher", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 5899 Ft / 3 l"}
+    ],
+    "megjegyzes": "Alap fehér 15 l-es diszperziós festék 700–950 Ft/l; prémium mosható (Platinum, Dulux) 1 900–2 000 Ft/l; kis kiszerelés és színkevert ennél drágább (akár 3 000+ Ft/l)."
+  },
+
+  "kulteri-festek": {
+    "egyseg": "Ft/liter",
+    "min": 1428, "max": 3986, "atlag": 2400,
+    "variansok": [
+      {"nev": "Poli-Farbe diszperziós homlokzatfesték fehér 14 l", "ar": 1428, "egyseg": "Ft/l"},
+      {"nev": "Düfa Trendfassade HD80 homlokzatfesték fehér 15 l", "ar": 1466, "egyseg": "Ft/l"},
+      {"nev": "Héra Modakril (Kolor) homlokzatfesték fehér 15 l", "ar": 3043, "egyseg": "Ft/l"}
+    ],
+    "forrasok": [
+      {"bolt": "Építs Otthont", "termek": "Poli-Farbe Diszperziós Homlokzatfesték Fehér 14 l", "ar": 1428, "egyseg": "Ft/l", "url": "https://epitsotthont.hu/poli-farbe-diszperzios-homlokzatfestek-feher-14l-833", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 19 990 Ft / 14 l"},
+      {"bolt": "ANDA Festékáruház", "termek": "Poli-farbe diszperziós homlokzatfesték 14 L", "ar": 1714, "egyseg": "Ft/l", "url": "https://www.anda.hu/Kulteri-diszperzios-falfestekek/Poli-farbe-diszp-homlokzatfestek-14-L-27397-p11211.html", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 23 990 Ft / 14 l"},
+      {"bolt": "Festékcenter.hu", "termek": "Düfa Trendfassade HD80 homlokzatfesték fehér 15 l", "ar": 1466, "egyseg": "Ft/l", "url": "https://www.festekcenter.hu/trilak-hera-modakril-kolor-homlokzatfestek-feher-1-l", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 21 990 Ft / 15 l; ugyanitt Héra Acryl homlokzat 14 l 30 490 Ft (2178 Ft/l), Modakril Kolor 15 l 59 790 Ft (3986 Ft/l)"},
+      {"bolt": "Színvilág", "termek": "Héra Modakril homlokzatfesték fehér 15 l", "ar": 3043, "egyseg": "Ft/l", "url": "https://szinvilag.hu/termek/modakril-homlokzat-festek-feher-15-l-c334ba918423", "ellenorizve": "2026-09-24", "megjegyzes": "45 650 Ft / 15 l"},
+      {"bolt": "Kőházy", "termek": "Modakril Kolor homlokzatfesték L bázis 15 l", "ar": 3348, "egyseg": "Ft/l", "url": "https://www.kohazy.hu/melyalapozo-vakolatalapozo-feluletkezeles/-tapadohid-betonkontakt/modakril-kolor-homlokzatfestek-l-bazis-15-l", "ellenorizve": "2026-09-24", "megjegyzes": "Számolt: 50 220 Ft / 15 l"}
+    ],
+    "megjegyzes": "Egyszerű diszperziós homlokzatfesték 1 400–1 700 Ft/l; prémium akril/szilikon (Modakril, Dryvit Silicone 15 l 47 690 Ft = 3179 Ft/l) 3 000–4 000 Ft/l. Szilikát (Baumit 14 l 66 199 Ft ≈ 4700 Ft/l, Kőházy) a sáv felett."
+  }
+}

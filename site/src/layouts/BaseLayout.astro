@@ -8,6 +8,7 @@ interface Props {
   canonicalURL: string;
   ogImage?: string;
   schema?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -16,6 +17,7 @@ const {
   canonicalURL,
   ogImage = 'https://epitoanyagar.hu/og-image.png',
   schema,
+  noindex = false,
 } = Astro.props;
 ---
 <!DOCTYPE html>
@@ -25,9 +27,9 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
   <meta name="theme-color" content="#1d4ed8" />
-  <link rel="canonical" href={canonicalURL} />
+  {!noindex && <link rel="canonical" href={canonicalURL} />}
 
   <!-- Open Graph -->
   <meta property="og:title" content={title} />

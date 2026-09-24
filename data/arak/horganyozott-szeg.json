@@ -1,26 +1,26 @@
 {
   "anyag_id": "horganyozott-szeg",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 400,
-    "max": 900,
-    "atlag": 600,
+    "min": 1100,
+    "max": 2560,
+    "atlag": 1550,
     "egyseg": "Ft/kg"
   },
   "variansok": [
     {
-      "nev": "Drótszeg 3.4×100 mm",
-      "ar": 420,
+      "nev": "Horganyzott bognárszeg 2,2×50 mm",
+      "ar": 1100,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "Keret szeg 3.1×80 mm",
-      "ar": 600,
+      "nev": "Fedéllemez (pala) szeg 1,6×16 tűzihorganyzott, 1 kg",
+      "ar": 1399,
       "egyseg": "Ft/kg"
     },
     {
-      "nev": "Tető szeg 3.5×120 mm",
-      "ar": 850,
+      "nev": "Horganyzott huzalszeg 2,8×65 mm",
+      "ar": 2560,
       "egyseg": "Ft/kg"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Horganyzott szeg 2026-ban?",
-      "valasz": "A(z) Horganyzott szeg ára 2026-ban 400 – 900 Ft/kg között mozog, az átlagár 600 Ft/kg."
+      "kerdes": "Mennyibe kerül a horganyzott szeg 2026-ban?",
+      "valasz": "Horganyzott szeg ára 2026 szeptemberében 1 100–2 560 Ft/kg, a boltok átlagára 1 550 Ft/kg (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Horganyzott bognárszeg 2,2×50 mm (1 100 Ft), a legdrágább: Horganyzott huzalszeg 2,8×65 mm (2 560 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón horganyzott szegt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a horganyzott szeg árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (OBI, Tolnay Vasker, Újház Farmker), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi horganyzott szeg kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a horganyzott szeg ára?",
+      "valasz": "Natúr (nem horganyzott) huzalszeg 810–1 290 Ft/kg."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj horganyzott szeg vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "OBI",
+      "termek": "Palaszeg / fedéllemez szeg 1,6 × 16 mm tűzihorganyzott 1 kg",
+      "ar": 1399,
+      "egyseg": "Ft/kg",
+      "url": "https://www.obi.hu/katranypapir-szegek/palaszeg-horganyzott/p/1205491",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Tolnay Vasker",
+      "termek": "Huzalszeg horganyzott 2,8 × 65 mm",
+      "ar": 2560,
+      "egyseg": "Ft/kg",
+      "url": "https://www.tolnayvasker.hu/termekek/aceltermekek/huzalok-szegek/szegek-szogek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 2016 Ft/kg; ugyanitt horganyzott bognárszeg 2,2×50: 1100 Ft/kg, 2,8×65: 1965 Ft/kg"
+    },
+    {
+      "bolt": "Újház Farmker",
+      "termek": "Koelner zsindelyszeg horganyzott 3×20 mm, 5 kg/doboz",
+      "ar": 1395,
+      "egyseg": "Ft/kg",
+      "url": "https://ujhazfarmker.hu/huzalszeg-100-1kg-doboz",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nincs készleten"
+    }
+  ],
+  "megjegyzes": "Natúr (nem horganyzott) huzalszeg 810–1 290 Ft/kg.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

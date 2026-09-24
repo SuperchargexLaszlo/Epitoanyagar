@@ -1,26 +1,26 @@
 {
   "anyag_id": "kavics",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 5000,
-    "max": 9000,
-    "atlag": 7000,
+    "min": 4050,
+    "max": 11300,
+    "atlag": 6600,
     "egyseg": "Ft/tonna"
   },
   "variansok": [
     {
-      "nev": "4-8 mm",
-      "ar": 6000,
+      "nev": "Mosott, osztályozott kavics 4/8",
+      "ar": 6560,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "8-16 mm",
-      "ar": 7000,
+      "nev": "Mosott, osztályozott kavics 8/16",
+      "ar": 6600,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "16-32 mm",
-      "ar": 8000,
+      "nev": "Mosott, osztályozott kavics 16/32",
+      "ar": 6630,
       "egyseg": "Ft/tonna"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Kavics 2026-ban?",
-      "valasz": "A(z) Kavics ára 2026-ban 5 000 – 9 000 Ft/tonna között mozog, az átlagár 7 000 Ft/tonna."
+      "kerdes": "Mennyibe kerül a kavics 2026-ban?",
+      "valasz": "Kavics ára 2026 szeptemberében 4 050–11 300 Ft/tonna, a boltok átlagára 6 600 Ft/tonna (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Mosott, osztályozott kavics 4/8 (6 560 Ft), a legdrágább: Mosott, osztályozott kavics 16/32 (6 630 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón kavicst venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a kavics árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Kő és Homok Kft., Basaltker – Darnózseli kavicsbánya, Transzkavics Kft., Puhi-Tárnok), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi kavics kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a kavics ára?",
+      "valasz": "Mosott, osztályozott kavics bányai ára. Tüzépi telephelyen kisebb tételben 11 000 Ft/t körül. 1 m³ ≈ 1,5–1,6 tonna."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj kavics vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Kő és Homok Kft. (bánya)",
+      "termek": "Kavics OK 8/16 TT (4/8: 4055; 16/32: 4400)",
+      "ar": 4055,
+      "egyseg": "Ft/tonna",
+      "url": "http://www.koeshomokkft.hu/hu/termekeink.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 3195), bányában"
+    },
+    {
+      "bolt": "Basaltker – Darnózseli kavicsbánya",
+      "termek": "8/16 kavics, osztályozott mosott (4/8 és 16/32 is 3245 nettó)",
+      "ar": 4121,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.basalt.hu/termekek/darnozseli",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 3245 Ft/t, bruttósítva; 2026.02.01-től"
+    },
+    {
+      "bolt": "Transzkavics Kft.",
+      "termek": "Mosott, osztályozott kavics 4/8, 8/16, 16/32",
+      "ar": 6922,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.transzkavics.hu/Termekek.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 5450)"
+    },
+    {
+      "bolt": "Puhi-Tárnok",
+      "termek": "8/16 mosott osztályozott kavics (OK 8/16) (4/8: 11 151; 16/32: 11 087)",
+      "ar": 11316,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.puhitarn.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 8910), tüzépi telephelyi ár, 2025.02.01-től"
+    },
+    {
+      "bolt": "Építőanyag Szállítás (epitoanyagszallitas.hu)",
+      "termek": "Kavics 8-16 mm",
+      "ar": 7100,
+      "egyseg": "Ft/m³",
+      "url": "https://epitoanyagszallitas.hu/kavics-ar",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "m³-ár, nem derül ki, hogy nettó vagy bruttó; 1,5 t/m³-rel ~4730 Ft/t"
+    }
+  ],
+  "megjegyzes": "Mosott, osztályozott kavics bányai ára. Tüzépi telephelyen kisebb tételben 11 000 Ft/t körül. 1 m³ ≈ 1,5–1,6 tonna.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

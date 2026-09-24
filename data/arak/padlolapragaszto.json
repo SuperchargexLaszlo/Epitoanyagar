@@ -1,26 +1,26 @@
 {
   "anyag_id": "padlolapragaszto",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 700,
-    "max": 1600,
-    "atlag": 1000,
+    "min": 3499,
+    "max": 9999,
+    "atlag": 7300,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "Normál padlóragasztó",
-      "ar": 720,
+      "nev": "Interproject flexragasztó 25 kg (budget)",
+      "ar": 3499,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Flex padlóragasztó",
-      "ar": 1050,
+      "nev": "Baumit Baumacol FlexTop C2TE S1 25 kg",
+      "ar": 6990,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Nehéz lapokhoz S2",
-      "ar": 1550,
+      "nev": "Mapei Keraflex Maxi S1 25 kg",
+      "ar": 9999,
       "egyseg": "Ft/zsák (25 kg)"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Padlólap ragasztó 2026-ban?",
-      "valasz": "A(z) Padlólap ragasztó ára 2026-ban 700 – 1 600 Ft/zsák (25 kg) között mozog, az átlagár 1 000 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül a padlólap ragasztó 2026-ban?",
+      "valasz": "Padlólap ragasztó ára 2026 szeptemberében 3 499–9 999 Ft/zsák (25 kg), a boltok átlagára 7 300 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Interproject flexragasztó 25 kg (budget) (3 499 Ft), a legdrágább: Mapei Keraflex Maxi S1 25 kg (9 999 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón padlólap ragasztót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a padlólap ragasztó árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (epitoanyag.hu, Praktiker, HelloMester, OBI), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi padlólap ragasztó kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a padlólap ragasztó ára?",
+      "valasz": "Flexibilis (C2TE S1) padlólapragasztó 25 kg-os zsákban."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj padlólap ragasztó vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "epitoanyag.hu",
+      "termek": "Baumit Baumacol FlexTop flexibilis burkolatragasztó 25 kg",
+      "ar": 6990,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://epitoanyag.hu/baumit-baumacol-flextop-flexibilis-burkolatragaszto-25-kg-pVUgtNTI4MDQ5",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "280 Ft/kg"
+    },
+    {
+      "bolt": "Praktiker",
+      "termek": "Baumit Baumacol Flex Top csemperagasztó 25 kg C2TES1",
+      "ar": 6299,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.praktiker.hu/epites-felujitas/epitoanyag-faanyag/csemperagaszto/c/207",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "akciós, eredeti 8699 Ft"
+    },
+    {
+      "bolt": "HelloMester",
+      "termek": "Henkel Ceresit CM 16 flexibilis burkolatragasztó C2TES1, 25 kg",
+      "ar": 7690,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://hellomester.hu/termekkategoria/zsakos-anyag/csemperagaszto",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "ugyanitt Mapei Keraflex S1 8490 Ft (akciós)"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Mapei flexibilis ragasztó Keraflex Maxi S1 C2TE S1 25 kg",
+      "ar": 9999,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "400 Ft/kg; online nem elérhető"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Interproject flexragasztó 25 kg",
+      "ar": 3499,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.obi.hu/hidegburkolatok-tartozekai/csemperagasztok/c/310",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "'Top ár', 140 Ft/kg – saját/budget márka"
+    }
+  ],
+  "megjegyzes": "Flexibilis (C2TE S1) padlólapragasztó 25 kg-os zsákban.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

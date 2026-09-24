@@ -1,26 +1,26 @@
 {
   "anyag_id": "vinyl-padlo",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3000,
-    "max": 9000,
-    "atlag": 5500,
+    "min": 6500,
+    "max": 12500,
+    "atlag": 8600,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "LVT kattintós (4 mm)",
-      "ar": 3200,
+      "nev": "SPC klikkes vinyl 4 mm (Bauhaus alap)",
+      "ar": 7490,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "LVT ragasztós (2 mm)",
-      "ar": 3800,
+      "nev": "Click vinyl Kolding tölgy hangszigeteléssel (OBI)",
+      "ar": 8899,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "SPC prémium (6 mm)",
-      "ar": 8500,
+      "nev": "Decoflooring Click vinyl Narvik tölgy (OBI)",
+      "ar": 12490,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,68 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Vinyl padló 2026-ban?",
-      "valasz": "A(z) Vinyl padló ára 2026-ban 3 000 – 9 000 Ft/m² között mozog, az átlagár 5 500 Ft/m²."
+      "kerdes": "Mennyibe kerül a vinyl padló 2026-ban?",
+      "valasz": "Vinyl padló ára 2026 szeptemberében 6 500–12 500 Ft/m², a boltok átlagára 8 600 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: SPC klikkes vinyl 4 mm (Bauhaus alap) (7 490 Ft), a legdrágább: Decoflooring Click vinyl Narvik tölgy (OBI) (12 490 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón vinyl padlót venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a vinyl padló árai?",
+      "valasz": "4 magyar kereskedő nyilvános, bruttó árából (Árukereső, Bauhaus, OBI), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi vinyl padló kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a vinyl padló ára?",
+      "valasz": "Klikkes SPC/LVT padló; jellemzően 7 500–9 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj vinyl padló vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Árukereső (több bolt)",
+      "termek": "SPC vinyl padló 4 mm SPC maggal, 1,976 m²/csomag",
+      "ar": 6590,
+      "egyseg": "Ft/m²",
+      "url": "https://padlo.arukereso.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "-tól ár árösszehasonlítóról; bolt nem azonosított"
+    },
+    {
+      "bolt": "Bauhaus",
+      "termek": "SPC vinyl padló világos Sierra tölgy 1220×229×4 mm, 2,235 m²",
+      "ar": 7490,
+      "egyseg": "Ft/m²",
+      "url": "https://www.bauhaus.hu/vinyl-padlo/spc-vinyl-padlo-vilagos-sierra-tolgy-1220x229x4mm-2-235m2/32530412.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "16 740 Ft/karton"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Click vinyl padló Kolding tölgy hangszigeteléssel",
+      "ar": 8899,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/search/spc%20padl%C3%B3",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "23 449 Ft/eladási egység; a vinyl kategóriaoldalon ugyanez 9 299 Ft/m² (eltérő kiszerelés/időpont)"
+    },
+    {
+      "bolt": "OBI",
+      "termek": "Decoflooring Click Vinyl padló Narvik tölgy",
+      "ar": 12490,
+      "egyseg": "Ft/m²",
+      "url": "https://www.obi.hu/magazin/epites/padlo/vinylpadlo-lerakasa",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "27 915 Ft/eladási egység"
+    }
+  ],
+  "megjegyzes": "Klikkes SPC/LVT padló; jellemzően 7 500–9 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

@@ -1,26 +1,26 @@
 {
   "anyag_id": "homok",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 3500,
-    "max": 6000,
-    "atlag": 4500,
+    "min": 4050,
+    "max": 7570,
+    "atlag": 5500,
     "egyseg": "Ft/tonna"
   },
   "variansok": [
     {
-      "nev": "Folyami homok",
-      "ar": 4000,
+      "nev": "Homok 0/2",
+      "ar": 4750,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "Bányahomok",
-      "ar": 3500,
+      "nev": "Homok 0/4 (falazó/esztrich)",
+      "ar": 5610,
       "egyseg": "Ft/tonna"
     },
     {
-      "nev": "Mosott homok",
-      "ar": 5500,
+      "nev": "Homok 0/1 (vakoló-, simítóhomok)",
+      "ar": 5630,
       "egyseg": "Ft/tonna"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Homok 2026-ban?",
-      "valasz": "A(z) Homok ára 2026-ban 3 500 – 6 000 Ft/tonna között mozog, az átlagár 4 500 Ft/tonna."
+      "kerdes": "Mennyibe kerül a homok 2026-ban?",
+      "valasz": "Homok ára 2026 szeptemberében 4 050–7 570 Ft/tonna, a boltok átlagára 5 500 Ft/tonna (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Homok 0/2 (4 750 Ft), a legdrágább: Homok 0/1 (vakoló-, simítóhomok) (5 630 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón homokt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a homok árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Kő és Homok Kft., Basaltker – Darnózseli, Transzkavics Kft., Puhi-Tárnok), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi homok kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a homok ára?",
+      "valasz": "Bányai ár, szállítás nélkül. 1 m³ homok ≈ 1,4–1,7 tonna."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj homok vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Kő és Homok Kft. (bánya)",
+      "termek": "Homok OH 0/4 PTT (0/1: 4375; 0/2: 4055, ill. másik tételnél 5435)",
+      "ar": 4250,
+      "egyseg": "Ft/tonna",
+      "url": "http://www.koeshomokkft.hu/hu/termekeink.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 3345), bányában"
+    },
+    {
+      "bolt": "Basaltker – Darnózseli",
+      "termek": "0/4 homok, osztályozott mosott",
+      "ar": 5010,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.basalt.hu/termekek/darnozseli",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "nettó 3945 Ft/t, bruttósítva; halmazsűrűség 1,6–1,7 t/m³"
+    },
+    {
+      "bolt": "Transzkavics Kft.",
+      "termek": "Kábelhomok",
+      "ar": 6299,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.transzkavics.hu/Termekek.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 4960)"
+    },
+    {
+      "bolt": "Puhi-Tárnok",
+      "termek": "OH 0/4 homok (OH 0/1: 6883)",
+      "ar": 7569,
+      "egyseg": "Ft/tonna",
+      "url": "https://www.puhitarn.hu/arak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó (nettó 5960), tüzépi telephelyi ár; az oldalon 1,4 t/m³ térfogatsúllyal számolnak"
+    },
+    {
+      "bolt": "Kovics Fuvar",
+      "termek": "0-1 homok (vakoló, mosott)",
+      "ar": 4000,
+      "egyseg": "Ft/m³ nettó",
+      "url": "https://kovicsfuvar.hu/index.php/arlista",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "4000 Ft+ÁFA/m³ = 5080 Ft/m³ bruttó, 1,5 t/m³-rel ~3400 Ft/t; bányahomok 3100+ÁFA/m³"
+    }
+  ],
+  "megjegyzes": "Bányai ár, szállítás nélkül. 1 m³ homok ≈ 1,4–1,7 tonna.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

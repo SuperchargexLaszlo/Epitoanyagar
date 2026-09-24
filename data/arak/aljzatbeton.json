@@ -1,27 +1,27 @@
 {
   "anyag_id": "aljzatbeton",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 650,
-    "max": 1200,
-    "atlag": 850,
+    "min": 1200,
+    "max": 2300,
+    "atlag": 1730,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "F3 aljzatbeton",
-      "ar": 680,
+      "nev": "Baumit Szárazbeton C20/25 (B225), 25 kg",
+      "ar": 1870,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "F4 aljzatbeton",
-      "ar": 900,
+      "nev": "Sakret szárazbeton / Esztrich BE 0-4 C16/20, 25 kg",
+      "ar": 2290,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "Önterülő aljzat",
-      "ar": 1150,
-      "egyseg": "Ft/zsák (25 kg)"
+      "nev": "Baumit Esztrich E225, 40 kg (25 kg-ra vetítve ~1760)",
+      "ar": 2819,
+      "egyseg": "Ft/zsák (40 kg)"
     }
   ],
   "varos_szorzok": {
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Aljzatbeton 2026-ban?",
-      "valasz": "A(z) Aljzatbeton ára 2026-ban 650 – 1 200 Ft/zsák (25 kg) között mozog, az átlagár 850 Ft/zsák (25 kg)."
+      "kerdes": "Mennyibe kerül az aljzatbeton 2026-ban?",
+      "valasz": "Aljzatbeton ára 2026 szeptemberében 1 200–2 300 Ft/zsák (25 kg), a boltok átlagára 1 730 Ft/zsák (25 kg) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Baumit Szárazbeton C20/25 (B225), 25 kg (1 870 Ft), a legdrágább: Baumit Esztrich E225, 40 kg (25 kg-ra vetítve ~1760) (2 819 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón aljzatbetont venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az aljzatbeton árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Winkler Tüzép, Kocsis Tüzép, Pergeépker, anda.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi aljzatbeton kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az aljzatbeton ára?",
+      "valasz": "Sok esztrich csak 40 kg-os zsákban kapható (2 600–2 850 Ft); a sáv 25 kg-ra vetített ár."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj aljzatbeton vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Winkler Tüzép",
+      "termek": "Baumit száraz beton C20/25 B225 (25kg/zs)",
+      "ar": 1853,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó, akciós 1759 Ft; ugyanitt Baumit esztrich E225 40 kg: 2819 Ft, Sakret BE-04 40 kg: 2850 Ft"
+    },
+    {
+      "bolt": "Kocsis Tüzép (Kistarcsa)",
+      "termek": "Baumit Szárazbeton C20 25kg",
+      "ar": 1860,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://tuzepwebshop.hu/Esztrich-beton-cement",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, akciós 1699 Ft (68 Ft/kg)"
+    },
+    {
+      "bolt": "Pergeépker",
+      "termek": "Baumit Száraz beton C20 25 kg",
+      "ar": 1890,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.pergeepker.hu/Szarazbeton-beton-esztrich",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó; ugyanitt Sakret Szárazbeton C16/20 25 kg: 3390 Ft (kiugró)"
+    },
+    {
+      "bolt": "anda.hu (Árukereső)",
+      "termek": "SAKRET Esztrich BE 0-4 C16/20 szárazbeton 25 kg",
+      "ar": 2290,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://szaraz-beton.arukereso.hu",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, árösszehasonlító találat"
+    },
+    {
+      "bolt": "OBI (tuzepinfo.hu összesítő szerint)",
+      "termek": "Interproject Esztrich 25 kg",
+      "ar": 1199,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://tuzepinfo.hu/k/epitoanyag/vakolat-csemperagaszto-habarcs-cement-szilikon/esztrich-szarazbeton-betonjavito-korroziogatlo-kiegeszito/esztrich-szarazbeton",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó; ugyanitt Baumit Szárazbeton 25 kg: Dalos Tüzép 1240 Ft, legdrágább ajánlat 1838 Ft; a dátum nem ismert"
+    }
+  ],
+  "megjegyzes": "Sok esztrich csak 40 kg-os zsákban kapható (2 600–2 850 Ft); a sáv 25 kg-ra vetített ár.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

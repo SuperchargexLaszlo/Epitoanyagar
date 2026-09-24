@@ -1,17 +1,27 @@
 {
   "anyag_id": "duplexcsavar",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1000,
-    "max": 3000,
-    "atlag": 2000,
-    "egyseg": "Ft/egység"
+    "min": 900,
+    "max": 5321,
+    "atlag": 3100,
+    "egyseg": "Ft/csomag (100 db)"
   },
   "variansok": [
     {
-      "nev": "Alap változat",
-      "ar": 2000,
-      "egyseg": "Ft/egység"
+      "nev": "Koelner FIX-K-08 8×40 (200 db dobozból 100 db-ra vetítve)",
+      "ar": 900,
+      "egyseg": "Ft/100 db"
+    },
+    {
+      "nev": "Koelner Rawlplug univerzális nylon dübel 8×40, 100 db",
+      "ar": 1960,
+      "egyseg": "Ft/100 db"
+    },
+    {
+      "nev": "Fischer S 8 dübel 100 db",
+      "ar": 4290,
+      "egyseg": "Ft/100 db"
     }
   ],
   "varos_szorzok": {
@@ -38,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Dübel 2026-ban?",
-      "valasz": "A(z) Dübel ára 2026-ban 1 000 – 3 000 Ft/egység között mozog, az átlagár 2 000 Ft/egység."
+      "kerdes": "Mennyibe kerül a dübel 2026-ban?",
+      "valasz": "Dübel ára 2026 szeptemberében 900–5 321 Ft/csomag (100 db), a boltok átlagára 3 100 Ft/csomag (100 db) (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Koelner FIX-K-08 8×40 (200 db dobozból 100 db-ra vetítve) (900 Ft), a legdrágább: Fischer S 8 dübel 100 db (4 290 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón dübelt venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a dübel árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Építőáruház, Gépdepó, Prenker Szerszám, BRS), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi dübel kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a dübel ára?",
+      "valasz": "Egyszerű műanyag tipli 9–20 Ft/db, márkás univerzális dübel 39–53 Ft/db."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj dübel vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Építőáruház (epitoaruhaz.hu)",
+      "termek": "Koelner Rawlplug univerzális nylon dübel 100 db/doboz 8×40 mm",
+      "ar": 1960,
+      "egyseg": "Ft/csomag (100 db)",
+      "url": "https://www.epitoaruhaz.hu/koelner-rawlplug-univerzalis-nylon-dubel-100-dbdoboz-8x40-mm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "20 Ft/db"
+    },
+    {
+      "bolt": "Gépdepó",
+      "termek": "Fischer dübel S 8 100 db/csomag",
+      "ar": 4290,
+      "egyseg": "Ft/csomag (100 db)",
+      "url": "https://www.gepdepo.hu/rogzitestechnika/altalanos-rogzites/muanyag-dubel/fischer-dubel-s-8-100db-csom-50108f.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "42,90 Ft/db"
+    },
+    {
+      "bolt": "Prenker Szerszám",
+      "termek": "Fischer SX Plus 8×40 műanyag dübel, 100 db/csomag",
+      "ar": 5321,
+      "egyseg": "Ft/csomag (100 db)",
+      "url": "https://prenkerszerszam.hu/termekek/sx-plus-8-x-40-muanyag-dubel-100dbcsomag-p305758.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: nettó 4190 Ft × 1,27"
+    },
+    {
+      "bolt": "BRS",
+      "termek": "Koelner 4ALL-08 Rawlplug univerzális nylon dübel 8×40 (100 db/doboz)",
+      "ar": 3900,
+      "egyseg": "Ft/csomag (100 db)",
+      "url": "https://www.brs.hu/dubel-4all-08-rawlplug-nagyteljesitmenyu-univerzalis-nylon-dubel-8x40-mm-100dbdoboz-19691",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 39 Ft/db × 100"
+    },
+    {
+      "bolt": "Onlinevill",
+      "termek": "Műanyag dübel tipli 8×40 ipari szürke (200 db/doboz) Koelner FIX-K-08",
+      "ar": 900,
+      "egyseg": "Ft/100 db",
+      "url": "https://www.onlinevill.hu/muanyag-dubel-tipli-8x40-ipari-szurke-200dbdoboz-koelner-fix-k-08-01868",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "Számolt: 1800 Ft / 200 db × 100"
+    }
+  ],
+  "megjegyzes": "Egyszerű műanyag tipli 9–20 Ft/db, márkás univerzális dübel 39–53 Ft/db.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

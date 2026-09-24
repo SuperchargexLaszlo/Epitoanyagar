@@ -1,26 +1,26 @@
 {
   "anyag_id": "uveggyapot",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 600,
-    "max": 1500,
-    "atlag": 950,
+    "min": 666,
+    "max": 3983,
+    "atlag": 2100,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "10 cm tekercs",
-      "ar": 650,
+      "nev": "Knauf NatuRoll Pro 10 cm (9,24 m²/tekercs)",
+      "ar": 1699,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "15 cm tekercs",
-      "ar": 950,
+      "nev": "Isover Domo 15 cm (6 m²/tekercs)",
+      "ar": 1998,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "20 cm tekercs",
-      "ar": 1400,
+      "nev": "Isover Domo Plus 20 cm (5,04 m²/tekercs)",
+      "ar": 3983,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,78 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Üveggyapot 2026-ban?",
-      "valasz": "A(z) Üveggyapot ára 2026-ban 600 – 1 500 Ft/m² között mozog, az átlagár 950 Ft/m²."
+      "kerdes": "Mennyibe kerül az üveggyapot 2026-ban?",
+      "valasz": "Üveggyapot ára 2026 szeptemberében 666–3 983 Ft/m², a boltok átlagára 2 100 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: Knauf NatuRoll Pro 10 cm (9,24 m²/tekercs) (1 699 Ft), a legdrágább: Isover Domo Plus 20 cm (5,04 m²/tekercs) (3 983 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón üveggyapott venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak az üveggyapot árai?",
+      "valasz": "5 magyar kereskedő nyilvános, bruttó árából (Praktiker, Werner Építker, Anyagdepó, Buildox), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi üveggyapot kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ az üveggyapot ára?",
+      "valasz": "Vastagság szerint: 5 cm 670–850, 10 cm 1 330–1 700, 15 cm 2 000–3 300, 20 cm ~4 000 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj üveggyapot vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Praktiker",
+      "termek": "Knauf Insulation NatuRoll Pro M 039 üveggyapot 5 / 10 / 15 cm",
+      "ar": 1699,
+      "egyseg": "Ft/m²",
+      "url": "https://www.praktiker.hu/epites-felujitas/szigeteles/uveggyapot/c/218",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "5 cm 849 Ft/m² (15 690 Ft / 18,48 m²); 10 cm 1 699 (15 699 / 9,24 m²); 15 cm 3 299 (20 190 / 6,12 m²)"
+    },
+    {
+      "bolt": "Werner Építker",
+      "termek": "Isover Domo 15 cm 5000x1200 mm (6 m²/tekercs)",
+      "ar": 1998,
+      "egyseg": "Ft/m²",
+      "url": "https://wernerepker.hu/uveggyapot-isover-domo-15-cm-5000-x-1200-mm-6m2tek-5997",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "11 990 Ft/tekercs ÷ 6 m²"
+    },
+    {
+      "bolt": "Anyagdepó",
+      "termek": "Knauf NatuRoll Pro üveggyapot 15 cm (6,12 m²)",
+      "ar": 2043,
+      "egyseg": "Ft/m²",
+      "url": "https://anyagdepo.hu/termek/knauf-naturoll-pro-uveggyapot-15cm",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Buildox (Újház Nyíregyháza)",
+      "termek": "Isover Domo Twin 10/5 üveggyapot filc (18 m²/csomag)",
+      "ar": 666,
+      "egyseg": "Ft/m²",
+      "url": "https://www.buildox.hu/Uveggyapot-szigeteles",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "11 990 Ft/tekercs ÷ 18 m² (5 cm-es rétegként); 10 cm-es vastagságra számolva 1 332 Ft/m²"
+    },
+    {
+      "bolt": "Újház Veszprém (Lang)",
+      "termek": "Isover Domo Plus 20 üveggyapot filc 20x120x420 cm (5,04 m²/cs)",
+      "ar": 3983,
+      "egyseg": "Ft/m²",
+      "url": "https://www.ujhazveszprem.hu/termek/isover-domo-plus-20-uveggyapot-filc-20x120x420-cm-5-04-m2-cs-uh-463123",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    }
+  ],
+  "megjegyzes": "Vastagság szerint: 5 cm 670–850, 10 cm 1 330–1 700, 15 cm 2 000–3 300, 20 cm ~4 000 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

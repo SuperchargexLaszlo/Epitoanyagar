@@ -1,26 +1,26 @@
 {
   "anyag_id": "penotekercs",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 200,
-    "max": 600,
-    "atlag": 350,
+    "min": 169,
+    "max": 540,
+    "atlag": 335,
     "egyseg": "Ft/m²"
   },
   "variansok": [
     {
-      "nev": "2 mm PE hab",
-      "ar": 210,
+      "nev": "PE hab (Polifoam) alátét 2 mm, tekercs",
+      "ar": 169,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "3 mm PE hab",
-      "ar": 320,
+      "nev": "PE hab (Polifoam) alátét 3 mm, tekercs",
+      "ar": 239,
       "egyseg": "Ft/m²"
     },
     {
-      "nev": "5 mm PE hab akusztikai",
-      "ar": 580,
+      "nev": "XPS laminált alátét 3 mm (5 m²/csomag)",
+      "ar": 425,
       "egyseg": "Ft/m²"
     }
   ],
@@ -48,24 +48,58 @@
   },
   "faq": [
     {
-      "kerdes": "Mennyibe kerül Peno tekercs (alátét) 2026-ban?",
-      "valasz": "A(z) Peno tekercs (alátét) ára 2026-ban 200 – 600 Ft/m² között mozog, az átlagár 350 Ft/m²."
+      "kerdes": "Mennyibe kerül a peno tekercs (alátét) 2026-ban?",
+      "valasz": "Peno tekercs (alátét) ára 2026 szeptemberében 169–540 Ft/m², a boltok átlagára 335 Ft/m² (bruttó, szállítás nélkül). A vizsgált változatok közül a legolcsóbb: PE hab (Polifoam) alátét 2 mm, tekercs (169 Ft), a legdrágább: XPS laminált alátét 3 mm (5 m²/csomag) (425 Ft)."
     },
     {
-      "kerdes": "Hol lehet olcsón peno tekercs (alátét)t venni?",
-      "valasz": "A legjobb árakhoz érdemes több áruházat összehasonlítani: Bauhaus, OBI, Hornbach és helyi építőanyag-kereskedők. Online rendelésnél a szállítási költséget is vegyük figyelembe."
+      "kerdes": "Honnan származnak a peno tekercs (alátét) árai?",
+      "valasz": "3 magyar kereskedő nyilvános, bruttó árából (Laminált Padló Outlet, Ablakland, Vízálló-laminált-padló.hu), 2026. szeptember 24-i állapot szerint. A források listája linkekkel az oldal alján található."
     },
     {
-      "kerdes": "Mennyi peno tekercs (alátét) kell egy 100 m²-es házhoz?",
-      "valasz": "Ez erősen függ a felhasználástól és a tervtől. Pontos mennyiséget mindig szakemberrel, a tervdokumentáció alapján számoljon ki."
+      "kerdes": "Mitől függ a peno tekercs (alátét) ára?",
+      "valasz": "Egyszerű 2–3 mm-es PE hab 170–240 Ft/m²; XPS és hőtükrös alátétek 400–1 200 Ft/m²."
     },
     {
       "kerdes": "Változnak az árak városonként?",
-      "valasz": "Igen, Budapest és az agglomeráció jellemzően 5-10%-kal drágább az országos átlagnál. Vidéki városokban 3-7%-os kedvezmény is előfordulhat."
+      "valasz": "A kereskedők listaárai országosan hasonlóak, a különbséget főleg a szállítási díj és a helyi telepek árazása adja. A városi oldalakon szereplő értékek az országos átlagból, a regionális árszinttel becsült helyi árak."
     },
     {
       "kerdes": "Mire figyelj peno tekercs (alátét) vásárlásakor?",
-      "valasz": "Ellenőrizd a minőségi tanúsítványt, hasonlítsd össze legalább 3 ajánlatot, és kérd be a szállítási díjat is. Nagyobb mennyiségnél alkudj kedvezményre."
+      "valasz": "Kérj írásos ajánlatot legalább 3 helyről, és kérdezz rá a szállítási díjra, a raklapdíjra és arra, hogy az ár bruttó vagy nettó. Nagyobb tételnél a tüzépek gyakran adnak kedvezményt."
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Laminált Padló Outlet",
+      "termek": "2 mm / 3 mm Polifoam laminált padló alátét, 1 m széles tekercs",
+      "ar": 169,
+      "egyseg": "Ft/m²",
+      "url": "https://www.laminaltpadlooutlet.hu/Laminalt-padlo-alatet",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "2 mm 169; 3 mm 239 Ft/m²; XPS 2 mm Thermo 394, XPS 3 mm 425, XPS 5 mm 540 Ft/m²"
+    },
+    {
+      "bolt": "Ablakland",
+      "termek": "Laminált alátét habfólia 3 mm, 50 m² tekercs",
+      "ar": 240,
+      "egyseg": "Ft/m²",
+      "url": "https://ablakland.hu/laminalt-alatet-habfolia-3-mm-es-tekercs-50nm-p-70307.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": ""
+    },
+    {
+      "bolt": "Vízálló-laminált-padló.hu",
+      "termek": "2 mm-es hőtükrös laminált alátét habfólia tekercs",
+      "ar": 1190,
+      "egyseg": "Ft/m²",
+      "url": "https://www.vizallo-laminalt-padlo.hu/product/2-mm-es-hotukros-laminalt-alatet-habfolia-tekercs",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "Prémium/hőtükrös – a sávon kívül"
+    }
+  ],
+  "megjegyzes": "Egyszerű 2–3 mm-es PE hab 170–240 Ft/m²; XPS és hőtükrös alátétek 400–1 200 Ft/m².",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }

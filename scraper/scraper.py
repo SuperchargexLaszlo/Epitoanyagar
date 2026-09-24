@@ -110,12 +110,14 @@ def main() -> int:
                 scraped_db += 1
                 print(f"  ✓ {slug}: új átlagár {ar} {data['alap_ar']['egyseg']}")
 
+        # A dátum csak akkor frissül, ha az ár ténylegesen változott.
+        # (Korábban minden futás átírta, így az oldal friss dátumot mutatott változatlan árakkal.)
+        uj = json.dumps(data, ensure_ascii=False, sort_keys=True)
+        if uj == elozo:
+            continue
         data["frissitve"] = datum
         frissitve_db += 1
-
-        uj = json.dumps(data, ensure_ascii=False, sort_keys=True)
-        if uj != elozo:
-            valtozott += 1
+        valtozott += 1
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
             f.write("\n")

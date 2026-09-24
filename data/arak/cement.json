@@ -1,26 +1,26 @@
 {
   "anyag_id": "cement",
-  "frissitve": "2026-09-01",
+  "frissitve": "2026-09-24",
   "alap_ar": {
-    "min": 1200,
-    "max": 1800,
-    "atlag": 1450,
+    "min": 2000,
+    "max": 2750,
+    "atlag": 2300,
     "egyseg": "Ft/zsák (25 kg)"
   },
   "variansok": [
     {
-      "nev": "CEM I 42.5N",
-      "ar": 1600,
+      "nev": "CEM II/B-M 32,5 R (általános, pl. Váci/DDC, Danucem Házépítő, Cemmac OptimCEM)",
+      "ar": 2200,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "CEM II/B-V 32.5R",
-      "ar": 1250,
+      "nev": "CEM II 42,5 N/R (pl. DDC 42,5 N, Holcim Super, Danucem Extracem)",
+      "ar": 2300,
       "egyseg": "Ft/zsák (25 kg)"
     },
     {
-      "nev": "CEM III (salak)",
-      "ar": 1350,
+      "nev": "CEM I 42,5 R (Supracem, tiszta portlandcement)",
+      "ar": 2450,
       "egyseg": "Ft/zsák (25 kg)"
     }
   ],
@@ -49,33 +49,127 @@
   "faq": [
     {
       "kerdes": "Mennyibe kerül egy 25 kg-os zsák cement 2026-ban?",
-      "valasz": "Egy 25 kg-os zsák cement ára 2026-ban 1 200–1 800 Ft, minőségtől és kereskedőtől függően. Ez kilogrammonként kb. 48–72 Ft."
+      "valasz": "2026 szeptemberében a tüzépeken és webshopokban 2 000–2 750 Ft egy 25 kg-os zsák, az átlag 2 300 Ft. Ez kilogrammonként 80–110 Ft."
+    },
+    {
+      "kerdes": "Mennyi 1 mázsa cement ára?",
+      "valasz": "1 mázsa (100 kg) 4 zsák, 2026-ban 8 000–11 000 Ft. Sok tüzép eleve mázsaárat ír ki."
     },
     {
       "kerdes": "Mennyi egy raklap cement ára?",
-      "valasz": "Egy raklap cement (54 db 25 kg-os zsák = 1350 kg) ára 2026-ban kb. 65 000–97 000 Ft. Raklapos vételnél gyakran kedvezőbb a kg-ár."
+      "valasz": "Raklaponként a zsákszám gyártótól függ (40–64 zsák). 54 zsákos raklappal számolva 108 000–148 000 Ft, plusz a visszaváltható raklap díja."
     },
     {
       "kerdes": "Mennyi cement kell 1 m³ betonhoz?",
-      "valasz": "Átlagos C20/25 betonhoz kb. 300 kg cement (≈ 12 db 25 kg-os zsák) szükséges 1 m³-hez, a receptúrától függően."
+      "valasz": "C16/20–C20/25 betonhoz kb. 280–320 kg, azaz 11–13 zsák. 1 m³ házilag kevert beton cementje így 25 000–30 000 Ft, sóderrel együtt 30 000–35 000 Ft körül van."
     },
     {
-      "kerdes": "Változnak a cement árak városonként?",
-      "valasz": "Igen, Budapesten és az agglomerációban jellemzően 5-8%-kal drágább, vidéki városokban 3-7%-kal olcsóbb lehet az országos átlagnál."
-    },
-    {
-      "kerdes": "Hol lehet olcsón cementet venni?",
-      "valasz": "Érdemes összehasonlítani a Bauhaus, OBI, Hornbach és a helyi tüzépek árait. Nagyobb (raklapos) mennyiségnél alkudj kedvezményre, és számold hozzá a szállítást."
+      "kerdes": "Honnan származnak a cementárak?",
+      "valasz": "9 kereskedő (pl. Winkler Tüzép, Kézér Tüzép, Tüzép Shop, Bauplaza, Otthonker) nyilvános bruttó árából, 2026. szeptember 24-i állapot szerint."
     }
   ],
   "reszletek": [
     {
-      "cim": "Cement ára 25 kg-os zsákonként, kg-onként és raklaponként",
-      "szoveg": "<p>A cementet jellemzően <strong>25 kg-os zsákban</strong> árulják. Az árak 2026-ban:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Kiszerelés</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">25 kg-os zsák</td><td class=\"px-4 py-2 text-sm text-gray-800\">1 200–1 800 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Kilogrammonként</td><td class=\"px-4 py-2 text-sm text-gray-800\">~48–72 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">1 mázsa (100 kg = 4 zsák)</td><td class=\"px-4 py-2 text-sm text-gray-800\">~4 800–7 200 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Raklap (54 zsák = 1350 kg)</td><td class=\"px-4 py-2 text-sm text-gray-800\">~64 800–97 200 Ft</td></tr></tbody></table><p>A tüzépek és építőanyag-telepek raklapos vásárlásnál általában kedvezőbb kg-árat adnak, de a raklap letét (visszaváltható) és a kiszállítás díja külön tétel lehet.</p>"
+      "cim": "Cement ára zsákonként, mázsánként és raklaponként",
+      "szoveg": "<p>A cementet 25 kg-os zsákban árulják. 2026 szeptemberi bruttó árak:</p><table class=\"min-w-full bg-white border border-gray-200 rounded-lg shadow-sm my-4\"><thead class=\"bg-gray-50\"><tr><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Kiszerelés</th><th class=\"px-4 py-2 text-left text-sm font-semibold text-gray-700\">Ár</th></tr></thead><tbody><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">25 kg-os zsák</td><td class=\"px-4 py-2 text-sm text-gray-800\">2 000–2 750 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Kilogrammonként</td><td class=\"px-4 py-2 text-sm text-gray-800\">80–110 Ft/kg</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">1 mázsa (100 kg = 4 zsák)</td><td class=\"px-4 py-2 text-sm text-gray-800\">8 000–11 000 Ft</td></tr><tr class=\"border-t border-gray-100\"><td class=\"px-4 py-2 text-sm text-gray-800\">Raklap (54 zsák = 1350 kg)</td><td class=\"px-4 py-2 text-sm text-gray-800\">108 000–148 000 Ft</td></tr></tbody></table><p>Raklapos vételnél a raklap letétje és a kiszállítás külön tétel.</p>"
     },
     {
-      "cim": "Melyik cement mire való? (CEM I, II, III)",
-      "szoveg": "<ul class=\"list-disc pl-6\"><li><strong>CEM I 42,5 N</strong> – tiszta portlandcement, nagy szilárdság, gyors kötés. Vasbeton, teherhordó szerkezet.</li><li><strong>CEM II/B-V 32,5 R</strong> – univerzális, kedvező árú kötőanyag. Vakolat, aljzat, falazás.</li><li><strong>CEM III (kohósalak)</strong> – lassabb kötés, jó a szulfátállósága. Alapozás, tömegbeton.</li></ul><p>Általános házépítéshez a CEM II a leggyakoribb, statikailag terhelt vasbetonhoz a CEM I ajánlott.</p>"
+      "cim": "Melyik cement mire való? (CEM I és CEM II)",
+      "szoveg": "<ul class=\"list-disc pl-6\"><li><strong>CEM II/B-M 32,5 R</strong> – általános célú, a legolcsóbb (2 000–2 300 Ft). Falazás, vakolat, aljzat, kisebb beton.</li><li><strong>CEM II 42,5 N/R</strong> – nagyobb szilárdságú (2 200–2 400 Ft). Beton, alapozás.</li><li><strong>CEM I 42,5 R</strong> – tiszta portlandcement (2 400–2 750 Ft). Vasbeton, gyorsabb szilárdulás.</li></ul><p>Házépítésnél a CEM II a leggyakoribb; statikailag terhelt vasbetonhoz a terv írja elő a típust.</p>"
     }
-  ]
+  ],
+  "forrasok": [
+    {
+      "bolt": "Winkler Tüzép",
+      "termek": "Cement 25kg/zs 32,5 Cemmac OptimCEM (kék)",
+      "ar": 2259,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.winklertuzep.hu/arlista-web/porterm%C3%A9kek",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó, árlista dátuma 2026-09-24 (akciós ár 2079 Ft); ugyanitt Cemmac ClassicCEM 42,5: 2309 Ft, Danucem 32,5: 2360 Ft"
+    },
+    {
+      "bolt": "Kézér Tüzép (Zagyvarékas)",
+      "termek": "Cement (magyar) ABA CEM II/B-LL 32,5N 25 kg; Duna-Dráva Cement 42,5N 25 kg",
+      "ar": 2000,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.kezertuzep.hu/webaruhaz/58/zsakos-kiszerelesu-anyagok-adalekok/cement",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": true,
+      "megjegyzes": "bruttó, szállítás nélkül; 42,5N változat 2200 Ft/zsák"
+    },
+    {
+      "bolt": "Tüzép Shop (tuzepshop.hu)",
+      "termek": "CEMENT Váci 32,5 R 25kg/zsák",
+      "ar": 2088,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://www.tuzepshop.hu/cement-vaci-32-5-r-25kg-zsak",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó (nettó 1644 Ft)"
+    },
+    {
+      "bolt": "epitoanyag.hu (Újház)",
+      "termek": "újHáz CEM II/B-M (S-LL) 32.5 R RN cement 25 kg",
+      "ar": 2190,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://epitoanyag.hu/ujhaz-cem-iib-m-s-ll-325-r-rn-cement-25-kg-pVUgtODMxNDc5",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, webshop ár"
+    },
+    {
+      "bolt": "Bauplaza",
+      "termek": "CEMENT HOLCIM SUPER CEM II/B-M 42,5 N 25 kg piros",
+      "ar": 2315,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://bauplaza.hu/epites/epitesi_anyag/cement_mesz/cement_holcim_super_cem_ii_b-m_425_n_25_kg_piros_64_zsak__",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, online ár"
+    },
+    {
+      "bolt": "Otthonker",
+      "termek": "Cement CEM II-B-M (V-LL) 32,5 R 25kg/zsák",
+      "ar": 2475,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "http://otthonker.hu/epito/cement.html",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "9900 Ft/q = 2475 Ft/zsák, bruttónak tűnik, dátum nem ismert"
+    },
+    {
+      "bolt": "Tímár Vasker",
+      "termek": "Cement Duna-Dráva CEM II/B-M (V-LL) 32,5 R 25 kg/zsák",
+      "ar": 2724,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://timarvasker.hu/cement-vaci-iib-m-325-n-25-kgzsa/t",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó, a sáv felső széle"
+    },
+    {
+      "bolt": "Már-Team Tüzép",
+      "termek": "DANUCEM cement Extracem 42,5R 25 kg",
+      "ar": 2755,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://marteamtuzep.hu/termek/danucem-cement-extracem-425r",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "bruttó"
+    },
+    {
+      "bolt": "Kelépker / Újház (ujhaz-epitoanyag.hu)",
+      "termek": "Cement CEM I 42,5 N/R Supracem 25 kg",
+      "ar": 2450,
+      "egyseg": "Ft/zsák (25 kg)",
+      "url": "https://ujhaz-epitoanyag.hu/habarcsok-adalekszerek/cement-mesz/bet21425-cement-cem-425-n-25-kg-supracem",
+      "datum": "2026-09-24",
+      "oldalrol_kiolvasva": false,
+      "megjegyzes": "9800 Ft/q bruttó (nettó 7717 Ft/q) = 2450 Ft/zsák"
+    }
+  ],
+  "megjegyzes": "Sok tüzép mázsaárat ad (1 q = 4 zsák). Raklap (40–64 zsák) vételénél a raklapdíj külön tétel.",
+  "ar_tipus": "bruttó bolti ár, szállítás nélkül"
 }
