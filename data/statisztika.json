@@ -1,35 +1,131 @@
 {
   "frissitve": "2026-09-24",
-  "kovetkezo_ksh_kozles": "2026-09-29",
   "anyagkoltseg_szint_2015": {
     "cim": "Lakásépítés anyagköltség-indexe (2015 = 100)",
     "forras": "KSH 18.1.1.11",
     "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0011.html",
     "adatok": [
-      {"ev": "2015", "anyag": 100.0, "munkaero": 100.0, "osszes": 100.0},
-      {"ev": "2016", "anyag": 101.3, "munkaero": 102.2, "osszes": 101.5},
-      {"ev": "2017", "anyag": 103.4, "munkaero": 115.6, "osszes": 108.5},
-      {"ev": "2018", "anyag": 108.7, "munkaero": 122.1, "osszes": 114.4},
-      {"ev": "2019", "anyag": 118.0, "munkaero": 136.2, "osszes": 125.7},
-      {"ev": "2020", "anyag": 131.1, "munkaero": 149.7, "osszes": 139.3},
-      {"ev": "2021", "anyag": 158.4, "munkaero": 164.0, "osszes": 161.3},
-      {"ev": "2022", "anyag": 196.8, "munkaero": 190.9, "osszes": 195.6},
-      {"ev": "2023", "anyag": 221.2, "munkaero": 224.7, "osszes": 222.4},
-      {"ev": "2024", "anyag": 223.1, "munkaero": 257.6, "osszes": 234.7},
-      {"ev": "2025", "anyag": 236.6, "munkaero": 282.3, "osszes": 253.4}
+      {
+        "ev": "2015",
+        "anyag": 100.0,
+        "munkaero": 100.0,
+        "osszes": 100.0
+      },
+      {
+        "ev": "2016",
+        "anyag": 101.3,
+        "munkaero": 102.2,
+        "osszes": 101.5
+      },
+      {
+        "ev": "2017",
+        "anyag": 103.4,
+        "munkaero": 115.6,
+        "osszes": 108.5
+      },
+      {
+        "ev": "2018",
+        "anyag": 108.7,
+        "munkaero": 122.1,
+        "osszes": 114.4
+      },
+      {
+        "ev": "2019",
+        "anyag": 118.0,
+        "munkaero": 136.2,
+        "osszes": 125.7
+      },
+      {
+        "ev": "2020",
+        "anyag": 131.1,
+        "munkaero": 149.7,
+        "osszes": 139.3
+      },
+      {
+        "ev": "2021",
+        "anyag": 158.4,
+        "munkaero": 164.0,
+        "osszes": 161.3
+      },
+      {
+        "ev": "2022",
+        "anyag": 196.8,
+        "munkaero": 190.9,
+        "osszes": 195.6
+      },
+      {
+        "ev": "2023",
+        "anyag": 221.2,
+        "munkaero": 224.7,
+        "osszes": 222.4
+      },
+      {
+        "ev": "2024",
+        "anyag": 223.1,
+        "munkaero": 257.6,
+        "osszes": 234.7
+      },
+      {
+        "ev": "2025",
+        "anyag": 236.6,
+        "munkaero": 282.3,
+        "osszes": 253.4
+      }
     ]
   },
   "eves_valtozas": {
     "cim": "Éves változás az előző évhez képest (%)",
     "forras": "KSH 18.1.1.11 (lakásépítési költségindex), 1.1.1.31 (építőipari termelői árindex)",
     "adatok": [
-      {"ev": "2019", "anyag": 8.5, "munkaero": 11.5, "osszes": 9.9, "epitoipari_ar": 9.7},
-      {"ev": "2020", "anyag": 11.1, "munkaero": 9.9, "osszes": 10.9, "epitoipari_ar": 7.4},
-      {"ev": "2021", "anyag": 20.8, "munkaero": 9.6, "osszes": 15.8, "epitoipari_ar": 11.4},
-      {"ev": "2022", "anyag": 24.3, "munkaero": 16.4, "osszes": 21.2, "epitoipari_ar": 24.5},
-      {"ev": "2023", "anyag": 12.4, "munkaero": 17.7, "osszes": 13.7, "epitoipari_ar": 15.9},
-      {"ev": "2024", "anyag": 0.9, "munkaero": 14.7, "osszes": 5.6, "epitoipari_ar": 5.9},
-      {"ev": "2025", "anyag": 6.1, "munkaero": 9.6, "osszes": 7.9, "epitoipari_ar": 5.4}
+      {
+        "ev": "2019",
+        "anyag": 8.5,
+        "munkaero": 11.5,
+        "osszes": 9.9,
+        "epitoipari_ar": 9.7
+      },
+      {
+        "ev": "2020",
+        "anyag": 11.1,
+        "munkaero": 9.9,
+        "osszes": 10.9,
+        "epitoipari_ar": 7.4
+      },
+      {
+        "ev": "2021",
+        "anyag": 20.8,
+        "munkaero": 9.6,
+        "osszes": 15.8,
+        "epitoipari_ar": 11.4
+      },
+      {
+        "ev": "2022",
+        "anyag": 24.3,
+        "munkaero": 16.4,
+        "osszes": 21.2,
+        "epitoipari_ar": 24.5
+      },
+      {
+        "ev": "2023",
+        "anyag": 12.4,
+        "munkaero": 17.7,
+        "osszes": 13.7,
+        "epitoipari_ar": 15.9
+      },
+      {
+        "ev": "2024",
+        "anyag": 0.9,
+        "munkaero": 14.7,
+        "osszes": 5.6,
+        "epitoipari_ar": 5.9
+      },
+      {
+        "ev": "2025",
+        "anyag": 6.1,
+        "munkaero": 9.6,
+        "osszes": 7.9,
+        "epitoipari_ar": 5.4
+      }
     ]
   },
   "negyedeves_anyag": {
@@ -37,29 +133,202 @@
     "forras": "KSH 18.2.1.7",
     "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0035.html",
     "adatok": [
-      {"n": "2021 I.", "anyag": 19.5, "munkaero": 9.8}, {"n": "2021 II.", "anyag": 21.8, "munkaero": 10.1},
-      {"n": "2021 III.", "anyag": 20.9, "munkaero": 8.3}, {"n": "2021 IV.", "anyag": 20.9, "munkaero": 10.1},
-      {"n": "2022 I.", "anyag": 23.5, "munkaero": 15.9}, {"n": "2022 II.", "anyag": 21.7, "munkaero": 16.7},
-      {"n": "2022 III.", "anyag": 26.6, "munkaero": 16.6}, {"n": "2022 IV.", "anyag": 25.2, "munkaero": 16.2},
-      {"n": "2023 I.", "anyag": 23.3, "munkaero": 18.2}, {"n": "2023 II.", "anyag": 16.2, "munkaero": 17.4},
-      {"n": "2023 III.", "anyag": 7.1, "munkaero": 16.5}, {"n": "2023 IV.", "anyag": 4.5, "munkaero": 18.6},
-      {"n": "2024 I.", "anyag": -1.2, "munkaero": 15.8}, {"n": "2024 II.", "anyag": -0.9, "munkaero": 15.2},
-      {"n": "2024 III.", "anyag": 2.1, "munkaero": 15.1}, {"n": "2024 IV.", "anyag": 3.5, "munkaero": 12.8},
-      {"n": "2025 I.", "anyag": 5.4, "munkaero": 10.6}, {"n": "2025 II.", "anyag": 6.4, "munkaero": 9.0},
-      {"n": "2025 III.", "anyag": 6.4, "munkaero": 9.0}, {"n": "2025 IV.", "anyag": 6.1, "munkaero": 9.7},
-      {"n": "2026 I.", "anyag": 7.0, "munkaero": 10.3}
+      {
+        "n": "2021 I.",
+        "anyag": 19.5,
+        "munkaero": 9.8,
+        "osszes": 13.7
+      },
+      {
+        "n": "2021 II.",
+        "anyag": 21.8,
+        "munkaero": 10.1,
+        "osszes": 17.1
+      },
+      {
+        "n": "2021 III.",
+        "anyag": 20.9,
+        "munkaero": 8.3,
+        "osszes": 15.8
+      },
+      {
+        "n": "2021 IV.",
+        "anyag": 20.9,
+        "munkaero": 10.1,
+        "osszes": 16.4
+      },
+      {
+        "n": "2022 I.",
+        "anyag": 23.5,
+        "munkaero": 15.9,
+        "osszes": 20.8
+      },
+      {
+        "n": "2022 II.",
+        "anyag": 21.7,
+        "munkaero": 16.7,
+        "osszes": 19.7
+      },
+      {
+        "n": "2022 III.",
+        "anyag": 26.6,
+        "munkaero": 16.6,
+        "osszes": 22.8
+      },
+      {
+        "n": "2022 IV.",
+        "anyag": 25.2,
+        "munkaero": 16.2,
+        "osszes": 21.6
+      },
+      {
+        "n": "2023 I.",
+        "anyag": 23.3,
+        "munkaero": 18.2,
+        "osszes": 20.8
+      },
+      {
+        "n": "2023 II.",
+        "anyag": 16.2,
+        "munkaero": 17.4,
+        "osszes": 16.0
+      },
+      {
+        "n": "2023 III.",
+        "anyag": 7.1,
+        "munkaero": 16.5,
+        "osszes": 9.9
+      },
+      {
+        "n": "2023 IV.",
+        "anyag": 4.5,
+        "munkaero": 18.6,
+        "osszes": 9.1
+      },
+      {
+        "n": "2024 I.",
+        "anyag": -1.2,
+        "munkaero": 15.8,
+        "osszes": 4.9
+      },
+      {
+        "n": "2024 II.",
+        "anyag": -0.9,
+        "munkaero": 15.2,
+        "osszes": 5.3
+      },
+      {
+        "n": "2024 III.",
+        "anyag": 2.1,
+        "munkaero": 15.1,
+        "osszes": 7.0
+      },
+      {
+        "n": "2024 IV.",
+        "anyag": 3.5,
+        "munkaero": 12.8,
+        "osszes": 5.1
+      },
+      {
+        "n": "2025 I.",
+        "anyag": 5.4,
+        "munkaero": 10.6,
+        "osszes": 7.5
+      },
+      {
+        "n": "2025 II.",
+        "anyag": 6.4,
+        "munkaero": 9.0,
+        "osszes": 7.3
+      },
+      {
+        "n": "2025 III.",
+        "anyag": 6.4,
+        "munkaero": 9.0,
+        "osszes": 7.4
+      },
+      {
+        "n": "2025 IV.",
+        "anyag": 6.1,
+        "munkaero": 9.7,
+        "osszes": 9.5
+      },
+      {
+        "n": "2026 I.",
+        "anyag": 7.0,
+        "munkaero": 10.3,
+        "osszes": 8.1
+      }
     ]
   },
   "szakagazatok": {
     "cim": "Építőanyag-gyártók belföldi termelői árai, változás (%)",
     "forras": "KSH 1.2.1.23 havi láncindexeiből számolva",
     "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0059.html",
+    "evek": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "utolso_honap": "2026. július",
+    "utolso_honap_rovid": "2026. júl.",
+    "elozo_dec": "2025. december",
     "adatok": [
-      {"nev": "Tégla, cserép, kerámia építőanyag (23.3)", "e2023": 26.6, "e2024": -1.0, "e2025": -0.3, "jul2026": 11.8, "dec2025ota": 9.3},
-      {"nev": "Beton-, gipsz-, cementtermék (23.6)", "e2023": 19.2, "e2024": 3.6, "e2025": 3.9, "jul2026": 2.8, "dec2025ota": 4.0},
-      {"nev": "Fafeldolgozás (16)", "e2023": 3.2, "e2024": -4.0, "e2025": 2.0, "jul2026": 1.7, "dec2025ota": 2.4},
-      {"nev": "Cement, mész, gipsz (23.5)", "e2023": 23.2, "e2024": 6.7, "e2025": 0.2, "jul2026": -2.6, "dec2025ota": 0.1},
-      {"nev": "Nemfém ásványi termékek összesen (23)", "e2023": 18.4, "e2024": 3.4, "e2025": 2.6, "jul2026": 2.0, "dec2025ota": 3.5}
+      {
+        "kod": "23.3",
+        "nev": "Tégla, cserép, kerámia építőanyag (23.3)",
+        "eves": {
+          "2023": 26.6,
+          "2024": -1.0,
+          "2025": -0.3
+        },
+        "utolso_yoy": 11.8,
+        "dec_ota": 9.3
+      },
+      {
+        "kod": "23.6",
+        "nev": "Beton-, gipsz-, cementtermék (23.6)",
+        "eves": {
+          "2023": 19.2,
+          "2024": 3.6,
+          "2025": 3.9
+        },
+        "utolso_yoy": 2.8,
+        "dec_ota": 3.9
+      },
+      {
+        "kod": "16",
+        "nev": "Fafeldolgozás (16)",
+        "eves": {
+          "2023": 3.2,
+          "2024": -4.0,
+          "2025": 2.0
+        },
+        "utolso_yoy": 1.7,
+        "dec_ota": 2.4
+      },
+      {
+        "kod": "23.5",
+        "nev": "Cement, mész, gipsz (23.5)",
+        "eves": {
+          "2023": 23.2,
+          "2024": 6.7,
+          "2025": 0.2
+        },
+        "utolso_yoy": -2.6,
+        "dec_ota": 0.2
+      },
+      {
+        "kod": "23",
+        "nev": "Nemfém ásványi termékek összesen (23)",
+        "eves": {
+          "2023": 18.4,
+          "2024": 3.4,
+          "2025": 2.6
+        },
+        "utolso_yoy": 2.0,
+        "dec_ota": 3.4
+      }
     ]
   },
   "fogyasztoi_04_3_1": {
@@ -67,13 +336,73 @@
     "forras": "KSH 1.2.1.7 (04.3.1)",
     "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0073.html",
     "decemberek": [
-      {"ev": "2019", "ertek": 5.0}, {"ev": "2020", "ertek": 6.3}, {"ev": "2021", "ertek": 15.9},
-      {"ev": "2022", "ertek": 31.7}, {"ev": "2023", "ertek": 1.6}, {"ev": "2024", "ertek": 2.4}, {"ev": "2025", "ertek": 3.6}
+      {
+        "ev": "2019",
+        "ertek": 5.0
+      },
+      {
+        "ev": "2020",
+        "ertek": 6.3
+      },
+      {
+        "ev": "2021",
+        "ertek": 15.9
+      },
+      {
+        "ev": "2022",
+        "ertek": 31.7
+      },
+      {
+        "ev": "2023",
+        "ertek": 1.6
+      },
+      {
+        "ev": "2024",
+        "ertek": 2.4
+      },
+      {
+        "ev": "2025",
+        "ertek": 3.6
+      }
     ],
-    "havi_2026": [
-      {"ho": "jan.", "ertek": 4.1}, {"ho": "febr.", "ertek": 3.8}, {"ho": "márc.", "ertek": 3.2}, {"ho": "ápr.", "ertek": 3.2},
-      {"ho": "máj.", "ertek": 2.9}, {"ho": "jún.", "ertek": 2.5}, {"ho": "júl.", "ertek": 2.7}, {"ho": "aug.", "ertek": 2.7}
-    ]
+    "havi": [
+      {
+        "ho": "jan.",
+        "ertek": 4.1
+      },
+      {
+        "ho": "febr.",
+        "ertek": 3.8
+      },
+      {
+        "ho": "márc.",
+        "ertek": 3.2
+      },
+      {
+        "ho": "ápr.",
+        "ertek": 3.2
+      },
+      {
+        "ho": "máj.",
+        "ertek": 2.9
+      },
+      {
+        "ho": "jún.",
+        "ertek": 2.5
+      },
+      {
+        "ho": "júl.",
+        "ertek": 2.7
+      },
+      {
+        "ho": "aug.",
+        "ertek": 2.7
+      }
+    ],
+    "utolso": {
+      "honap": "2026. augusztus",
+      "ertek": 2.7
+    }
   },
   "fajlagos_koltseg": {
     "cim": "Fajlagos lakásépítési költség, új családi ház (ezer Ft/m²)",
@@ -81,23 +410,66 @@
     "url": "https://www.ksh.hu/stadat_files/lak/hu/lak0012.html",
     "megjegyzes": "2020-ban a KSH frissítette a becslési modellt (2020a), ezért a 2020 előtti értékek nem hasonlíthatók közvetlenül.",
     "adatok": [
-      {"ev": "2020a", "ertek": 384}, {"ev": "2021", "ertek": 443}, {"ev": "2022", "ertek": 537},
-      {"ev": "2023", "ertek": 596}, {"ev": "2024", "ertek": 608}, {"ev": "2025", "ertek": 720}
+      {
+        "ev": "2021",
+        "ertek": 443
+      },
+      {
+        "ev": "2022",
+        "ertek": 537
+      },
+      {
+        "ev": "2023",
+        "ertek": 596
+      },
+      {
+        "ev": "2024",
+        "ertek": 608
+      },
+      {
+        "ev": "2025",
+        "ertek": 720
+      }
     ]
   },
-  "termelo_2026": {
-    "epitoipari_ar_2026_q2": 5.3,
-    "epuletek_2026_q2": 4.5,
-    "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0061.html",
-    "termeles_2026_jul": -12.2,
-    "uj_szerzodesek_2026_jul": -24.8,
-    "termeles_2026_jan_jul": -2.7,
-    "termeles_url": "https://www.ksh.hu/gyorstajekoztatok/epi/epi2607.html"
-  },
   "hirek": [
-    {"datum": "2026-03-18", "forras": "Economx", "url": "https://www.economx.hu/magyar-gazdasag/2026/03/18/epitoipar-dragulas-energiaarak-olaj-uzem", "allitas": "A márciusi energiaár-emelkedés után a gyártók áprilistól 5–15%-os drágulást jeleztek."},
-    {"datum": "2026-03-25", "forras": "Portfolio", "url": "https://www.portfolio.hu/ingatlan/20260325/itt-a-figyelmeztetes-sulyos-arat-fizethet-az-ep", "allitas": "Egyes becslések 10–25%-os áremelést is lehetségesnek tartottak."},
-    {"datum": "2026-05-13", "forras": "Index – Juhász Attila, ÉVOSZ Építőanyag-kereskedelmi Tagozat", "url": "https://index.hu/gazdasag/2026/05/13/epitoipar-epitoipari-termeles-ksh-epitkezes-szerzodes", "allitas": "A legnagyobb gyártók falazóanyagoknál és tégláknál 10–15%-os emelést jelentettek be."},
-    {"datum": "2026-07", "forras": "Privátbankár – Juhász Attila, ÉVOSZ", "url": "https://privatbankar.hu/cikkek/makro/komoly-melypontra-kerult-a-magyar-epitoipar-tobb-mint", "allitas": "2026 első felében az építőanyag-árak átlagosan 2,7%-kal nőttek; a forint erősödése ellensúlyozta az energiaár-hatás egy részét."}
-  ]
+    {
+      "datum": "2026-03-18",
+      "forras": "Economx",
+      "url": "https://www.economx.hu/magyar-gazdasag/2026/03/18/epitoipar-dragulas-energiaarak-olaj-uzem",
+      "allitas": "A márciusi energiaár-emelkedés után a gyártók áprilistól 5–15%-os drágulást jeleztek."
+    },
+    {
+      "datum": "2026-03-25",
+      "forras": "Portfolio",
+      "url": "https://www.portfolio.hu/ingatlan/20260325/itt-a-figyelmeztetes-sulyos-arat-fizethet-az-ep",
+      "allitas": "Egyes becslések 10–25%-os áremelést is lehetségesnek tartottak."
+    },
+    {
+      "datum": "2026-05-13",
+      "forras": "Index – Juhász Attila, ÉVOSZ Építőanyag-kereskedelmi Tagozat",
+      "url": "https://index.hu/gazdasag/2026/05/13/epitoipar-epitoipari-termeles-ksh-epitkezes-szerzodes",
+      "allitas": "A legnagyobb gyártók falazóanyagoknál és tégláknál 10–15%-os emelést jelentettek be."
+    },
+    {
+      "datum": "2026-07",
+      "forras": "Privátbankár – Juhász Attila, ÉVOSZ",
+      "url": "https://privatbankar.hu/cikkek/makro/komoly-melypontra-kerult-a-magyar-epitoipar-tobb-mint",
+      "allitas": "2026 első felében az építőanyag-árak átlagosan 2,7%-kal nőttek; a forint erősödése ellensúlyozta az energiaár-hatás egy részét."
+    }
+  ],
+  "termelo": {
+    "negyed": "2026 II.",
+    "epitoipari_ar": 5.3,
+    "epuletek": 4.5,
+    "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0061.html",
+    "termeles": {
+      "honap": "2026. július",
+      "termeles": -12.2,
+      "uj_szerzodesek": -24.8,
+      "kumulalt_idoszak": "2026. január–július",
+      "kumulalt": -2.7
+    },
+    "termeles_url": "https://www.ksh.hu/stadat_files/epi/hu/epi0013.html"
+  }
 }

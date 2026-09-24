@@ -46,8 +46,11 @@ const arTabla = kiemelt
 
 const negyed = st.negyedeves_anyag.adatok;
 const utolsoNegyed = negyed[negyed.length - 1];
-const tegla = st.szakagazatok.adatok[0];
-const cementSz = st.szakagazatok.adatok[3];
+const tegla = st.szakagazatok.adatok.find((d: any) => d.kod === '23.3');
+const cementSz = st.szakagazatok.adatok.find((d: any) => d.kod === '23.5');
+const szintek = st.anyagkoltseg_szint_2015.adatok;
+const szU = szintek[szintek.length - 1];
+const sz2019 = szintek.find((d: any) => d.ev === '2019');
 const pct = (n: number) => `${n > 0 ? '+' : ''}${n.toFixed(1).replace('.', ',')}%`;
 const cement = arMap['cement'];
 const betonacel = arMap['betonacél'];
@@ -80,9 +83,9 @@ const websiteSchema = {
     <div class="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
       <h2 class="text-lg font-semibold text-blue-900 mb-2">Hogyan alakulnak az építőanyag árak 2026-ban?</h2>
       <ul class="text-sm text-blue-900 space-y-1 mb-3">
-        <li>Lakásépítés anyagköltsége 2026 I. negyedévében: <strong>{pct(utolsoNegyed.anyag)}</strong> egy év alatt (KSH)</li>
-        <li>Tégla, cserép gyártói ára 2026 júliusában: <strong>{pct(tegla.jul2026)}</strong>, cementé: <strong>{pct(cementSz.jul2026)}</strong></li>
-        <li>Az anyagköltség 2025-ben a 2019-es szint kb. kétszerese volt</li>
+        <li>Lakásépítés anyagköltsége, {utolsoNegyed.n} negyedév: <strong>{pct(utolsoNegyed.anyag)}</strong> egy év alatt (KSH)</li>
+        <li>Gyártói árak, {st.szakagazatok.utolso_honap}: tégla, cserép <strong>{pct(tegla.utolso_yoy)}</strong>, cement <strong>{pct(cementSz.utolso_yoy)}</strong> egy év alatt</li>
+        <li>A {szU.ev}. évi anyagköltség a 2019-es szint {(szU.anyag / sz2019.anyag).toFixed(1).replace('.', ',')}-szerese volt</li>
       </ul>
       <a href="/epitoanyag-arak-alakulasa/" class="text-blue-700 font-medium hover:underline">Részletek, grafikonok, KSH-adatok →</a>
     </div>

@@ -115,3 +115,12 @@ Formátum: `[DÁTUM] [SPRINT-X] LEÍRÁS`
 - Build: 1480 oldal, 0 hiba.
 
 **Következő:** 2026-09-29-én jön a KSH lakásépítési költségindex 2026 II. negyedéve → `data/statisztika.json` frissítése.
+
+---
+
+## 2026-09-24 KSH-adatok automatikus frissítése
+
+- Új: `scraper/ksh_update.py` – letölti a KSH STADAT táblákat (lak0011, lak0035, lak0012, ara0031, ara0061, ara0059, ara0073, epi0013; ISO-8859-2 kódolás), kiszámolja a mutatókat, és csak valódi változásnál írja a `data/statisztika.json`-t. Hibás/nem elérhető táblánál a régi érték marad; a tűzfal miatt a kérések között várakozik és újrapróbál.
+- `/epitoanyag-arak-alakulasa/` és a főoldali KSH-doboz: minden időszak-megnevezés, szám és szöveg az adatból jön (negyedév, hónap, év), így új KSH-közlés után is helyes marad. Új „Legfrissebb KSH-adatok” blokk.
+- Workflow: `.github/workflows/ksh-update.yml` (munkanapokon 07:45 UTC; commit és Netlify-build csak új KSH-adatnál) – kézzel kell a repóba tenni.
+- Build: 1480 oldal, 0 hiba.

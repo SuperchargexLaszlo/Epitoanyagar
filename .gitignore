@@ -11,3 +11,5 @@ _cowork_*.zip
 
 # Merkury/Dognet affiliate archivum (2026-09-04-en lezart kampany) - csak helyben
 _archiv-merkury/
+
+__pycache__/
