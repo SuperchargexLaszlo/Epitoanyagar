@@ -1,0 +1,48 @@
+name: KSH-adatok frissítése
+
+# Munkanapokon 07:45 UTC-kor (a KSH 8:30-kor, magyar idő szerint publikál) lekéri a
+# STADAT táblákat. Commit – és így Netlify-build – csak akkor lesz, ha a KSH új adatot
+# közölt (havonta néhány alkalom). Kézzel is indítható az Actions fülön.
+on:
+  schedule:
+    - cron: "45 7 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+jobs:
+  ksh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python beállítása
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Függőségek
+        run: pip install requests beautifulsoup4
+
+      - name: KSH-adatok letöltése és feldolgozása
+        run: python scraper/ksh_update.py
+
+      - name: Commit, ha változott
+        run: |
+          if [ -n "$(git status --porcelain data/statisztika.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/statisztika.json
+            git commit -m "chore: KSH-adatok frissítése ($(date -u +%Y-%m-%d))"
+            git pull --rebase
+            git push
+            echo "Új KSH-adat – pusholva, a Netlify újraépíti az oldalt."
+          else
+            echo "Nincs új KSH-adat, nincs commit és nincs build."
+          fi
