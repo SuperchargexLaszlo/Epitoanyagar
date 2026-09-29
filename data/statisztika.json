@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-09-24",
+  "frissitve": "2026-09-29",
   "anyagkoltseg_szint_2015": {
     "cim": "Lakásépítés anyagköltség-indexe (2015 = 100)",
     "forras": "KSH 18.1.1.11",
@@ -258,6 +258,12 @@
         "anyag": 7.0,
         "munkaero": 10.3,
         "osszes": 8.1
+      },
+      {
+        "n": "2026 II.",
+        "anyag": 7.8,
+        "munkaero": 10.4,
+        "osszes": 8.3
       }
     ]
   },
