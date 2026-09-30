@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-09-29",
+  "frissitve": "2026-09-30",
   "anyagkoltseg_szint_2015": {
     "cim": "Lakásépítés anyagköltség-indexe (2015 = 100)",
     "forras": "KSH 18.1.1.11",
@@ -276,8 +276,8 @@
       "2024",
       "2025"
     ],
-    "utolso_honap": "2026. július",
-    "utolso_honap_rovid": "2026. júl.",
+    "utolso_honap": "2026. augusztus",
+    "utolso_honap_rovid": "2026. aug.",
     "elozo_dec": "2025. december",
     "adatok": [
       {
@@ -288,8 +288,8 @@
           "2024": -1.0,
           "2025": -0.3
         },
-        "utolso_yoy": 11.8,
-        "dec_ota": 9.3
+        "utolso_yoy": 12.3,
+        "dec_ota": 10.2
       },
       {
         "kod": "23.6",
@@ -299,8 +299,8 @@
           "2024": 3.6,
           "2025": 3.9
         },
-        "utolso_yoy": 2.8,
-        "dec_ota": 3.9
+        "utolso_yoy": 5.1,
+        "dec_ota": 5.7
       },
       {
         "kod": "16",
@@ -310,8 +310,8 @@
           "2024": -4.0,
           "2025": 2.0
         },
-        "utolso_yoy": 1.7,
-        "dec_ota": 2.4
+        "utolso_yoy": 2.2,
+        "dec_ota": 3.2
       },
       {
         "kod": "23.5",
@@ -321,7 +321,7 @@
           "2024": 6.7,
           "2025": 0.2
         },
-        "utolso_yoy": -2.6,
+        "utolso_yoy": -1.6,
         "dec_ota": 0.2
       },
       {
@@ -332,8 +332,8 @@
           "2024": 3.4,
           "2025": 2.6
         },
-        "utolso_yoy": 2.0,
-        "dec_ota": 3.4
+        "utolso_yoy": 3.0,
+        "dec_ota": 3.9
       }
     ]
   },
