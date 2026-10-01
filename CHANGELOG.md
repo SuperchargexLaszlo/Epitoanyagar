@@ -124,3 +124,10 @@ Formátum: `[DÁTUM] [SPRINT-X] LEÍRÁS`
 - `/epitoanyag-arak-alakulasa/` és a főoldali KSH-doboz: minden időszak-megnevezés, szám és szöveg az adatból jön (negyedév, hónap, év), így új KSH-közlés után is helyes marad. Új „Legfrissebb KSH-adatok” blokk.
 - Workflow: `.github/workflows/ksh-update.yml` (munkanapokon 07:45 UTC; commit és Netlify-build csak új KSH-adatnál) – kézzel kell a repóba tenni.
 - Build: 1480 oldal, 0 hiba.
+
+---
+
+## 2026-10-01 AdSense
+
+- `BaseLayout.astro`: AdSense script (`ca-pub-3457398490348460`, `is:inline`) a `<head>`-ben, így minden oldalon betöltődik.
+- Új: `site/public/ads.txt` (`google.com, pub-3457398490348460, DIRECT, f08c47fec0942fa0`).
