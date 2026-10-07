@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-09-30",
+  "frissitve": "2026-10-07",
   "anyagkoltseg_szint_2015": {
     "cim": "Lakásépítés anyagköltség-indexe (2015 = 100)",
     "forras": "KSH 18.1.1.11",
@@ -373,10 +373,6 @@
     ],
     "havi": [
       {
-        "ho": "jan.",
-        "ertek": 4.1
-      },
-      {
         "ho": "febr.",
         "ertek": 3.8
       },
@@ -403,11 +399,15 @@
       {
         "ho": "aug.",
         "ertek": 2.7
+      },
+      {
+        "ho": "szept.",
+        "ertek": 2.5
       }
     ],
     "utolso": {
-      "honap": "2026. augusztus",
-      "ertek": 2.7
+      "honap": "2026. szeptember",
+      "ertek": 2.5
     }
   },
   "fajlagos_koltseg": {
