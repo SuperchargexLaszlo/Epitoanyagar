@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-10-07",
+  "frissitve": "2026-10-13",
   "anyagkoltseg_szint_2015": {
     "cim": "Lakásépítés anyagköltség-indexe (2015 = 100)",
     "forras": "KSH 18.1.1.11",
@@ -470,11 +470,11 @@
     "epuletek": 4.5,
     "url": "https://www.ksh.hu/stadat_files/ara/hu/ara0061.html",
     "termeles": {
-      "honap": "2026. július",
-      "termeles": -12.2,
-      "uj_szerzodesek": -24.8,
-      "kumulalt_idoszak": "2026. január–július",
-      "kumulalt": -2.7
+      "honap": "2026. augusztus",
+      "termeles": 21.9,
+      "uj_szerzodesek": -55.2,
+      "kumulalt_idoszak": "2026. január–augusztus",
+      "kumulalt": 0.1
     },
     "termeles_url": "https://www.ksh.hu/stadat_files/epi/hu/epi0013.html"
   }
